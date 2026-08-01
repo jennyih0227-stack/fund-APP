@@ -1,0 +1,81 @@
+{
+  "etf": {
+    "台灣加權指數": {
+      "ticker": "^TWII",
+      "url": "https://tw.stock.yahoo.com/quote/%5ETWII",
+      "type": "etf",
+      "unit": "點"
+    },
+    "元大台灣50 (0050)": {
+      "ticker": "0050.TW",
+      "url": "https://tw.stock.yahoo.com/quote/0050",
+      "type": "etf"
+    },
+    "凱基台灣TOP50 (009816)": {
+      "ticker": "009816.TW",
+      "url": "https://tw.stock.yahoo.com/quote/009816",
+      "type": "etf"
+    }
+  },
+  "us_etf": {
+    "道瓊 (DJI)": {
+      "ticker": "^DJI",
+      "url": "https://tw.stock.yahoo.com/quote/%5EDJI",
+      "type": "us_etf",
+      "unit": "點"
+    },
+    "S&P500 (SPX)": {
+      "ticker": "^GSPC",
+      "url": "https://tw.stock.yahoo.com/quote/%5EGSPC",
+      "type": "us_etf",
+      "unit": "點"
+    },
+    "那斯達克 (IXIC)": {
+      "ticker": "^IXIC",
+      "url": "https://tw.stock.yahoo.com/quote/%5EIXIC",
+      "type": "us_etf",
+      "unit": "點"
+    },
+    "費城半導體 (SOX)": {
+      "ticker": "^SOX",
+      "url": "https://tw.stock.yahoo.com/quote/%5ESOX",
+      "type": "us_etf",
+      "unit": "點"
+    }
+  },
+  "fund": {
+    "凱基HITO": {
+      "fund_id": "TFQ8",
+      "url": "https://kgilife.moneydj.com/w/CustFundIDMap.djhtm?A=TFQ8&B=01",
+      "type": "fund"
+    },
+    "瀚亞新收益": {
+      "fund_id": "TFWV",
+      "url": "https://kgilife.moneydj.com/w/CustFundIDMap.djhtm?A=TFWV&B=01",
+      "type": "fund"
+    },
+    "瀚亞新收益N1": {
+      "fund_id": "TFSO",
+      "url": "https://kgilife.moneydj.com/w/CustFundIDMap.djhtm?A=TFSO&B=01",
+      "type": "fund"
+    }
+  },
+  "exchange_rate": {
+    "美元/台幣 (USD)": {
+      "ticker": "USDTWD=X",
+      "url": "https://tw.stock.yahoo.com/quote/USDTWD=X"
+    }
+  },
+  "investment_fund": {
+    "瀚亞美國高科技基金": {
+      "plan_id": "ACCP16",
+      "url": "https://kgilife.moneydj.com/w/wr/wr01.djhtm?a=ACCP16-TFD8",
+      "type": "investment_fund"
+    },
+    "瀚亞外銷": {
+      "plan_id": "ACCP04",
+      "url": "https://kgilife.moneydj.com/w/wr/wr01.djhtm?a=ACCP04-TFD1",
+      "type": "investment_fund"
+    }
+  }
+}
