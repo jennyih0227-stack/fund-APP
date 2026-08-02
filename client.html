@@ -27,67 +27,63 @@
     font-family:var(--sans); color:var(--charcoal); background:var(--navy);
     background-image:radial-gradient(circle at 15% 0%, rgba(46,74,122,.55), transparent 42%),
       radial-gradient(circle at 90% 8%, rgba(201,168,76,.10), transparent 40%);
-    min-height:100vh;
-    padding:calc(env(safe-area-inset-top) + 2px) 0 calc(env(safe-area-inset-bottom) + 20px);
+    min-height:100vh; padding:calc(env(safe-area-inset-top) + 2px) 0 calc(env(safe-area-inset-bottom) + 20px);
   }
-  header{max-width:720px; margin:0 auto; padding:10px 14px 4px; color:var(--cream)}
+  header{max-width:760px; margin:0 auto; padding:10px 14px 4px; color:var(--cream)}
   .brand{display:flex; align-items:center; gap:10px; font-family:var(--serif); font-size:13px; letter-spacing:.14em}
   .brand .cheng{color:var(--gold)}
   .brand .rule{flex:1; height:1px; background:linear-gradient(90deg,var(--gold-d),transparent)}
   h1{font-family:var(--serif); font-weight:700; font-size:24px; letter-spacing:.05em; margin-top:4px; color:var(--cream)}
   h1 .accent{color:var(--gold)}
-  .meta{margin-top:5px; font-size:12px; color:#b9c2d6; display:flex; align-items:center; gap:6px}
+  .meta{margin-top:5px; font-size:12px; color:#b9c2d6; display:flex; align-items:center; gap:6px; flex-wrap:wrap}
   .dot{width:7px;height:7px;border-radius:50%;background:var(--gold);box-shadow:0 0 0 3px rgba(201,168,76,.2)}
 
-  /* 控制列 */
-  .controls{max-width:720px; margin:8px auto 0; padding:0 10px}
-  .search{
-    width:100%; font-family:var(--sans); font-size:15px; color:var(--ink);
-    background:var(--cream); border:1px solid rgba(201,168,76,.4); border-radius:12px;
-    padding:11px 14px; outline:none;
-  }
+  .controls{max-width:760px; margin:8px auto 0; padding:0 10px}
+  .search{width:100%; font-family:var(--sans); font-size:15px; color:var(--ink); background:var(--cream);
+    border:1px solid rgba(201,168,76,.4); border-radius:12px; padding:11px 14px; outline:none}
   .search::placeholder{color:#a49a83}
-  .chips{display:flex; gap:7px; flex-wrap:wrap; margin-top:8px}
-  .chip{
-    font-size:12.5px; color:#cdd4e4; background:rgba(255,255,255,.06);
-    border:1px solid rgba(201,168,76,.3); border-radius:999px; padding:6px 12px; cursor:pointer;
-    white-space:nowrap; transition:.15s;
-  }
+  .frow{display:flex; gap:6px; flex-wrap:wrap; margin-top:8px; align-items:center}
+  .flabel{font-size:11px; color:#8b95ab; margin-right:2px; flex:0 0 auto}
+  .chip{font-size:12px; color:#cdd4e4; background:rgba(255,255,255,.06); border:1px solid rgba(201,168,76,.3);
+    border-radius:999px; padding:5px 11px; cursor:pointer; white-space:nowrap; transition:.15s}
   .chip.on{background:var(--gold); color:var(--navy); border-color:var(--gold); font-weight:700}
-  .countbar{max-width:720px; margin:9px auto 0; padding:0 14px; color:#9aa4bd; font-size:12px;
+  .chip.sort.on{background:var(--navy-2); color:#fff; border-color:var(--navy-2)}
+  .countbar{max-width:760px; margin:9px auto 0; padding:0 14px; color:#9aa4bd; font-size:12px;
     display:flex; justify-content:space-between; align-items:center}
 
-  main{max-width:720px; margin:6px auto 0; padding:0 8px}
+  main{max-width:760px; margin:6px auto 0; padding:0 8px}
   .card{background:var(--cream); border-radius:14px; overflow:hidden; border:1px solid rgba(201,168,76,.25);
     box-shadow:0 10px 30px -14px rgba(0,0,0,.45)}
-  .row{
-    position:relative; display:grid; grid-template-columns:auto 1fr auto; align-items:center; gap:10px;
-    padding:9px 12px 9px 10px; border-bottom:1px solid var(--gray);
-  }
+  .row{position:relative; display:grid; grid-template-columns:auto 1fr auto; align-items:center; gap:9px;
+    padding:9px 12px 9px 8px; border-bottom:1px solid var(--gray)}
   .row:last-child{border-bottom:none}
-  .star{font-size:21px; line-height:1; color:#c9c0aa; cursor:pointer; width:26px; text-align:center; flex:0 0 auto; user-select:none}
+  .star{font-size:20px; line-height:1; color:#c9c0aa; cursor:pointer; width:24px; text-align:center; flex:0 0 auto; user-select:none}
   .row.fav .star{color:var(--gold)}
+  .rank{position:absolute; left:6px; top:6px; font-family:var(--num); font-size:10px; font-weight:900; color:var(--gold-d)}
   .r-name{min-width:0}
-  .r-name .nm{font-size:14px; font-weight:500; color:var(--ink); line-height:1.35;
+  .nm{font-size:14px; font-weight:600; color:var(--navy-2); line-height:1.35; text-decoration:none;
     display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden}
-  .r-name .sub{font-size:11px; color:#9a927f; margin-top:2px; font-family:var(--num); display:flex; gap:8px}
-  .cur{color:var(--navy-2); font-weight:700}
-  .r-right{text-align:right; white-space:nowrap; flex:0 0 auto}
+  .nm .lk{font-size:11px; color:var(--gold-d)}
+  .sub{font-size:11px; color:#8a8270; margin-top:3px; font-family:var(--num); display:flex; gap:6px; flex-wrap:wrap; align-items:center}
+  .tag{font-family:var(--sans); font-size:10px; font-weight:700; padding:1px 6px; border-radius:6px}
+  .t-rr{background:#e9dfc4; color:#7a5f1e}
+  .t-dist{background:#d9ece0; color:#0a7a45}
+  .t-cur{color:var(--navy-2); font-weight:700}
+  .r-right{text-align:right; white-space:nowrap; flex:0 0 auto; min-width:66px}
   .val{font-family:var(--num); font-weight:800; font-size:15px; color:var(--ink)}
   .pct{font-family:var(--num); font-weight:900; font-size:12.5px; margin-top:1px}
+  .perfbig{font-family:var(--num); font-weight:900; font-size:15px}
+  .perflab{font-size:10px; color:#8a8270; font-weight:400}
   .up{color:var(--up)} .down{color:var(--down)} .flat{color:#8a8270}
-  .pct .ar{font-size:10px; margin-right:1px}
-  .view{
-    display:inline-block; font-size:12px; font-weight:700; color:var(--navy);
-    background:var(--gold); border-radius:999px; padding:6px 12px; text-decoration:none;
-  }
+  .pct .ar,.perfbig .ar{font-size:10px; margin-right:1px}
+  .view{display:inline-block; font-size:12px; font-weight:700; color:var(--navy); background:var(--gold);
+    border-radius:999px; padding:6px 12px; text-decoration:none}
   .empty{color:#b9c2d6; text-align:center; padding:40px 20px; font-size:14px; line-height:1.8}
-
-  footer{max-width:720px; margin:16px auto 0; padding:0 18px; text-align:center; color:#8b95ab; font-size:11px; line-height:1.9}
+  footer{max-width:760px; margin:16px auto 0; padding:0 18px; text-align:center; color:#8b95ab; font-size:11px; line-height:1.9}
   footer .motto{color:var(--gold); font-family:var(--serif); letter-spacing:.18em; font-size:12px}
-  .toast{position:fixed; left:50%; bottom:26px; transform:translateX(-50%) translateY(14px);
-    background:var(--charcoal); color:#fff; font-size:13px; padding:10px 18px; border-radius:999px;
-    opacity:0; pointer-events:none; transition:.25s; z-index:40; box-shadow:0 10px 28px -8px rgba(0,0,0,.6)}
+  .toast{position:fixed; left:50%; bottom:26px; transform:translateX(-50%) translateY(14px); background:var(--charcoal);
+    color:#fff; font-size:13px; padding:10px 18px; border-radius:999px; opacity:0; pointer-events:none;
+    transition:.25s; z-index:40; box-shadow:0 10px 28px -8px rgba(0,0,0,.6)}
   .toast.show{opacity:1; transform:translateX(-50%) translateY(0)}
   @media (prefers-reduced-motion: reduce){*{animation:none!important;transition:none!important}}
 </style>
@@ -101,14 +97,31 @@
 
 <div class="controls">
   <input class="search" id="q" type="search" inputmode="search" placeholder="搜尋基金名稱或代碼…" autocomplete="off">
-  <div class="chips" id="chips">
+  <div class="frow" id="fMain">
     <span class="chip on" data-f="all">全部</span>
     <span class="chip" data-f="mine">★ 我的基金</span>
-    <span class="chip" data-c="USD">美元</span>
-    <span class="chip" data-c="TWD">台幣</span>
-    <span class="chip" data-c="EUR">歐元</span>
-    <span class="chip" data-c="RMB">人民幣</span>
+  </div>
+  <div class="frow" id="fCur">
+    <span class="flabel">幣別</span>
+    <span class="chip" data-c="USD">美元</span><span class="chip" data-c="TWD">台幣</span>
+    <span class="chip" data-c="EUR">歐元</span><span class="chip" data-c="RMB">人民幣</span>
     <span class="chip" data-c="OTHER">其他</span>
+  </div>
+  <div class="frow" id="fRR">
+    <span class="flabel">風險</span>
+    <span class="chip" data-r="RR1">RR1</span><span class="chip" data-r="RR2">RR2</span>
+    <span class="chip" data-r="RR3">RR3</span><span class="chip" data-r="RR4">RR4</span>
+    <span class="chip" data-r="RR5">RR5</span>
+  </div>
+  <div class="frow" id="fDist">
+    <span class="flabel">配息</span>
+    <span class="chip" data-d="配息">配息</span><span class="chip" data-d="未配息">未配息</span>
+  </div>
+  <div class="frow" id="fSort">
+    <span class="flabel">排名依績效</span>
+    <span class="chip sort" data-s="m1">1月</span><span class="chip sort" data-s="m3">3月</span>
+    <span class="chip sort" data-s="m6">6月</span><span class="chip sort" data-s="m12">1年</span>
+    <span class="chip sort" data-s="m36">3年</span><span class="chip sort" data-s="m60">5年</span>
   </div>
 </div>
 <div class="countbar"><span id="count"></span><span id="myhint"></span></div>
@@ -117,117 +130,106 @@
 
 <footer>
   <div class="motto">誠於心・毅於行・傳於世・承於志</div>
-  <div>投資型基金淨值每日更新一次，僅供參考，不構成投資建議</div>
+  <div>投資型基金淨值每日更新一次，績效為過去表現不代表未來，僅供參考不構成投資建議</div>
 </footer>
 <div class="toast" id="toast"></div>
 
 <script>
 const $ = s => document.querySelector(s);
 const CUR_LABEL = {USD:'美元',TWD:'台幣',EUR:'歐元',RMB:'人民幣',ZAR:'南非幣',AUD:'澳幣',JPY:'日圓',GBP:'英鎊',OTHER:'其他'};
+const PERF_LABEL = {m1:'1月',m3:'3月',m6:'6月',m12:'1年',m36:'3年',m60:'5年'};
 const LS_KEY = 'myfunds_xinxin';
-let ALL = [];
-let fav = new Set(JSON.parse(localStorage.getItem(LS_KEY) || '[]'));
-let mode = 'all';      // all | mine
-let curFilter = null;  // USD/TWD/...
+let ALL=[], fav=new Set(JSON.parse(localStorage.getItem(LS_KEY)||'[]'));
+let mode='all', curF=null, rrF=null, distF=null, sortK=null;
 
 function saveFav(){ localStorage.setItem(LS_KEY, JSON.stringify([...fav])); }
+let tt; function toast(m){ const t=$('#toast'); t.textContent=m; t.classList.add('show'); clearTimeout(tt); tt=setTimeout(()=>t.classList.remove('show'),1600); }
 
-let toastTimer;
-function toast(msg){ const t=$('#toast'); t.textContent=msg; t.classList.add('show');
-  clearTimeout(toastTimer); toastTimer=setTimeout(()=>t.classList.remove('show'),1800); }
-
-function fmtVal(v){
-  if(v==null) return '';
-  return (Math.abs(v)>=1000) ? Math.round(v).toLocaleString('en-US')
-       : v.toLocaleString('en-US',{minimumFractionDigits:2, maximumFractionDigits:4});
-}
-function fmtPct(p){
-  if(p==null) return '';
-  const cls = p>0.0001?'up':(p<-0.0001?'down':'flat');
-  const ar = p>0.0001?'▲':(p<-0.0001?'▼':'—');
-  const s = p>0?'+':'';
-  return `<div class="pct ${cls}"><span class="ar">${ar}</span>${s}${p.toFixed(2)}%</div>`;
-}
+function fmtVal(v){ if(v==null)return'';
+  return Math.abs(v)>=1000 ? Math.round(v).toLocaleString('en-US') : v.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:4}); }
+function pctHtml(p,cls0){ if(p==null)return'<span class="flat">—</span>';
+  const cls=p>0.0001?'up':(p<-0.0001?'down':'flat'), ar=p>0.0001?'▲':(p<-0.0001?'▼':'—'), s=p>0?'+':'';
+  return `<span class="${cls}"><span class="ar">${ar}</span>${s}${p.toFixed(2)}%</span>`; }
 
 function matches(f){
   if(mode==='mine' && !fav.has(f.tf)) return false;
-  if(curFilter && f.cur !== curFilter) return false;
-  const q = $('#q').value.trim().toLowerCase();
-  if(q && !(f.name.toLowerCase().includes(q) || f.tf.toLowerCase().includes(q))) return false;
+  if(curF && f.cur!==curF) return false;
+  if(rrF && f.rr!==rrF) return false;
+  if(distF && f.dist!==distF) return false;
+  const q=$('#q').value.trim().toLowerCase();
+  if(q && !(f.name.toLowerCase().includes(q)||f.tf.toLowerCase().includes(q))) return false;
+  if(sortK && (!f.perf || f.perf[sortK]==null)) return false; // 排名時只列有該期績效者
   return true;
 }
 
 function render(){
-  const list = $('#list');
-  const rows = ALL.filter(matches);
-  $('#count').textContent = `顯示 ${rows.length} 檔`;
-  $('#myhint').textContent = fav.size ? `我的基金 ${fav.size} 檔` : '點 ☆ 加入我的基金';
-  if(!rows.length){
-    list.innerHTML = `<div class="empty">${mode==='mine'&&!fav.size?'還沒有加入任何基金<br>在清單點 ☆ 把你持有的基金加進來':'沒有符合的基金'}</div>`;
-    return;
-  }
+  const list=$('#list');
+  let rows=ALL.filter(matches);
+  if(sortK) rows.sort((a,b)=> (b.perf[sortK]) - (a.perf[sortK]));
+  $('#count').textContent=`顯示 ${rows.length} 檔`+(sortK?`（依${PERF_LABEL[sortK]}報酬排名）`:'');
+  $('#myhint').textContent=fav.size?`我的基金 ${fav.size} 檔`:'點 ☆ 加入我的基金';
+  if(!rows.length){ list.innerHTML=`<div class="empty">${mode==='mine'&&!fav.size?'還沒有加入任何基金<br>在清單點 ☆ 把你持有的基金加進來':'沒有符合條件的基金'}</div>`; return; }
   let html='';
-  for(const f of rows){
-    const favc = fav.has(f.tf) ? 'fav' : '';
-    const star = fav.has(f.tf) ? '★' : '☆';
+  rows.forEach((f,idx)=>{
+    const favc=fav.has(f.tf)?'fav':'', star=fav.has(f.tf)?'★':'☆';
+    const rankBadge=sortK?`<div class="rank">#${idx+1}</div>`:'';
+    const tags=`${f.rr?`<span class="tag t-rr">${f.rr}</span>`:''}${f.dist==='配息'?`<span class="tag t-dist">配息</span>`:''}`;
     let right;
-    if(f.ok){
-      right = `<div class="val">${fmtVal(f.value)}</div>${fmtPct(f.pct)}`;
+    if(sortK){
+      right=`<div class="perfbig">${pctHtml(f.perf[sortK])}</div><div class="perflab">${PERF_LABEL[sortK]}報酬</div><div class="val" style="font-size:12px;font-weight:700;margin-top:2px">${fmtVal(f.value)}</div>`;
+    }else if(f.ok){
+      right=`<div class="val">${fmtVal(f.value)}</div><div class="pct">${pctHtml(f.pct)}</div>`;
     }else{
-      right = `<a class="view" href="${f.link}" target="_blank" rel="noopener">查看</a>`;
+      right=`<a class="view" href="${f.link}" target="_blank" rel="noopener">查看</a>`;
     }
-    const dt = f.ok && f.date ? f.date : '';
-    html += `<div class="row ${favc}" data-tf="${f.tf}">
+    const dt=f.ok&&f.date?`<span>${f.date}</span>`:'';
+    html+=`<div class="row ${favc}" data-tf="${f.tf}">${rankBadge}
       <div class="star" data-star="${f.tf}">${star}</div>
       <div class="r-name">
-        <div class="nm">${f.name}</div>
-        <div class="sub"><span class="cur">${CUR_LABEL[f.cur]||f.cur}</span>${dt?`<span>${dt}</span>`:''}<span>${f.tf}</span></div>
+        <a class="nm" href="${f.link}" target="_blank" rel="noopener">${f.name} <span class="lk">↗</span></a>
+        <div class="sub"><span class="t-cur">${CUR_LABEL[f.cur]||f.cur}</span>${tags}${dt}<span>${f.tf}</span></div>
       </div>
       <div class="r-right">${right}</div>
     </div>`;
-  }
-  list.innerHTML = html;
+  });
+  list.innerHTML=html;
 }
 
-// 事件：星號切換
-$('#list').addEventListener('click', e => {
-  const s = e.target.closest('[data-star]');
-  if(!s) return;
-  const tf = s.getAttribute('data-star');
-  if(fav.has(tf)){ fav.delete(tf); toast('已從我的基金移除'); }
-  else{ fav.add(tf); toast('已加入我的基金'); }
+$('#list').addEventListener('click',e=>{
+  const s=e.target.closest('[data-star]'); if(!s)return;
+  e.preventDefault();
+  const tf=s.getAttribute('data-star');
+  if(fav.has(tf)){fav.delete(tf); toast('已移除');} else {fav.add(tf); toast('已加入我的基金');}
   saveFav(); render();
 });
-// 搜尋
-$('#q').addEventListener('input', render);
-// 篩選 chips
-$('#chips').addEventListener('click', e => {
-  const c = e.target.closest('.chip'); if(!c) return;
-  if(c.dataset.f){ // all / mine
-    mode = c.dataset.f;
-    curFilter = null;
-    document.querySelectorAll('.chip').forEach(x=>x.classList.remove('on'));
-    c.classList.add('on');
-  }else if(c.dataset.c){
-    if(curFilter === c.dataset.c){ curFilter=null; c.classList.remove('on'); }
-    else{ curFilter = c.dataset.c;
-      document.querySelectorAll('.chip[data-c]').forEach(x=>x.classList.remove('on'));
-      c.classList.add('on'); }
-  }
-  render();
+$('#q').addEventListener('input',render);
+
+function bindSingle(sel, apply){
+  $(sel).addEventListener('click',e=>{
+    const c=e.target.closest('.chip'); if(!c)return;
+    const was=c.classList.contains('on');
+    $(sel).querySelectorAll('.chip').forEach(x=>x.classList.remove('on'));
+    if(!was){ c.classList.add('on'); apply(c); } else { apply(null); }
+    render();
+  });
+}
+$('#fMain').addEventListener('click',e=>{
+  const c=e.target.closest('.chip'); if(!c)return;
+  mode=c.dataset.f; $('#fMain').querySelectorAll('.chip').forEach(x=>x.classList.remove('on')); c.classList.add('on'); render();
 });
+bindSingle('#fCur', c=> curF = c?c.dataset.c:null);
+bindSingle('#fRR',  c=> rrF  = c?c.dataset.r:null);
+bindSingle('#fDist',c=> distF= c?c.dataset.d:null);
+bindSingle('#fSort',c=> sortK= c?c.dataset.s:null);
 
 async function load(){
   try{
-    const res = await fetch('funds_client.json?t=' + Date.now(), {cache:'no-store'});
-    const data = await res.json();
-    ALL = data.funds || [];
-    $('#updated').textContent = `${data.product||''}　更新於 ${data.updated_at||'—'}　共 ${data.total||ALL.length} 檔`;
+    const res=await fetch('funds_client.json?t='+Date.now(),{cache:'no-store'});
+    const data=await res.json();
+    ALL=data.funds||[];
+    $('#updated').textContent=`${data.product||''}　更新 ${data.updated_at||'—'}　共 ${data.total||ALL.length} 檔`;
     render();
-  }catch(e){
-    $('#updated').textContent = '資料載入失敗，請稍後重試';
-    $('#list').innerHTML = '<div class="empty">尚未有資料，請稍後再試</div>';
-  }
+  }catch(e){ $('#updated').textContent='資料載入失敗，請稍後重試'; $('#list').innerHTML='<div class="empty">尚未有資料</div>'; }
 }
 load();
 </script>
