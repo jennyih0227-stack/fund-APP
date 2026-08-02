@@ -54,9 +54,16 @@
   main{max-width:760px; margin:6px auto 0; padding:0 8px}
   .card{background:var(--cream); border-radius:14px; overflow:hidden; border:1px solid rgba(201,168,76,.25);
     box-shadow:0 10px 30px -14px rgba(0,0,0,.45)}
-  .row{position:relative; display:grid; grid-template-columns:auto 1fr auto; align-items:center; gap:9px;
-    padding:9px 12px 9px 8px; border-bottom:1px solid var(--gray)}
+  .row{position:relative; border-bottom:1px solid var(--gray)}
   .row:last-child{border-bottom:none}
+  .rowmain{display:grid; grid-template-columns:auto 1fr auto; align-items:center; gap:9px; padding:9px 12px 9px 8px}
+  .pt{color:var(--navy-2); font-weight:700; cursor:pointer; user-select:none}
+  .perfgrid{display:none; grid-template-columns:repeat(3,1fr); gap:6px 4px; padding:2px 12px 10px 40px}
+  .row.open .perfgrid{display:grid}
+  .pcell{background:#f2ebda; border-radius:8px; padding:5px 4px; text-align:center}
+  .pcell .pl{font-size:10px; color:#8a8270}
+  .pcell .pv{font-family:var(--num); font-weight:900; font-size:13px; margin-top:1px}
+  .pcell.hl{outline:2px solid var(--gold)}
   .star{font-size:20px; line-height:1; color:#c9c0aa; cursor:pointer; width:24px; text-align:center; flex:0 0 auto; user-select:none}
   .row.fav .star{color:var(--gold)}
   .rank{position:absolute; left:6px; top:6px; font-family:var(--num); font-size:10px; font-weight:900; color:var(--gold-d)}
@@ -174,6 +181,7 @@ function render(){
     const favc=fav.has(f.tf)?'fav':'', star=fav.has(f.tf)?'★':'☆';
     const rankBadge=sortK?`<div class="rank">#${idx+1}</div>`:'';
     const tags=`${f.rr?`<span class="tag t-rr">${f.rr}</span>`:''}${f.dist==='配息'?`<span class="tag t-dist">配息</span>`:''}`;
+    const hasPerf=f.perf && Object.keys(f.perf).length>0;
     let right;
     if(sortK){
       right=`<div class="perfbig">${pctHtml(f.perf[sortK])}</div><div class="perflab">${PERF_LABEL[sortK]}報酬</div><div class="val" style="font-size:12px;font-weight:700;margin-top:2px">${fmtVal(f.value)}</div>`;
@@ -183,19 +191,32 @@ function render(){
       right=`<a class="view" href="${f.link}" target="_blank" rel="noopener">查看</a>`;
     }
     const dt=f.ok&&f.date?`<span>${f.date}</span>`:'';
-    html+=`<div class="row ${favc}" data-tf="${f.tf}">${rankBadge}
-      <div class="star" data-star="${f.tf}">${star}</div>
-      <div class="r-name">
-        <a class="nm" href="${f.link}" target="_blank" rel="noopener">${f.name} <span class="lk">↗</span></a>
-        <div class="sub"><span class="t-cur">${CUR_LABEL[f.cur]||f.cur}</span>${tags}${dt}<span>${f.tf}</span></div>
-      </div>
-      <div class="r-right">${right}</div>
+    const ptoggle=hasPerf?`<span class="pt" data-pt="1">績效 ▾</span>`:'';
+    let grid='';
+    if(hasPerf){
+      grid='<div class="perfgrid">'+['m1','m3','m6','m12','m36','m60'].map(k=>{
+        const v=f.perf[k]; const cls=v==null?'flat':(v>0?'up':(v<0?'down':'flat')); const hl=(k===sortK)?' hl':'';
+        return `<div class="pcell${hl}"><div class="pl">${PERF_LABEL[k]}</div><div class="pv ${cls}">${v==null?'—':(v>0?'+':'')+v.toFixed(2)+'%'}</div></div>`;
+      }).join('')+'</div>';
+    }
+    const openc=(sortK && hasPerf)?' open':'';
+    html+=`<div class="row ${favc}${openc}" data-tf="${f.tf}">${rankBadge}
+      <div class="rowmain">
+        <div class="star" data-star="${f.tf}">${star}</div>
+        <div class="r-name">
+          <a class="nm" href="${f.link}" target="_blank" rel="noopener">${f.name} <span class="lk">↗</span></a>
+          <div class="sub"><span class="t-cur">${CUR_LABEL[f.cur]||f.cur}</span>${tags}${dt}<span>${f.tf}</span>${ptoggle}</div>
+        </div>
+        <div class="r-right">${right}</div>
+      </div>${grid}
     </div>`;
   });
   list.innerHTML=html;
 }
 
 $('#list').addEventListener('click',e=>{
+  const pt=e.target.closest('[data-pt]');
+  if(pt){ e.preventDefault(); pt.closest('.row').classList.toggle('open'); return; }
   const s=e.target.closest('[data-star]'); if(!s)return;
   e.preventDefault();
   const tf=s.getAttribute('data-star');
