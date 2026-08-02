@@ -85,6 +85,7 @@
   }
 
   .row{
+    position:relative;
     display:grid; grid-template-columns:1fr auto auto;
     align-items:center; gap:10px;
     padding:8px 14px; border-bottom:1px solid var(--gray);
@@ -167,6 +168,42 @@
   .toast.show{opacity:1; transform:translateX(-50%) translateY(0)}
   .toast.err{background:#8a2b2b}
 
+  /* ---- 選取要分享的項目 ---- */
+  .tools{display:flex; align-items:center; gap:8px}
+  .selbtn{
+    font-family:var(--sans); font-size:12px; color:var(--gold);
+    background:none; border:1px solid rgba(201,168,76,.4); border-radius:999px;
+    padding:5px 12px; cursor:pointer; transition:.2s;
+  }
+  .selbtn:active{background:rgba(201,168,76,.15)}
+  .selbtn.on{background:var(--gold); color:var(--navy); border-color:var(--gold); font-weight:700}
+  .selhint{
+    display:none; align-items:center; justify-content:space-between; gap:10px;
+    max-width:720px; margin:8px auto 0; padding:8px 14px;
+    background:rgba(201,168,76,.12); border:1px solid rgba(201,168,76,.35);
+    border-radius:12px; color:var(--cream); font-size:12.5px;
+  }
+  .selhint b{color:var(--gold)}
+  .selhint button{
+    font-family:var(--sans); font-size:12px; color:var(--navy); font-weight:700;
+    background:var(--gold); border:none; border-radius:999px; padding:5px 12px; cursor:pointer;
+    white-space:nowrap;
+  }
+  body.selecting .selhint{display:flex}
+  .chk{
+    position:absolute; left:13px; top:50%; transform:translateY(-50%);
+    width:20px; height:20px; border-radius:50%; border:2px solid #c6bea8;
+    display:none; box-sizing:border-box;
+  }
+  body.selecting .row{padding-left:44px; cursor:pointer}
+  body.selecting .chk{display:block}
+  body.selecting .row:not(.sel){opacity:.45}
+  .row.sel .chk{background:var(--down); border-color:var(--down)}
+  .row.sel .chk::after{
+    content:""; position:absolute; left:5px; top:2px; width:6px; height:10px;
+    border:solid #fff; border-width:0 2px 2px 0; transform:rotate(45deg);
+  }
+
   @media (prefers-reduced-motion: reduce){*{animation:none!important;transition:none!important}}
 </style>
 </head>
@@ -181,7 +218,14 @@
   <h1>淨值<span class="accent">日報</span></h1>
   <div class="meta">
     <span class="updated"><span class="dot"></span><span id="updated">載入中…</span></span>
-    <button class="refresh" id="refreshBtn">重新整理</button>
+    <div class="tools">
+      <button class="selbtn" id="selBtn">選取</button>
+      <button class="refresh" id="refreshBtn">重新整理</button>
+    </div>
+  </div>
+  <div class="selhint" id="selHint">
+    <span>點選要分享的基金（已選 <b id="selCount">0</b> 檔）</span>
+    <button id="allBtn">全不選</button>
   </div>
 </header>
 
@@ -270,8 +314,9 @@ function render(data){
     for(const it of sec.items){
       const link = it.url && it.ok;
       const tag = link ? 'a' : 'div';
-      const attrs = link ? `href="${it.url}" target="_blank" rel="noopener" class="row linkable"` : 'class="row"';
+      const attrs = link ? `href="${it.url}" target="_blank" rel="noopener" class="row linkable sel"` : 'class="row sel"';
       html += `<${tag} ${attrs}>
+        <span class="chk"></span>
         <div class="r-name">
           <div class="nm">${it.name}</div>
           ${it.date ? `<div class="dt">${it.date}</div>` : ''}
@@ -283,6 +328,7 @@ function render(data){
     html += `</section>`;
   }
   app.innerHTML = html;
+  updSelCount();
 }
 
 async function load(bust){
@@ -308,26 +354,85 @@ $('#refreshBtn').addEventListener('click', async () => {
   b.classList.remove('spin'); b.textContent = '重新整理';
 });
 
+// ---- 選取要分享的項目 ----
+function updSelCount(){
+  const rows = document.querySelectorAll('.row');
+  const n = document.querySelectorAll('.row.sel').length;
+  const cEl = $('#selCount'); if(cEl) cEl.textContent = n;
+  const aBtn = $('#allBtn');
+  if(aBtn) aBtn.textContent = (n >= rows.length && rows.length > 0) ? '全不選' : '全選';
+}
+$('#selBtn').addEventListener('click', () => {
+  const b = $('#selBtn');
+  const on = document.body.classList.toggle('selecting');
+  b.classList.toggle('on', on);
+  b.textContent = on ? '完成' : '選取';
+  updSelCount();
+});
+$('#allBtn').addEventListener('click', (e) => {
+  e.stopPropagation();
+  const rows = document.querySelectorAll('.row');
+  const selectAll = document.querySelectorAll('.row.sel').length < rows.length;
+  rows.forEach(r => r.classList.toggle('sel', selectAll));
+  updSelCount();
+});
+// 選取模式下，點一列＝勾選／取消（攔在連結之前）
+document.addEventListener('click', (e) => {
+  if(!document.body.classList.contains('selecting')) return;
+  const row = e.target.closest('.row');
+  if(!row) return;
+  e.preventDefault();
+  row.classList.toggle('sel');
+  updSelCount();
+}, true);
+
 load(false);
 
 // ---- 產生日報圖片 ----
+// 依目前勾選，複製出只含所選項目的精簡版面
+function buildExportNode(){
+  const src = $('#capture');
+  const clone = src.cloneNode(true);
+  ['#refreshBtn','#selBtn','#selHint'].forEach(sel => {
+    const el = clone.querySelector(sel); if(el) el.remove();
+  });
+  // 只留有選取的列（依原始順序對應）
+  const srcRows = src.querySelectorAll('.row');
+  const clRows = clone.querySelectorAll('.row');
+  clRows.forEach((r,i) => { if(srcRows[i] && !srcRows[i].classList.contains('sel')) r.remove(); });
+  // 移除空區塊、更新「n 檔」、清掉勾選外觀
+  clone.querySelectorAll('.section').forEach(sec => {
+    const c = sec.querySelectorAll('.row').length;
+    if(c === 0){ sec.remove(); return; }
+    const cnt = sec.querySelector('.cnt'); if(cnt) cnt.textContent = c + ' 檔';
+  });
+  clone.querySelectorAll('.chk').forEach(el => el.remove());
+  clone.querySelectorAll('.row').forEach(r => r.classList.remove('sel'));
+  return clone;
+}
+
 async function snapshot(){
   if(typeof html2canvas === 'undefined'){
     throw new Error('圖片元件未載入');
   }
-  const node = $('#capture');
-  const rBtn = $('#refreshBtn');
-  rBtn.style.visibility = 'hidden';          // 截圖時隱藏「重新整理」鈕
+  if(document.querySelectorAll('.row.sel').length === 0){
+    throw new Error('請至少選擇一檔');
+  }
+  const node = buildExportNode();
+  const wrap = document.createElement('div');
+  wrap.style.cssText = 'position:fixed; left:-10000px; top:0; width:400px; background:#1B2A4A; padding-bottom:14px;';
+  wrap.appendChild(node);
+  document.body.appendChild(wrap);
   try{
-    const canvas = await html2canvas(node, {
+    const canvas = await html2canvas(wrap, {
       backgroundColor: '#1B2A4A',
       scale: Math.min(3, window.devicePixelRatio || 2),
       useCORS: true,
-      windowWidth: node.scrollWidth
+      windowWidth: 400
     });
     return await new Promise(res => canvas.toBlob(b => res(b), 'image/png', 0.95));
   } finally {
-    rBtn.style.visibility = '';
+    wrap.remove();
   }
 }
 

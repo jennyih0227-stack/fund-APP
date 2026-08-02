@@ -1,6 +1,6 @@
 // 誠毅淨值日報 Service Worker
 // 內容更新時請調高版本號以觸發更新
-const VERSION = 'v3';
+const VERSION = 'v4';
 const SHELL = 'shell-' + VERSION;
 const SHELL_FILES = [
   './',
