@@ -1,0 +1,45 @@
+name: 更新客戶版基金淨值
+
+on:
+  schedule:
+    # 每個工作日台灣 23:00（UTC 15:00），投資型淨值到齊後抓一次
+    - cron: "0 15 * * 1-5"
+  workflow_dispatch: {}   # 允許手動執行
+
+permissions:
+  contents: write
+
+concurrency:
+  group: commit-data
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 取出程式碼
+        uses: actions/checkout@v4
+
+      - name: 設定 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 安裝依賴
+        run: pip install requests urllib3
+
+      - name: 抓取客戶版淨值
+        run: python scripts/fetch_client_nav.py
+
+      - name: 提交更新
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add funds_client.json
+          if git diff --staged --quiet; then
+            echo "資料無變化，略過提交"
+          else
+            git commit -m "自動更新客戶版淨值 $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git pull --rebase origin main || true
+            git push
+          fi

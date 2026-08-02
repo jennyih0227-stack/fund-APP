@@ -1,0 +1,3968 @@
+{
+  "updated_at": "2026/08/02 15:48",
+  "product": "凱基人壽 鑫鑫向榮",
+  "total": 396,
+  "priced": 176,
+  "funds": [
+    {
+      "tf": "TF11",
+      "name": "凱基雲端趨勢基金(美元)",
+      "cur": "USD",
+      "value": 78.6002,
+      "pct": 5.382822911722661,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF11&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TF14",
+      "name": "凱基臺灣多元收益多重資產基金-新臺幣A",
+      "cur": "TWD",
+      "value": 16.85,
+      "pct": 1.9975786924939578,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF14&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TF15",
+      "name": "凱基收益成長多重資產基金-新臺幣A(累積)(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)",
+      "cur": "TWD",
+      "value": 15.6433,
+      "pct": 1.862306525235553,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF15&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TF16",
+      "name": "凱基收益成長多重資產基金-美元A(累積)(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)",
+      "cur": "USD",
+      "value": 17.0587,
+      "pct": 1.728805877582194,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF16&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TF17",
+      "name": "普徠仕（盧森堡）系列基金－普徠仕全球焦點成長股票基金A級別(美元)",
+      "cur": "USD",
+      "value": 109.83,
+      "pct": 1.86,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF17&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TF18",
+      "name": "普徠仕（盧森堡）系列基金－普徠仕新興市場股票基金A級別(美元)",
+      "cur": "USD",
+      "value": 38.2,
+      "pct": 1.98,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF18&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TF19",
+      "name": "普徠仕（盧森堡）系列基金－普徠仕全球成長股票基金A級別(美元)",
+      "cur": "USD",
+      "value": 82.22,
+      "pct": 1.18,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF19&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TF1Y",
+      "name": "凱基新興市場中小基金(美元)",
+      "cur": "USD",
+      "value": 34.9019,
+      "pct": -2.778327154011357,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF1Y&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TF1Z",
+      "name": "凱基雲端趨勢基金(台幣)",
+      "cur": "TWD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF1Z&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TF2A",
+      "name": "普徠仕（盧森堡）系列基金－普徠仕歐洲股票基金 A 級別(歐元)",
+      "cur": "EUR",
+      "value": 22.69,
+      "pct": 0.44,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF2A&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TF2B",
+      "name": "合庫AI電動車及車聯網創新基金(美元)",
+      "cur": "USD",
+      "value": 25.87,
+      "pct": 4.188481675392682,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF2B&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TF2E",
+      "name": "元大台灣高股息優質龍頭基金(A級別/不配息級別)(本基金之配息來源可能為收益平準金且並無保證收益及配息)",
+      "cur": "OTHER",
+      "value": 45.93,
+      "pct": 6.665118439386895,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF2E&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TF2H",
+      "name": "摩根太平洋科技基金",
+      "cur": "OTHER",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF2H&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TF2L",
+      "name": "摩根基金 - 全球成長基金 - JPM全球成長(美元) - A股(累計)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF2L&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TF2O",
+      "name": "安聯台灣大壩基金-A類型-新臺幣",
+      "cur": "TWD",
+      "value": 268.54,
+      "pct": 9.082784954098633,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF2O&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TF2R",
+      "name": "安聯AI人工智慧基金-AT累積類股(美元)",
+      "cur": "USD",
+      "value": 39.4112,
+      "pct": 5.33,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF2R&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TF2S",
+      "name": "安聯主題趨勢基金-AT累積類股(美元)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF2S&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TF2V",
+      "name": "安聯綠色債券基金-AT累積類股(美元避險)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF2V&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TF35",
+      "name": "凱基開創基金",
+      "cur": "OTHER",
+      "value": 176.95,
+      "pct": 9.349894945000615,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF35&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TF36",
+      "name": "施羅德環球基金系列－環球永續增長(美元)A-累積",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF36&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TF37",
+      "name": "富蘭克林坦伯頓全球投資系列-美元短期票券基金美元A (acc)股",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF37&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TF39",
+      "name": "凱基凱旋貨幣市場基金",
+      "cur": "OTHER",
+      "value": 12.3464,
+      "pct": 0.004049927506288198,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF39&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TF3A",
+      "name": "富邦貨幣市場基金(原名:日盛貨幣市場基金)",
+      "cur": "OTHER",
+      "value": 15.8497,
+      "pct": 0.003785703920098794,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF3A&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TF3E",
+      "name": "安聯台灣科技基金",
+      "cur": "OTHER",
+      "value": 651.99,
+      "pct": 9.044839524343136,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF3E&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TF3F",
+      "name": "柏瑞環球基金-柏瑞環球重點股票基金A",
+      "cur": "OTHER",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF3F&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TF3G",
+      "name": "施羅德環球基金系列－環球創新股票(美元)A-累積",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF3G&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TF3H",
+      "name": "施羅德環球基金系列－環球氣候變化策略(美元)A-累積",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF3H&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TF3I",
+      "name": "凱基環球趨勢基金-新臺幣A(累積)",
+      "cur": "TWD",
+      "value": 14.6,
+      "pct": 5.035971223021578,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF3I&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TF3J",
+      "name": "凱基實質收息多重資產基金-新臺幣A(累積)(本基金之配息來源可能為本金)",
+      "cur": "TWD",
+      "value": 12.5909,
+      "pct": 0.9881533883555015,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF3J&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TF3K",
+      "name": "凱基未來世代關鍵收息多重資產基金-新臺幣A(累積)(本基金之配息來源可能為本金)",
+      "cur": "TWD",
+      "value": 16.14,
+      "pct": 3.9278815196394152,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF3K&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TF3L",
+      "name": "統一黑馬基金",
+      "cur": "OTHER",
+      "value": 541.36,
+      "pct": 8.693731678914189,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF3L&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TF3M",
+      "name": "統一奔騰基金",
+      "cur": "OTHER",
+      "value": 645.88,
+      "pct": 9.169582340314047,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF3M&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TF3Q",
+      "name": "安聯全球綠能趨勢基金-A類型-新臺幣",
+      "cur": "TWD",
+      "value": 15.85,
+      "pct": 2.4563671622495087,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF3Q&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TF3R",
+      "name": "安聯全球礦金資源基金-AT累積類股(美元)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF3R&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TF3S",
+      "name": "統一台灣動力基金-A類型",
+      "cur": "OTHER",
+      "value": 160.03,
+      "pct": 8.834330794341682,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF3S&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TF3T",
+      "name": "野村台灣運籌基金",
+      "cur": "OTHER",
+      "value": 382.9,
+      "pct": 8.97344679397785,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF3T&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TF3W",
+      "name": "野村高科技基金",
+      "cur": "OTHER",
+      "value": 95.85,
+      "pct": 8.427601809954737,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF3W&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TF3X",
+      "name": "富達基金－美元現金基金(A股累計美元)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF3X&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TF3Y",
+      "name": "凱基未來樂活多重資產基金-新臺幣A(累積)(本基金有相當比重投資於非投資等級之高風險債券)",
+      "cur": "TWD",
+      "value": 15.486,
+      "pct": 3.5319601275597168,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF3Y&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TF40",
+      "name": "統一強棒貨幣市場基金",
+      "cur": "OTHER",
+      "value": 17.8188,
+      "pct": 0.004489841733068444,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF40&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TF42",
+      "name": "安聯台灣智慧基金",
+      "cur": "OTHER",
+      "value": 352.14,
+      "pct": 8.474263007115791,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF42&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TF43",
+      "name": "富蘭克林坦伯頓全球投資系列-全球基金美元A(acc)股",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF43&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TF44",
+      "name": "瀚亞投資-日本動力股票基金Aj (日圓)",
+      "cur": "JPY",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF44&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TF45",
+      "name": "瀚亞高科技基金",
+      "cur": "OTHER",
+      "value": 556.73,
+      "pct": 8.870289614173693,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF45&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TF46",
+      "name": "凱基未來樂活多重資產基金-美元A(累積)(本基金有相當比重投資於非投資等級之高風險債券)",
+      "cur": "USD",
+      "value": 16.5325,
+      "pct": 3.417969360882257,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF46&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TF63",
+      "name": "富蘭克林華美多重資產收益基金分配美元(本基金有相當比重投資於非投資等級之高風險債券且基金之配息來源可能為本金)",
+      "cur": "USD",
+      "value": 8.52,
+      "pct": 1.5494636471990346,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF63&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TF65",
+      "name": "凱基未來樂活多重資產基金-新臺幣B(月配)(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)",
+      "cur": "TWD",
+      "value": 12.0791,
+      "pct": 3.5321847947201555,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF65&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TF66",
+      "name": "凱基未來樂活多重資產基金-美元B(月配)(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)",
+      "cur": "USD",
+      "value": 12.6829,
+      "pct": 3.4182179929385095,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF66&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TF6A",
+      "name": "安聯AI收益成長多重資產基金- HB類型(月配息)-新臺幣(避險)(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)",
+      "cur": "TWD",
+      "value": 12.01,
+      "pct": 2.4744027303754192,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF6A&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TF6B",
+      "name": "安聯多元信用債券基金-AMg穩定月收總收益類股(美元)(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF6B&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TF6C",
+      "name": "野村全球科技多重資產基金-月配類型美元(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)",
+      "cur": "USD",
+      "value": 12.692,
+      "pct": 2.8341786715496435,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF6C&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TF6D",
+      "name": "野村全天候環球債券基金-月配類型新臺幣計價(本基金有一定比重投資於非投資等級之高風險債券且配息來源可能為本金)",
+      "cur": "TWD",
+      "value": 9.3321,
+      "pct": 0.039663822306078844,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF6D&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TF6E",
+      "name": "M＆G北美股息基金A(美元月配)F(本基金配息來源可能為本金且並無保證收益及配息)",
+      "cur": "USD",
+      "value": 110.5744,
+      "pct": -0.19,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF6E&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TF6F",
+      "name": "M＆G ESG巴黎協議全球永續股票基金A(美元年配)(本基金配息來源可能為本金)",
+      "cur": "USD",
+      "value": 42.5671,
+      "pct": 1.4,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF6F&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TF6G",
+      "name": "富達基金－全球優質債券基金(A股C月配息美元)(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF6G&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TF6H",
+      "name": "富達基金－永續發展全球存股優勢基金(A股C月配息美元)(本基金之配息來源可能為本金且並無保證收益及配息)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF6H&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TF6J",
+      "name": "富達基金－美元現金基金(A股【F1穩定月配息】美元)(本基金之配息來源可能為本金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF6J&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TF6K",
+      "name": "富蘭克林華美多重資產收益基金分配新台幣(本基金有相當比重投資於非投資等級之高風險債券且基金之配息來源可能為本金)",
+      "cur": "TWD",
+      "value": 8.43,
+      "pct": 1.8115942028985552,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF6K&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TF6M",
+      "name": "景順環球股票收益基金A-穩定月配息股 美元(基金之配息來源可能為本金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF6M&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TF6N",
+      "name": "景順亞洲資產配置基金A-月配息股 美元",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF6N&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TF6P",
+      "name": "景順亞洲資產配置基金A-穩定月配息股 美元(基金之配息來源可能為本金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF6P&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TF6Q",
+      "name": "景順亞洲動力基金 A-穩定月配息股 美元(基金之配息來源可能為本金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF6Q&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TF6R",
+      "name": "摩根大美國領先收成多重資產基金 (月配息型) - 美元(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金或收益平準金)",
+      "cur": "USD",
+      "value": 9.89,
+      "pct": 1.2282497441146467,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF6R&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TF6W",
+      "name": "富蘭克林成長基金A股(本基金之配息來源可能為本金)",
+      "cur": "OTHER",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF6W&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFA1",
+      "name": "景順日本小型企業基金 A(美元對沖)股 美元",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFA1&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFA2",
+      "name": "景順歐洲大陸小型企業基金A(美元對沖)股 美元",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFA2&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFA3",
+      "name": "景順環球消費趨勢基金A股 美元",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFA3&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFA4",
+      "name": "摩根基金 - 俄羅斯基金 - JPM 俄羅斯(美元) - A股(累計)(2022/3/1起暫停報價與交易)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFA4&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFA5",
+      "name": "摩根基金 - 美國小型企業股票基金 - JPM美國小型企業股票(美元) - A股(累計)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFA5&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFA6",
+      "name": "摩根基金 - 美國科技基金 - JPM美國科技(美元) - A股(累計)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFA6&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFA7",
+      "name": "摩根基金 - 環球醫療科技基金 - JPM環球醫療科技(美元) - A股(累計)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFA7&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFA8",
+      "name": "聯博-全球靈活收益基金A2級別美元(基金之配息來源可能為本金)",
+      "cur": "USD",
+      "value": 19.17,
+      "pct": -0.1,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFA8&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFA9",
+      "name": "聯博-聚焦美國股票基金A級別美元(基金之配息來源可能為本金)",
+      "cur": "USD",
+      "value": 46.27,
+      "pct": 1.69,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFA9&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFAD",
+      "name": "美元貨幣帳戶",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFAD&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFAI",
+      "name": "瀚亞投資-大中華股票基金 A(美元)",
+      "cur": "USD",
+      "value": 32.591,
+      "pct": 1.76,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFAI&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFAN",
+      "name": "瀚亞非洲基金-新臺幣",
+      "cur": "TWD",
+      "value": 37.27,
+      "pct": 2.5591634562465595,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFAN&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFAO",
+      "name": "瀚亞投資-美國優質債券基金 A(美元)",
+      "cur": "USD",
+      "value": 20.867,
+      "pct": -0.19,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFAO&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFAP",
+      "name": "貝萊德拉丁美洲基金 A2 美元",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFAP&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFAQ",
+      "name": "貝萊德世界黃金基金 A2 美元",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFAQ&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFAR",
+      "name": "摩根東方內需機會基金(暫停申購)",
+      "cur": "OTHER",
+      "value": 31.18,
+      "pct": 0.35403926617315556,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFAR&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFAS",
+      "name": "摩根全球平衡基金",
+      "cur": "OTHER",
+      "value": 18.3483,
+      "pct": 0.9924042272126763,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFAS&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFAT",
+      "name": "富蘭克林坦伯頓全球投資系列-全球債券基金美元A(acc)股(本基金之配息來源可能為本金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFAT&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFAY",
+      "name": "歐元貨幣帳戶",
+      "cur": "EUR",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFAY&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFB1",
+      "name": "聯博-優化波動股票基金A級別美元(基金之配息來源可能為本金)",
+      "cur": "USD",
+      "value": 54.43,
+      "pct": 0.28,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFB1&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFB2",
+      "name": "安聯收益成長基金-AT累積類股(美元)(本基金有相當比重投資於非投資等級之高風險債券)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFB2&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFB3",
+      "name": "安聯歐陸成長基金-AT累積類股(美元避險)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFB3&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFBB",
+      "name": "貝萊德新興市場基金 A2 美元",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFBB&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFBC",
+      "name": "貝萊德環球資產配置基金 A2 美元",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFBC&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFBD",
+      "name": "貝萊德新興歐洲基金 A2 歐元(2022/3/1起暫停報價與交易)",
+      "cur": "EUR",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFBD&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFBE",
+      "name": "瀚亞巴西基金",
+      "cur": "OTHER",
+      "value": 7.27,
+      "pct": 3.2670454545454484,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFBE&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFBF",
+      "name": "瀚亞中小型股基金",
+      "cur": "OTHER",
+      "value": 135.28,
+      "pct": 9.246547686344183,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFBF&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFBG",
+      "name": "瀚亞投資-中印股票基金 A(美元)",
+      "cur": "USD",
+      "value": 34.089,
+      "pct": 0.3,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFBG&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFBH",
+      "name": "富蘭克林坦伯頓全球投資系列-金磚國家基金美元A (acc)股",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFBH&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFBI",
+      "name": "凱基台商天下基金",
+      "cur": "OTHER",
+      "value": 53.48,
+      "pct": 1.1346444780635294,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFBI&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFBK",
+      "name": "普徠仕（盧森堡）系列基金－普徠仕亞洲(日本除外)股票基金A級別(美元)(原名稱：普徠仕（盧森堡）系列基金－普徠仕亞洲(除日本除外)股票社會責任基金A級別(美元))",
+      "cur": "USD",
+      "value": 23.95,
+      "pct": 2.44,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFBK&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFBL",
+      "name": "普徠仕（盧森堡）系列基金－普徠仕全球天然資源股票基金A級別(美元)",
+      "cur": "USD",
+      "value": 13.61,
+      "pct": 0.29,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFBL&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFBW",
+      "name": "凱基新興趨勢ETF組合基金",
+      "cur": "OTHER",
+      "value": 11.64,
+      "pct": 2.826855123674914,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFBW&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFCF",
+      "name": "貝萊德美國中型企業價值基金A2 美元(原名稱：貝萊德美國特別時機基金 A2 美元)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFCF&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFCG",
+      "name": "貝萊德歐洲特別時機基金 A2 歐元",
+      "cur": "EUR",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFCG&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFCH",
+      "name": "摩根基金－環球天然資源基金 - JPM 環球天然資源(美元)－A股(累計)",
+      "cur": "USD",
+      "value": 22.17,
+      "pct": 1.33,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFCH&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFCI",
+      "name": "摩根基金－新興市場小型企業基金 - JPM新興市場小型企業(美元)- A股perf(累計)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFCI&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFCJ",
+      "name": "高盛基金Ⅲ-高盛全球機會股票基金X股美元(原名稱：NN(L)全球機會股票基金X股美元)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFCJ&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFCK",
+      "name": "普徠仕（盧森堡）系列基金－普徠仕美國大型價值股票基金A級別(美元)",
+      "cur": "USD",
+      "value": 64.1,
+      "pct": -0.73,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFCK&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFCL",
+      "name": "富蘭克林華美第一富基金-A累積型(台幣)",
+      "cur": "TWD",
+      "value": 246.87,
+      "pct": 8.595433950644434,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFCL&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFCN",
+      "name": "景順潛力基金",
+      "cur": "OTHER",
+      "value": 148.87,
+      "pct": 8.878812257734232,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFCN&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFCO",
+      "name": "凱基台灣精五門基金",
+      "cur": "OTHER",
+      "value": 157.11,
+      "pct": 9.392842222531687,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFCO&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFCU",
+      "name": "摩根基金－新興歐洲股票基金 - JPM新興歐洲股票(美元)- A股(累計)(2022/3/1起暫停報價與交易，更新之指示性參考淨值並非正式資產淨值)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFCU&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFCX",
+      "name": "高盛基金Ⅲ-高盛新興市場增強股票基金X股美元(本基金非屬環境、社會及治理相關主題之境外基金)(原名稱： NN(L)新興市場增強股票基金X股美元(本基金非屬環境、社會及治理相關主題之境外基金))",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFCX&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFD1",
+      "name": "瀚亞外銷基金A類型–新台幣",
+      "cur": "TWD",
+      "value": 250.78,
+      "pct": 9.272331154684096,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFD1&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFD3",
+      "name": "瀚亞理財通基金A不配息(台幣)(原名稱：瀚亞理財通基金)",
+      "cur": "TWD",
+      "value": 65.55,
+      "pct": 4.064137164629298,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFD3&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFD4",
+      "name": "瀚亞歐洲基金",
+      "cur": "OTHER",
+      "value": 19.59,
+      "pct": 2.4581589958158934,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFD4&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFD7",
+      "name": "瀚亞菁華基金",
+      "cur": "OTHER",
+      "value": 132.9,
+      "pct": 8.925497910007376,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFD7&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFD8",
+      "name": "瀚亞美國高科技基金A類型-新臺幣",
+      "cur": "TWD",
+      "value": 140.57,
+      "pct": 7.239853524565136,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFD8&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFDA",
+      "name": "瀚亞印度基金A類型-新臺幣",
+      "cur": "TWD",
+      "value": 58.42,
+      "pct": 0.9853068280034577,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFDA&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFDE",
+      "name": "瀚亞股債入息組合基金A-新台幣(本基金並無保證收益及配息)",
+      "cur": "TWD",
+      "value": 25.0758,
+      "pct": 0.8859170569207823,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFDE&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFDF",
+      "name": "新台幣貨幣帳戶",
+      "cur": "TWD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFDF&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFDI",
+      "name": "摩根新興35基金-累積型(原名稱：摩根新興35基金)",
+      "cur": "OTHER",
+      "value": 23.1,
+      "pct": 1.6725352112676168,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFDI&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFDJ",
+      "name": "瀚亞亞太不動產證券化基金A類型",
+      "cur": "OTHER",
+      "value": 11.78,
+      "pct": 0.6837606837606843,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFDJ&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFDN",
+      "name": "瀚亞精選傘型基金之債券精選組合基金A-新台幣",
+      "cur": "TWD",
+      "value": 14.0958,
+      "pct": 0.3381192030352513,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFDN&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFDO",
+      "name": "貝萊德永續能源基金A2美元(本基金非屬環境、社會及治理相關主題基金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFDO&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFDQ",
+      "name": "M＆G全球未來趨勢基金A(歐元)",
+      "cur": "EUR",
+      "value": 68.8068,
+      "pct": -0.14,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFDQ&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFDS",
+      "name": "摩根東協基金(美元)(累計)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFDS&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFDV",
+      "name": "貝萊德世界礦業基金 A2 美元",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFDV&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFDW",
+      "name": "瀚亞投資-亞洲債券基金 A(美元)(本基金有相當比重投資於非投資等級之高風險債券)(2026/07/26暫停申購)",
+      "cur": "USD",
+      "value": 19.98,
+      "pct": -0.04,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFDW&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFDX",
+      "name": "瀚亞亞太基礎建設基金",
+      "cur": "OTHER",
+      "value": 14.0,
+      "pct": 1.0830324909747318,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFDX&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFDY",
+      "name": "瀚亞亞太高股息基金A-新台幣(本基金並無保證收益及配息)",
+      "cur": "TWD",
+      "value": 25.64,
+      "pct": 0.7861635220125759,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFDY&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFEG",
+      "name": "富蘭克林坦伯頓全球投資系列-亞洲成長基金美元A (acc)股",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFEG&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFEO",
+      "name": "瀚亞投資-印尼股票基金 A(美元)",
+      "cur": "USD",
+      "value": 9.287,
+      "pct": 0.56,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFEO&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFEP",
+      "name": "M＆G全球未來趨勢基金A(美元)",
+      "cur": "USD",
+      "value": 27.9984,
+      "pct": 0.65,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFEP&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFEQ",
+      "name": "瀚亞投資-印度股票基金 A(美元)",
+      "cur": "USD",
+      "value": 19.821,
+      "pct": 0.29,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFEQ&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFER",
+      "name": "貝萊德新興歐洲基金 A2 美元(2022/3/1起暫停報價與交易)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFER&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFES",
+      "name": "貝萊德歐洲特別時機基金 A2 美元",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFES&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFET",
+      "name": "貝萊德中國基金 A2 美元",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFET&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFEW",
+      "name": "富蘭克林坦伯頓全球投資系列-大中華基金美元A (acc)股",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFEW&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFEY",
+      "name": "富蘭克林坦伯頓全球投資系列-亞洲小型企業基金美元A (acc)股",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFEY&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFEZ",
+      "name": "富蘭克林華美中華基金",
+      "cur": "OTHER",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFEZ&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFFA",
+      "name": "富蘭克林坦伯頓全球投資系列-新興國家基金美元A (acc)股",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFFA&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFFV",
+      "name": "貝萊德亞洲老虎債券基金 A2 美元(基金有相當比重投資於非投資等級之高風險債券)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFFV&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFFX",
+      "name": "富蘭克林華美全球債券組合基金-累計型(本基金之配息來源可能為本金)",
+      "cur": "OTHER",
+      "value": 14.0346,
+      "pct": 0.42503863987635326,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFFX&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFFY",
+      "name": "摩根基金－美國複合收益債券基金 - JPM 美國複合收益債券(美元)－ A股(累計)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFFY&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFGA",
+      "name": "摩根基金－環球企業債券基金 -JPM環球企業債券(美元)- A股(累計)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFGA&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFGC",
+      "name": "瀚亞投資-優質公司債基金 A(美元)",
+      "cur": "USD",
+      "value": 14.712,
+      "pct": -0.21,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFGC&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFGI",
+      "name": "聯博-美國收益基金 A2股美元(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFGI&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFGK",
+      "name": "高盛基金Ⅲ-高盛投資級公司債基金X股美元(本基金之配息來源可能為本金)(原名稱：NN(L)投資級公司債基金X股美元(本基金之配息來源可能為本金))(2024/10/07暫停申購)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFGK&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFGO",
+      "name": "元大多福基金",
+      "cur": "OTHER",
+      "value": 289.07,
+      "pct": 9.115959534953939,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFGO&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFGP",
+      "name": "元大亞太成長基金",
+      "cur": "OTHER",
+      "value": 11.74,
+      "pct": 1.6450216450216406,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFGP&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFGQ",
+      "name": "野村中小基金-累積類型",
+      "cur": "OTHER",
+      "value": 487.8,
+      "pct": 9.235041203869583,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFGQ&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFGR",
+      "name": "野村優質基金-累積類型新臺幣計價",
+      "cur": "TWD",
+      "value": 394.08,
+      "pct": 9.06071843692921,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFGR&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFGT",
+      "name": "宏利環球基金-美國股票基金AA股",
+      "cur": "OTHER",
+      "value": 4.8727,
+      "pct": -0.42,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFGT&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFGV",
+      "name": "貝萊德世界金融基金 A2 美元",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFGV&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFGW",
+      "name": "貝萊德世界健康科學基金 A2 美元",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFGW&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFGX",
+      "name": "貝萊德全球股票收益基金 A2 美元",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFGX&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFGY",
+      "name": "貝萊德美國價值型基金 A2 美元",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFGY&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFGZ",
+      "name": "貝萊德美國靈活股票基金 A2 美元",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFGZ&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFHB",
+      "name": "貝萊德歐洲基金 A2 歐元",
+      "cur": "EUR",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFHB&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFHC",
+      "name": "貝萊德歐洲價值型基金 A2 歐元",
+      "cur": "EUR",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFHC&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFHD",
+      "name": "貝萊德環球動力股票基金A2美元",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFHD&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFHF",
+      "name": "施羅德環球基金系列 - 新興歐洲 (歐元)A1-累積",
+      "cur": "EUR",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFHF&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFHG",
+      "name": "凱基新興市場中小基金-台幣計價A",
+      "cur": "TWD",
+      "value": 38.48,
+      "pct": -2.508234101849511,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFHG&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFHH",
+      "name": "普徠仕（盧森堡）系列基金－普徠仕美國大型成長股票基金A級別(美元)",
+      "cur": "USD",
+      "value": 113.18,
+      "pct": 1.36,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFHH&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFHI",
+      "name": "普徠仕（盧森堡）系列基金－普徠仕美國小型公司股票基金A級別(美元)",
+      "cur": "USD",
+      "value": 98.21,
+      "pct": -0.48,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFHI&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFHM",
+      "name": "宏利亞太中小企業基金(新臺幣)",
+      "cur": "TWD",
+      "value": 19.2,
+      "pct": -2.0907700152983177,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFHM&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFHN",
+      "name": "澳幣貨幣帳戶",
+      "cur": "AUD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFHN&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFHO",
+      "name": "摩根泰國基金",
+      "cur": "OTHER",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFHO&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFHR",
+      "name": "聯博-全球不動產證券基金 A股美元(基金之配息來源可能為本金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFHR&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFHU",
+      "name": "聯博-短期債券基金 A2股美元(基金之配息來源可能為本金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFHU&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFHV",
+      "name": "聯博-全球價值型基金A股美元 (基金之配息來源可能為本金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFHV&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFHY",
+      "name": "聯博-亞洲股票基金A股美元(基金之配息來源可能為本金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFHY&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFIA",
+      "name": "聯博-美國成長基金 A股美元(基金之配息來源可能為本金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFIA&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFIC",
+      "name": "聯博-國際科技基金 A股美元",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFIC&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFID",
+      "name": "聯博-國際醫療基金 A股美元(基金之配息來源可能為本金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFID&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFIG",
+      "name": "聯博-新興市場價值基金A股美元",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFIG&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFII",
+      "name": "聯博-歐元區成長基金AXX級別歐元(2025/11/25暫停新申購)",
+      "cur": "EUR",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFII&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFIK",
+      "name": "聯博-歐洲股票基金A級別歐元(基金之配息來源可能為本金)",
+      "cur": "EUR",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFIK&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFIM",
+      "name": "貝萊德日本特別時機基金 A2 美元",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFIM&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFIR",
+      "name": "貝萊德世界科技基金 A2 美元",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFIR&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFIS",
+      "name": "貝萊德世界能源基金 A2 美元",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFIS&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFIT",
+      "name": "貝萊德世界債券基金 A2 美元(本基金非屬環境、社會及治理相關主題基金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFIT&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFIU",
+      "name": "貝萊德全球通膨連結債券基金 A2 美元",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFIU&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFIV",
+      "name": "貝萊德印度基金 A2 美元",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFIV&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFIW",
+      "name": "貝萊德ESG社會責任多元資產基金Hedged A2 美元",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFIW&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFIX",
+      "name": "貝萊德亞洲巨龍基金 A2 美元",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFIX&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFIY",
+      "name": "貝萊德美元優質債券基金 A2 美元",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFIY&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFJA",
+      "name": "貝萊德英國基金 A2 美元",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFJA&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFJD",
+      "name": "貝萊德歐洲基金 A2 美元",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFJD&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFJE",
+      "name": "貝萊德歐洲價值型基金 A2 美元",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFJE&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFJF",
+      "name": "貝萊德環球企業債券基金 A2 美元",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFJF&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFJH",
+      "name": "貝萊德環球政府債券基金 A2 美元",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFJH&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFJI",
+      "name": "貝萊德環球前瞻股票基金 A2 美元",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFJI&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFJK",
+      "name": "日圓貨幣帳戶",
+      "cur": "JPY",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFJK&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFJL",
+      "name": "摩根南韓基金",
+      "cur": "OTHER",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFJL&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFJN",
+      "name": "高盛基金Ⅲ-高盛大中華股票基金X股美元(原名稱：NN(L)大中華股票基金X股美元)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFJN&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFJO",
+      "name": "高盛基金Ⅲ-高盛日本股票基金X股美元(原名稱：NN(L)日本股票基金X股美元)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFJO&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFJP",
+      "name": "高盛基金Ⅲ-高盛環球社會影響力基金X股美元(原名稱：高盛永續智慧經濟基金X股美元)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFJP&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFJQ",
+      "name": "高盛基金Ⅲ-高盛美國高股息基金X股美元(本基金之配息來源可能為本金且並無保證收益及配息)(原名稱：NN(L)美國高股息基金X股美元(本基金之配息來源可能為本金且並無保證收益及配息))",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFJQ&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFJV",
+      "name": "NN(L)歐洲新興市場股票基金X股美元(2022/3/1起暫停報價與交易，2022/6/24清算)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFJV&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFJW",
+      "name": "高盛基金Ⅲ-高盛環球高股息基金X股美元(本基金之配息來源可能為本金且並無保證收益及配息)(原名稱：NN(L)環球高股息基金X股美元(本基金之配息來源可能為本金且並無保證收益及配息))",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFJW&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFJY",
+      "name": "野村中國機會基金",
+      "cur": "OTHER",
+      "value": 18.1,
+      "pct": -6.314699792960657,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFJY&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFJZ",
+      "name": "野村巴西基金",
+      "cur": "OTHER",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFJZ&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFKA",
+      "name": "野村台灣高股息基金(本基金之配息來源可能為本金且並無保證收益及配息)",
+      "cur": "OTHER",
+      "value": 125.3,
+      "pct": 5.347233899445098,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKA&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFKB",
+      "name": "野村平衡基金",
+      "cur": "OTHER",
+      "value": 120.8,
+      "pct": 6.450475854776165,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKB&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFKC",
+      "name": "野村全球生技醫療基金",
+      "cur": "OTHER",
+      "value": 27.23,
+      "pct": -1.3048205871692622,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKC&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFKD",
+      "name": "野村全球品牌基金",
+      "cur": "OTHER",
+      "value": 57.2,
+      "pct": 3.8112522686025434,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKD&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFKE",
+      "name": "野村全球高股息基金累積型新臺幣計價(本基金之配息來源可能為本金且並無保證收益及配息)",
+      "cur": "TWD",
+      "value": 42.13,
+      "pct": 1.6405307599517482,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKE&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFKF",
+      "name": "野村亞太高股息基金累積型新臺幣計價(本基金之配息來源可能為本金且並無保證收益及配息)",
+      "cur": "TWD",
+      "value": 23.19,
+      "pct": -0.21514629948363667,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKF&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFKH",
+      "name": "野村泰國基金",
+      "cur": "OTHER",
+      "value": 43.16,
+      "pct": -0.3693444136657518,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKH&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFKK",
+      "name": "貝萊德日本靈活股票基金 A2 美元",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKK&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFKM",
+      "name": "貝萊德智慧數據環球小型企業基金A2美元(本基金非屬環境、社會及治理相關主題基金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKM&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFKO",
+      "name": "施羅德環球基金系列 - 中國優勢 (美元)A1-累積",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKO&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFKP",
+      "name": "施羅德環球基金系列 - 日本小型公司 (美元)A1-累積",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKP&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFKQ",
+      "name": "施羅德環球基金系列 - 日本股票 (美元避險)A1-累積",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKQ&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFKR",
+      "name": "施羅德環球基金系列 - 日本優勢 (美元避險)A1-累積",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKR&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFKS",
+      "name": "施羅德環球基金系列-印度股票 (美元)A1-累積",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKS&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFKV",
+      "name": "施羅德環球基金系列 - 拉丁美洲 (美元)A1-累積",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKV&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFKW",
+      "name": "施羅德環球基金系列 - 美國大型股 (美元)A1-累積",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKW&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFKX",
+      "name": "施羅德環球基金系列 - 美國中小型股票 (美元)A1-累積",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKX&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFKY",
+      "name": "施羅德環球基金系列 - 香港股票 (美元)A1-累積",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKY&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFKZ",
+      "name": "施羅德環球基金系列 - 策略債券 (美元)A1-累積(本基金有相當比重投資於非投資等級之高風險債券且基金之配息來源可能為本金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKZ&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFLB",
+      "name": "施羅德環球基金系列 - 新興市場 (美元)A1-累積(基金之配息來源可能為本金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFLB&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFLD",
+      "name": "施羅德環球基金系列 - 新興亞洲 (美元)A1-累積",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFLD&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFLE",
+      "name": "施羅德環球基金系列 - 新興歐洲 (美元)A1-累積",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFLE&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFLF",
+      "name": "施羅德環球基金系列 - 歐洲小型公司 (美元)A1-累積",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFLF&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFLI",
+      "name": "施羅德環球基金系列 - 環球收益股票 (美元)A1-累積(基金之配息來源可能為本金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFLI&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFLJ",
+      "name": "施羅德環球基金系列 - 環球能源 (美元)A1-累積",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFLJ&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFLN",
+      "name": "摩根大歐洲基金-累積型(原名稱：摩根大歐洲基金)",
+      "cur": "OTHER",
+      "value": 33.71,
+      "pct": 2.3375834851244783,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFLN&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFLO",
+      "name": "摩根太平洋證券基金",
+      "cur": "OTHER",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFLO&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFLP",
+      "name": "摩根平衡基金",
+      "cur": "OTHER",
+      "value": 103.58,
+      "pct": 5.639979602243755,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFLP&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFLQ",
+      "name": "摩根亞洲增長基金",
+      "cur": "OTHER",
+      "value": 26.9,
+      "pct": 0.0,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFLQ&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFLS",
+      "name": "摩根亞洲基金-一般型(原名稱：摩根亞洲基金)",
+      "cur": "OTHER",
+      "value": 99.9,
+      "pct": 0.33142512805063024,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFLS&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFLT",
+      "name": "摩根亞洲小型企業基金",
+      "cur": "OTHER",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFLT&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFLU",
+      "name": "摩根東方科技基金-累積型(原名稱：摩根東方科技基金)",
+      "cur": "OTHER",
+      "value": 83.42,
+      "pct": -0.2511060624177852,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFLU&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFLW",
+      "name": "摩根絕對日本基金-累積型",
+      "cur": "OTHER",
+      "value": 23.5,
+      "pct": 3.1154014918824084,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFLW&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFLY",
+      "name": "摩根新興日本基金",
+      "cur": "OTHER",
+      "value": 45.56,
+      "pct": 2.867464438925272,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFLY&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFMC",
+      "name": "摩根龍揚基金-累積型",
+      "cur": "OTHER",
+      "value": 56.36,
+      "pct": 0.21337126600284037,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFMC&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFMD",
+      "name": "摩根基金－環球短債基金 - JPM環球短債(美元)- A股(累計)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFMD&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFME",
+      "name": "摩根總收益組合基金-累積型",
+      "cur": "OTHER",
+      "value": 11.9021,
+      "pct": 0.020168575678391153,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFME&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFMF",
+      "name": "摩根金龍收成基金",
+      "cur": "OTHER",
+      "value": 37.76,
+      "pct": 0.15915119363393943,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFMF&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFMH",
+      "name": "聯博-歐洲收益基金 A2股美元(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFMH&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFMI",
+      "name": "貝萊德日本靈活股票基金 A2 日圓",
+      "cur": "JPY",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFMI&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFML",
+      "name": "德銀遠東DWS台灣旗艦基金",
+      "cur": "OTHER",
+      "value": 112.23,
+      "pct": 7.613385751270493,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFML&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFMM",
+      "name": "元大店頭基金",
+      "cur": "OTHER",
+      "value": 40.81,
+      "pct": 8.393094289508642,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFMM&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFMN",
+      "name": "M＆G日本小型股基金A(歐元)",
+      "cur": "EUR",
+      "value": 63.2619,
+      "pct": -1.68,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFMN&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFMP",
+      "name": "元大新中國基金-新台幣",
+      "cur": "TWD",
+      "value": 14.0,
+      "pct": 0.0,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFMP&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFMQ",
+      "name": "元大全球不動產證券化基金(A)-不配息型",
+      "cur": "OTHER",
+      "value": 20.54,
+      "pct": 1.182266009852209,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFMQ&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFMR",
+      "name": "元大全球ETF穩健組合基金",
+      "cur": "OTHER",
+      "value": 22.68,
+      "pct": 1.795332136445236,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFMR&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFMS",
+      "name": "施羅德台灣樂活中小基金-A類型",
+      "cur": "OTHER",
+      "value": 162.82,
+      "pct": 8.713360486078642,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFMS&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFMU",
+      "name": "富蘭克林華美中國傘型基金之中國A股基金-新臺幣",
+      "cur": "TWD",
+      "value": 11.31,
+      "pct": 0.0,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFMU&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFMV",
+      "name": "摩根投資基金－策略總報酬基金 - JPM策略總報酬(歐元)- A股(累計)(本基金有相當比重投資於非投資等級之高風險債券)",
+      "cur": "EUR",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFMV&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFMW",
+      "name": "摩根投資基金－多重收益基金 - JPM多重收益(美元對沖) - A股(累計)(本基金有相當比重投資於非投資等級之高風險債券)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFMW&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFMX",
+      "name": "瀚亞投資-美國特優級債券基金A(美元)",
+      "cur": "USD",
+      "value": 15.134,
+      "pct": -0.24,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFMX&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFMY",
+      "name": "M＆G北美股息基金A(美元)(本基金並無保證收益及配息)",
+      "cur": "USD",
+      "value": 45.7258,
+      "pct": -0.19,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFMY&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFNA",
+      "name": "霸菱歐洲精選信託基金-A類美元累積型",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFNA&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFNB",
+      "name": "霸菱德國增長基金-A類歐元累積型",
+      "cur": "EUR",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFNB&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFNC",
+      "name": "柏瑞環球基金-柏瑞印度股票基金A",
+      "cur": "OTHER",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFNC&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFNE",
+      "name": "柏瑞環球基金-柏瑞日本小型公司股票基金 A3(2024/12/18暫停申購)",
+      "cur": "OTHER",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFNE&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFNL",
+      "name": "元大全球新興市場精選組合基金",
+      "cur": "OTHER",
+      "value": 21.69,
+      "pct": 1.8309859154929604,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFNL&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFNM",
+      "name": "元大大中華價值指數基金-新台幣",
+      "cur": "TWD",
+      "value": 25.702,
+      "pct": 0.3709923067911213,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFNM&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFNN",
+      "name": "M＆G收益優化基金A(美元避險)",
+      "cur": "USD",
+      "value": 12.4901,
+      "pct": -0.45,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFNN&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFNO",
+      "name": "凱基醫院及長照產業基金-新臺幣A",
+      "cur": "TWD",
+      "value": 17.7,
+      "pct": 0.912200684150514,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFNO&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFNP",
+      "name": "凱基醫院及長照產業基金-美元A",
+      "cur": "USD",
+      "value": 16.396,
+      "pct": 0.6161172341000054,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFNP&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFNW",
+      "name": "貝萊德美國增長基金A2 美元",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFNW&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFNY",
+      "name": "野村環球基金-累積類型新臺幣計價",
+      "cur": "TWD",
+      "value": 41.58,
+      "pct": 1.2664393570384707,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFNY&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFNZ",
+      "name": "野村環球基金-美元計價",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFNZ&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFO1",
+      "name": "聯博-全球多元收益基金AD月配級別美元(基金之配息來源可能為本金)_(月配/現金)",
+      "cur": "USD",
+      "value": 9.16,
+      "pct": -0.22,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFO1&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFO2",
+      "name": "瀚亞多重收益優化組合基金B類型-新台幣(本基金得投資於非投資等級之高風險債券基金且配息來源可能為本金)_(月配/現金)",
+      "cur": "TWD",
+      "value": 9.71,
+      "pct": 0.6217616580310932,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFO2&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFO3",
+      "name": "瀚亞多重收益優化組合基金B類型-美元(本基金得投資於非投資等級之高風險債券基金且配息來源可能為本金)_(月配/現金)",
+      "cur": "USD",
+      "value": 8.21,
+      "pct": 0.3667481662591826,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFO3&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFOB",
+      "name": "貝萊德亞洲老虎債券基金 A6 美元 (穩定配息)(基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFOB&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFOG",
+      "name": "富蘭克林華美全球債券組合基金-分配型(本基金之配息來源可能為本金)",
+      "cur": "OTHER",
+      "value": 6.4103,
+      "pct": 0.4261252369538399,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFOG&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFOH",
+      "name": "摩根基金－美國複合收益債券基金 - JPM 美國複合收益債券(美元)－ A股(每月派息)(本基金之配息來源可能為本金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFOH&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFOJ",
+      "name": "摩根基金－環球企業債券基金 - JPM環球企業債券(美元)- A股(每月派息)(本基金之配息來源可能為本金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFOJ&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFOM",
+      "name": "瀚亞投資─亞洲債券基金Aadm(澳幣避險月配)(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)(2026/07/26暫停申購)",
+      "cur": "AUD",
+      "value": 5.791,
+      "pct": -0.03,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFOM&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFON",
+      "name": "瀚亞投資-亞洲債券基金Adm(美元月配)(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)",
+      "cur": "USD",
+      "value": 7.309,
+      "pct": -0.04,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFON&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFOQ",
+      "name": "瀚亞投資-優質公司債基金 Adm(美元月配)(本基金配息來源可能為本金)",
+      "cur": "USD",
+      "value": 9.104,
+      "pct": -0.22,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFOQ&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFOV",
+      "name": "摩根基金－亞太入息基金 - JPM亞太入息(美元)－ A股(每月派息)(本基金之配息來源可能為本金且並無保證收益及配息)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFOV&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFPB",
+      "name": "聯博-美國收益基金 AT股美元(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFPB&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFPC",
+      "name": "聯博-美國收益基金AT股澳幣避險(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)",
+      "cur": "AUD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFPC&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFPE",
+      "name": "高盛基金Ⅲ-高盛投資級公司債基金X股美元(月配息)(本基金之配息來源可能為本金)(原名稱：NN(L)投資級公司債基金X股美元(月配息)(本基金之配息來源可能為本金))(2024/10/07暫停申購)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFPE&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFPL",
+      "name": "高盛基金Ⅲ-高盛投資級公司債基金X股對沖級別澳幣(月配息)(本基金之配息來源可能為本金)(原名稱：NN(L)投資級公司債基金X股對沖級別澳幣(月配息)(本基金之配息來源可能為本金))(2024/10/07暫停申購)",
+      "cur": "AUD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFPL&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFPQ",
+      "name": "元大全球不動產證券化基金(B)-配息型(基金之配息來源可能為本金)",
+      "cur": "OTHER",
+      "value": 12.01,
+      "pct": 1.1794439764111253,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFPQ&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFPT",
+      "name": "貝萊德全球股票收益基金 A6 美元 (穩定配息)(基金之配息來源可能為本金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFPT&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFPU",
+      "name": "貝萊德亞洲老虎債券基金A8多幣別穩定月配息股份-澳幣避險(基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)",
+      "cur": "AUD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFPU&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFQ9",
+      "name": "富蘭克林坦伯頓全球投資系列-穩定月收益基金美元A(Mdis)股(本基金有相當比重投資於非投資等級之高風險債券且基金之配息來源可能為本金)_(月配/現金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFQ9&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFQA",
+      "name": "施羅德環球基金系列 - 環球收益股票 (美元)A1-月配固定(基金之配息來源可能為本金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFQA&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFQD",
+      "name": "瀚亞投資─亞洲當地貨幣債券基金Aadm(澳幣避險月配)(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)(2023/4/7起暫停申購)",
+      "cur": "AUD",
+      "value": 6.278,
+      "pct": 0.27,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFQD&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFQF",
+      "name": "瀚亞投資─美國優質債券基金Aadm(澳幣避險月配)(本基金配息來源可能為本金)",
+      "cur": "AUD",
+      "value": 8.314,
+      "pct": -0.2,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFQF&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFQG",
+      "name": "瀚亞投資─優質公司債基金Aadmc1(澳幣避險穩定月配) (本基金配息來源可能為本金)",
+      "cur": "AUD",
+      "value": 7.061,
+      "pct": -0.21,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFQG&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFQJ",
+      "name": "景順健康護理創新基金A-年配息股 美元",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFQJ&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFQK",
+      "name": "聯博-短期債券基金 AT股美元(基金之配息來源可能為本金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFQK&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFQO",
+      "name": "聯博-歐洲收益基金 AT股歐元(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)",
+      "cur": "EUR",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFQO&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFQQ",
+      "name": "貝萊德亞洲老虎債券基金 A3 美元(基金有相當比重投資於非投資等級之高風險債券)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFQQ&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFQS",
+      "name": "貝萊德美元優質債券基金 A3 美元",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFQS&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFQU",
+      "name": "貝萊德環球政府債券基金 A3 美元",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFQU&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFQV",
+      "name": "野村全球高股息基金季配型新臺幣計價(本基金之配息來源可能為本金且並無保證收益及配息)",
+      "cur": "TWD",
+      "value": 24.14,
+      "pct": 1.5993265993265953,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFQV&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFQW",
+      "name": "野村亞太高股息基金季配型新臺幣計價(本基金之配息來源可能為本金且並無保證收益及配息)",
+      "cur": "TWD",
+      "value": 14.94,
+      "pct": -0.200400801603214,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFQW&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFR1",
+      "name": "安聯收益成長基金-AMg7月收總收益類股(美元)(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)_(月配/現金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFR1&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFR2",
+      "name": "景順多元收益成長基金 A-穩定月配息(美元對沖)股美元(基金之配息來源可能為本金)_(月配/現金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFR2&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFR3",
+      "name": "景順全球科技基金M8月配息型新台幣(基金之配息來源可能為本金)",
+      "cur": "TWD",
+      "value": 17.5,
+      "pct": 3.857566765578626,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFR3&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFR4",
+      "name": "安盛環球基金－最佳收益基金A DIS「fl」美元(避險)(月配息)pf(基金之配息來源可能為本金)",
+      "cur": "USD",
+      "value": 99.26,
+      "pct": 1.43,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFR4&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFR5",
+      "name": "野村基金(愛爾蘭系列)-全球多元收益債券基金(TD美元類股)(本基金之配息來源可能為本金且有相當比重投資於非投資等級之高風險債券且並無保證收益及配息)",
+      "cur": "USD",
+      "value": 71.3668,
+      "pct": -0.17,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFR5&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFR6",
+      "name": "景順環球高評級企業債券基金E-穩定月配息股美元(基金之配息來源可能為本金)_(月配/現金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFR6&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFR7",
+      "name": "M＆G收益優化基金A(美元避險月配)F(本基金配息來源可能為本金)",
+      "cur": "USD",
+      "value": 82.3533,
+      "pct": -0.43,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFR7&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFR8",
+      "name": "安聯美國收益基金-AMg穩定月收總收益類股(美元)(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)_(月配/現金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFR8&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFR9",
+      "name": "施羅德環球基金系列－環球多元收益(美元)A-月配固定(本基金之配息來源可能為本金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFR9&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFRB",
+      "name": "貝萊德世界債券基金 A3 美元(本基金非屬環境、社會及治理相關主題基金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFRB&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFRI",
+      "name": "摩根基金－美國企業成長基金 - JPM 美國企業成長(美元)－ A股(分派)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFRI&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFRQ",
+      "name": "摩根基金－歐洲基金 - JPM 歐洲(美元)－ A股(分派)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFRQ&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFRT",
+      "name": "摩根總收益組合基金-月配息型(本基金之配息來源可能為本金)",
+      "cur": "OTHER",
+      "value": 7.933,
+      "pct": 0.018911933429995042,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFRT&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFRW",
+      "name": "摩根台灣增長基金",
+      "cur": "OTHER",
+      "value": 191.1,
+      "pct": 7.31734711068681,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFRW&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFRX",
+      "name": "摩根新興科技基金-一般型(原名稱：摩根新興科技基金)",
+      "cur": "OTHER",
+      "value": 368.47,
+      "pct": 9.490981487534562,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFRX&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFRY",
+      "name": "宏利環球基金－美元收益基金AA股(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)",
+      "cur": "USD",
+      "value": 1.0335,
+      "pct": -0.2,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFRY&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFRZ",
+      "name": "富蘭克林坦伯頓全球投資系列-新興國家固定收益基金美元A (Qdis)股(本基金有相當比重投資於非投資等級之高風險債券且基金之配息來源可能為本金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFRZ&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFS1",
+      "name": "施羅德環球基金系列－環球收息債券(美元)A-月配固定(本基金有相當比重投資於非投資等級之高風險債券且基金之配息來源可能為本金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFS1&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFS2",
+      "name": "富蘭克林坦伯頓全球投資系列-美元短期票券基金美元A (Mdis)股",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFS2&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFS4",
+      "name": "紐約梅隆美國市政基礎建設債券投資基金-美元A配息(基金之配息來源可能為本金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFS4&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFS5",
+      "name": "景順全球科技基金M8月配息型美元(基金之配息來源可能為本金)",
+      "cur": "USD",
+      "value": 17.46,
+      "pct": 3.620178041543023,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFS5&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFS6",
+      "name": "聯博多元資產收益組合基金-AI類型(美元)(本基金得投資於非投資等級之高風險債券基金且配息來源可能為本金)_(月配/現金)",
+      "cur": "USD",
+      "value": 9.37,
+      "pct": 1.297297297297289,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFS6&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFS7",
+      "name": "聯博多元資產收益組合基金-AI類型(新台幣)(本基金得投資於非投資等級之高風險債券基金且配息來源可能為本金)_(月配/現金)",
+      "cur": "TWD",
+      "value": 6.48,
+      "pct": 1.250000000000001,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFS7&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFS8",
+      "name": "聯博美國多重資產收益基金-AI類型(美元)(本基金得投資於非投資等級之高風險債券且配息來源可能為本金)",
+      "cur": "USD",
+      "value": 11.86,
+      "pct": 1.108269394714399,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFS8&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFS9",
+      "name": "聯博美國多重資產收益基金-AI類型(新台幣)(本基金得投資於非投資等級之高風險債券且配息來源可能為本金)",
+      "cur": "TWD",
+      "value": 8.1,
+      "pct": 1.2499999999999956,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFS9&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFSA",
+      "name": "摩根基金 - 美國複合收益債券基金 - JPM 美國複合收益債券（美元） - A股（分派）(本基金之配息來源可能為本金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFSA&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFSB",
+      "name": "摩根基金－大中華基金 - JPM 大中華(美元)－ A股(分派)(本基金之配息來源可能為本金)(2022/5/16起撤銷核備，無連結於現售保單)",
+      "cur": "USD",
+      "value": 72.82,
+      "pct": 1.39,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFSB&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFSC",
+      "name": "摩根基金－中國基金 - JPM 中國(美元)－ A股(分派)(本基金之配息來源可能為本金)",
+      "cur": "USD",
+      "value": 74.96,
+      "pct": -0.36,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFSC&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFSD",
+      "name": "景順全球科技基金",
+      "cur": "OTHER",
+      "value": 85.54,
+      "pct": 3.8610976202039913,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFSD&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFSE",
+      "name": "摩根基金－俄羅斯基金 - JPM 俄羅斯(美元)－ A股(分派)(本基金之配息來源可能為本金)(2022/3/1起暫停報價與交易)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFSE&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFSF",
+      "name": "景順環球非投資等級債券基金A-半年配息股 美元(本基金主要投資於符合美國Rule 144A 規定之私募性質債券，且基金之配息來源可能為本金，本基金非屬環境、社會、治理相關主題基金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFSF&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFSH",
+      "name": "摩根投資基金－多重收益基金 - JPM多重收益(美元對沖) - A股(每月派息)(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)_(月配/現金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFSH&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFSL",
+      "name": "瀚亞投資-美國特優級債券基金Adm(美元月配)(本基金配息來源可能為本金)",
+      "cur": "USD",
+      "value": 9.463,
+      "pct": -0.23,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFSL&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFSM",
+      "name": "霸菱大東協基金-A類美元配息型",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFSM&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFSN",
+      "name": "霸菱歐洲精選信託基金-A類歐元配息型",
+      "cur": "EUR",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFSN&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFSR",
+      "name": "霸菱亞洲增長基金-A類 美元配息型",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFSR&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFSS",
+      "name": "霸菱全球新興市場基金-A類美元配息型",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFSS&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFSV",
+      "name": "宏利環球基金-印度股票基金AA股",
+      "cur": "OTHER",
+      "value": 3.301,
+      "pct": -0.12,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFSV&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFT1",
+      "name": "聯博美國成長入息基金-AI類型(新台幣)(本基金配息來源可能為本金且並無保證收益及配息)_(月配/現金)",
+      "cur": "TWD",
+      "value": 11.55,
+      "pct": 1.7621145374449434,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFT1&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFT2",
+      "name": "聯博美國成長入息基金-AI類型(美元)(本基金配息來源可能為本金且並無保證收益及配息)_(月配/現金)",
+      "cur": "USD",
+      "value": 15.09,
+      "pct": 1.547779273216692,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFT2&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFT3",
+      "name": "M＆G入息基金A(美元避險月配)F(本基金配息來源可能為本金且並無保證收益及配息)_(月配/現金)",
+      "cur": "USD",
+      "value": 77.1342,
+      "pct": -0.51,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFT3&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFT4",
+      "name": "安聯AI收益成長多重資產基金-B類型(月配息)-美元(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)_(月配/現金)",
+      "cur": "USD",
+      "value": 12.66,
+      "pct": 2.5101214574898827,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFT4&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFT5",
+      "name": "安聯AI收益成長多重資產基金-B類型(月配息)-新臺幣(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)",
+      "cur": "TWD",
+      "value": 12.82,
+      "pct": 2.8067361668003175,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFT5&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFT6",
+      "name": "貝萊德世界金融基金 A10美元(總報酬穩定配息)(基金之配息來源可能為本金)_(月配/現金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFT6&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFT7",
+      "name": "貝萊德美國價值型基金A10美元(總報酬穩定配息)(基金之配息來源可能為本金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFT7&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFT8",
+      "name": "貝萊德環球資產配置基金A10美元(總報酬穩定配息)(基金之配息來源可能為本金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFT8&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFT9",
+      "name": "施羅德全週期成長多重資產基金(新台幣)-配息型(本基金有相當比重投資於非投資等級之高風險債券且基金之配息來源可能為本金)_(月配/現金)",
+      "cur": "TWD",
+      "value": 11.06,
+      "pct": 1.189387008234225,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFT9&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFTA",
+      "name": "貝萊德全球智慧數據股票入息基金A6 美元(基金之配息來源可能為本金且並無保證收益及配息)_(月配/現金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFTA&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFTB",
+      "name": "景順印度股票基金A-年配息股美元",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFTB&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFTC",
+      "name": "摩根投資基金 - 多重收益基金 - JPM多重收益(美元對沖) - A股(每季派息)(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFTC&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFTD",
+      "name": "摩根投資基金 - 多重收益基金 - JPM多重收益(澳幣對沖) - A股(利率入息)(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)_(月配/現金)",
+      "cur": "AUD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFTD&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFTI",
+      "name": "聯博-美國收益基金AA(穩定月配)級別美元(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)_(月配/現金)",
+      "cur": "USD",
+      "value": 8.81,
+      "pct": -0.79,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFTI&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFTJ",
+      "name": "聯博-美國收益基金AA(穩定月配)澳幣避險級別(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)_(月配/現金)",
+      "cur": "AUD",
+      "value": 8.3,
+      "pct": -0.95,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFTJ&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFTK",
+      "name": "聯博-全球靈活收益基金AT級別美元(基金之配息來源可能為本金)",
+      "cur": "USD",
+      "value": 15.25,
+      "pct": -0.39,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFTK&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFTM",
+      "name": "聯博-房貸收益基金AA(穩定月配)級別美元(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)_(月配/現金)",
+      "cur": "USD",
+      "value": 9.24,
+      "pct": -0.65,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFTM&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFTO",
+      "name": "安聯收益成長基金-AM穩定月收類股(美元)(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)_(月配/現金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFTO&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFTP",
+      "name": "安聯收益成長基金-AM穩定月收類股(歐元避險)(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)_(月配/現金)",
+      "cur": "EUR",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFTP&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFTQ",
+      "name": "安聯收益成長基金-AM穩定月收類股(澳幣避險)(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)_(月配/現金)",
+      "cur": "AUD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFTQ&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFTS",
+      "name": "安聯歐洲高息股票基金-AM穩定月收類股(美元避險)(本基金之配息來源可能為本金且無保證收益及配息)_(月配/現金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFTS&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFU2",
+      "name": "施羅德環球基金系列-環球收息債券(美元)A-穩定月配(本基金有相當比重投資於非投資等級之高風險債券且基金之配息來源可能為本金)_(月配/單位數_僅供一生傳富、招財進保、世紀贏家商品連結)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFU2&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFU4",
+      "name": "摩根投資基金-多重收益基金-JPM多重收益(美元對沖)-A股(利率入息)(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFU4&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFU5",
+      "name": "摩根投資基金-多重收益基金-JPM多重收益(美元對沖)-A股(穩定月配)(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)_(月配/現金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFU5&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFU6",
+      "name": "聯博-美國成長基金AP(總報酬月配)級別美元(基金之配息來源可能為本金)_(月配/現金)",
+      "cur": "USD",
+      "value": 71.95,
+      "pct": -0.22,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFU6&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFU7",
+      "name": "瀚亞投資-全球價值股票基金Admc1(美元穩定月配)(本基金配息來源可能為本金)",
+      "cur": "USD",
+      "value": 17.23,
+      "pct": -0.08,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFU7&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFU8",
+      "name": "瀚亞策略印度傘型基金之印度策略收益平衡基金B類型新台幣(本子基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)",
+      "cur": "TWD",
+      "value": 5.8,
+      "pct": 0.5199306759098831,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFU8&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFVU",
+      "name": "貝萊德ESG社會責任多元資產基金A8多幣別穩定月配息股份-美元幣避險(基金之配息來源可能為本金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFVU&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFVX",
+      "name": "凱基收益成長多重資產基金-新臺幣B(月配)(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)_(月配/現金)",
+      "cur": "TWD",
+      "value": 9.4048,
+      "pct": 1.8629234901655036,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFVX&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFVY",
+      "name": "凱基收益成長多重資產基金-美元B(月配)(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)_(月配/現金)",
+      "cur": "USD",
+      "value": 9.8007,
+      "pct": 1.7292741408123307,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFVY&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFVZ",
+      "name": "合庫標普利變特別股收益指數基金B類型(新台幣)(本基金之配息可能涉及本金)",
+      "cur": "TWD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFVZ&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFW1",
+      "name": "摩根基金－環球債券收益基金 - JPM環球債券收益(美元) - A股(每月派息)(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)_(月配/現金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFW1&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFW2",
+      "name": "安聯智慧城市收益基金-AMf2固定月配類股(美元)(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)_(月配/現金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFW2&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFW3",
+      "name": "安聯全球收益成長基金-AMf2固定月配類股(美元)(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)_(月配/現金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFW3&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFW4",
+      "name": "駿利亨德森資產管理基金 - 駿利亨德森平衡基金 A6 穩月配美元 (本基金某些股份類別之配息來源可能為本金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFW4&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFW5",
+      "name": "野村全球金融收益基金-月配類型美元計價(本基金之配息來源可能為本金且並無保證收益及配息)",
+      "cur": "USD",
+      "value": 7.5785,
+      "pct": -0.1949086694849426,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFW5&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFW6",
+      "name": "野村全球金融收益基金-月配類型新臺幣計價(本基金之配息來源可能為本金且並無保證收益及配息)",
+      "cur": "TWD",
+      "value": 7.23,
+      "pct": -0.029037209109381044,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFW6&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFW7",
+      "name": "施羅德環球基金系列－環球收益成長(美元)A-月配固定2 (本基金有相當比重投資於非投資等級之高風險債券且基金之配息來源可能為本金)_(月配/現金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFW7&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFW8",
+      "name": "聯博-新興市場多元收益基金AD月配級別美元 (本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)",
+      "cur": "USD",
+      "value": 14.34,
+      "pct": 0.63,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFW8&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFW9",
+      "name": "聯博-新興市場優化波動股票基金AD月配級別美元(基金之配息來源可能為本金)",
+      "cur": "USD",
+      "value": 17.34,
+      "pct": 0.64,
+      "date": "2026/07/31",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFW9&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFWA",
+      "name": "合庫標普利變特別股收益指數基金B類型(美元)(本基金之配息可能涉及本金)",
+      "cur": "USD",
+      "value": 7.36,
+      "pct": 0.40927694406548765,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFWA&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFWI",
+      "name": "霸菱綠色趨勢全權委託管理帳戶(美元)(現金撥回)(全權委託帳戶之資產撥回機制來源可能為本金)(撥回率或撥回金額非固定)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFWI&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFWL",
+      "name": "安聯收益成長多重資產基金-B類型(月配息)-新臺幣(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)_(月配/現金)",
+      "cur": "TWD",
+      "value": 8.38,
+      "pct": 1.085645355850442,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFWL&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFWM",
+      "name": "安聯特別收益多重資產基金- B類型(月配息)-美元(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)_(月配/現金)",
+      "cur": "USD",
+      "value": 7.55,
+      "pct": -0.39577836411609824,
+      "date": "2026/07/30",
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFWM&b=01&shell=Y",
+      "ok": true
+    },
+    {
+      "tf": "TFWN",
+      "name": "安聯美國收益基金-AM穩定月收類股(美元)(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)_(月配/現金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFWN&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFWO",
+      "name": "安聯全球永續發展基金-A配息類股(美元)(基金之配息來源可能為本金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFWO&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFWR",
+      "name": "凱基富利人生全權委託管理帳戶(美元)(現金撥回)(全權委託帳戶之資產撥回機制來源可能為本金)(撥回率或撥回金額非固定)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFWR&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFWU",
+      "name": "瀚亞享鑫全權委託管理帳戶-N1級別(美元)(全權委託帳戶之資產撥回機制來源可能為本金)(撥回率或撥回金額非固定)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFWU&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFWV",
+      "name": "瀚亞新收益全權委託管理帳戶-N1級別(美元)(全權委託帳戶之資產撥回機制來源可能為本金)(撥回率或撥回金額非固定)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFWV&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFX3",
+      "name": "元大台灣高股息基金(本基金之配息來源可能為收益平準金且並無保證收益及配息)",
+      "cur": "OTHER",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFX3&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFX4",
+      "name": "元大美國政府1至3年期債券ETF基金(本基金之配息來源可能為收益平準金)",
+      "cur": "OTHER",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFX4&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFX5",
+      "name": "凱基台灣優選高股息30ETF基金(基金之配息來源可能為收益平準金且無保證收益及配息)",
+      "cur": "OTHER",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFX5&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFX6",
+      "name": "凱基全球菁英55_ETF基金",
+      "cur": "OTHER",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFX6&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFX7",
+      "name": "凱基全球10年期以上美元A級公司債券ETF基金(基金之配息來源可能為收益平準金)",
+      "cur": "USD",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFX7&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFX8",
+      "name": "凱基優選台灣AI_50_ETF基金(基金之配息來源可能為收益平準金)",
+      "cur": "OTHER",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFX8&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFX9",
+      "name": "凱基台灣優選30_ETF基金(基金之配息來源可能為收益平準金)",
+      "cur": "OTHER",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFX9&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFXT",
+      "name": "Invesco納斯達克100指數ETF",
+      "cur": "OTHER",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFXT&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFXU",
+      "name": "ISHARES歐洲ETF",
+      "cur": "OTHER",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFXU&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFXV",
+      "name": "Vanguard全世界股票ETF",
+      "cur": "OTHER",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFXV&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFXW",
+      "name": "VanguardS＆P500_ETF",
+      "cur": "OTHER",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFXW&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFXX",
+      "name": "SPDR標普500指數ETF",
+      "cur": "OTHER",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFXX&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFXY",
+      "name": "元大台灣卓越50指數基金",
+      "cur": "OTHER",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFXY&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFY3",
+      "name": "富邦台灣科技指數證券投資信託基金(本基金之配息來源可能為收益平準金)",
+      "cur": "OTHER",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFY3&b=01&shell=Y",
+      "ok": false
+    },
+    {
+      "tf": "TFY4",
+      "name": "凱基台灣TOP50_ETF證券投資信託基金",
+      "cur": "OTHER",
+      "value": null,
+      "pct": null,
+      "date": null,
+      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFY4&b=01&shell=Y",
+      "ok": false
+    }
+  ]
+}
