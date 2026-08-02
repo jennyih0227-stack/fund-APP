@@ -64,6 +64,9 @@
   .pcell .pl{font-size:10px; color:#8a8270}
   .pcell .pv{font-family:var(--num); font-weight:900; font-size:13px; margin-top:1px}
   .pcell.hl{outline:2px solid var(--gold)}
+  .psrc{display:none; padding:1px 12px 8px 40px; font-size:10px; color:#8a8270}
+  .row.open .psrc{display:block}
+  .tag.t-ext{background:#dfe6f2; color:#33507e}
   .star{font-size:20px; line-height:1; color:#c9c0aa; cursor:pointer; width:24px; text-align:center; flex:0 0 auto; user-select:none}
   .row.fav .star{color:var(--gold)}
   .rank{position:absolute; left:6px; top:6px; font-family:var(--num); font-size:10px; font-weight:900; color:var(--gold-d)}
@@ -180,7 +183,7 @@ function render(){
   rows.forEach((f,idx)=>{
     const favc=fav.has(f.tf)?'fav':'', star=fav.has(f.tf)?'★':'☆';
     const rankBadge=sortK?`<div class="rank">#${idx+1}</div>`:'';
-    const tags=`${f.rr?`<span class="tag t-rr">${f.rr}</span>`:''}${f.dist==='配息'?`<span class="tag t-dist">配息</span>`:''}`;
+    const tags=`${f.rr?`<span class="tag t-rr">${f.rr}</span>`:''}${f.dist==='配息'?`<span class="tag t-dist">配息</span>`:''}${f.src==='moneydj'?`<span class="tag t-ext">MoneyDJ</span>`:''}`;
     const hasPerf=f.perf && Object.keys(f.perf).length>0;
     let right;
     if(sortK){
@@ -198,6 +201,7 @@ function render(){
         const v=f.perf[k]; const cls=v==null?'flat':(v>0?'up':(v<0?'down':'flat')); const hl=(k===sortK)?' hl':'';
         return `<div class="pcell${hl}"><div class="pl">${PERF_LABEL[k]}</div><div class="pv ${cls}">${v==null?'—':(v>0?'+':'')+v.toFixed(2)+'%'}</div></div>`;
       }).join('')+'</div>';
+      if(f.src==='moneydj') grid+='<div class="psrc">績效來源：MoneyDJ（此檔淨值請點右方「查看」）</div>';
     }
     const openc=(sortK && hasPerf)?' open':'';
     html+=`<div class="row ${favc}${openc}" data-tf="${f.tf}">${rankBadge}

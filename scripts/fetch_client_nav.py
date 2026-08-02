@@ -88,6 +88,70 @@ def nav_tbcd(code):
         return None, None, None
 
 
+# ---- 方向B：外部權威來源 MoneyDJ 補 link-only 基金的六期績效（只接受完全同名）----
+MDJ_URL = "https://www.moneydj.com/FundSearchSVC/api/Data/SearchResult"
+MDJ_FUND = "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a="
+ANNOT = ("本基金", "配息來源", "暫停", "停止", "原名稱", "適格", "交易所", "槓桿", "策略交易",
+         "風險", "說明", "起暫", "本金", "適用", "持有", "環境", "治理")
+CUR_KW = {"USD": "美元", "EUR": "歐元", "TWD": "台幣", "RMB": "人民幣", "JPY": "日圓",
+          "GBP": "英鎊", "AUD": "澳幣", "ZAR": "南非幣"}
+
+
+def _norm(s):
+    s = (s or "").replace("（", "(").replace("）", ")").replace("－", "-").replace("—", "-").replace("　", "")
+    def drop(m):
+        inner = m.group(1)
+        if any(k in inner for k in ANNOT) or len(inner) > 8 or re.search(r"\d{4}/\d", inner):
+            return ""
+        return m.group(0)
+    s = re.sub(r"\(([^()]*)\)", drop, s)
+    s = s.replace("累計", "累積").replace("累计", "累積")
+    s = re.sub(r"-\s*JPM[^-(]*(\([^)]*\))", r"\1", s)
+    s = re.sub(r"-\s*JPM[^-(]*", "", s)
+    s = s.replace("股", "")
+    return re.sub(r"[\-－\s]+", "", s).lower()
+
+
+def _norm_nocur(s):
+    return re.sub(r"\((?:美元|歐元|台幣|新臺幣|人民幣|日圓|英鎊|澳幣|南非幣|紐幣|港幣)[^)]*\)", "", _norm(s))
+
+
+def enrich_with_moneydj(funds):
+    from collections import defaultdict
+    r = S.post(MDJ_URL, data=json.dumps({"pg": 0, "pc": 1, "rc": 10000, "dg": 0, "sa": 0, "z": 1}),
+               headers={"Content-Type": "application/json", "Origin": "https://www.moneydj.com",
+                        "Referer": "https://www.moneydj.com/funddjx/fundsearch.xdjhtm"}, timeout=60)
+    data = r.json()["Data"]
+    full = defaultdict(list); nocur = defaultdict(list)
+    for d in data:
+        full[_norm(d["V2"])].append(d); nocur[_norm_nocur(d["V2"])].append(d)
+    fmap = {k: v[0] for k, v in full.items() if len({x["V1"] for x in v}) == 1}
+
+    def to_f(x):
+        try: return round(float(x), 2)
+        except Exception: return None
+
+    n = 0
+    for f in funds:
+        if f["ok"] or f["perf"]:
+            continue
+        d = fmap.get(_norm(f["name"]))
+        if not d:  # 第二輪：去幣別 + 幣別確認
+            cands = nocur.get(_norm_nocur(f["name"]), [])
+            kw = CUR_KW.get(f.get("cur"))
+            if kw:
+                cands = [c for c in cands if kw in c["V2"]]
+            if len({c["V1"] for c in cands}) == 1:
+                d = cands[0]
+        if d:
+            perf = {"m1": to_f(d["V7"]), "m3": to_f(d["V8"]), "m6": to_f(d["V9"]),
+                    "m12": to_f(d["V10"]), "m36": to_f(d["V12"]), "m60": to_f(d["V13"])}
+            f["perf"] = {k: v for k, v in perf.items() if v is not None}
+            f["date"] = d["V3"]; f["src"] = "moneydj"; f["link"] = MDJ_FUND + d["V1"]
+            n += 1
+    print(f"MoneyDJ 補進六期績效：{n} 檔")
+
+
 def main():
     master = json.load(open(MASTER, encoding="utf-8"))
     if LIMIT:
@@ -98,7 +162,7 @@ def main():
         rec = {"tf": m["tf"], "name": m["name"], "cur": m.get("cur", "OTHER"),
                "rr": None, "dist": dist_flag(m["name"]), "typ": None,
                "value": None, "pct": None, "date": None, "perf": {},
-               "link": m["link"], "ok": False}
+               "link": m["link"], "ok": False, "src": None}
         src = m.get("navsrc")
         try:
             if src in ("wb01", "tbcd"):
@@ -116,8 +180,15 @@ def main():
             print(f"  {i}/{len(master)} 已抓 {ok}")
         time.sleep(0.05)
 
+    try:
+        enrich_with_moneydj(funds)
+    except Exception as e:
+        print("MoneyDJ 補值失敗（略過）:", e)
+
+    perf_cnt = sum(1 for f in funds if f["perf"])
     payload = {"updated_at": datetime.now(TW).strftime("%Y/%m/%d %H:%M"),
-               "product": "凱基人壽 鑫鑫向榮", "total": len(funds), "priced": ok, "funds": funds}
+               "product": "凱基人壽 鑫鑫向榮", "total": len(funds), "priced": ok,
+               "perf_count": perf_cnt, "funds": funds}
     json.dump(payload, open(OUTPUT, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     print(f"完成：{ok}/{len(funds)} 檔有淨值，已寫入 {OUTPUT}")
 

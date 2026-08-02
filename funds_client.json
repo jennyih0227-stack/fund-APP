@@ -1,8 +1,9 @@
 {
-  "updated_at": "2026/08/02 16:23",
+  "updated_at": "2026/08/02 20:49",
   "product": "凱基人壽 鑫鑫向榮",
   "total": 396,
   "priced": 176,
+  "perf_count": 322,
   "funds": [
     {
       "tf": "TF11",
@@ -23,7 +24,8 @@
         "m60": 113.71
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF11&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TF14",
@@ -44,7 +46,8 @@
         "m60": 52.21
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF14&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TF15",
@@ -65,7 +68,8 @@
         "m60": 35.54
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF15&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TF16",
@@ -86,7 +90,8 @@
         "m60": 41.12
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF16&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TF17",
@@ -107,7 +112,8 @@
         "m60": 62.74
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF17&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TF18",
@@ -128,7 +134,8 @@
         "m60": 38.51
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF18&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TF19",
@@ -149,7 +156,8 @@
         "m60": 47.29
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF19&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TF1Y",
@@ -170,7 +178,8 @@
         "m60": 47.45
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF1Y&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TF1Z",
@@ -181,10 +190,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF1Z&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": -20.68,
+        "m3": 2.08,
+        "m6": 27.17,
+        "m12": 59.31,
+        "m36": 122.69,
+        "m60": 148.1
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=ACKG22",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TF2A",
@@ -205,7 +222,8 @@
         "m60": 25.85
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF2A&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TF2B",
@@ -226,7 +244,8 @@
         "m60": 50.76
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF2B&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TF2E",
@@ -247,7 +266,8 @@
         "m60": 207.22
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF2E&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TF2H",
@@ -258,10 +278,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF2H&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": -23.28,
+        "m3": 5.34,
+        "m6": 16.85,
+        "m12": 56.89,
+        "m36": 93.39,
+        "m60": 32.43
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=JFZ57",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TF2L",
@@ -272,10 +300,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF2L&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": -2.42,
+        "m3": 1.27,
+        "m6": 0.7,
+        "m12": 6.22,
+        "m36": 56.44,
+        "m60": 19.36
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=JFZG7",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TF2O",
@@ -296,7 +332,8 @@
         "m60": 295.26
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF2O&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TF2R",
@@ -317,7 +354,8 @@
         "m60": 61.98
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF2R&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TF2S",
@@ -328,10 +366,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF2S&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -0.21,
+        "m3": 2.04,
+        "m6": 1.13,
+        "m12": 10.9,
+        "m36": 20.63,
+        "m60": 11.26
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=TLZF7",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TF2V",
@@ -342,10 +388,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF2V&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -1.3,
+        "m3": 0.8,
+        "m6": -0.28,
+        "m12": 1.53,
+        "m36": 13.24,
+        "m60": -8.83
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=TLZE7",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TF35",
@@ -366,7 +420,8 @@
         "m60": 215.76
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF35&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TF36",
@@ -377,10 +432,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF36&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": 2.91,
+        "m3": 5.45,
+        "m6": 5.52,
+        "m12": 15.05,
+        "m36": 41.53,
+        "m60": 39.35
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=PYZY8",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TF37",
@@ -391,10 +454,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF37&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": 0.35,
+        "m3": 0.92,
+        "m6": 1.78,
+        "m12": 3.77,
+        "m36": 14.1,
+        "m60": 18.74
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=FLZB0",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TF39",
@@ -415,7 +486,8 @@
         "m60": 5.67
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF39&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TF3A",
@@ -436,7 +508,8 @@
         "m60": 5.85
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF3A&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TF3E",
@@ -457,7 +530,8 @@
         "m60": 451.18
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF3E&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TF3F",
@@ -468,10 +542,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF3F&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": -1.37,
+        "m3": -2.94,
+        "m6": -3.19,
+        "m12": 4.1,
+        "m36": 44.12,
+        "m60": 50.36
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=AIZ34",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TF3G",
@@ -482,10 +564,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF3G&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": -2.38,
+        "m3": 1.01,
+        "m6": 5.96,
+        "m12": 11.74,
+        "m36": 56.64,
+        "m60": 37.54
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=PYZA06",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TF3H",
@@ -496,10 +586,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF3H&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": -3.71,
+        "m3": -3.65,
+        "m6": 1.99,
+        "m12": 16.52,
+        "m36": 31.72,
+        "m60": 15.78
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=PYZZ9",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TF3I",
@@ -520,7 +618,8 @@
         "m60": 37.35
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF3I&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TF3J",
@@ -541,7 +640,8 @@
         "m60": -0.25
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF3J&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TF3K",
@@ -562,7 +662,8 @@
         "m60": 37.01
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF3K&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TF3L",
@@ -583,7 +684,8 @@
         "m60": 279.02
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF3L&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TF3M",
@@ -604,7 +706,8 @@
         "m60": 354.56
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF3M&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TF3Q",
@@ -625,7 +728,8 @@
         "m60": 43.57
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF3Q&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TF3R",
@@ -636,10 +740,17 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF3R&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": 4.01,
+        "m3": -4.29,
+        "m6": -11.67,
+        "m12": 60.16,
+        "m36": 64.23
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=TLZN1",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TF3S",
@@ -660,7 +771,8 @@
         "m60": 300.18
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF3S&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TF3T",
@@ -681,7 +793,8 @@
         "m60": 418.41
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF3T&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TF3W",
@@ -702,7 +815,8 @@
         "m60": 340.49
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF3W&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TF3X",
@@ -713,10 +827,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF3X&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": 0.31,
+        "m3": 0.91,
+        "m6": 1.78,
+        "m12": 3.83,
+        "m36": 14.41,
+        "m60": 19.2
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=FTZI1",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TF3Y",
@@ -737,7 +859,8 @@
         "m60": -5.6
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF3Y&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TF40",
@@ -758,7 +881,8 @@
         "m60": 5.69
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF40&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TF42",
@@ -779,7 +903,8 @@
         "m60": 321.52
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF42&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TF43",
@@ -790,10 +915,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF43&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -1.18,
+        "m3": -0.47,
+        "m6": -1.9,
+        "m12": 7.41,
+        "m36": 20.24,
+        "m60": 11.87
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=FLZA7",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TF44",
@@ -814,7 +947,8 @@
         "m60": 90.74
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF44&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TF45",
@@ -835,7 +969,8 @@
         "m60": 333.32
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF45&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TF46",
@@ -856,7 +991,8 @@
         "m60": -6.43
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF46&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TF63",
@@ -877,7 +1013,8 @@
         "m60": 37.7
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF63&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TF65",
@@ -898,7 +1035,8 @@
         "m60": -5.6
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF65&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TF66",
@@ -919,7 +1057,8 @@
         "m60": -6.42
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF66&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TF6A",
@@ -940,7 +1079,8 @@
         "m60": 12.91
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF6A&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TF6B",
@@ -951,10 +1091,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF6B&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -0.34,
+        "m3": 0.66,
+        "m6": 0.21,
+        "m12": 3.28,
+        "m36": 18.63,
+        "m60": 16.36
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=TLZD7",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TF6C",
@@ -975,7 +1123,8 @@
         "m60": -3.27
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF6C&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TF6D",
@@ -996,7 +1145,8 @@
         "m60": -0.13
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF6D&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TF6E",
@@ -1017,7 +1167,8 @@
         "m60": 1.01
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF6E&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TF6F",
@@ -1038,7 +1189,8 @@
         "m60": 32.67
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF6F&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TF6G",
@@ -1049,10 +1201,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF6G&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -0.73,
+        "m3": 0.76,
+        "m6": 0.15,
+        "m12": 3.86,
+        "m36": 21.69,
+        "m60": 11.21
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=FTZX0",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TF6H",
@@ -1063,10 +1223,17 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF6H&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": 1.62,
+        "m3": 4.87,
+        "m6": 4.52,
+        "m12": 15.58,
+        "m36": 52.42
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=FTZA40",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TF6J",
@@ -1077,10 +1244,17 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF6J&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": 0.31,
+        "m3": 0.91,
+        "m6": 1.78,
+        "m12": 3.83,
+        "m36": 14.38
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=FTZA75",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TF6K",
@@ -1101,7 +1275,8 @@
         "m60": 59.95
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF6K&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TF6M",
@@ -1112,10 +1287,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF6M&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": 3.45,
+        "m3": 6.54,
+        "m6": 9.58,
+        "m12": 15.53,
+        "m36": 60.69,
+        "m60": 79.4
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=CTZJ3",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TF6N",
@@ -1126,10 +1309,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF6N&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -4.22,
+        "m3": 1.72,
+        "m6": 4.2,
+        "m12": 15.62,
+        "m36": 31.08,
+        "m60": 2.98
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=CTZG0",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TF6P",
@@ -1140,10 +1331,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF6P&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -4.12,
+        "m3": 1.84,
+        "m6": 4.36,
+        "m12": 15.71,
+        "m36": 31.2,
+        "m60": 3.17
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=CTZH1",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TF6Q",
@@ -1154,10 +1353,17 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF6Q&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": 1.74,
+        "m3": 8.83,
+        "m6": 8.67,
+        "m12": 33.17,
+        "m36": 55.37
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=CTZQ5",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TF6R",
@@ -1178,7 +1384,8 @@
         "m60": 6.08
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF6R&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TF6W",
@@ -1189,10 +1396,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF6W&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": 0.78,
+        "m3": 2.33,
+        "m6": 4.97,
+        "m12": 11.8,
+        "m36": 51.88,
+        "m60": 45.82
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=FLZ06",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFA1",
@@ -1203,10 +1418,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFA1&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -6.26,
+        "m3": 0.33,
+        "m6": 22.57,
+        "m12": 32.73,
+        "m36": 96.69,
+        "m60": 91.77
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=CTZH8",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFA2",
@@ -1217,10 +1440,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFA2&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": 1.48,
+        "m3": 2.3,
+        "m6": 0.0,
+        "m12": -2.4,
+        "m36": 33.78,
+        "m60": 34.27
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=CTZJ1",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFA3",
@@ -1231,10 +1462,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFA3&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -14.86,
+        "m3": -4.61,
+        "m6": -5.15,
+        "m12": -0.77,
+        "m36": 41.89,
+        "m60": -9.46
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=ISZ04",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFA4",
@@ -1248,7 +1487,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFA4&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFA5",
@@ -1259,10 +1499,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFA5&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": -2.96,
+        "m3": 4.43,
+        "m6": 4.72,
+        "m12": 4.37,
+        "m36": 11.25,
+        "m60": 1.36
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=JFZG5",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFA6",
@@ -1273,10 +1521,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFA6&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": -15.42,
+        "m3": 0.49,
+        "m6": 3.18,
+        "m12": 8.02,
+        "m36": 66.32,
+        "m60": 44.97
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=JFZG4",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFA7",
@@ -1287,10 +1543,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFA7&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": 0.71,
+        "m3": 9.77,
+        "m6": 3.31,
+        "m12": 20.16,
+        "m36": 16.99,
+        "m60": 10.13
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=JFZD2",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFA8",
@@ -1311,7 +1575,8 @@
         "m60": 9.86
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFA8&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFA9",
@@ -1332,7 +1597,8 @@
         "m60": 14.99
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFA9&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFAD",
@@ -1346,7 +1612,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFAD&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFAI",
@@ -1367,7 +1634,8 @@
         "m60": 50.67
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFAI&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFAN",
@@ -1388,7 +1656,8 @@
         "m60": 80.05
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFAN&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFAO",
@@ -1409,7 +1678,8 @@
         "m60": 13.23
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFAO&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFAP",
@@ -1420,10 +1690,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFAP&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": 2.3,
+        "m3": -3.39,
+        "m6": -8.26,
+        "m12": 23.52,
+        "m36": 6.83,
+        "m60": 25.01
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=SHZ17",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFAQ",
@@ -1434,10 +1712,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFAQ&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -1.49,
+        "m3": -15.88,
+        "m6": -24.84,
+        "m12": 47.85,
+        "m36": 147.2,
+        "m60": 110.12
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=SHZ18",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFAR",
@@ -1458,7 +1744,8 @@
         "m60": 30.41
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFAR&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFAS",
@@ -1479,7 +1766,8 @@
         "m60": 9.0
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFAS&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFAT",
@@ -1490,10 +1778,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFAT&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": 1.32,
+        "m3": 0.85,
+        "m6": 0.49,
+        "m12": 7.85,
+        "m36": 7.56,
+        "m60": 1.93
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=FLZ68",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFAY",
@@ -1507,7 +1803,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFAY&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFB1",
@@ -1528,7 +1825,8 @@
         "m60": 42.64
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFB1&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFB2",
@@ -1539,10 +1837,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFB2&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -2.47,
+        "m3": 1.19,
+        "m6": 3.61,
+        "m12": 9.64,
+        "m36": 32.88,
+        "m60": 24.47
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=TLZ63",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFB3",
@@ -1553,10 +1859,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFB3&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -0.39,
+        "m3": 8.36,
+        "m6": 2.19,
+        "m12": 0.03,
+        "m36": 3.69,
+        "m60": -9.76
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=TLZA2",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFBB",
@@ -1567,10 +1881,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFBB&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -7.99,
+        "m3": 1.47,
+        "m6": 9.19,
+        "m12": 38.51,
+        "m36": 43.87,
+        "m60": 8.83
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=SHZ16",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFBC",
@@ -1581,10 +1903,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFBC&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -1.46,
+        "m3": 2.31,
+        "m6": 2.08,
+        "m12": 12.38,
+        "m36": 37.81,
+        "m60": 25.73
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=SHZB2",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFBD",
@@ -1598,7 +1928,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFBD&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFBE",
@@ -1619,7 +1950,8 @@
         "m60": 51.46
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFBE&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFBF",
@@ -1640,7 +1972,8 @@
         "m60": 231.81
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFBF&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFBG",
@@ -1661,7 +1994,8 @@
         "m60": 16.08
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFBG&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFBH",
@@ -1672,10 +2006,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFBH&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": 3.06,
+        "m3": 0.25,
+        "m6": -1.17,
+        "m12": 13.45,
+        "m36": 51.33,
+        "m60": 18.66
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=FLZA0",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFBI",
@@ -1696,7 +2038,8 @@
         "m60": 121.82
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFBI&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFBK",
@@ -1717,7 +2060,8 @@
         "m60": 45.95
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFBK&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFBL",
@@ -1738,7 +2082,8 @@
         "m60": 33.83
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFBL&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFBW",
@@ -1759,7 +2104,8 @@
         "m60": 32.57
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFBW&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFCF",
@@ -1770,10 +2116,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFCF&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": 1.84,
+        "m3": 10.23,
+        "m6": 10.97,
+        "m12": 19.69,
+        "m36": 38.81,
+        "m60": 48.42
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=SHZ12",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFCG",
@@ -1784,10 +2138,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFCG&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -3.97,
+        "m3": 6.25,
+        "m6": 3.5,
+        "m12": 3.53,
+        "m36": 6.15,
+        "m60": -2.23
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=SHZF5",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFCH",
@@ -1808,7 +2170,8 @@
         "m60": 62.66
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFCH&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFCI",
@@ -1822,7 +2185,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFCI&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFCJ",
@@ -1836,7 +2200,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFCJ&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFCK",
@@ -1857,7 +2222,8 @@
         "m60": 46.35
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFCK&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFCL",
@@ -1878,7 +2244,8 @@
         "m60": 207.63
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFCL&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFCN",
@@ -1899,7 +2266,8 @@
         "m60": 220.77
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFCN&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFCO",
@@ -1920,7 +2288,8 @@
         "m60": 296.04
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFCO&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFCU",
@@ -1934,7 +2303,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFCU&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFCX",
@@ -1948,7 +2318,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFCX&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFD1",
@@ -1969,7 +2340,8 @@
         "m60": 238.07
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFD1&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFD3",
@@ -1990,7 +2362,8 @@
         "m60": 71.15
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFD3&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFD4",
@@ -2011,7 +2384,8 @@
         "m60": 54.62
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFD4&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFD7",
@@ -2032,7 +2406,8 @@
         "m60": 207.07
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFD7&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFD8",
@@ -2053,7 +2428,8 @@
         "m60": 164.98
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFD8&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFDA",
@@ -2074,7 +2450,8 @@
         "m60": 62.68
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFDA&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFDE",
@@ -2095,7 +2472,8 @@
         "m60": 50.34
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFDE&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFDF",
@@ -2109,7 +2487,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFDF&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFDI",
@@ -2130,7 +2509,8 @@
         "m60": 42.42
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFDI&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFDJ",
@@ -2151,7 +2531,8 @@
         "m60": 4.99
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFDJ&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFDN",
@@ -2172,7 +2553,8 @@
         "m60": -1.45
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFDN&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFDO",
@@ -2183,10 +2565,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFDO&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -6.78,
+        "m3": -5.27,
+        "m6": 4.23,
+        "m12": 28.94,
+        "m36": 32.67,
+        "m60": 31.7
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=SHZA4",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFDQ",
@@ -2207,7 +2597,8 @@
         "m60": 33.53
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFDQ&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFDS",
@@ -2218,10 +2609,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFDS&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": 5.03,
+        "m3": 6.44,
+        "m6": 4.34,
+        "m12": 13.52,
+        "m36": 30.63,
+        "m60": 36.5
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=JFZ01",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFDV",
@@ -2232,10 +2631,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFDV&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": 1.07,
+        "m3": -5.69,
+        "m6": -8.99,
+        "m12": 55.39,
+        "m36": 54.19,
+        "m60": 54.17
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=SHZ19",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFDW",
@@ -2256,7 +2663,8 @@
         "m60": 18.02
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFDW&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFDX",
@@ -2277,7 +2685,8 @@
         "m60": 27.74
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFDX&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFDY",
@@ -2298,7 +2707,8 @@
         "m60": 68.02
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFDY&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFEG",
@@ -2309,10 +2719,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFEG&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -8.38,
+        "m3": 9.33,
+        "m6": 16.9,
+        "m12": 44.92,
+        "m36": 68.77,
+        "m60": 34.97
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=FLZC1",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFEO",
@@ -2333,7 +2751,8 @@
         "m60": -39.14
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFEO&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFEP",
@@ -2354,7 +2773,8 @@
         "m60": 39.37
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFEP&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFEQ",
@@ -2375,7 +2795,8 @@
         "m60": 11.2
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFEQ&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFER",
@@ -2389,7 +2810,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFER&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFES",
@@ -2400,10 +2822,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFES&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -3.36,
+        "m3": 4.21,
+        "m6": -0.28,
+        "m12": 4.05,
+        "m36": 10.26,
+        "m60": -5.63
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=SHZF4",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFET",
@@ -2414,10 +2844,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFET&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -1.8,
+        "m3": -2.79,
+        "m6": -6.52,
+        "m12": 3.96,
+        "m36": 22.99,
+        "m60": -24.01
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=SHZL5",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFEW",
@@ -2428,10 +2866,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFEW&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": 1.78,
+        "m3": -5.96,
+        "m6": -11.68,
+        "m12": 1.91,
+        "m36": 4.76,
+        "m60": -35.68
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=FLZA2",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFEY",
@@ -2442,10 +2888,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFEY&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -7.29,
+        "m3": -0.18,
+        "m6": 1.37,
+        "m12": 5.98,
+        "m36": 28.62,
+        "m60": 14.68
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=FLZD6",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFEZ",
@@ -2456,10 +2910,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFEZ&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": -15.82,
+        "m3": -3.86,
+        "m6": -4.77,
+        "m12": 17.16,
+        "m36": 25.91,
+        "m60": -21.65
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=ACFT06",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFFA",
@@ -2470,10 +2932,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFFA&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -5.73,
+        "m3": 5.87,
+        "m6": 13.23,
+        "m12": 47.61,
+        "m36": 88.9,
+        "m60": 58.75
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=FLZE8",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFFV",
@@ -2484,10 +2954,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFFV&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -0.71,
+        "m3": 0.09,
+        "m6": -0.4,
+        "m12": 4.61,
+        "m36": 21.26,
+        "m60": -1.3
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=SHZG2",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFFX",
@@ -2508,7 +2986,8 @@
         "m60": 9.09
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFFX&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFFY",
@@ -2519,10 +2998,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFFY&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": -1.45,
+        "m3": -0.81,
+        "m6": -1.08,
+        "m12": 2.06,
+        "m36": 10.45,
+        "m60": -3.89
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=JFZ99",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFGA",
@@ -2533,10 +3020,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFGA&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": -1.58,
+        "m3": -0.15,
+        "m6": -1.01,
+        "m12": 2.25,
+        "m36": 15.76,
+        "m60": 0.05
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=JFZ96",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFGC",
@@ -2557,7 +3052,8 @@
         "m60": 10.89
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFGC&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFGI",
@@ -2571,7 +3067,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFGI&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFGK",
@@ -2585,7 +3082,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFGK&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFGO",
@@ -2606,7 +3104,8 @@
         "m60": 211.5
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFGO&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFGP",
@@ -2627,7 +3126,8 @@
         "m60": 26.51
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFGP&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFGQ",
@@ -2648,7 +3148,8 @@
         "m60": 352.5
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFGQ&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFGR",
@@ -2669,7 +3170,8 @@
         "m60": 332.67
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFGR&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFGT",
@@ -2690,7 +3192,8 @@
         "m60": 39.86
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFGT&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFGV",
@@ -2701,10 +3204,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFGV&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": 3.32,
+        "m3": 11.48,
+        "m6": 5.13,
+        "m12": 19.31,
+        "m36": 113.58,
+        "m60": 106.76
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=SHZA8",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFGW",
@@ -2715,10 +3226,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFGW&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -0.28,
+        "m3": 8.21,
+        "m6": 1.47,
+        "m12": 15.75,
+        "m36": 18.03,
+        "m60": 16.42
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=SHZB0",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFGX",
@@ -2729,10 +3248,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFGX&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": 1.52,
+        "m3": 4.99,
+        "m6": 5.57,
+        "m12": 17.25,
+        "m36": 39.55,
+        "m60": 37.74
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=SHZN5",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFGY",
@@ -2743,10 +3270,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFGY&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": 2.91,
+        "m3": 9.13,
+        "m6": 11.17,
+        "m12": 23.89,
+        "m36": 51.19,
+        "m60": 58.65
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=SHZ64",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFGZ",
@@ -2757,10 +3292,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFGZ&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -3.85,
+        "m3": 2.71,
+        "m6": 9.7,
+        "m12": 26.26,
+        "m36": 72.85,
+        "m60": 81.53
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=SHZF2",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFHB",
@@ -2771,10 +3314,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFHB&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -3.86,
+        "m3": 6.8,
+        "m6": 3.72,
+        "m12": 7.99,
+        "m36": 18.63,
+        "m60": 11.71
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=SHZ43",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFHC",
@@ -2785,10 +3336,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFHC&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": 0.28,
+        "m3": 7.02,
+        "m6": 4.53,
+        "m12": 17.17,
+        "m36": 54.23,
+        "m60": 73.57
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=SHZ69",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFHD",
@@ -2799,10 +3358,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFHD&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -1.57,
+        "m3": 5.79,
+        "m6": 5.14,
+        "m12": 17.01,
+        "m36": 49.19,
+        "m60": 40.41
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=SHZJ0",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFHF",
@@ -2813,10 +3380,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFHF&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": 3.46,
+        "m3": 7.72,
+        "m6": 9.8,
+        "m12": 29.33,
+        "m36": 98.06,
+        "m60": -14.06
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=PYZ61",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFHG",
@@ -2837,7 +3412,8 @@
         "m60": 71.1
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFHG&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFHH",
@@ -2858,7 +3434,8 @@
         "m60": 67.92
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFHH&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFHI",
@@ -2879,7 +3456,8 @@
         "m60": 33.55
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFHI&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFHM",
@@ -2900,7 +3478,8 @@
         "m60": -7.07
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFHM&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFHN",
@@ -2914,7 +3493,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFHN&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFHO",
@@ -2925,10 +3505,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFHO&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": 0.46,
+        "m3": 4.21,
+        "m6": 14.7,
+        "m12": 27.59,
+        "m36": 19.48,
+        "m60": 29.78
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=JFZ06",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFHR",
@@ -2942,7 +3530,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFHR&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFHU",
@@ -2956,7 +3545,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFHU&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFHV",
@@ -2970,7 +3560,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFHV&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFHY",
@@ -2984,7 +3575,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFHY&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFIA",
@@ -2998,7 +3590,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFIA&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFIC",
@@ -3012,7 +3605,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFIC&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFID",
@@ -3026,7 +3620,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFID&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFIG",
@@ -3040,7 +3635,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFIG&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFII",
@@ -3051,10 +3647,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFII&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -2.7,
+        "m3": 6.42,
+        "m6": 3.61,
+        "m12": 9.42,
+        "m36": 24.5,
+        "m60": 30.18
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=ALZX8",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFIK",
@@ -3065,10 +3669,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFIK&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": 2.08,
+        "m3": 4.75,
+        "m6": 5.57,
+        "m12": 19.71,
+        "m36": 37.68,
+        "m60": 46.17
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=ALZC6",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFIM",
@@ -3079,10 +3691,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFIM&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -4.65,
+        "m3": -1.52,
+        "m6": 3.84,
+        "m12": 22.93,
+        "m36": 65.33,
+        "m60": 30.18
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=SHZ11",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFIR",
@@ -3093,10 +3713,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFIR&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -13.02,
+        "m3": 6.82,
+        "m6": 19.4,
+        "m12": 29.97,
+        "m36": 107.17,
+        "m60": 63.43
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=SHZ71",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFIS",
@@ -3107,10 +3735,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFIS&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": 9.74,
+        "m3": -0.28,
+        "m6": 18.91,
+        "m12": 37.47,
+        "m36": 46.83,
+        "m60": 146.67
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=SHZA6",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFIT",
@@ -3121,10 +3757,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFIT&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -1.31,
+        "m3": 0.02,
+        "m6": -0.88,
+        "m12": 1.86,
+        "m36": 11.53,
+        "m60": -2.95
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=SHZM0",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFIU",
@@ -3135,10 +3779,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFIU&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -0.98,
+        "m3": -0.75,
+        "m6": -0.17,
+        "m12": 1.95,
+        "m36": 8.56,
+        "m60": 2.25
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=SHZN8",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFIV",
@@ -3149,10 +3801,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFIV&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": 1.17,
+        "m3": 4.37,
+        "m6": -1.22,
+        "m12": -5.08,
+        "m36": 3.6,
+        "m60": 7.82
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=SHZH8",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFIW",
@@ -3163,10 +3823,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFIW&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -1.32,
+        "m3": 3.26,
+        "m6": 5.02,
+        "m12": 15.54,
+        "m36": 32.98,
+        "m60": 29.36
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=SHZM4",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFIX",
@@ -3177,10 +3845,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFIX&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -7.68,
+        "m3": 2.82,
+        "m6": 9.55,
+        "m12": 31.76,
+        "m36": 52.08,
+        "m60": 28.69
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=SHZK7",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFIY",
@@ -3191,10 +3867,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFIY&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -1.61,
+        "m3": -0.74,
+        "m6": -1.3,
+        "m12": 2.35,
+        "m36": 9.96,
+        "m60": -5.01
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=SHZ77",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFJA",
@@ -3205,10 +3889,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFJA&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": 5.05,
+        "m3": 4.89,
+        "m6": 3.66,
+        "m12": 7.76,
+        "m36": 36.99,
+        "m60": 11.05
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=SHZ48",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFJD",
@@ -3219,10 +3911,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFJD&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -3.26,
+        "m3": 4.75,
+        "m6": -0.08,
+        "m12": 8.52,
+        "m36": 23.23,
+        "m60": 7.82
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=SHZ02",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFJE",
@@ -3233,10 +3933,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFJE&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": 0.91,
+        "m3": 4.97,
+        "m6": 0.69,
+        "m12": 17.75,
+        "m36": 60.2,
+        "m60": 67.54
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=SHZ68",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFJF",
@@ -3247,10 +3955,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFJF&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -1.59,
+        "m3": -0.56,
+        "m6": -0.8,
+        "m12": 2.09,
+        "m36": 15.07,
+        "m60": 0.19
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=SHZL8",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFJH",
@@ -3261,10 +3977,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFJH&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -1.42,
+        "m3": -0.16,
+        "m6": -1.26,
+        "m12": 0.89,
+        "m36": 8.74,
+        "m60": -6.62
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=SHZ24",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFJI",
@@ -3275,10 +3999,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFJI&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": 1.62,
+        "m3": 2.59,
+        "m6": -1.31,
+        "m12": 3.06,
+        "m36": 22.92,
+        "m60": 14.61
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=SHZ10",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFJK",
@@ -3292,7 +4024,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFJK&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFJL",
@@ -3303,10 +4036,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFJL&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": -28.35,
+        "m3": -14.99,
+        "m6": 1.0,
+        "m12": 56.88,
+        "m36": 92.07,
+        "m60": 45.55
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=JFZ11",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFJN",
@@ -3320,7 +4061,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFJN&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFJO",
@@ -3334,7 +4076,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFJO&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFJP",
@@ -3348,7 +4091,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFJP&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFJQ",
@@ -3362,7 +4106,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFJQ&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFJV",
@@ -3376,7 +4121,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFJV&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFJW",
@@ -3390,7 +4136,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFJW&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFJY",
@@ -3411,7 +4158,8 @@
         "m60": -15.89
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFJY&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFJZ",
@@ -3422,10 +4170,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFJZ&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": 6.24,
+        "m3": -6.76,
+        "m6": 1.91,
+        "m12": 51.23,
+        "m36": 27.19,
+        "m60": 46.52
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=ACIC29",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFKA",
@@ -3446,7 +4202,8 @@
         "m60": 211.85
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKA&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFKB",
@@ -3467,7 +4224,8 @@
         "m60": 237.05
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKB&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFKC",
@@ -3488,7 +4246,8 @@
         "m60": 22.6
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKC&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFKD",
@@ -3509,7 +4268,8 @@
         "m60": 35.9
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKD&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFKE",
@@ -3530,7 +4290,8 @@
         "m60": 87.91
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKE&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFKF",
@@ -3551,7 +4312,8 @@
         "m60": 47.05
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKF&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFKH",
@@ -3572,7 +4334,8 @@
         "m60": 37.72
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKH&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFKK",
@@ -3583,10 +4346,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKK&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -4.83,
+        "m3": -1.61,
+        "m6": -1.69,
+        "m12": 17.58,
+        "m36": 44.95,
+        "m60": 35.46
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=SHZI1",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFKM",
@@ -3597,10 +4368,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKM&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -2.7,
+        "m3": 3.86,
+        "m6": 9.03,
+        "m12": 24.81,
+        "m36": 54.95,
+        "m60": 50.2
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=SHZA2",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFKO",
@@ -3611,10 +4390,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKO&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": 6.09,
+        "m3": -5.48,
+        "m6": -13.16,
+        "m12": 0.8,
+        "m36": 5.44,
+        "m60": -28.04
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=PYZJ2",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFKP",
@@ -3625,10 +4412,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKP&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": -2.4,
+        "m3": -3.25,
+        "m6": 2.04,
+        "m12": 14.84,
+        "m36": 26.39,
+        "m60": 0.39
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=PYZD9",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFKQ",
@@ -3639,10 +4434,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKQ&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": 0.2,
+        "m3": 3.8,
+        "m6": 12.45,
+        "m12": 36.94,
+        "m36": 77.06,
+        "m60": 110.28
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=PYZK8",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFKR",
@@ -3653,10 +4456,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKR&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": -1.68,
+        "m3": 6.35,
+        "m6": 16.39,
+        "m12": 44.85,
+        "m36": 101.86,
+        "m60": 164.14
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=PYZL2",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFKS",
@@ -3667,10 +4478,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKS&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": 0.17,
+        "m3": 0.96,
+        "m6": -5.27,
+        "m12": -9.14,
+        "m36": 12.14,
+        "m60": 16.44
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=PYZG0",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFKV",
@@ -3681,10 +4500,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKV&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": 1.65,
+        "m3": -4.37,
+        "m6": -5.15,
+        "m12": 32.93,
+        "m36": 22.33,
+        "m60": 34.91
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=PYZ51",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFKW",
@@ -3695,10 +4522,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKW&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": 0.62,
+        "m3": 1.79,
+        "m6": 3.05,
+        "m12": 7.56,
+        "m36": 60.04,
+        "m60": 62.56
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=PYZ30",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFKX",
@@ -3709,10 +4544,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKX&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": -2.72,
+        "m3": 4.46,
+        "m6": 9.04,
+        "m12": 25.42,
+        "m36": 34.11,
+        "m60": 29.3
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=PYZE5",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFKY",
@@ -3723,10 +4566,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKY&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": 4.89,
+        "m3": -4.59,
+        "m6": -9.67,
+        "m12": 3.32,
+        "m36": 7.09,
+        "m60": -15.07
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=PYZI7",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFKZ",
@@ -3737,10 +4588,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKZ&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": -0.85,
+        "m3": 0.67,
+        "m6": -0.21,
+        "m12": 3.08,
+        "m36": 19.34,
+        "m60": 11.51
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=PYZK0",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFLB",
@@ -3751,10 +4610,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFLB&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": -9.8,
+        "m3": -1.18,
+        "m6": 5.36,
+        "m12": 38.57,
+        "m36": 66.41,
+        "m60": 29.33
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=PYZ41",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFLD",
@@ -3765,10 +4632,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFLD&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": -9.68,
+        "m3": -2.9,
+        "m6": 3.81,
+        "m12": 29.27,
+        "m36": 52.98,
+        "m60": 24.01
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=PYZ02",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFLE",
@@ -3779,10 +4654,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFLE&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": 4.16,
+        "m3": 5.71,
+        "m6": 5.75,
+        "m12": 29.34,
+        "m36": 106.44,
+        "m60": -16.99
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=PYZD6",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFLF",
@@ -3793,10 +4676,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFLF&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": 1.45,
+        "m3": 2.74,
+        "m6": 1.85,
+        "m12": 3.66,
+        "m36": 17.21,
+        "m60": -16.84
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=PYZD7",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFLI",
@@ -3807,10 +4698,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFLI&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": 9.3,
+        "m3": 10.29,
+        "m6": 14.73,
+        "m12": 28.93,
+        "m36": 50.83,
+        "m60": 63.78
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=PYZF3",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFLJ",
@@ -3821,10 +4720,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFLJ&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": 7.77,
+        "m3": -4.86,
+        "m6": 19.36,
+        "m12": 43.01,
+        "m36": 57.49,
+        "m60": 160.05
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=PYZE3",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFLN",
@@ -3845,7 +4752,8 @@
         "m60": 64.84
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFLN&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFLO",
@@ -3856,10 +4764,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFLO&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": -10.77,
+        "m3": -1.11,
+        "m6": 3.33,
+        "m12": 23.23,
+        "m36": 46.74,
+        "m60": 17.06
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=JFZ04",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFLP",
@@ -3880,7 +4796,8 @@
         "m60": 142.75
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFLP&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFLQ",
@@ -3901,7 +4818,8 @@
         "m60": 48.7
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFLQ&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFLS",
@@ -3922,7 +4840,8 @@
         "m60": 31.76
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFLS&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFLT",
@@ -3933,10 +4852,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFLT&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": -11.94,
+        "m3": -12.16,
+        "m6": -1.24,
+        "m12": 19.26,
+        "m36": 44.09,
+        "m60": 12.79
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=JFZ10",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFLU",
@@ -3957,7 +4884,8 @@
         "m60": 51.07
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFLU&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFLW",
@@ -3978,7 +4906,8 @@
         "m60": 29.62
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFLW&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFLY",
@@ -3999,7 +4928,8 @@
         "m60": 57.27
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFLY&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFMC",
@@ -4020,7 +4950,8 @@
         "m60": 8.18
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFMC&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFMD",
@@ -4031,10 +4962,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFMD&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": -0.08,
+        "m3": 0.68,
+        "m6": 0.38,
+        "m12": 2.62,
+        "m36": 13.96,
+        "m60": 12.51
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=JFZA0",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFME",
@@ -4055,7 +4994,8 @@
         "m60": 4.17
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFME&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFMF",
@@ -4076,7 +5016,8 @@
         "m60": 8.51
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFMF&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFMH",
@@ -4090,7 +5031,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFMH&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFMI",
@@ -4101,10 +5043,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFMI&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -6.67,
+        "m3": -0.08,
+        "m6": 1.41,
+        "m12": 24.44,
+        "m36": 62.35,
+        "m60": 96.86
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=SHZI0",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFML",
@@ -4125,7 +5075,8 @@
         "m60": 234.42
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFML&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFMM",
@@ -4146,7 +5097,8 @@
         "m60": 145.25
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFMM&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFMN",
@@ -4167,7 +5119,8 @@
         "m60": 39.38
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFMN&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFMP",
@@ -4188,7 +5141,8 @@
         "m60": 9.03
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFMP&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFMQ",
@@ -4209,7 +5163,8 @@
         "m60": 39.25
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFMQ&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFMR",
@@ -4230,7 +5185,8 @@
         "m60": 40.35
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFMR&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFMS",
@@ -4251,7 +5207,8 @@
         "m60": 340.29
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFMS&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFMU",
@@ -4272,7 +5229,8 @@
         "m60": -22.59
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFMU&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFMV",
@@ -4283,10 +5241,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFMV&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": 1.01,
+        "m3": 1.92,
+        "m6": -4.48,
+        "m12": -0.11,
+        "m36": 2.95,
+        "m60": -12.29
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=JFZE7",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFMW",
@@ -4297,10 +5263,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFMW&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": -1.35,
+        "m3": 1.82,
+        "m6": 4.1,
+        "m12": 11.07,
+        "m36": 31.87,
+        "m60": 23.76
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=JFZA6",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFMX",
@@ -4321,7 +5295,8 @@
         "m60": 9.55
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFMX&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFMY",
@@ -4342,7 +5317,8 @@
         "m60": 46.17
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFMY&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFNA",
@@ -4353,10 +5329,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFNA&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": 1.16,
+        "m3": 0.6,
+        "m6": -1.66,
+        "m12": 7.23,
+        "m36": 27.9,
+        "m60": -1.46
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=PLZ79",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFNB",
@@ -4367,10 +5351,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFNB&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": 0.85,
+        "m3": 3.55,
+        "m6": 0.79,
+        "m12": 2.15,
+        "m36": 46.95,
+        "m60": 44.77
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=PLZ87",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFNC",
@@ -4381,10 +5373,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFNC&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": -0.16,
+        "m3": 1.97,
+        "m6": -5.69,
+        "m12": -8.36,
+        "m36": 12.23,
+        "m60": 8.04
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=AIZ49",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFNE",
@@ -4395,10 +5395,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFNE&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": -2.74,
+        "m3": 3.74,
+        "m6": 15.55,
+        "m12": 27.73,
+        "m36": 40.23,
+        "m60": 32.98
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=AIZ19",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFNL",
@@ -4419,7 +5427,8 @@
         "m60": 35.31
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFNL&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFNM",
@@ -4440,7 +5449,8 @@
         "m60": 49.24
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFNM&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFNN",
@@ -4461,7 +5471,8 @@
         "m60": 15.04
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFNN&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFNO",
@@ -4482,7 +5493,8 @@
         "m60": 12.03
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFNO&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFNP",
@@ -4503,7 +5515,8 @@
         "m60": -3.5
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFNP&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFNW",
@@ -4517,7 +5530,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFNW&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFNY",
@@ -4538,7 +5552,8 @@
         "m60": 63.06
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFNY&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFNZ",
@@ -4552,7 +5567,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFNZ&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFO1",
@@ -4573,7 +5589,8 @@
         "m60": 36.31
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFO1&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFO2",
@@ -4594,7 +5611,8 @@
         "m60": 39.1
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFO2&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFO3",
@@ -4615,7 +5633,8 @@
         "m60": 23.69
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFO3&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFOB",
@@ -4626,10 +5645,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFOB&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -1.2,
+        "m3": -0.43,
+        "m6": -0.93,
+        "m12": 4.17,
+        "m36": 20.76,
+        "m60": -1.71
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=SHZN1",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFOG",
@@ -4650,7 +5677,8 @@
         "m60": 9.1
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFOG&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFOH",
@@ -4661,10 +5689,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFOH&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": -1.35,
+        "m3": -0.8,
+        "m6": -1.11,
+        "m12": 2.14,
+        "m36": 10.44,
+        "m60": -3.91
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=JFZ93",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFOJ",
@@ -4675,10 +5711,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFOJ&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": -1.57,
+        "m3": -0.16,
+        "m6": -1.03,
+        "m12": 2.24,
+        "m36": 15.71,
+        "m60": 0.0
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=JFZ97",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFOM",
@@ -4699,7 +5743,8 @@
         "m60": 15.34
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFOM&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFON",
@@ -4720,7 +5765,8 @@
         "m60": 18.02
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFON&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFOQ",
@@ -4741,7 +5787,8 @@
         "m60": 10.88
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFOQ&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFOV",
@@ -4752,10 +5799,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFOV&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": -1.36,
+        "m3": 0.72,
+        "m6": 2.92,
+        "m12": 14.77,
+        "m36": 37.04,
+        "m60": 26.26
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=JFZA4",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFPB",
@@ -4769,7 +5824,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFPB&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFPC",
@@ -4783,7 +5839,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFPC&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFPE",
@@ -4797,7 +5854,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFPE&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFPL",
@@ -4811,7 +5869,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFPL&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFPQ",
@@ -4832,7 +5891,8 @@
         "m60": 39.16
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFPQ&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFPT",
@@ -4843,10 +5903,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFPT&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": 1.36,
+        "m3": 4.85,
+        "m6": 5.41,
+        "m12": 17.06,
+        "m36": 39.33,
+        "m60": 37.53
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=SHZN6",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFPU",
@@ -4857,10 +5925,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFPU&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -1.12,
+        "m3": -0.24,
+        "m6": -0.72,
+        "m12": 4.0,
+        "m36": 17.9,
+        "m60": -6.39
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=SHZO1",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFQ9",
@@ -4874,7 +5950,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFQ9&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFQA",
@@ -4885,10 +5962,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFQA&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": 8.98,
+        "m3": 9.97,
+        "m6": 14.4,
+        "m12": 28.54,
+        "m36": 50.36,
+        "m60": 63.24
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=PYZF4",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFQD",
@@ -4909,7 +5994,8 @@
         "m60": 5.7
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFQD&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFQF",
@@ -4930,7 +6016,8 @@
         "m60": 10.37
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFQF&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFQG",
@@ -4951,7 +6038,8 @@
         "m60": 8.15
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFQG&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFQJ",
@@ -4962,10 +6050,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFQJ&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -0.6,
+        "m3": 12.25,
+        "m6": 4.78,
+        "m12": 16.52,
+        "m36": 22.43,
+        "m60": 9.11
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=CTZ19",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFQK",
@@ -4979,7 +6075,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFQK&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFQO",
@@ -4993,7 +6090,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFQO&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFQQ",
@@ -5004,10 +6102,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFQQ&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -1.07,
+        "m3": -0.3,
+        "m6": -0.84,
+        "m12": 4.24,
+        "m36": 20.83,
+        "m60": -1.66
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=SHZG3",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFQS",
@@ -5018,10 +6124,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFQS&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -1.93,
+        "m3": -1.07,
+        "m6": -1.57,
+        "m12": 2.04,
+        "m36": 9.66,
+        "m60": -5.27
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=SHZ97",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFQU",
@@ -5032,10 +6146,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFQU&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -1.73,
+        "m3": -0.48,
+        "m6": -1.55,
+        "m12": 0.57,
+        "m36": 8.46,
+        "m60": -6.87
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=SHZ94",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFQV",
@@ -5056,7 +6178,8 @@
         "m60": 87.95
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFQV&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFQW",
@@ -5077,7 +6200,8 @@
         "m60": 46.98
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFQW&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFR1",
@@ -5091,7 +6215,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFR1&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFR2",
@@ -5105,7 +6230,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFR2&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFR3",
@@ -5126,7 +6252,8 @@
         "m60": 2.99
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFR3&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFR4",
@@ -5147,7 +6274,8 @@
         "m60": 34.0
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFR4&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFR5",
@@ -5168,7 +6296,8 @@
         "m60": 20.5
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFR5&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFR6",
@@ -5182,7 +6311,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFR6&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFR7",
@@ -5203,7 +6333,8 @@
         "m60": 14.03
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFR7&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFR8",
@@ -5217,7 +6348,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFR8&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFR9",
@@ -5228,10 +6360,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFR9&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": -1.19,
+        "m3": -0.69,
+        "m6": -0.27,
+        "m12": 10.91,
+        "m36": 35.12,
+        "m60": 29.62
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=PYZW5",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFRB",
@@ -5242,10 +6382,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFRB&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -1.57,
+        "m3": -0.26,
+        "m6": -1.15,
+        "m12": 1.59,
+        "m36": 11.24,
+        "m60": -3.21
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=SHZM1",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFRI",
@@ -5256,10 +6404,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFRI&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": -8.65,
+        "m3": -2.82,
+        "m6": -2.14,
+        "m12": 1.96,
+        "m36": 53.56,
+        "m60": 50.06
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=JFZ72",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFRQ",
@@ -5270,10 +6426,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFRQ&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": 1.54,
+        "m3": 5.19,
+        "m6": 2.73,
+        "m12": 20.3,
+        "m36": 58.72,
+        "m60": 59.11
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=JFZ24",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFRT",
@@ -5294,7 +6458,8 @@
         "m60": 4.04
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFRT&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFRW",
@@ -5315,7 +6480,8 @@
         "m60": 151.61
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFRW&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFRX",
@@ -5336,7 +6502,8 @@
         "m60": 255.32
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFRX&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFRY",
@@ -5357,7 +6524,8 @@
         "m60": 13.85
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFRY&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFRZ",
@@ -5368,10 +6536,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFRZ&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": 0.08,
+        "m3": 2.87,
+        "m6": 2.38,
+        "m12": 17.26,
+        "m36": 41.52,
+        "m60": 24.34
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=FLZ30",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFS1",
@@ -5382,10 +6558,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFS1&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": -1.52,
+        "m3": -0.21,
+        "m6": -0.63,
+        "m12": 2.71,
+        "m36": 21.13,
+        "m60": 9.24
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=PYZR2",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFS2",
@@ -5396,10 +6580,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFS2&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": 0.3,
+        "m3": 0.89,
+        "m6": 1.68,
+        "m12": 3.76,
+        "m36": 14.12,
+        "m60": 18.69
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=FLZ38",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFS4",
@@ -5410,10 +6602,17 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFS4&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/29",
+      "perf": {
+        "m1": -1.77,
+        "m3": -0.25,
+        "m6": -0.47,
+        "m12": 3.47,
+        "m36": 11.05
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=MLZ25",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFS5",
@@ -5434,7 +6633,8 @@
         "m60": 0.45
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFS5&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFS6",
@@ -5455,7 +6655,8 @@
         "m60": 24.34
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFS6&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFS7",
@@ -5476,7 +6677,8 @@
         "m60": 27.61
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFS7&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFS8",
@@ -5497,7 +6699,8 @@
         "m60": 22.11
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFS8&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFS9",
@@ -5518,7 +6721,8 @@
         "m60": 20.26
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFS9&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFSA",
@@ -5529,10 +6733,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFSA&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": -1.39,
+        "m3": -0.79,
+        "m6": -1.13,
+        "m12": 2.07,
+        "m36": 10.47,
+        "m60": -3.96
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=JFZ75",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFSB",
@@ -5553,7 +6765,8 @@
         "m60": 41.62
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFSB&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFSC",
@@ -5574,7 +6787,8 @@
         "m60": 9.04
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFSC&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFSD",
@@ -5595,7 +6809,8 @@
         "m60": 124.4
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFSD&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFSE",
@@ -5609,7 +6824,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFSE&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFSF",
@@ -5620,10 +6836,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFSF&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -0.6,
+        "m3": 0.2,
+        "m6": 0.69,
+        "m12": 4.38,
+        "m36": 21.36,
+        "m60": 14.52
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=CTZ20",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFSH",
@@ -5637,7 +6861,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFSH&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFSL",
@@ -5658,7 +6883,8 @@
         "m60": 9.55
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFSL&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFSM",
@@ -5669,10 +6895,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFSM&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": 3.27,
+        "m3": 6.29,
+        "m6": 5.42,
+        "m12": 17.49,
+        "m36": 32.39,
+        "m60": 22.21
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=PLZ11",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFSN",
@@ -5683,10 +6917,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFSN&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": 0.53,
+        "m3": 2.72,
+        "m6": 2.41,
+        "m12": 7.85,
+        "m36": 22.54,
+        "m60": 2.2
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=PLZ49",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFSR",
@@ -5697,10 +6939,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFSR&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": -13.03,
+        "m3": -2.86,
+        "m6": 5.92,
+        "m12": 34.25,
+        "m36": 62.08,
+        "m60": 13.42
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=PLZ01",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFSS",
@@ -5711,10 +6961,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFSS&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": -12.26,
+        "m3": -2.3,
+        "m6": 1.8,
+        "m12": 31.56,
+        "m36": 57.59,
+        "m60": 38.36
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=PLZ07",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFSV",
@@ -5735,7 +6993,8 @@
         "m60": 20.57
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFSV&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFT1",
@@ -5756,7 +7015,8 @@
         "m60": 60.6
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFT1&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFT2",
@@ -5777,7 +7037,8 @@
         "m60": 38.4
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFT2&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFT3",
@@ -5798,7 +7059,8 @@
         "m60": 19.83
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFT3&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFT4",
@@ -5819,7 +7081,8 @@
         "m60": 13.61
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFT4&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFT5",
@@ -5840,7 +7103,8 @@
         "m60": 17.19
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFT5&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFT6",
@@ -5854,7 +7118,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFT6&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFT7",
@@ -5865,10 +7130,17 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFT7&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": 2.26,
+        "m3": 8.44,
+        "m6": 10.48,
+        "m12": 23.12,
+        "m36": 50.18
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=SHZW2",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFT8",
@@ -5879,10 +7151,17 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFT8&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -2.08,
+        "m3": 1.64,
+        "m6": 1.39,
+        "m12": 11.6,
+        "m36": 36.14
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=SHZW8",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFT9",
@@ -5903,7 +7182,8 @@
         "m60": 44.99
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFT9&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFTA",
@@ -5917,7 +7197,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFTA&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFTB",
@@ -5928,10 +7209,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFTB&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": 1.87,
+        "m3": 8.33,
+        "m6": 1.73,
+        "m12": -7.11,
+        "m36": 18.48,
+        "m60": 30.44
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=CTZ62",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFTC",
@@ -5942,10 +7231,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFTC&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": -1.35,
+        "m3": 1.82,
+        "m6": 4.12,
+        "m12": 11.1,
+        "m36": 31.95,
+        "m60": 23.86
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=JFZA3",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFTD",
@@ -5959,7 +7256,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFTD&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFTI",
@@ -5980,7 +7278,8 @@
         "m60": 14.45
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFTI&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFTJ",
@@ -6001,7 +7300,8 @@
         "m60": 11.58
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFTJ&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFTK",
@@ -6022,7 +7322,8 @@
         "m60": 9.59
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFTK&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFTM",
@@ -6043,7 +7344,8 @@
         "m60": 22.23
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFTM&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFTO",
@@ -6057,7 +7359,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFTO&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFTP",
@@ -6071,7 +7374,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFTP&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFTQ",
@@ -6085,7 +7389,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFTQ&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFTS",
@@ -6099,7 +7404,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFTS&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFU2",
@@ -6113,7 +7419,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFU2&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFU4",
@@ -6124,10 +7431,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFU4&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": -1.27,
+        "m3": 1.82,
+        "m6": 4.15,
+        "m12": 11.12,
+        "m36": 31.93,
+        "m60": 23.73
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=JFZK2",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFU5",
@@ -6141,7 +7456,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFU5&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFU6",
@@ -6162,7 +7478,8 @@
         "m60": -2.27
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFU6&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFU7",
@@ -6183,7 +7500,8 @@
         "m60": 64.45
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFU7&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFU8",
@@ -6204,7 +7522,8 @@
         "m60": 6.83
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFU8&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFVU",
@@ -6215,10 +7534,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFVU&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -1.62,
+        "m3": 2.95,
+        "m6": 4.65,
+        "m12": 15.2,
+        "m36": 32.54,
+        "m60": 28.94
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=SHZU7",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFVX",
@@ -6239,7 +7566,8 @@
         "m60": 35.56
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFVX&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFVY",
@@ -6260,7 +7588,8 @@
         "m60": 41.78
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFVY&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFVZ",
@@ -6274,7 +7603,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFVZ&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFW1",
@@ -6288,7 +7618,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFW1&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFW2",
@@ -6302,7 +7633,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFW2&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFW3",
@@ -6316,7 +7648,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFW3&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFW4",
@@ -6327,10 +7660,17 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFW4&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": -0.9,
+        "m3": 1.74,
+        "m6": 1.94,
+        "m12": 6.96,
+        "m36": 36.38
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=JAZC8",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFW5",
@@ -6351,7 +7691,8 @@
         "m60": -3.18
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFW5&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFW6",
@@ -6372,7 +7713,8 @@
         "m60": -1.54
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFW6&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFW7",
@@ -6386,7 +7728,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFW7&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFW8",
@@ -6407,7 +7750,8 @@
         "m60": 67.26
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFW8&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFW9",
@@ -6428,7 +7772,8 @@
         "m60": 72.32
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFW9&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFWA",
@@ -6449,7 +7794,8 @@
         "m60": 9.28
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFWA&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFWI",
@@ -6463,7 +7809,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFWI&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFWL",
@@ -6484,7 +7831,8 @@
         "m60": 11.31
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFWL&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFWM",
@@ -6505,7 +7853,8 @@
         "m60": -3.32
       },
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFWM&b=01&shell=Y",
-      "ok": true
+      "ok": true,
+      "src": null
     },
     {
       "tf": "TFWN",
@@ -6519,7 +7868,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFWN&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFWO",
@@ -6530,10 +7880,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFWO&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": 1.98,
+        "m3": 3.28,
+        "m6": 1.18,
+        "m12": 4.73,
+        "m36": 26.44,
+        "m60": 20.96
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=TLZ57",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFWR",
@@ -6547,7 +7905,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFWR&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFWU",
@@ -6561,7 +7920,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFWU&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFWV",
@@ -6575,7 +7935,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFWV&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFX3",
@@ -6586,10 +7947,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFX3&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -4.41,
+        "m3": 23.57,
+        "m6": 37.28,
+        "m12": 55.78,
+        "m36": 87.32,
+        "m60": 135.74
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=AC0056",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFX4",
@@ -6600,10 +7969,18 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFX4&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": 2.13,
+        "m3": 2.89,
+        "m6": 3.84,
+        "m12": 12.61,
+        "m36": 16.57,
+        "m60": 26.61
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=ACYT136",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFX5",
@@ -6614,10 +7991,17 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFX5&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/31",
+      "perf": {
+        "m1": -2.56,
+        "m3": 28.8,
+        "m6": 37.92,
+        "m12": 51.29,
+        "m36": 99.59
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=ACKG171",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFX6",
@@ -6631,7 +8015,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFX6&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFX7",
@@ -6642,10 +8027,16 @@
       "typ": null,
       "value": null,
       "pct": null,
-      "date": null,
-      "perf": {},
-      "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFX7&b=01&shell=Y",
-      "ok": false
+      "date": "2026/07/30",
+      "perf": {
+        "m1": -1.34,
+        "m3": 0.82,
+        "m6": 0.72,
+        "m12": 10.7
+      },
+      "link": "https://www.moneydj.com/funddj/ya/yp010000.djhtm?a=ACKG204",
+      "ok": false,
+      "src": "moneydj"
     },
     {
       "tf": "TFX8",
@@ -6659,7 +8050,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFX8&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFX9",
@@ -6673,7 +8065,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFX9&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFXT",
@@ -6687,7 +8080,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFXT&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFXU",
@@ -6701,7 +8095,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFXU&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFXV",
@@ -6715,7 +8110,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFXV&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFXW",
@@ -6729,7 +8125,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFXW&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFXX",
@@ -6743,7 +8140,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFXX&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFXY",
@@ -6757,7 +8155,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFXY&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFY3",
@@ -6771,7 +8170,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFY3&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     },
     {
       "tf": "TFY4",
@@ -6785,7 +8185,8 @@
       "date": null,
       "perf": {},
       "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFY4&b=01&shell=Y",
-      "ok": false
+      "ok": false,
+      "src": null
     }
   ]
 }
