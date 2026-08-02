@@ -204,6 +204,22 @@
     border:solid #fff; border-width:0 2px 2px 0; transform:rotate(45deg);
   }
 
+  /* ---- 分享圖：字體加粗提高對比、邊界對齊、隔離選取樣式 ---- */
+  .exporting{background:#1B2A4A}
+  .exporting header{padding:12px 12px 8px}      /* 讓「熊誠毅」與下方卡片同寬對齊 */
+  .exporting main{margin-top:6px; padding:0 12px}
+  .exporting .row{opacity:1 !important; padding:9px 14px !important; cursor:default}
+  .exporting .chk{display:none !important}
+  .exporting .r-name .nm{font-weight:700; color:#0d1a30}
+  .exporting .row.linkable .nm{text-decoration:none; color:#0d1a30}  /* 去底線更清晰 */
+  .exporting .r-name .dt{color:#5f5843; font-weight:700}
+  .exporting .r-val{font-weight:800; color:#0d1a30}
+  .exporting .r-val .u{color:#6b6350}
+  .exporting .r-pct{font-weight:900}
+  .exporting .updated{color:#dbe1f2}
+  .exporting footer{margin-top:12px; padding-bottom:2px}
+  .exporting footer .dis{color:#9aa4bd}
+
   @media (prefers-reduced-motion: reduce){*{animation:none!important;transition:none!important}}
 </style>
 </head>
@@ -418,19 +434,21 @@ async function snapshot(){
   if(document.querySelectorAll('.row.sel').length === 0){
     throw new Error('請至少選擇一檔');
   }
+  if(document.fonts && document.fonts.ready){ try{ await document.fonts.ready; }catch(e){} }
   const node = buildExportNode();
   const wrap = document.createElement('div');
-  wrap.style.cssText = 'position:fixed; left:-10000px; top:0; width:400px; background:#1B2A4A; padding-bottom:14px;';
+  wrap.className = 'exporting';
+  wrap.style.cssText = 'position:fixed; left:-10000px; top:0; width:400px; padding-bottom:14px;';
   wrap.appendChild(node);
   document.body.appendChild(wrap);
   try{
     const canvas = await html2canvas(wrap, {
       backgroundColor: '#1B2A4A',
-      scale: Math.min(3, window.devicePixelRatio || 2),
+      scale: 3,
       useCORS: true,
       windowWidth: 400
     });
-    return await new Promise(res => canvas.toBlob(b => res(b), 'image/png', 0.95));
+    return await new Promise(res => canvas.toBlob(b => res(b), 'image/png', 0.98));
   } finally {
     wrap.remove();
   }
