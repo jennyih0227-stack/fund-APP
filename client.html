@@ -68,6 +68,29 @@
   .row.open .psrc{display:block}
   .tag.t-ext{background:#dfe6f2; color:#33507e}
   .tag.t-cash{background:#d7ece8; color:#1a6b5a}
+  .tag.t-core{background:#e7efff; color:#274b8f}
+  .tag.t-sat{background:#fdeede; color:#9a5a1a}
+  /* 動作列 */
+  .actions{display:flex; gap:8px; margin-top:8px}
+  .bigbtn{flex:1; text-align:center; font-weight:800; font-size:14px; border-radius:12px; padding:11px 8px; cursor:pointer; border:1px solid transparent; user-select:none}
+  .btn-long{background:linear-gradient(135deg,var(--gold),var(--gold-d)); color:var(--navy)}
+  .btn-long.on{box-shadow:0 0 0 3px rgba(201,168,76,.4)}
+  .btn-idea{background:rgba(255,255,255,.08); color:var(--cream); border-color:rgba(201,168,76,.4)}
+  /* 投資觀念彈窗 */
+  .modal{position:fixed; inset:0; background:rgba(10,16,30,.72); z-index:60; display:none; align-items:flex-end; justify-content:center}
+  .modal.show{display:flex}
+  .sheet{background:var(--cream); width:100%; max-width:640px; max-height:88vh; overflow-y:auto; border-radius:18px 18px 0 0; padding:16px 18px calc(env(safe-area-inset-bottom) + 22px)}
+  .sheet h2{font-family:var(--serif); color:var(--navy); font-size:20px}
+  .sheet h3{color:var(--gold-d); font-size:15px; margin:15px 0 5px; border-left:3px solid var(--gold); padding-left:8px}
+  .sheet p,.sheet li{font-size:13.5px; color:#3a3a3a; line-height:1.75}
+  .sheet ul{margin:4px 0 4px 18px}
+  .sheet .cs{display:flex; gap:8px; margin:8px 0}
+  .csbox{flex:1; border-radius:10px; padding:10px; font-size:12.5px; line-height:1.6}
+  .csbox.core{background:#e7efff} .csbox.sat{background:#fdeede}
+  .csbox b{display:block; font-size:13px; margin-bottom:3px; color:var(--navy)}
+  .keyline{background:var(--navy); color:var(--gold); font-family:var(--serif); text-align:center; padding:9px; border-radius:10px; letter-spacing:.08em; margin-top:12px}
+  .sheet .dis{margin-top:14px; font-size:11.5px; color:#8a8270; border-top:1px solid var(--gray); padding-top:10px}
+  .mclose{position:sticky; top:0; float:right; background:var(--navy); color:#fff; border:none; border-radius:999px; width:30px; height:30px; font-size:17px; cursor:pointer}
   .star{font-size:20px; line-height:1; color:#c9c0aa; cursor:pointer; width:24px; text-align:center; flex:0 0 auto; user-select:none}
   .row.fav .star{color:var(--gold)}
   .rank{position:absolute; left:6px; top:6px; font-family:var(--num); font-size:10px; font-weight:900; color:var(--gold-d)}
@@ -108,6 +131,10 @@
 
 <div class="controls">
   <input class="search" id="q" type="search" inputmode="search" placeholder="搜尋基金名稱或代碼…" autocomplete="off">
+  <div class="actions">
+    <div class="bigbtn btn-long" id="presetLong">⭐ 長期優選</div>
+    <div class="bigbtn btn-idea" id="ideaBtn">📖 投資觀念</div>
+  </div>
   <div class="frow" id="fMain">
     <span class="chip on" data-f="all">全部</span>
     <span class="chip" data-f="mine">★ 我的基金</span>
@@ -128,6 +155,10 @@
     <span class="flabel">配息</span>
     <span class="chip" data-d="配息">配息</span><span class="chip" data-d="未配息">未配息</span>
   </div>
+  <div class="frow" id="fBucket">
+    <span class="flabel">屬性</span>
+    <span class="chip" data-b="核心">核心</span><span class="chip" data-b="衛星">衛星</span>
+  </div>
   <div class="frow" id="fSort">
     <span class="flabel">排名依績效</span>
     <span class="chip sort" data-s="m1">1月</span><span class="chip sort" data-s="m3">3月</span>
@@ -145,13 +176,50 @@
 </footer>
 <div class="toast" id="toast"></div>
 
+<div class="modal" id="ideaModal">
+  <div class="sheet">
+    <button class="mclose" id="ideaClose">×</button>
+    <h2>📖 投資觀念</h2>
+    <p>長期投資（5 年以上）看的不是短線漲跌，而是<b>長期報酬＋穩定度＋風險相稱</b>。</p>
+    <h3>一、怎麼篩</h3>
+    <ul>
+      <li><b>長期報酬</b>：3 年、5 年報酬為正且居前段（用「排名依績效」選 5年/3年，或直接按上方 ⭐長期優選）。</li>
+      <li><b>一致性</b>：點「績效 ▾」看六期是否一路向上，不忽上忽下。</li>
+      <li><b>風險相稱</b>：RR 對應承受度（保守 RR2–3、積極 RR4–5）。</li>
+      <li><b>領息或滾存</b>：要現金流選「配息」，要複利選「未配息(累積)」。</li>
+      <li><b>排除</b>：活存/貨幣帳戶、暫停交易的標的。</li>
+    </ul>
+    <p>💡「1 年 +40% 但 5 年只 +10%」多為短線題材；長期要選<b>3 年、5 年都穩定領先</b>的。</p>
+    <h3>二、核心－衛星配置</h3>
+    <div class="cs">
+      <div class="csbox core"><b>核心 70–80%（穩）</b>全球股票、全球平衡／多重資產、投資等級債。波動低、長期穩，是壓艙石。</div>
+      <div class="csbox sat"><b>衛星 20–30%（攻）</b>單一市場／主題（科技、新興、黃金）。追超額報酬，但控制在小比例。</div>
+    </div>
+    <p>清單每檔會標 <span class="tag t-core">核心</span> 或 <span class="tag t-sat">衛星</span> 供參考，可用「屬性」篩選分別檢視。</p>
+    <h3>三、四個原則</h3>
+    <ul>
+      <li><b>分散</b>：跨資產（股／債／多重）＋跨區域，別押單一市場。</li>
+      <li><b>股債比對應年期</b>：年期越長、承受度越高 → 股比越高。</li>
+      <li><b>定期定額＋長期持有</b>：抵銷擇時風險，讓複利發揮。</li>
+      <li><b>每年再平衡一次</b>：漲多的獲利了結、補回落後的＝紀律化的賣高買低。</li>
+    </ul>
+    <div class="keyline">核心求穩・衛星求進・分散・定額・再平衡</div>
+    <div class="dis">以上為投資方法與資產配置原則，非個別基金推介。實際選擇應依每位客戶的風險屬性、目標與投資年期評估。績效為過去表現，不代表未來，不保證獲利。</div>
+  </div>
+</div>
+
 <script>
 const $ = s => document.querySelector(s);
 const CUR_LABEL = {USD:'美元',TWD:'台幣',EUR:'歐元',RMB:'人民幣',ZAR:'南非幣',AUD:'澳幣',JPY:'日圓',GBP:'英鎊',OTHER:'其他'};
 const PERF_LABEL = {m1:'1月',m3:'3月',m6:'6月',m12:'1年',m36:'3年',m60:'5年'};
 const LS_KEY = 'myfunds_xinxin';
 let ALL=[], fav=new Set(JSON.parse(localStorage.getItem(LS_KEY)||'[]'));
-let mode='all', curF=null, rrF=null, distF=null, sortK=null;
+let mode='all', curF=null, rrF=null, distF=null, sortK=null, bucketF=null, presetLong=false;
+
+const SAT_KW=/科技|半導體|生技|醫療|醫藥|黃金|礦業|礦金|礦|能源|原油|天然資源|資源|房地產|不動產|中小型|小型|中國|大中華|印度|日本|美國|歐洲|拉丁|俄羅斯|臺灣|台灣|韓|巴西|越南|東協|新興|亞洲|非洲|品牌|水資源|基礎建設|農業|消費/;
+const CORE_KW=/全球|環球|世界|多重資產|平衡|組合|資產配置|投資級|投資等級|複合|收益成長/;
+function isCash(n){ return /貨幣帳戶/.test(n); }
+function bucket(n){ if(isCash(n)) return ''; if(SAT_KW.test(n)) return '衛星'; if(CORE_KW.test(n)) return '核心'; return ''; }
 
 function saveFav(){ localStorage.setItem(LS_KEY, JSON.stringify([...fav])); }
 let tt; function toast(m){ const t=$('#toast'); t.textContent=m; t.classList.add('show'); clearTimeout(tt); tt=setTimeout(()=>t.classList.remove('show'),1600); }
@@ -167,6 +235,8 @@ function matches(f){
   if(curF && f.cur!==curF) return false;
   if(rrF && f.rr!==rrF) return false;
   if(distF && f.dist!==distF) return false;
+  if(bucketF && bucket(f.name)!==bucketF) return false;
+  if(presetLong){ if(isCash(f.name)) return false; if(!f.perf || !(f.perf.m36>0) || !(f.perf.m60>0)) return false; }
   const q=$('#q').value.trim().toLowerCase();
   if(q && !(f.name.toLowerCase().includes(q)||f.tf.toLowerCase().includes(q))) return false;
   if(sortK && (!f.perf || f.perf[sortK]==null)) return false; // 排名時只列有該期績效者
@@ -177,15 +247,16 @@ function render(){
   const list=$('#list');
   let rows=ALL.filter(matches);
   if(sortK) rows.sort((a,b)=> (b.perf[sortK]) - (a.perf[sortK]));
-  $('#count').textContent=`顯示 ${rows.length} 檔`+(sortK?`（依${PERF_LABEL[sortK]}報酬排名）`:'');
+  $('#count').textContent=`顯示 ${rows.length} 檔`+(presetLong?'・長期優選':'')+(sortK?`・依${PERF_LABEL[sortK]}排名`:'');
   $('#myhint').textContent=fav.size?`我的基金 ${fav.size} 檔`:'點 ☆ 加入我的基金';
   if(!rows.length){ list.innerHTML=`<div class="empty">${mode==='mine'&&!fav.size?'還沒有加入任何基金<br>在清單點 ☆ 把你持有的基金加進來':'沒有符合條件的基金'}</div>`; return; }
   let html='';
   rows.forEach((f,idx)=>{
     const favc=fav.has(f.tf)?'fav':'', star=fav.has(f.tf)?'★':'☆';
     const rankBadge=sortK?`<div class="rank">#${idx+1}</div>`:'';
-    const isCash=/貨幣帳戶/.test(f.name);
-    const tags=`${isCash?`<span class="tag t-cash">活存/貨幣</span>`:''}${f.rr?`<span class="tag t-rr">${f.rr}</span>`:''}${f.dist==='配息'?`<span class="tag t-dist">配息</span>`:''}${f.src==='moneydj'?`<span class="tag t-ext">MoneyDJ</span>`:''}`;
+    const cash=isCash(f.name), bk=bucket(f.name);
+    const bkTag=bk==='核心'?`<span class="tag t-core">核心</span>`:(bk==='衛星'?`<span class="tag t-sat">衛星</span>`:'');
+    const tags=`${cash?`<span class="tag t-cash">活存/貨幣</span>`:''}${bkTag}${f.rr?`<span class="tag t-rr">${f.rr}</span>`:''}${f.dist==='配息'?`<span class="tag t-dist">配息</span>`:''}${f.src==='moneydj'?`<span class="tag t-ext">MoneyDJ</span>`:''}`;
     const hasPerf=f.perf && Object.keys(f.perf).length>0;
     let right;
     if(sortK){
@@ -247,7 +318,24 @@ $('#fMain').addEventListener('click',e=>{
 bindSingle('#fCur', c=> curF = c?c.dataset.c:null);
 bindSingle('#fRR',  c=> rrF  = c?c.dataset.r:null);
 bindSingle('#fDist',c=> distF= c?c.dataset.d:null);
+bindSingle('#fBucket',c=> bucketF= c?c.dataset.b:null);
 bindSingle('#fSort',c=> sortK= c?c.dataset.s:null);
+
+// 長期優選：排除活存、只留3年&5年報酬為正、依5年排名
+$('#presetLong').addEventListener('click',()=>{
+  presetLong=!presetLong;
+  $('#presetLong').classList.toggle('on',presetLong);
+  if(presetLong){
+    sortK='m60';
+    $('#fSort').querySelectorAll('.chip').forEach(x=>x.classList.toggle('on',x.dataset.s==='m60'));
+    toast('已套用長期優選：3年&5年報酬為正，依5年排名');
+  }
+  render();
+});
+// 投資觀念板塊
+$('#ideaBtn').addEventListener('click',()=>$('#ideaModal').classList.add('show'));
+$('#ideaClose').addEventListener('click',()=>$('#ideaModal').classList.remove('show'));
+$('#ideaModal').addEventListener('click',e=>{ if(e.target.id==='ideaModal') $('#ideaModal').classList.remove('show'); });
 
 async function load(){
   try{
