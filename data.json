@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026/08/04 16:40",
+  "updated_at": "2026/08/04 18:13",
   "sections": [
     {
       "title": "台股 ETF / 指數",
@@ -124,10 +124,10 @@
         },
         {
           "name": "瀚亞外銷",
-          "value": 265.92,
-          "pct": 6.037164048169717,
+          "value": 275.19,
+          "pct": 3.4860108303249024,
           "url": "https://kgilife.moneydj.com/w/wr/wr01.djhtm?a=ACCP04-TFD1",
-          "date": "2026/08/03",
+          "date": "2026/08/04",
           "unit": "",
           "ok": true
         }
@@ -139,8 +139,8 @@
       "items": [
         {
           "name": "美元/台幣 (USD)",
-          "value": 32.41999816894531,
-          "pct": 0.3929623521134513,
+          "value": 32.4119987487793,
+          "pct": 0.3681910525168089,
           "url": "https://tw.stock.yahoo.com/quote/USDTWD=X",
           "date": null,
           "unit": "",
