@@ -152,6 +152,35 @@ def enrich_with_moneydj(funds):
     print(f"MoneyDJ 補進六期績效：{n} 檔")
 
 
+def nav_fv(fid):
+    """全委帳戶：BCDFVNavList 回傳長歷史序列，取最新淨值＋當日漲跌＋六期績效。"""
+    t = datetime.now(TW); w = t - timedelta(days=2100)
+    b = f"{w.year}-{w.month}-{w.day}"; e = f"{t.year}-{t.month}-{t.day}"
+    r = S.get(f"{BASE}/w/bcd/BCDFVNavList.djbcd?fid={fid}&bDate={b}&eDate={e}", timeout=25).content.decode("big5", "replace")
+    p = r.strip().split()
+    if len(p) < 2:
+        return None, None, None, {}
+    ds = p[0].split(",")
+    try:
+        ns = [float(x) for x in p[1].split(",")]
+    except Exception:
+        return None, None, None, {}
+    if not ns:
+        return None, None, None, {}
+    latest = ns[-1]; prev = ns[-2] if len(ns) >= 2 else latest
+    pct = (latest - prev) / prev * 100 if prev else 0.0
+    d = ds[-1]; date = f"{d[:4]}/{d[4:6]}/{d[6:]}"
+    ld = datetime.strptime(ds[-1], "%Y%m%d")
+    def pf(mm):
+        tgt = ld - timedelta(days=30 * mm); best = None
+        for dd, nn in zip(ds, ns):
+            if datetime.strptime(dd, "%Y%m%d") <= tgt:
+                best = nn
+        return round((latest / best - 1) * 100, 2) if best else None
+    perf = {k: pf(mm) for k, mm in [("m1", 1), ("m3", 3), ("m6", 6), ("m12", 12), ("m36", 36), ("m60", 60)]}
+    return latest, pct, date, {k: v for k, v in perf.items() if v is not None}
+
+
 def main():
     master = json.load(open(MASTER, encoding="utf-8"))
     if LIMIT:
@@ -162,10 +191,15 @@ def main():
         rec = {"tf": m["tf"], "name": m["name"], "cur": m.get("cur", "OTHER"),
                "rr": None, "dist": dist_flag(m["name"]), "typ": None,
                "value": None, "pct": None, "date": None, "perf": {},
-               "link": m["link"], "ok": False, "src": None}
+               "link": m["link"], "ok": False, "src": None, "prods": m.get("prods", [])}
         src = m.get("navsrc")
         try:
-            if src in ("wb01", "tbcd"):
+            if src == "fv":
+                nav, pct, date, perf = nav_fv(m["code"])
+                if nav is not None:
+                    rec.update(value=nav, pct=pct, date=date, ok=True); ok += 1
+                rec["perf"] = perf
+            elif src in ("wb01", "tbcd"):
                 rr, typ, nav, pct, date = parse_meta(m["sec"], m["code"], m["tf"])
                 rec["rr"] = rr; rec["typ"] = typ
                 if src == "tbcd" and nav is None:
@@ -186,9 +220,10 @@ def main():
         print("MoneyDJ 補值失敗（略過）:", e)
 
     perf_cnt = sum(1 for f in funds if f["perf"])
+    products = sorted({p for f in funds for p in f.get("prods", [])})
     payload = {"updated_at": datetime.now(TW).strftime("%Y/%m/%d %H:%M"),
-               "product": "凱基人壽 鑫鑫向榮", "total": len(funds), "priced": ok,
-               "perf_count": perf_cnt, "funds": funds}
+               "product": "凱基人壽 投資型保單", "products": products,
+               "total": len(funds), "priced": ok, "perf_count": perf_cnt, "funds": funds}
     json.dump(payload, open(OUTPUT, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     print(f"完成：{ok}/{len(funds)} 檔有淨值，已寫入 {OUTPUT}")
 

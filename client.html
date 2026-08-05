@@ -220,6 +220,7 @@
     <span class="toolbtn" id="cmpBtn">⚖️比較</span>
     <span class="toolbtn" id="shareBtn">📤分享</span>
   </div>
+  <div class="frow" id="fProd"></div>
   <div class="frow" id="fMain">
     <span class="chip on" data-f="all">全部</span>
     <span class="chip" data-f="mine">★ 我的基金</span>
@@ -319,7 +320,7 @@ const CUR_LABEL = {USD:'美元',TWD:'台幣',EUR:'歐元',RMB:'人民幣',ZAR:'�
 const PERF_LABEL = {m1:'1月',m3:'3月',m6:'6月',m12:'1年',m36:'3年',m60:'5年'};
 const LS_KEY = 'myfunds_xinxin';
 let ALL=[], fav=new Set(JSON.parse(localStorage.getItem(LS_KEY)||'[]'));
-let mode='all', curF=null, rrF=null, distF=null, sortK=null, bucketF=null, presetLong=false;
+let mode='all', curF=null, rrF=null, distF=null, sortK=null, bucketF=null, presetLong=false, prodF=null;
 
 const SAT_KW=/科技|半導體|生技|醫療|醫藥|黃金|礦業|礦金|礦|能源|原油|天然資源|資源|房地產|不動產|中小型|小型|中國|大中華|印度|日本|美國|歐洲|拉丁|俄羅斯|臺灣|台灣|韓|巴西|越南|東協|新興|亞洲|非洲|品牌|水資源|基礎建設|農業|消費/;
 const CORE_KW=/全球|環球|世界|多重資產|平衡|組合|資產配置|投資級|投資等級|複合|收益成長/;
@@ -330,8 +331,9 @@ function saveFav(){ localStorage.setItem(LS_KEY, JSON.stringify([...fav])); }
 
 // 記住上次的篩選/排序
 const UI_KEY='ui_xinxin';
-function saveUI(){ try{ localStorage.setItem(UI_KEY, JSON.stringify({mode,curF,rrF,distF,bucketF,sortK,presetLong})); }catch(e){} }
+function saveUI(){ try{ localStorage.setItem(UI_KEY, JSON.stringify({mode,curF,rrF,distF,bucketF,sortK,presetLong,prodF})); }catch(e){} }
 function applyChips(){
+  $('#fProd').querySelectorAll('.chip').forEach(x=>x.classList.toggle('on',(x.dataset.p||null)===prodF));
   $('#fMain').querySelectorAll('.chip').forEach(x=>x.classList.toggle('on',x.dataset.f===mode));
   $('#fCur').querySelectorAll('.chip').forEach(x=>x.classList.toggle('on',x.dataset.c===curF));
   $('#fRR').querySelectorAll('.chip').forEach(x=>x.classList.toggle('on',x.dataset.r===rrF));
@@ -343,7 +345,7 @@ function applyChips(){
 function restoreUI(){
   try{ const s=JSON.parse(localStorage.getItem(UI_KEY)||'{}');
     mode=s.mode||'all'; curF=s.curF||null; rrF=s.rrF||null; distF=s.distF||null;
-    bucketF=s.bucketF||null; sortK=s.sortK||null; presetLong=!!s.presetLong;
+    bucketF=s.bucketF||null; sortK=s.sortK||null; presetLong=!!s.presetLong; prodF=s.prodF||null;
   }catch(e){}
   applyChips();
 }
@@ -374,6 +376,7 @@ function sparkSVG(perf){
 }
 
 function matches(f){
+  if(prodF && !(f.prods||[]).includes(prodF)) return false;
   if(mode==='mine' && !fav.has(f.tf)) return false;
   if(curF && f.cur!==curF) return false;
   if(rrF && f.rr!==rrF) return false;
@@ -461,6 +464,11 @@ function bindSingle(sel, apply){
 $('#fMain').addEventListener('click',e=>{
   const c=e.target.closest('.chip'); if(!c)return;
   mode=c.dataset.f; $('#fMain').querySelectorAll('.chip').forEach(x=>x.classList.remove('on')); c.classList.add('on'); render();
+});
+$('#fProd').addEventListener('click',e=>{
+  const c=e.target.closest('.chip'); if(!c)return;
+  $('#fProd').querySelectorAll('.chip').forEach(x=>x.classList.remove('on')); c.classList.add('on');
+  prodF=c.dataset.p||null; render();
 });
 bindSingle('#fCur', c=> curF = c?c.dataset.c:null);
 bindSingle('#fRR',  c=> rrF  = c?c.dataset.r:null);
@@ -615,6 +623,8 @@ async function load(){
     const res=await fetch('funds_client.json?t='+Date.now(),{cache:'no-store'});
     const data=await res.json();
     ALL=data.funds||[];
+    const prods=data.products||[];
+    $('#fProd').innerHTML='<span class="flabel">保單</span><span class="chip" data-p="">全部</span>'+prods.map(p=>`<span class="chip" data-p="${p}">${p}</span>`).join('');
     $('#updated').textContent=`${data.product||''}　更新 ${data.updated_at||'—'}　共 ${data.total||ALL.length} 檔`;
     restoreUI();
     render();
