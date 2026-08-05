@@ -129,8 +129,8 @@
   .sharecard{width:400px; background:#1B2A4A; color:#FAF6EE; padding:18px 16px; box-sizing:border-box}
   .sc-brand{font-family:var(--serif); font-size:13px; letter-spacing:.14em; color:#C9A84C}
   .sc-title{font-family:var(--serif); font-size:22px; margin:6px 0 10px; color:#FAF6EE}
-  .sc-item{display:flex; justify-content:space-between; gap:10px; padding:8px 0; border-bottom:1px solid rgba(255,255,255,.12)}
-  .sc-nm{font-size:13px; line-height:1.4}
+  .sc-item{display:block; padding:9px 0; border-bottom:1px solid rgba(255,255,255,.12)}
+  .sc-nm{font-size:13px; line-height:1.4; font-weight:700}
   .sc-val{font-family:var(--num); font-weight:800; font-size:13px; white-space:nowrap; color:#C9A84C}
   .sc-foot{margin-top:12px; text-align:center; color:#C9A84C; font-family:var(--serif); letter-spacing:.15em; font-size:12px}
   /* 比較表 */
@@ -149,6 +149,27 @@
   .install b{color:var(--gold)}
   .install .ibtn{margin-left:auto; flex:0 0 auto; background:var(--gold); color:var(--navy); font-weight:800; border:none; border-radius:999px; padding:7px 12px; cursor:pointer; font-size:12.5px}
   .install .ix{flex:0 0 auto; background:none; border:none; color:#9aa4bd; font-size:18px; cursor:pointer; padding:0 2px}
+  /* 迷你走勢圖 */
+  .sparkrow{display:none; padding:2px 12px 10px 40px}
+  .row.open .sparkrow{display:block}
+  .sparklab{font-size:10px; color:#8a8270; margin-top:2px}
+  /* 分享卡：淨值＋報酬 */
+  .sc-meta{font-size:11px; color:#b9c2d6; margin-top:2px}
+  .sc-perf{font-size:10.5px; margin-top:3px; color:#e8e0d0; line-height:1.5}
+  /* 觀念一頁式 */
+  .cpage{text-align:center; padding:4px 2px 6px; min-height:300px}
+  .chero{font-size:54px; line-height:1}
+  .ctitle{font-family:var(--serif); font-size:22px; color:var(--navy); margin-top:8px; font-weight:700}
+  .clead{color:var(--gold-d); font-size:14px; font-weight:700; margin:5px 0 12px}
+  .cbody{font-size:13.5px; color:#3a3a3a; line-height:1.85; text-align:left}
+  .cbody b{color:var(--navy)}
+  .ideanav{display:flex; align-items:center; justify-content:space-between; margin-top:14px}
+  .ideanav button{background:none; border:1px solid var(--gray); border-radius:999px; padding:7px 14px; font-size:13px; color:var(--navy); cursor:pointer}
+  .ideanav button:disabled{opacity:.3}
+  #ideaDots{display:flex; gap:5px; flex-wrap:wrap; justify-content:center; max-width:150px}
+  .idot{width:7px; height:7px; border-radius:50%; background:var(--gray)}
+  .idot.on{background:var(--gold)}
+  .cshare{width:100%; margin-top:10px; background:#06C755; color:#fff; font-weight:800; border:none; border-radius:11px; padding:12px; font-size:15px; cursor:pointer}
   .star{font-size:20px; line-height:1; color:#c9c0aa; cursor:pointer; width:24px; text-align:center; flex:0 0 auto; user-select:none}
   .row.fav .star{color:var(--gold)}
   .rank{position:absolute; left:6px; top:6px; font-family:var(--num); font-size:10px; font-weight:900; color:var(--gold-d)}
@@ -242,63 +263,15 @@
 
 <div class="modal" id="ideaModal">
   <div class="sheet">
-    <button class="mclose" id="ideaClose">×</button>
-    <h2>📖 投資觀念</h2>
-    <p>長期投資（5 年以上）看的不是短線漲跌，而是<b>長期報酬＋穩定度＋風險相稱</b>。</p>
-    <h3>一、怎麼篩</h3>
-    <ul>
-      <li><b>長期報酬</b>：3 年、5 年報酬為正且居前段（用「排名依績效」選 5年/3年，或直接按上方 ⭐長期優選）。</li>
-      <li><b>一致性</b>：點「績效 ▾」看六期是否一路向上，不忽上忽下。</li>
-      <li><b>風險相稱</b>：RR 對應承受度（保守 RR2–3、積極 RR4–5）。</li>
-      <li><b>領息或滾存</b>：要現金流選「配息」，要複利選「未配息(累積)」。</li>
-      <li><b>排除</b>：活存/貨幣帳戶、暫停交易的標的。</li>
-    </ul>
-    <p>💡「1 年 +40% 但 5 年只 +10%」多為短線題材；長期要選<b>3 年、5 年都穩定領先</b>的。</p>
-    <h3>二、核心－衛星配置</h3>
-    <div class="cs">
-      <div class="csbox core"><b>核心 70–80%（穩）</b>全球股票、全球平衡／多重資產、投資等級債。波動低、長期穩，是壓艙石。</div>
-      <div class="csbox sat"><b>衛星 20–30%（攻）</b>單一市場／主題（科技、新興、黃金）。追超額報酬，但控制在小比例。</div>
+    <button class="mclose" data-close="ideaModal">×</button>
+    <div id="ideaContent"></div>
+    <div class="ideanav">
+      <button id="ideaPrev">‹ 上一個</button>
+      <span id="ideaDots"></span>
+      <button id="ideaNext">下一個 ›</button>
     </div>
-    <p>清單每檔會標 <span class="tag t-core">核心</span> 或 <span class="tag t-sat">衛星</span> 供參考，可用「屬性」篩選分別檢視。</p>
-    <h3>三、複利與紀律（滾雪球）</h3>
-    <p>🏂 <b>巴菲特滾雪球</b>：「人生就像滾雪球，重要的是找到<b>夠濕的雪</b>和<b>很長的坡道</b>。」濕的雪＝會複利的好資產（報酬、配息再投入）；長坡道＝夠長的時間。越早開始、雪球滾越大。</p>
-    <p>💧 <b>定期定額</b>：每月固定金額買進，<b>高點買少、低點買多</b>，自動攤平成本、不必猜高低點——正是投資型保單「月繳保費」的天然優勢。關鍵是<b>不中斷，越跌越要扣</b>。</p>
-    <p>📐 <b>72 法則</b>：本金翻倍所需年數 ≈ <b>72 ÷ 年報酬率</b>。年報酬 6%→約 12 年翻倍、8%→約 9 年，幫客戶快速感受時間的力量。</p>
-    <p>⏳ <b>時間在市場，勝過擇時</b>：錯過少數幾個大漲日，長期報酬就大幅縮水；續留比猜點位重要。</p>
-    <p>🧊 <b>別人恐懼我貪婪</b>：大跌時定期定額不停扣、甚至加碼，常是長期報酬來源；追高殺低最傷複利。</p>
-    <p>💸 <b>成本意識</b>：內扣費用長期侵蝕複利，同類報酬相近時，優先選成本較低、規模穩定的。</p>
-    <h3>四、四個原則</h3>
-    <ul>
-      <li><b>分散</b>：跨資產（股／債／多重）＋跨區域，別押單一市場。</li>
-      <li><b>股債比對應年期</b>：年期越長、承受度越高 → 股比越高。</li>
-      <li><b>定期定額＋長期持有</b>：抵銷擇時風險，讓複利發揮。</li>
-      <li><b>每年再平衡一次</b>：漲多的獲利了結、補回落後的＝紀律化的賣高買低。</li>
-    </ul>
-    <h3>五、先打底，再投資（保險×投資）</h3>
-    <ul>
-      <li><b>保障與投資分離</b>：先用保險把「風險缺口」（壽險、醫療、意外）補好，投資的錢才能安心長抱、不被突發事件打斷。</li>
-      <li><b>緊急預備金</b>：先留 <b>6 個月生活費</b>在活存，投資部位才「放得久、不被迫低點贖回」——這就是滾雪球的「長坡道」前提。</li>
-      <li><b>通膨侵蝕現金</b>：錢放活存實質購買力逐年變薄，長期投資是為了跑贏通膨（對照清單上的「活存/貨幣」）。</li>
-      <li><b>停利不停扣</b>：波動市場設停利點分批入袋，但<b>定期定額不中斷</b>，讓成本持續攤平。</li>
-    </ul>
-    <h3>六、資產配置金字塔</h3>
-    <div class="pyramid">
-      <div class="pyr top">衛星 20–30%｜主題／單一市場（科技・新興・黃金）追報酬</div>
-      <div class="pyr mid">核心 70–80%｜全球股・多重資產・投資級債（壓艙石）</div>
-      <div class="pyr base">地基｜保障（壽險／醫療）＋ 緊急預備金 6 個月</div>
-    </div>
-    <p>由下往上：先把地基（保障＋預備金）打穩，再配核心求穩，最後用小比例衛星求進。</p>
-    <h3>七、風險屬性 × 建議股債比</h3>
-    <table class="rrt">
-      <tr><th>屬性</th><th>RR</th><th>股：債（參考）</th></tr>
-      <tr><td>保守</td><td>RR1–2</td><td>股 20–40／債 60–80</td></tr>
-      <tr><td>穩健</td><td>RR3</td><td>股 40–60／債 40–60</td></tr>
-      <tr><td>積極</td><td>RR4</td><td>股 60–80／債 20–40</td></tr>
-      <tr><td>進取</td><td>RR5</td><td>股 80–100／債 0–20</td></tr>
-    </table>
-    <p>用清單的 <b>RR 篩選</b> 對應客戶屬性，再依上表抓股債大方向；年期越長可再偏積極。</p>
-    <div class="keyline">先打底・核心求穩・衛星求進・定期定額・讓複利滾成雪球</div>
-    <div class="dis">以上為投資方法與資產配置原則，非個別基金推介。實際選擇應依每位客戶的風險屬性、目標與投資年期評估。績效為過去表現，不代表未來，不保證獲利。</div>
+    <button class="cshare" id="ideaShare">📤 傳給客戶（LINE / 存圖）</button>
+    <div class="dis" style="margin-top:10px">投資方法與觀念分享，非個別基金推介。實際選擇應依客戶風險屬性、目標與投資年期評估。</div>
   </div>
 </div>
 
@@ -381,6 +354,24 @@ function fmtVal(v){ if(v==null)return'';
 function pctHtml(p,cls0){ if(p==null)return'<span class="flat">—</span>';
   const cls=p>0.0001?'up':(p<-0.0001?'down':'flat'), ar=p>0.0001?'▲':(p<-0.0001?'▼':'—'), s=p>0?'+':'';
   return `<span class="${cls}"><span class="ar">${ar}</span>${s}${p.toFixed(2)}%</span>`; }
+function perfLine(perf){
+  return [['m1','1月'],['m3','3月'],['m6','6月'],['m12','1年'],['m36','3年'],['m60','5年']].map(([k,lab])=>{
+    const v=perf[k]; if(v==null) return `${lab} —`;
+    const c=v>0?'#ff8a8a':(v<0?'#7ce0a9':'#cfc'); return `${lab} <span style="color:${c}">${(v>0?'+':'')+v.toFixed(1)}%</span>`;
+  }).join('　');
+}
+function sparkSVG(perf){
+  const ks=['m1','m3','m6','m12','m36','m60'];
+  const nums=ks.map(k=>perf[k]).filter(v=>v!=null);
+  if(nums.length<2) return '';
+  const w=250,h=40,pad=4, min=Math.min(...nums,0), max=Math.max(...nums,0), rng=(max-min)||1, step=(w-2*pad)/(ks.length-1);
+  const xy=i=>{ const v=perf[ks[i]]; return [pad+i*step, h-pad-((v-min)/rng)*(h-2*pad)]; };
+  let d='',pts='';
+  ks.forEach((k,i)=>{ if(perf[k]==null)return; const [x,y]=xy(i); d+=(d?' L':'M')+x.toFixed(1)+' '+y.toFixed(1);
+    pts+=`<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="2.5" fill="${perf[k]>=0?'#D42F2F':'#00934B'}"/>`; });
+  const zy=(h-pad-((0-min)/rng)*(h-2*pad)).toFixed(1);
+  return `<svg width="100%" height="${h}" viewBox="0 0 ${w} ${h}" preserveAspectRatio="none"><line x1="${pad}" y1="${zy}" x2="${w-pad}" y2="${zy}" stroke="#c9c0aa" stroke-width="1" stroke-dasharray="3 3"/><path d="${d}" fill="none" stroke="#1B2A4A" stroke-width="2"/>${pts}</svg>`;
+}
 
 function matches(f){
   if(mode==='mine' && !fav.has(f.tf)) return false;
@@ -428,6 +419,8 @@ function render(){
         const v=f.perf[k]; const cls=v==null?'flat':(v>0?'up':(v<0?'down':'flat')); const hl=(k===sortK)?' hl':'';
         return `<div class="pcell${hl}"><div class="pl">${PERF_LABEL[k]}</div><div class="pv ${cls}">${v==null?'—':(v>0?'+':'')+v.toFixed(2)+'%'}</div></div>`;
       }).join('')+'</div>';
+      const spark=sparkSVG(f.perf);
+      if(spark) grid+=`<div class="sparkrow">${spark}<div class="sparklab">1月 → 5年 報酬走勢（水平虛線＝0%）</div></div>`;
       if(f.src==='moneydj') grid+='<div class="psrc">績效來源：MoneyDJ（此檔淨值請點右方「查看」）</div>';
     }
     const openc=(sortK && hasPerf)?' open':'';
@@ -489,14 +482,54 @@ $('#presetLong').addEventListener('click',()=>{
 // ===== 彈窗開關（通用）=====
 function openM(id){ document.getElementById(id).classList.add('show'); }
 function closeM(id){ document.getElementById(id).classList.remove('show'); }
-$('#ideaBtn').addEventListener('click',()=>openM('ideaModal'));
+$('#ideaBtn').addEventListener('click',()=>{ openM('ideaModal'); renderIdea(); });
 $('#calcBtn').addEventListener('click',()=>{ openM('calcModal'); calc(); });
 $('#quizBtn').addEventListener('click',()=>{ openM('quizModal'); renderQuiz(); });
 $('#cmpBtn').addEventListener('click',()=>{ openM('cmpModal'); buildCompare(); });
 $('#shareBtn').addEventListener('click',shareCard);
-$('#ideaClose').addEventListener('click',()=>closeM('ideaModal'));
 document.querySelectorAll('[data-close]').forEach(b=>b.addEventListener('click',()=>closeM(b.dataset.close)));
 document.querySelectorAll('.modal').forEach(m=>m.addEventListener('click',e=>{ if(e.target===m) m.classList.remove('show'); }));
+
+// ===== 投資觀念（一頁一觀念，可 LINE 給客戶）=====
+const CONCEPTS=[
+ {e:'📋', t:'長期投資怎麼選', lead:'看長期報酬、穩定度、風險相稱', body:`<p><b>長期報酬</b>：3 年、5 年報酬為正且居前段。</p><p><b>一致性</b>：六期報酬一路向上，不忽上忽下。</p><p><b>風險相稱</b>：RR 對應承受度。</p><p><b>領息或滾存</b>：要現金流選配息，要複利選累積。</p><p>💡「1 年 +40% 但 5 年只 +10%」多是短線題材；長期選 <b>3 年、5 年都穩定領先</b> 的。</p>`},
+ {e:'🧭', t:'核心－衛星配置', lead:'核心求穩，衛星求進', body:`<div class="cs"><div class="csbox core"><b>核心 70–80%</b>全球股票、多重資產、投資級債。波動低、長期穩，是壓艙石。</div><div class="csbox sat"><b>衛星 20–30%</b>單一市場／主題（科技・新興・黃金）。追超額報酬，控制小比例。</div></div><p>清單每檔已標 <span class="tag t-core">核心</span>／<span class="tag t-sat">衛星</span>，可用「屬性」篩選。</p>`},
+ {e:'🏂', t:'巴菲特滾雪球', lead:'找夠濕的雪，和很長的坡道', body:`<p>「人生就像滾雪球，重要的是找到<b>夠濕的雪</b>和<b>很長的坡道</b>。」</p><p>濕的雪＝會複利的好資產（報酬、配息再投入）；長坡道＝<b>夠長的時間</b>。</p><p>越早開始、雪球滾越大——時間是複利最強的燃料。</p>`},
+ {e:'💧', t:'定期定額', lead:'高點買少、低點買多', body:`<p>每月固定金額買進，自動<b>攤平成本</b>、不必猜高低點。</p><p>這正是投資型保單「<b>月繳保費</b>」的天然優勢。</p><p>心法：<b>不中斷，越跌越要扣</b>——下跌時買到更多單位，反彈時獲利更大。</p>`},
+ {e:'📐', t:'72 法則', lead:'本金翻倍要幾年？', body:`<p style="text-align:center;font-size:16px"><b>翻倍年數 ≈ 72 ÷ 年報酬率</b></p><p>年報酬 6% → 約 <b>12 年</b>翻倍<br>年報酬 8% → 約 <b>9 年</b>翻倍<br>年報酬 12% → 約 <b>6 年</b>翻倍</p><p>一個簡單心算，讓客戶秒懂「時間 × 報酬」的威力。</p>`},
+ {e:'⏳', t:'時間在市場', lead:'續留，勝過猜進出', body:`<p>長期報酬多來自<b>少數幾個大漲日</b>；為了避險殺出、錯過那幾天，報酬會大幅縮水。</p><p>與其猜點位進出，不如<b>續抱、定期定額</b>——讓時間替你工作。</p>`},
+ {e:'🧊', t:'別人恐懼我貪婪', lead:'大跌，是長期報酬的來源', body:`<p>市場大跌、人人恐慌時，<b>定期定額不停扣、甚至加碼</b>，往往買在便宜區。</p><p>反之，<b>追高殺低</b>最傷複利——買在貴、賣在便宜，來回都虧。</p><p>紀律，勝過情緒。</p>`},
+ {e:'💸', t:'成本意識', lead:'費用會偷走你的複利', body:`<p>基金的<b>內扣費用</b>年年扣、長期會明顯侵蝕複利。</p><p>同類、報酬相近時，優先選<b>成本較低、規模穩定</b>的標的。</p><p>省下的成本，長期也是一筆可觀的複利。</p>`},
+ {e:'🛡️', t:'先打底，再投資', lead:'保障與預備金，是投資的地基', body:`<p><b>保障與投資分離</b>：先用保險補好壽險/醫療/意外的缺口，投資的錢才能安心長抱。</p><p><b>緊急預備金</b>：先留 <b>6 個月生活費</b>在活存，才不會被迫在低點贖回。</p><p><b>通膨</b>：現金放著實質變薄，長期投資是為了跑贏通膨。</p>`},
+ {e:'🔺', t:'資產配置金字塔', lead:'由下往上，先穩後攻', body:`<div class="pyramid"><div class="pyr top">衛星 20–30%｜主題／單一市場</div><div class="pyr mid">核心 70–80%｜全球股・多重資產・投資級債</div><div class="pyr base">地基｜保障 ＋ 緊急預備金 6 個月</div></div><p>先把地基打穩，再配核心求穩，最後用小比例衛星求進。</p>`},
+ {e:'🎚️', t:'風險屬性 × 股債比', lead:'先懂自己，再配比例', body:`<table class="rrt"><tr><th>屬性</th><th>RR</th><th>股：債（參考）</th></tr><tr><td>保守</td><td>RR1–2</td><td>股 20–40／債 60–80</td></tr><tr><td>穩健</td><td>RR3</td><td>股 40–60／債 40–60</td></tr><tr><td>積極</td><td>RR4</td><td>股 60–80／債 20–40</td></tr><tr><td>進取</td><td>RR5</td><td>股 80–100／債 0–20</td></tr></table><p>用 App 的「🎯風險測驗」測出屬性，再依表抓股債大方向。</p>`},
+];
+let ideaIdx=0;
+function renderIdea(){
+  const c=CONCEPTS[ideaIdx];
+  $('#ideaContent').innerHTML=`<div class="cpage"><div class="chero">${c.e}</div><div class="ctitle">${c.t}</div><div class="clead">${c.lead}</div><div class="cbody">${c.body}</div></div>`;
+  $('#ideaDots').innerHTML=CONCEPTS.map((_,i)=>`<span class="idot${i===ideaIdx?' on':''}"></span>`).join('');
+  $('#ideaPrev').disabled=ideaIdx===0;
+  $('#ideaNext').disabled=ideaIdx===CONCEPTS.length-1;
+}
+$('#ideaPrev').addEventListener('click',()=>{ if(ideaIdx>0){ideaIdx--; renderIdea();} });
+$('#ideaNext').addEventListener('click',()=>{ if(ideaIdx<CONCEPTS.length-1){ideaIdx++; renderIdea();} });
+$('#ideaShare').addEventListener('click',()=>shareConcept(ideaIdx));
+async function shareConcept(idx){
+  if(typeof html2canvas==='undefined'){ toast('圖片元件載入中，請稍候'); return; }
+  const c=CONCEPTS[idx];
+  const wrap=document.createElement('div');
+  wrap.style.cssText='position:fixed;left:-10000px;top:0;width:400px;background:#FAF6EE;padding:22px 20px;box-sizing:border-box';
+  wrap.innerHTML=`<div style="font-family:'Noto Serif TC',serif;font-size:12px;letter-spacing:.14em;color:#A07830"><span style="color:#C9A84C">誠毅</span>傳承　熊誠毅</div><div style="text-align:center;margin-top:14px"><div style="font-size:56px;line-height:1">${c.e}</div><div style="font-family:'Noto Serif TC',serif;font-size:23px;color:#1B2A4A;font-weight:700;margin-top:6px">${c.t}</div><div style="color:#A07830;font-size:14px;font-weight:700;margin:5px 0 12px">${c.lead}</div></div><div class="cbody">${c.body}</div><div style="margin-top:16px;text-align:center;color:#C9A84C;font-family:'Noto Serif TC',serif;letter-spacing:.15em;font-size:12px">誠於心・毅於行・傳於世・承於志</div>`;
+  document.body.appendChild(wrap);
+  try{
+    const canvas=await html2canvas(wrap,{backgroundColor:'#FAF6EE',scale:3,useCORS:true,windowWidth:400});
+    const blob=await new Promise(r=>canvas.toBlob(r,'image/png',.95));
+    const file=new File([blob],`投資觀念_${c.t}.png`,{type:'image/png'});
+    if(navigator.canShare && navigator.canShare({files:[file]})){ await navigator.share({files:[file],text:`${c.t}｜${c.lead}　—熊誠毅・誠毅傳承`}); }
+    else { const u=URL.createObjectURL(blob); const a=document.createElement('a'); a.href=u; a.download=`投資觀念_${c.t}.png`; document.body.appendChild(a); a.click(); a.remove(); setTimeout(()=>URL.revokeObjectURL(u),4000); toast('圖片已下載，可傳給客戶'); }
+  }catch(e){ if(!(e&&e.name==='AbortError')) toast('產生圖片失敗'); } finally{ wrap.remove(); }
+}
 
 // ===== 定期定額試算 =====
 function money(v){ return '$'+Math.round(v).toLocaleString('en-US'); }
@@ -561,10 +594,12 @@ async function shareCard(){
   if(!favs.length){ toast('先在清單點 ☆ 加入基金再分享'); return; }
   const wrap=document.createElement('div'); wrap.className='sharecard';
   wrap.style.cssText='position:fixed;left:-10000px;top:0';
-  wrap.innerHTML=`<div class="sc-brand"><span style="color:#C9A84C">誠毅</span>傳承　熊誠毅</div><div class="sc-title">精選基金追蹤</div>`+
-    favs.map(f=>{ const has=f.perf&&f.perf.m60!=null; const v=has?`5年 ${(f.perf.m60>0?'+':'')+f.perf.m60.toFixed(1)}%`:(f.ok?fmtVal(f.value):'—');
-      return `<div class="sc-item"><div class="sc-nm">${f.name}</div><div class="sc-val">${v}</div></div>`; }).join('')+
-    `<div class="sc-foot">誠於心・毅於行・傳於世・承於志</div><div style="text-align:center;font-size:10px;color:#8b95ab;margin-top:6px">資料僅供參考，不構成投資建議</div>`;
+  wrap.innerHTML=`<div class="sc-brand"><span style="color:#C9A84C">誠毅</span>傳承　熊誠毅</div><div class="sc-title">精選基金淨值・報酬</div>`+
+    favs.map(f=>{
+      const nav = f.ok ? `淨值 ${fmtVal(f.value)}${f.date?'（'+f.date+'）':''}` : (f.src==='moneydj'?'淨值：App 內點查看':'—');
+      return `<div class="sc-item"><div class="sc-nm">${f.name}</div><div class="sc-meta">${nav}</div>${f.perf?`<div class="sc-perf">${perfLine(f.perf)}</div>`:''}</div>`;
+    }).join('')+
+    `<div class="sc-foot">誠於心・毅於行・傳於世・承於志</div><div style="text-align:center;font-size:10px;color:#8b95ab;margin-top:6px">${(new Date()).toLocaleDateString('zh-TW')}　資料僅供參考，不構成投資建議</div>`;
   document.body.appendChild(wrap);
   try{
     const canvas=await html2canvas(wrap,{backgroundColor:'#1B2A4A',scale:3,useCORS:true,windowWidth:400});
