@@ -133,6 +133,22 @@
   .sc-nm{font-size:13px; line-height:1.4}
   .sc-val{font-family:var(--num); font-weight:800; font-size:13px; white-space:nowrap; color:#C9A84C}
   .sc-foot{margin-top:12px; text-align:center; color:#C9A84C; font-family:var(--serif); letter-spacing:.15em; font-size:12px}
+  /* 比較表 */
+  .cmpwrap{overflow-x:auto; -webkit-overflow-scrolling:touch; margin:8px 0}
+  .cmpt{border-collapse:collapse; font-size:12px; min-width:100%}
+  .cmpt th,.cmpt td{border:1px solid var(--gray); padding:7px 9px; text-align:center; white-space:nowrap}
+  .cmpt thead th{background:var(--navy); color:var(--cream); position:sticky; top:0}
+  .cmpt th.fn{text-align:left; background:var(--navy); color:var(--cream); position:sticky; left:0; z-index:2; min-width:120px; max-width:150px; white-space:normal; font-weight:500; font-size:11.5px; line-height:1.35}
+  .cmpt td.up{color:var(--up)} .cmpt td.down{color:var(--down)}
+  .cmpt td.best{background:#d9ece0; font-weight:900}
+  /* 安裝提示 */
+  .install{position:fixed; left:10px; right:10px; bottom:14px; z-index:55; background:var(--navy); color:var(--cream);
+    border:1px solid var(--gold); border-radius:14px; padding:11px 14px; display:none; align-items:center; gap:10px;
+    box-shadow:0 12px 30px -10px rgba(0,0,0,.6); font-size:12.5px; line-height:1.5}
+  .install.show{display:flex}
+  .install b{color:var(--gold)}
+  .install .ibtn{margin-left:auto; flex:0 0 auto; background:var(--gold); color:var(--navy); font-weight:800; border:none; border-radius:999px; padding:7px 12px; cursor:pointer; font-size:12.5px}
+  .install .ix{flex:0 0 auto; background:none; border:none; color:#9aa4bd; font-size:18px; cursor:pointer; padding:0 2px}
   .star{font-size:20px; line-height:1; color:#c9c0aa; cursor:pointer; width:24px; text-align:center; flex:0 0 auto; user-select:none}
   .row.fav .star{color:var(--gold)}
   .rank{position:absolute; left:6px; top:6px; font-family:var(--num); font-size:10px; font-weight:900; color:var(--gold-d)}
@@ -177,10 +193,11 @@
     <div class="bigbtn btn-long" id="presetLong">⭐ 長期優選</div>
   </div>
   <div class="tools">
-    <span class="toolbtn" id="ideaBtn">📖 觀念</span>
-    <span class="toolbtn" id="calcBtn">🧮 定額試算</span>
-    <span class="toolbtn" id="quizBtn">🎯 風險測驗</span>
-    <span class="toolbtn" id="shareBtn">📤 分享</span>
+    <span class="toolbtn" id="ideaBtn">📖觀念</span>
+    <span class="toolbtn" id="calcBtn">🧮試算</span>
+    <span class="toolbtn" id="quizBtn">🎯測驗</span>
+    <span class="toolbtn" id="cmpBtn">⚖️比較</span>
+    <span class="toolbtn" id="shareBtn">📤分享</span>
   </div>
   <div class="frow" id="fMain">
     <span class="chip on" data-f="all">全部</span>
@@ -308,6 +325,20 @@
   </div>
 </div>
 
+<div class="modal" id="cmpModal">
+  <div class="sheet">
+    <button class="mclose" data-close="cmpModal">×</button>
+    <h2>⚖️ 基金比較</h2>
+    <div id="cmpBody"></div>
+  </div>
+</div>
+
+<div class="install" id="installBar">
+  <span id="installTxt"></span>
+  <button class="ibtn" id="installGo" style="display:none">安裝</button>
+  <button class="ix" id="installX">×</button>
+</div>
+
 <script src="html2canvas.min.js"></script>
 <script>
 const $ = s => document.querySelector(s);
@@ -323,6 +354,26 @@ function isCash(n){ return /貨幣帳戶/.test(n); }
 function bucket(n){ if(isCash(n)) return ''; if(SAT_KW.test(n)) return '衛星'; if(CORE_KW.test(n)) return '核心'; return ''; }
 
 function saveFav(){ localStorage.setItem(LS_KEY, JSON.stringify([...fav])); }
+
+// 記住上次的篩選/排序
+const UI_KEY='ui_xinxin';
+function saveUI(){ try{ localStorage.setItem(UI_KEY, JSON.stringify({mode,curF,rrF,distF,bucketF,sortK,presetLong})); }catch(e){} }
+function applyChips(){
+  $('#fMain').querySelectorAll('.chip').forEach(x=>x.classList.toggle('on',x.dataset.f===mode));
+  $('#fCur').querySelectorAll('.chip').forEach(x=>x.classList.toggle('on',x.dataset.c===curF));
+  $('#fRR').querySelectorAll('.chip').forEach(x=>x.classList.toggle('on',x.dataset.r===rrF));
+  $('#fDist').querySelectorAll('.chip').forEach(x=>x.classList.toggle('on',x.dataset.d===distF));
+  $('#fBucket').querySelectorAll('.chip').forEach(x=>x.classList.toggle('on',x.dataset.b===bucketF));
+  $('#fSort').querySelectorAll('.chip').forEach(x=>x.classList.toggle('on',x.dataset.s===sortK));
+  $('#presetLong').classList.toggle('on',presetLong);
+}
+function restoreUI(){
+  try{ const s=JSON.parse(localStorage.getItem(UI_KEY)||'{}');
+    mode=s.mode||'all'; curF=s.curF||null; rrF=s.rrF||null; distF=s.distF||null;
+    bucketF=s.bucketF||null; sortK=s.sortK||null; presetLong=!!s.presetLong;
+  }catch(e){}
+  applyChips();
+}
 let tt; function toast(m){ const t=$('#toast'); t.textContent=m; t.classList.add('show'); clearTimeout(tt); tt=setTimeout(()=>t.classList.remove('show'),1600); }
 
 function fmtVal(v){ if(v==null)return'';
@@ -348,6 +399,8 @@ function render(){
   const list=$('#list');
   let rows=ALL.filter(matches);
   if(sortK) rows.sort((a,b)=> (b.perf[sortK]) - (a.perf[sortK]));
+  else rows.sort((a,b)=> (fav.has(b.tf)?1:0)-(fav.has(a.tf)?1:0)); // 我的基金置頂
+  saveUI();
   $('#count').textContent=`顯示 ${rows.length} 檔`+(presetLong?'・長期優選':'')+(sortK?`・依${PERF_LABEL[sortK]}排名`:'');
   $('#myhint').textContent=fav.size?`我的基金 ${fav.size} 檔`:'點 ☆ 加入我的基金';
   if(!rows.length){ list.innerHTML=`<div class="empty">${mode==='mine'&&!fav.size?'還沒有加入任何基金<br>在清單點 ☆ 把你持有的基金加進來':'沒有符合條件的基金'}</div>`; return; }
@@ -439,6 +492,7 @@ function closeM(id){ document.getElementById(id).classList.remove('show'); }
 $('#ideaBtn').addEventListener('click',()=>openM('ideaModal'));
 $('#calcBtn').addEventListener('click',()=>{ openM('calcModal'); calc(); });
 $('#quizBtn').addEventListener('click',()=>{ openM('quizModal'); renderQuiz(); });
+$('#cmpBtn').addEventListener('click',()=>{ openM('cmpModal'); buildCompare(); });
 $('#shareBtn').addEventListener('click',shareCard);
 $('#ideaClose').addEventListener('click',()=>closeM('ideaModal'));
 document.querySelectorAll('[data-close]').forEach(b=>b.addEventListener('click',()=>closeM(b.dataset.close)));
@@ -527,9 +581,45 @@ async function load(){
     const data=await res.json();
     ALL=data.funds||[];
     $('#updated').textContent=`${data.product||''}　更新 ${data.updated_at||'—'}　共 ${data.total||ALL.length} 檔`;
+    restoreUI();
     render();
   }catch(e){ $('#updated').textContent='資料載入失敗，請稍後重試'; $('#list').innerHTML='<div class="empty">尚未有資料</div>'; }
 }
+// ===== 基金比較（比較「我的基金」）=====
+function buildCompare(){
+  const favs=ALL.filter(f=>fav.has(f.tf));
+  if(favs.length<1){ $('#cmpBody').innerHTML='<div class="empty" style="color:#8a8270;padding:30px 10px">先在清單點 ☆ 加入至少 2 檔基金，再回來比較</div>'; return; }
+  const perfKeys=['m1','m3','m6','m12','m36','m60'];
+  const best={};
+  perfKeys.forEach(k=>{ let b=-1e9,bt=null; favs.forEach(f=>{ const v=f.perf&&f.perf[k]; if(v!=null&&v>b){b=v;bt=f.tf;} }); best[k]=bt; });
+  let html='<div class="cmpwrap"><table class="cmpt"><thead><tr><th class="fn">基金</th><th>RR</th>'+perfKeys.map(k=>`<th>${PERF_LABEL[k]}</th>`).join('')+'</tr></thead><tbody>';
+  favs.forEach(f=>{
+    html+=`<tr><th class="fn">${f.name}</th><td>${f.rr||'—'}</td>`;
+    perfKeys.forEach(k=>{ const v=f.perf&&f.perf[k]; const cls=v==null?'':(v>0?'up':(v<0?'down':'')); const bc=best[k]===f.tf?' best':''; const t=v==null?'—':(v>0?'+':'')+v.toFixed(1)+'%'; html+=`<td class="${cls}${bc}">${t}</td>`; });
+    html+='</tr>';
+  });
+  html+='</tbody></table></div><p style="font-size:11.5px;color:#8a8270;margin-top:6px">綠底＝該期別報酬最高；表格可左右滑動。比較的是你「★ 我的基金」清單。</p>';
+  $('#cmpBody').innerHTML=html;
+}
+
+// ===== 離線可看（Service Worker）=====
+if('serviceWorker' in navigator){ window.addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{})); }
+
+// ===== 安裝到主畫面引導 =====
+let deferredPrompt=null;
+function isStandalone(){ return window.matchMedia('(display-mode: standalone)').matches || navigator.standalone; }
+function showInstall(kind){
+  if(isStandalone() || localStorage.getItem('install_dismiss')) return;
+  const bar=$('#installBar'), txt=$('#installTxt'), go=$('#installGo');
+  if(kind==='android'){ txt.innerHTML='把「誠毅基金」<b>加到主畫面</b>，開啟更快、可離線看'; go.style.display=''; }
+  else { txt.innerHTML='iPhone：點 <b>分享</b> → <b>加入主畫面</b>，即可像 App 一樣開啟'; go.style.display='none'; }
+  bar.classList.add('show');
+}
+window.addEventListener('beforeinstallprompt',e=>{ e.preventDefault(); deferredPrompt=e; showInstall('android'); });
+$('#installGo').addEventListener('click',async()=>{ if(deferredPrompt){ deferredPrompt.prompt(); await deferredPrompt.userChoice; deferredPrompt=null; } $('#installBar').classList.remove('show'); });
+$('#installX').addEventListener('click',()=>{ $('#installBar').classList.remove('show'); localStorage.setItem('install_dismiss','1'); });
+setTimeout(()=>{ if(/iphone|ipad|ipod/i.test(navigator.userAgent) && !deferredPrompt) showInstall('ios'); }, 2500);
+
 load();
 </script>
 </body>
