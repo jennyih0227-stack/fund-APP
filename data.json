@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026/08/08 01:24",
+  "updated_at": "2026/08/08 02:13",
   "sections": [
     {
       "title": "台股 ETF / 指數",
@@ -40,8 +40,8 @@
       "items": [
         {
           "name": "道瓊 (DJI)",
-          "value": 53980.03125,
-          "pct": 0.17617056430689548,
+          "value": 53939.3515625,
+          "pct": 0.10067717871344599,
           "url": "https://tw.stock.yahoo.com/quote/%5EDJI",
           "date": null,
           "unit": "點",
@@ -49,8 +49,8 @@
         },
         {
           "name": "S&P500 (SPX)",
-          "value": 7743.4599609375,
-          "pct": 0.4345029049402033,
+          "value": 7741.990234375,
+          "pct": 0.4154402046156054,
           "url": "https://tw.stock.yahoo.com/quote/%5EGSPC",
           "date": null,
           "unit": "點",
@@ -58,8 +58,8 @@
         },
         {
           "name": "那斯達克 (IXIC)",
-          "value": 26591.61328125,
-          "pct": 0.9232596177046489,
+          "value": 26597.060546875,
+          "pct": 0.9439336474095752,
           "url": "https://tw.stock.yahoo.com/quote/%5EIXIC",
           "date": null,
           "unit": "點",
@@ -67,8 +67,8 @@
         },
         {
           "name": "費城半導體 (SOX)",
-          "value": 12312.2763671875,
-          "pct": 2.187672917967372,
+          "value": 12291.80859375,
+          "pct": 2.0177974152565694,
           "url": "https://tw.stock.yahoo.com/quote/%5ESOX",
           "date": null,
           "unit": "點",
@@ -139,8 +139,8 @@
       "items": [
         {
           "name": "美元/台幣 (USD)",
-          "value": 32.237998962402344,
-          "pct": -0.08306904780596508,
+          "value": 32.25299835205078,
+          "pct": -0.03658064815138855,
           "url": "https://tw.stock.yahoo.com/quote/USDTWD=X",
           "date": null,
           "unit": "",
