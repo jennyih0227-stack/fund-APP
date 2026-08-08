@@ -4478,14 +4478,15 @@
   },
   {
     "tf": "TFWI",
-    "name": "霸菱綠色趨勢全權委託管理帳戶(美元)(現金撥回)(全權委託帳戶之資產撥回機制來源可能為本金)(撥回率或撥回金額非固定)",
+    "name": "霸菱綠色趨勢全權委託管理帳戶(美元)(現金撥回)",
     "cur": "USD",
-    "sec": null,
-    "code": null,
-    "navsrc": null,
-    "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFWI&b=01&shell=Y",
+    "sec": "fv",
+    "code": "TFWI",
+    "navsrc": "fv",
+    "link": "https://kgilife.moneydj.com/w/wf/wfv/wfv01.djhtm?a=TFWI",
     "prods": [
-      "鑫鑫向榮"
+      "鑫鑫向榮",
+      "全委"
     ]
   },
   {
@@ -4538,38 +4539,41 @@
   },
   {
     "tf": "TFWR",
-    "name": "凱基富利人生全權委託管理帳戶(美元)(現金撥回)(全權委託帳戶之資產撥回機制來源可能為本金)(撥回率或撥回金額非固定)",
+    "name": "凱基富利人生全權委託管理帳戶(美元)(現金撥回)",
     "cur": "USD",
-    "sec": null,
-    "code": null,
-    "navsrc": null,
-    "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFWR&b=01&shell=Y",
+    "sec": "fv",
+    "code": "TFWR",
+    "navsrc": "fv",
+    "link": "https://kgilife.moneydj.com/w/wf/wfv/wfv01.djhtm?a=TFWR",
     "prods": [
-      "鑫鑫向榮"
+      "鑫鑫向榮",
+      "全委"
     ]
   },
   {
     "tf": "TFWU",
-    "name": "瀚亞享鑫全權委託管理帳戶-N1級別(美元)(全權委託帳戶之資產撥回機制來源可能為本金)(撥回率或撥回金額非固定)",
+    "name": "瀚亞享鑫全權委託管理帳戶-N1級別(美元)",
     "cur": "USD",
-    "sec": null,
-    "code": null,
-    "navsrc": null,
-    "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFWU&b=01&shell=Y",
+    "sec": "fv",
+    "code": "TFWU",
+    "navsrc": "fv",
+    "link": "https://kgilife.moneydj.com/w/wf/wfv/wfv01.djhtm?a=TFWU",
     "prods": [
-      "鑫鑫向榮"
+      "鑫鑫向榮",
+      "全委"
     ]
   },
   {
     "tf": "TFWV",
-    "name": "瀚亞新收益全權委託管理帳戶-N1級別(美元)(全權委託帳戶之資產撥回機制來源可能為本金)(撥回率或撥回金額非固定)",
+    "name": "瀚亞新收益全權委託管理帳戶-N1級別(美元)",
     "cur": "USD",
-    "sec": null,
-    "code": null,
-    "navsrc": null,
-    "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFWV&b=01&shell=Y",
+    "sec": "fv",
+    "code": "TFWV",
+    "navsrc": "fv",
+    "link": "https://kgilife.moneydj.com/w/wf/wfv/wfv01.djhtm?a=TFWV",
     "prods": [
-      "鑫鑫向榮"
+      "鑫鑫向榮",
+      "全委"
     ]
   },
   {
@@ -4789,30 +4793,6 @@
     ]
   },
   {
-    "tf": "TFWU",
-    "name": "瀚亞享鑫全權委託管理帳戶-N1級別(美元)",
-    "cur": "USD",
-    "sec": "fv",
-    "code": "TFWU",
-    "navsrc": "fv",
-    "link": "https://kgilife.moneydj.com/w/wf/wfv/wfv01.djhtm?a=TFWU",
-    "prods": [
-      "全委"
-    ]
-  },
-  {
-    "tf": "TFWV",
-    "name": "瀚亞新收益全權委託管理帳戶-N1級別(美元)",
-    "cur": "USD",
-    "sec": "fv",
-    "code": "TFWV",
-    "navsrc": "fv",
-    "link": "https://kgilife.moneydj.com/w/wf/wfv/wfv01.djhtm?a=TFWV",
-    "prods": [
-      "全委"
-    ]
-  },
-  {
     "tf": "TFWX",
     "name": "霸菱時機對策全權委託管理帳戶-N1級別(美元)",
     "cur": "USD",
@@ -4849,18 +4829,6 @@
     ]
   },
   {
-    "tf": "TFWR",
-    "name": "凱基富利人生全權委託管理帳戶(美元)(現金撥回)",
-    "cur": "USD",
-    "sec": "fv",
-    "code": "TFWR",
-    "navsrc": "fv",
-    "link": "https://kgilife.moneydj.com/w/wf/wfv/wfv01.djhtm?a=TFWR",
-    "prods": [
-      "全委"
-    ]
-  },
-  {
     "tf": "TFVT",
     "name": "富達增樂活全權委託管理帳戶(美元)",
     "cur": "USD",
@@ -4880,18 +4848,6 @@
     "code": "TF2W",
     "navsrc": "fv",
     "link": "https://kgilife.moneydj.com/w/wf/wfv/wfv01.djhtm?a=TF2W",
-    "prods": [
-      "全委"
-    ]
-  },
-  {
-    "tf": "TFWI",
-    "name": "霸菱綠色趨勢全權委託管理帳戶(美元)(現金撥回)",
-    "cur": "USD",
-    "sec": "fv",
-    "code": "TFWI",
-    "navsrc": "fv",
-    "link": "https://kgilife.moneydj.com/w/wf/wfv/wfv01.djhtm?a=TFWI",
     "prods": [
       "全委"
     ]
