@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026/08/13 04:09",
+  "updated_at": "2026/08/13 05:21",
   "sections": [
     {
       "title": "台股 ETF / 指數",
@@ -139,8 +139,8 @@
       "items": [
         {
           "name": "美元/台幣 (USD)",
-          "value": 32.22200012207031,
-          "pct": -0.01582596691982295,
+          "value": 32.21699905395508,
+          "pct": -0.03134417382475032,
           "url": "https://tw.stock.yahoo.com/quote/USDTWD=X",
           "date": null,
           "unit": "",
