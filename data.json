@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026/08/13 13:16",
+  "updated_at": "2026/08/13 14:55",
   "sections": [
     {
       "title": "台股 ETF / 指數",
@@ -7,8 +7,8 @@
       "items": [
         {
           "name": "台灣加權指數",
-          "value": 45518.07,
-          "pct": 0.88,
+          "value": 46021.48,
+          "pct": 1.11,
           "url": "https://tw.stock.yahoo.com/quote/%5ETWII",
           "date": null,
           "unit": "點",
@@ -25,8 +25,8 @@
         },
         {
           "name": "凱基台灣TOP50 (009816)",
-          "value": 15.5,
-          "pct": 2.242745092414565,
+          "value": 15.520000457763672,
+          "pct": 2.374674234663772,
           "url": "https://tw.stock.yahoo.com/quote/009816",
           "date": null,
           "unit": "元",
@@ -115,10 +115,10 @@
       "items": [
         {
           "name": "瀚亞美國高科技基金",
-          "value": 155.08,
-          "pct": 0.6033084657800888,
+          "value": 159.76,
+          "pct": 3.017797265927249,
           "url": "https://kgilife.moneydj.com/w/wr/wr01.djhtm?a=ACCP16-TFD8",
-          "date": "2026/08/11",
+          "date": "2026/08/12",
           "unit": "",
           "ok": true
         },
@@ -139,8 +139,8 @@
       "items": [
         {
           "name": "美元/台幣 (USD)",
-          "value": 32.20909881591797,
-          "pct": -0.05585844270354863,
+          "value": 32.172000885009766,
+          "pct": -0.11517841936598693,
           "url": "https://tw.stock.yahoo.com/quote/USDTWD=X",
           "date": null,
           "unit": "",
