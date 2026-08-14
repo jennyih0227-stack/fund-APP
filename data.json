@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026/08/14 05:49",
+  "updated_at": "2026/08/14 11:21",
   "sections": [
     {
       "title": "台股 ETF / 指數",
@@ -16,8 +16,8 @@
         },
         {
           "name": "元大台灣50 (0050)",
-          "value": 104.5999984741211,
-          "pct": 0.33572995119529375,
+          "value": 106.94999694824219,
+          "pct": 1.6634981471159074,
           "url": "https://tw.stock.yahoo.com/quote/0050",
           "date": null,
           "unit": "元",
@@ -25,8 +25,8 @@
         },
         {
           "name": "凱基台灣TOP50 (009816)",
-          "value": 15.260000228881836,
-          "pct": 0.6596331297905464,
+          "value": 15.5600004196167,
+          "pct": 1.9659252046868778,
           "url": "https://tw.stock.yahoo.com/quote/009816",
           "date": null,
           "unit": "元",
@@ -40,8 +40,8 @@
       "items": [
         {
           "name": "道瓊 (DJI)",
-          "value": 53839.98828125,
-          "pct": 0.12966040640633414,
+          "value": 53840.0,
+          "pct": 0.1296822005131931,
           "url": "https://tw.stock.yahoo.com/quote/%5EDJI",
           "date": null,
           "unit": "點",
@@ -139,8 +139,8 @@
       "items": [
         {
           "name": "美元/台幣 (USD)",
-          "value": 32.119998931884766,
-          "pct": -0.27662954664589784,
+          "value": 31.95400047302246,
+          "pct": -0.7710646272525243,
           "url": "https://tw.stock.yahoo.com/quote/USDTWD=X",
           "date": null,
           "unit": "",
