@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026/08/17 16:08",
+  "updated_at": "2026/08/17 21:41",
   "sections": [
     {
       "title": "台股 ETF / 指數",
@@ -40,8 +40,8 @@
       "items": [
         {
           "name": "道瓊 (DJI)",
-          "value": 53732.41015625,
-          "pct": -0.19981082543709341,
+          "value": 53555.80078125,
+          "pct": -0.3286831439096675,
           "url": "https://tw.stock.yahoo.com/quote/%5EDJI",
           "date": null,
           "unit": "點",
@@ -49,8 +49,8 @@
         },
         {
           "name": "S&P500 (SPX)",
-          "value": 7785.759765625,
-          "pct": -0.1696433557729704,
+          "value": 7775.35009765625,
+          "pct": -0.13370137638602525,
           "url": "https://tw.stock.yahoo.com/quote/%5EGSPC",
           "date": null,
           "unit": "點",
@@ -58,8 +58,8 @@
         },
         {
           "name": "那斯達克 (IXIC)",
-          "value": 26729.16015625,
-          "pct": -0.2755999697154101,
+          "value": 26735.5703125,
+          "pct": 0.023981884251238372,
           "url": "https://tw.stock.yahoo.com/quote/%5EIXIC",
           "date": null,
           "unit": "點",
@@ -67,8 +67,8 @@
         },
         {
           "name": "費城半導體 (SOX)",
-          "value": 12417.0498046875,
-          "pct": -0.31270227450626203,
+          "value": 12607.2080078125,
+          "pct": 1.5314282065069458,
           "url": "https://tw.stock.yahoo.com/quote/%5ESOX",
           "date": null,
           "unit": "點",
@@ -124,10 +124,10 @@
         },
         {
           "name": "瀚亞外銷",
-          "value": 308.3,
-          "pct": 0.6595272299856467,
+          "value": 311.03,
+          "pct": 0.8855011352578532,
           "url": "https://kgilife.moneydj.com/w/wr/wr01.djhtm?a=ACCP04-TFD1",
-          "date": "2026/08/14",
+          "date": "2026/08/17",
           "unit": "",
           "ok": true
         }
@@ -139,8 +139,8 @@
       "items": [
         {
           "name": "美元/台幣 (USD)",
-          "value": 31.760000228881836,
-          "pct": -1.1334154283149311,
+          "value": 31.82200050354004,
+          "pct": -0.9404130557145469,
           "url": "https://tw.stock.yahoo.com/quote/USDTWD=X",
           "date": null,
           "unit": "",
