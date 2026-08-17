@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026/08/17 13:59",
+  "updated_at": "2026/08/17 14:59",
   "sections": [
     {
       "title": "台股 ETF / 指數",
@@ -7,8 +7,8 @@
       "items": [
         {
           "name": "台灣加權指數",
-          "value": 45811.01,
-          "pct": -0.46,
+          "value": 45857.27,
+          "pct": 0.1,
           "url": "https://tw.stock.yahoo.com/quote/%5ETWII",
           "date": null,
           "unit": "點",
@@ -91,12 +91,12 @@
         },
         {
           "name": "瀚亞新收益",
-          "value": 11.66,
-          "pct": 0.4306632213609019,
+          "value": null,
+          "pct": null,
           "url": "https://kgilife.moneydj.com/w/CustFundIDMap.djhtm?A=TFWV&B=01",
-          "date": "2026/08/13",
+          "date": null,
           "unit": "",
-          "ok": true
+          "ok": false
         },
         {
           "name": "瀚亞新收益N1",
@@ -139,8 +139,8 @@
       "items": [
         {
           "name": "美元/台幣 (USD)",
-          "value": 31.85700035095215,
-          "pct": -0.8314610610914912,
+          "value": 31.839000701904297,
+          "pct": -0.8874926672635772,
           "url": "https://tw.stock.yahoo.com/quote/USDTWD=X",
           "date": null,
           "unit": "",
