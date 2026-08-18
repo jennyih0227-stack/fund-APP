@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026/08/18 13:53",
+  "updated_at": "2026/08/18 14:46",
   "sections": [
     {
       "title": "台股 ETF / 指數",
@@ -7,8 +7,8 @@
       "items": [
         {
           "name": "台灣加權指數",
-          "value": 45857.27,
-          "pct": 0.1,
+          "value": 45308.68,
+          "pct": -1.2,
           "url": "https://tw.stock.yahoo.com/quote/%5ETWII",
           "date": null,
           "unit": "點",
@@ -139,8 +139,8 @@
       "items": [
         {
           "name": "美元/台幣 (USD)",
-          "value": 31.851999282836914,
-          "pct": -0.432009677035845,
+          "value": 31.892000198364258,
+          "pct": -0.30696852232621386,
           "url": "https://tw.stock.yahoo.com/quote/USDTWD=X",
           "date": null,
           "unit": "",
