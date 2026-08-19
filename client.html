@@ -272,7 +272,7 @@
     <span class="flabel">排名依績效</span>
     <span class="chip sort" data-s="m1">1月</span><span class="chip sort" data-s="m3">3月</span>
     <span class="chip sort" data-s="m6">6月</span><span class="chip sort" data-s="m12">1年</span>
-    <span class="chip sort" data-s="m36">3年</span><span class="chip sort" data-s="m60">5年</span>
+    <span class="chip sort" data-s="m36">3年</span><span class="chip sort" data-s="m60">5年</span><span class="chip sort" data-s="since">成立來</span>
   </div>
 </div>
 <div class="countbar"><span id="count"></span><span id="myhint"></span></div>
@@ -357,7 +357,7 @@
 <script>
 const $ = s => document.querySelector(s);
 const CUR_LABEL = {USD:'美元',TWD:'台幣',EUR:'歐元',RMB:'人民幣',ZAR:'南非幣',AUD:'澳幣',JPY:'日圓',GBP:'英鎊',OTHER:'其他'};
-const PERF_LABEL = {m1:'1月',m3:'3月',m6:'6月',m12:'1年',m36:'3年',m60:'5年'};
+const PERF_LABEL = {m1:'1月',m3:'3月',m6:'6月',m12:'1年',m36:'3年',m60:'5年',since:'成立來'};
 const LS_KEY = 'myfunds_xinxin';
 let ALL=[], fav=new Set(JSON.parse(localStorage.getItem(LS_KEY)||'[]'));
 let mode='all', curF=null, rrF=null, distF=null, sortK=null, bucketF=null, presetLong=false, prodF=null, companyF='';
@@ -409,7 +409,9 @@ function pctHtml(p,cls0){ if(p==null)return'<span class="flat">—</span>';
   const cls=p>0.0001?'up':(p<-0.0001?'down':'flat'), ar=p>0.0001?'▲':(p<-0.0001?'▼':'—'), s=p>0?'+':'';
   return `<span class="${cls}"><span class="ar">${ar}</span>${s}${p.toFixed(2)}%</span>`; }
 function perfLine(perf){
-  return [['m1','1月'],['m3','3月'],['m6','6月'],['m12','1年'],['m36','3年'],['m60','5年']].map(([k,lab])=>{
+  const cols=[['m1','1月'],['m3','3月'],['m6','6月'],['m12','1年'],['m36','3年'],['m60','5年']];
+  if(perf && perf.since!=null) cols.push(['since','成立來']);
+  return cols.map(([k,lab])=>{
     const v=perf[k]; if(v==null) return `${lab} —`;
     const c=v>0?'#ff8a8a':(v<0?'#7ce0a9':'#cfc'); return `${lab} <span style="color:${c}">${(v>0?'+':'')+v.toFixed(1)}%</span>`;
   }).join('　');
@@ -471,7 +473,8 @@ function render(){
     const ptoggle=hasPerf?`<span class="pt" data-pt="1">績效 ▾</span>`:'';
     let grid='';
     if(hasPerf){
-      grid='<div class="perfgrid">'+['m1','m3','m6','m12','m36','m60'].map(k=>{
+      const pkeys=['m1','m3','m6','m12','m36','m60'].concat(f.perf.since!=null?['since']:[]);
+      grid='<div class="perfgrid">'+pkeys.map(k=>{
         const v=f.perf[k]; const cls=v==null?'flat':(v>0?'up':(v<0?'down':'flat')); const hl=(k===sortK)?' hl':'';
         return `<div class="pcell${hl}"><div class="pl">${PERF_LABEL[k]}</div><div class="pv ${cls}">${v==null?'—':(v>0?'+':'')+v.toFixed(2)+'%'}</div></div>`;
       }).join('')+'</div>';
@@ -485,7 +488,7 @@ function render(){
         <div class="star" data-star="${f.tf}">${star}</div>
         <div class="r-name">
           <a class="nm" href="${f.link}" target="_blank" rel="noopener">${f.name} <span class="lk">↗</span></a>
-          <div class="sub"><span class="t-cur">${CUR_LABEL[f.cur]||f.cur}</span>${tags}${dt}<span>${f.tf}</span>${ptoggle}</div>
+          <div class="sub"><span class="t-cur">${CUR_LABEL[f.cur]||f.cur}</span>${tags}${dt}<span>${f.tf}</span>${f.inception?`<span>成立 ${f.inception}</span>`:''}${ptoggle}</div>
         </div>
         <div class="r-right">${right}</div>
       </div>${grid}

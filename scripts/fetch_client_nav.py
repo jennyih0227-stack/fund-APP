@@ -181,6 +181,29 @@ def nav_fv(fid):
     return latest, pct, date, {k: v for k, v in perf.items() if v is not None}
 
 
+def add_since(funds):
+    """從凱基基金快搜 SearchProductJSON 取「成立以來%」(V36)，依標的代碼(tf)加到 perf.since。"""
+    url = "https://kgilife.moneydj.com/w/custom/djjson/SearchProductJSON.djjson?P1=chinalife&P2=False&P3=False&P4=False&"
+    r = S.get(url, timeout=30).content.decode("big5", "replace")
+    res = json.loads(r)["ResultSet"]["Result"]
+    smap = {}
+    for x in res:
+        v40 = x.get("V40", ""); sep = "~" if "~" in v40 else "-"
+        parts = v40.split(sep, 1)
+        if len(parts) != 2:
+            continue
+        try:
+            smap[parts[1]] = round(float(x.get("V36")), 2)
+        except Exception:
+            pass
+    n = 0
+    for f in funds:
+        v = smap.get(f["tf"])
+        if v is not None:
+            f["perf"]["since"] = v; n += 1
+    print(f"成立以來報酬：補 {n} 檔")
+
+
 def main():
     master = json.load(open(MASTER, encoding="utf-8"))
     if LIMIT:
@@ -190,6 +213,7 @@ def main():
     for i, m in enumerate(master, 1):
         rec = {"tf": m["tf"], "name": m["name"], "cur": m.get("cur", "OTHER"),
                "rr": None, "dist": dist_flag(m["name"]), "typ": None,
+               "inception": m.get("inception"), "typ2": m.get("typ2"),
                "value": None, "pct": None, "date": None, "perf": {},
                "link": m["link"], "ok": False, "src": None, "prods": m.get("prods", [])}
         src = m.get("navsrc")
@@ -218,6 +242,10 @@ def main():
         enrich_with_moneydj(funds)
     except Exception as e:
         print("MoneyDJ 補值失敗（略過）:", e)
+    try:
+        add_since(funds)
+    except Exception as e:
+        print("成立以來補值失敗（略過）:", e)
 
     perf_cnt = sum(1 for f in funds if f["perf"])
     products = sorted({p for f in funds for p in f.get("prods", [])})
