@@ -51,6 +51,16 @@
   .compsel{flex:1; min-width:0; max-width:230px; font-family:var(--sans); font-size:13px; color:var(--cream);
     background:rgba(255,255,255,.08); border:1px solid rgba(201,168,76,.4); border-radius:10px; padding:8px 10px; outline:none}
   .compsel option{color:#111}
+  /* 選取要傳的基金 */
+  #shareList{max-height:46vh; overflow-y:auto; -webkit-overflow-scrolling:touch; margin-top:4px}
+  .shrow{display:flex; align-items:center; gap:10px; padding:9px 4px; border-bottom:1px solid var(--gray); cursor:pointer}
+  .shrow:last-child{border-bottom:none}
+  .shck{width:20px; height:20px; border-radius:6px; border:2px solid #c6bea8; flex:0 0 auto; position:relative}
+  .shrow.on .shck{background:var(--down); border-color:var(--down)}
+  .shrow.on .shck::after{content:""; position:absolute; left:5px; top:1px; width:6px; height:11px; border:solid #fff; border-width:0 2px 2px 0; transform:rotate(45deg)}
+  .shnm{font-size:13px; color:var(--ink); flex:1; min-width:0; line-height:1.35}
+  .shv{font-family:var(--num); font-size:12px; color:var(--navy-2); white-space:nowrap}
+  .shcount{font-size:12.5px; color:#8a8270; text-align:center; margin:8px 0 2px}
   .countbar{max-width:760px; margin:9px auto 0; padding:0 14px; color:#9aa4bd; font-size:12px;
     display:flex; justify-content:space-between; align-items:center}
 
@@ -326,6 +336,17 @@
   </div>
 </div>
 
+<div class="modal" id="shareModal">
+  <div class="sheet">
+    <button class="mclose" data-close="shareModal">×</button>
+    <h2>📤 選取要傳給客戶的基金</h2>
+    <input class="search" id="shareQ" type="search" inputmode="search" placeholder="搜尋基金名稱或代碼加入…" autocomplete="off">
+    <div class="shcount" id="shareCount"></div>
+    <div id="shareList"></div>
+    <button class="cshare" id="shareGo">📤 傳到 LINE / 存圖</button>
+  </div>
+</div>
+
 <div class="install" id="installBar">
   <span id="installTxt"></span>
   <button class="ibtn" id="installGo" style="display:none">安裝</button>
@@ -531,8 +552,36 @@ $('#ideaBtn').addEventListener('click',()=>{ openM('ideaModal'); renderIdea(); }
 $('#calcBtn').addEventListener('click',()=>{ openM('calcModal'); calc(); });
 $('#quizBtn').addEventListener('click',()=>{ openM('quizModal'); renderQuiz(); });
 $('#cmpBtn').addEventListener('click',()=>{ openM('cmpModal'); buildCompare(); });
-$('#shareBtn').addEventListener('click',shareCard);
+$('#shareBtn').addEventListener('click',()=>{ shareSel=new Set(fav); openM('shareModal'); $('#shareQ').value=''; buildShareList(); });
 document.querySelectorAll('[data-close]').forEach(b=>b.addEventListener('click',()=>closeM(b.dataset.close)));
+
+// ===== 選取要傳給客戶的基金 =====
+let shareSel=new Set();
+function buildShareList(){
+  const q=$('#shareQ').value.trim().toLowerCase();
+  const pool = q ? ALL.filter(f=>f.name.toLowerCase().includes(q)||f.tf.toLowerCase().includes(q)).slice(0,60)
+                 : ALL.filter(f=>shareSel.has(f.tf));
+  $('#shareCount').textContent = shareSel.size ? `已選 ${shareSel.size} 檔` : '搜尋並勾選要傳的基金（也會帶入你的★我的基金）';
+  if(!pool.length){ $('#shareList').innerHTML=`<div class="empty" style="color:#8a8270;padding:20px">${q?'查無基金':'尚未選取，請在上方搜尋加入'}</div>`; return; }
+  $('#shareList').innerHTML=pool.map(f=>{
+    const on=shareSel.has(f.tf)?'on':'';
+    const v=f.ok?fmtVal(f.value):(f.perf&&f.perf.m60!=null?`5年 ${f.perf.m60>0?'+':''}${f.perf.m60.toFixed(0)}%`:'—');
+    return `<div class="shrow ${on}" data-tf="${f.tf}"><div class="shck"></div><div class="shnm">${f.name}</div><div class="shv">${v}</div></div>`;
+  }).join('');
+}
+$('#shareList').addEventListener('click',e=>{
+  const r=e.target.closest('.shrow'); if(!r)return;
+  const tf=r.dataset.tf;
+  if(shareSel.has(tf)) shareSel.delete(tf); else shareSel.add(tf);
+  r.classList.toggle('on');
+  $('#shareCount').textContent=`已選 ${shareSel.size} 檔`;
+});
+$('#shareQ').addEventListener('input',buildShareList);
+$('#shareGo').addEventListener('click',()=>{
+  const funds=ALL.filter(f=>shareSel.has(f.tf));
+  if(!funds.length){ toast('請先勾選要傳的基金'); return; }
+  makeShareCard(funds);
+});
 document.querySelectorAll('.modal').forEach(m=>m.addEventListener('click',e=>{ if(e.target===m) m.classList.remove('show'); }));
 
 // ===== 投資觀念（一頁一觀念，可 LINE 給客戶）=====
@@ -633,10 +682,10 @@ $('#quizBody').addEventListener('click',e=>{
 });
 
 // ===== 分享圖卡 =====
-async function shareCard(){
+async function makeShareCard(funds){
   if(typeof html2canvas==='undefined'){ toast('圖片元件載入中，請稍候再試'); return; }
-  const favs=ALL.filter(f=>fav.has(f.tf));
-  if(!favs.length){ toast('先在清單點 ☆ 加入基金再分享'); return; }
+  if(!funds || !funds.length){ toast('請先勾選要傳的基金'); return; }
+  const favs=funds;
   const wrap=document.createElement('div'); wrap.className='sharecard';
   wrap.style.cssText='position:fixed;left:-10000px;top:0';
   wrap.innerHTML=`<div class="sc-brand"><span style="color:#C9A84C">誠毅</span>傳承　熊誠毅</div><div class="sc-title">精選基金淨值・報酬</div>`+
