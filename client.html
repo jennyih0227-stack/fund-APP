@@ -51,6 +51,21 @@
   .compsel{flex:1; min-width:0; max-width:230px; font-family:var(--sans); font-size:13px; color:var(--cream);
     background:rgba(255,255,255,.08); border:1px solid rgba(201,168,76,.4); border-radius:10px; padding:8px 10px; outline:none}
   .compsel option{color:#111}
+  /* 客戶檔案 */
+  .clientbar{display:flex; gap:8px; margin-top:8px}
+  .clientbtn{flex:1; text-align:left; background:linear-gradient(135deg,#2b3f6b,#1B2A4A); color:var(--cream); border:1px solid var(--gold); border-radius:12px; padding:11px 14px; font-size:14px; font-weight:700; cursor:pointer}
+  .clientbtn b{color:var(--gold)}
+  .clbanner{max-width:760px; margin:8px auto 0; padding:10px 14px; background:rgba(201,168,76,.14); border:1px solid var(--gold); border-radius:12px; color:var(--cream); font-size:13px; text-align:center}
+  .clbanner b{color:var(--gold); font-family:var(--serif)}
+  .clrow{display:flex; align-items:center; gap:8px; padding:10px 4px; border-bottom:1px solid var(--gray)}
+  .clrow:last-child{border-bottom:none}
+  .clrow.on{background:#f3ecda; border-radius:8px}
+  .clname{flex:1; min-width:0; font-size:14px; color:var(--ink); font-weight:600; cursor:pointer}
+  .clname .cnt{font-size:11px; color:#8a8270; font-weight:400; margin-left:6px; font-family:var(--num)}
+  .clact{background:none; border:none; font-size:16px; cursor:pointer; padding:3px 4px; color:var(--navy-2)}
+  .clbig{width:100%; margin-top:8px; background:var(--navy); color:var(--cream); border:1px solid var(--gold); border-radius:11px; padding:11px; font-size:14px; font-weight:700; cursor:pointer}
+  .clbig.add{background:linear-gradient(135deg,var(--gold),var(--gold-d)); color:var(--navy); border:none}
+  .clexp{width:100%; margin-top:8px; font-family:var(--num); font-size:11px; color:#333; border:1px solid var(--gray); border-radius:8px; padding:8px; min-height:60px; background:#fff}
   /* 選取要傳的基金 */
   #shareList{max-height:46vh; overflow-y:auto; -webkit-overflow-scrolling:touch; margin-top:4px}
   .shrow{display:flex; align-items:center; gap:10px; padding:9px 4px; border-bottom:1px solid var(--gray); cursor:pointer}
@@ -249,6 +264,8 @@
 </header>
 
 <div class="controls">
+  <div class="clbanner" id="clBanner" style="display:none"></div>
+  <div class="clientbar" id="clientBar"><button class="clientbtn" id="clientBtn">👤 客戶</button></div>
   <input class="search" id="q" type="search" inputmode="search" placeholder="搜尋基金名稱或代碼…" autocomplete="off">
   <div class="actions">
     <div class="bigbtn btn-long" id="presetLong">⭐ 長期優選</div>
@@ -365,6 +382,19 @@
   </div>
 </div>
 
+<div class="modal" id="clientModal">
+  <div class="sheet">
+    <button class="mclose" data-close="clientModal">×</button>
+    <h2>👤 客戶檔案</h2>
+    <div id="clientList"></div>
+    <button class="clbig add" id="clAdd">＋ 新增客戶</button>
+    <button class="clbig" id="clExportBtn">📤 匯出備份</button>
+    <button class="clbig" id="clImportBtn">📥 匯入備份</button>
+    <textarea class="clexp" id="clExpArea" style="display:none" placeholder="把備份文字貼到這裡，再按匯入"></textarea>
+    <div class="dis" style="margin-top:8px">客戶清單存在此手機瀏覽器；請定期「匯出備份」以防換機或清除資料遺失。</div>
+  </div>
+</div>
+
 <div class="install" id="installBar">
   <span id="installTxt"></span>
   <button class="ibtn" id="installGo" style="display:none">安裝</button>
@@ -377,7 +407,9 @@ const $ = s => document.querySelector(s);
 const CUR_LABEL = {USD:'美元',TWD:'台幣',EUR:'歐元',RMB:'人民幣',ZAR:'南非幣',AUD:'澳幣',JPY:'日圓',GBP:'英鎊',OTHER:'其他'};
 const PERF_LABEL = {m3:'3月',m6:'6月',m12:'1年',m36:'3年',since:'成立來'};
 const LS_KEY = 'myfunds_xinxin';
-let ALL=[], fav=new Set(JSON.parse(localStorage.getItem(LS_KEY)||'[]'));
+const CLIENTS_KEY='clients_xinxin', ACTIVE_KEY='active_xinxin';
+let ALL=[], fav=new Set();
+let clients={}, activeClient='', linkFunds=null, linkName='';
 let mode='all', curF=null, rrF=null, distF=null, sortK=null, bucketF=null, presetLong=false, prodF=null, companyF='', viewMode='card';
 
 const COMPANIES=['富蘭克林華美','富蘭克林坦伯頓','富蘭克林','摩根士丹利','摩根','貝萊德','施羅德','安聯','瀚亞','凱基','統一投信','統一','霸菱','富達','景順','國泰','中國信託','柏瑞','野村','群益','元大','普徠仕','高盛','聯博','聯邦','保德信','百達','街口','第一金','復華','日盛','兆豐','台新','富邦','安本','天達','鋒裕匯理','駿利','宏利','貝萊德'];
@@ -397,7 +429,63 @@ const CORE_KW=/全球|環球|世界|多重資產|平衡|組合|資產配置|投�
 function isCash(n){ return /貨幣帳戶/.test(n); }
 function bucket(n){ if(isCash(n)) return ''; if(SAT_KW.test(n)) return '衛星'; if(CORE_KW.test(n)) return '核心'; return ''; }
 
-function saveFav(){ localStorage.setItem(LS_KEY, JSON.stringify([...fav])); }
+function saveFav(){ if(activeClient){ clients[activeClient]=[...fav]; saveClients(); updateClientBtn(); } else { localStorage.setItem(LS_KEY, JSON.stringify([...fav])); } }
+
+// ===== 客戶檔案 =====
+function saveClients(){ try{ localStorage.setItem(CLIENTS_KEY, JSON.stringify(clients)); localStorage.setItem(ACTIVE_KEY, activeClient); }catch(e){} }
+function loadClients(){
+  try{ clients=JSON.parse(localStorage.getItem(CLIENTS_KEY)||'null'); }catch(e){ clients=null; }
+  if(!clients || typeof clients!=='object') clients={};
+  activeClient=localStorage.getItem(ACTIVE_KEY)||'';
+  if(Object.keys(clients).length===0){
+    let legacy=[]; try{ legacy=JSON.parse(localStorage.getItem(LS_KEY)||'[]'); }catch(e){}
+    clients['我的清單']=legacy; activeClient='我的清單';
+  }
+  if(!clients[activeClient]) activeClient=Object.keys(clients)[0];
+  fav=new Set(clients[activeClient]||[]);
+  saveClients(); updateClientBtn();
+}
+function updateClientBtn(){ const n=(clients[activeClient]||[]).length; $('#clientBtn').innerHTML=`👤 客戶：<b>${activeClient||'—'}</b>（${n} 檔）　▾`; }
+function switchClient(name){ if(!clients[name])return; activeClient=name; fav=new Set(clients[name]); saveClients(); updateClientBtn(); }
+function buildClientList(){
+  const names=Object.keys(clients);
+  $('#clientList').innerHTML = names.map(nm=>`<div class="clrow ${nm===activeClient?'on':''}">
+    <div class="clname" data-sw="${encodeURIComponent(nm)}">${nm}<span class="cnt">${(clients[nm]||[]).length} 檔</span></div>
+    <button class="clact" data-share="${encodeURIComponent(nm)}" title="分享圖卡">📤</button>
+    <button class="clact" data-link="${encodeURIComponent(nm)}" title="專屬連結">🔗</button>
+    <button class="clact" data-ren="${encodeURIComponent(nm)}" title="改名">✏️</button>
+    <button class="clact" data-del="${encodeURIComponent(nm)}" title="刪除">🗑️</button>
+  </div>`).join('');
+}
+function openClientModal(){ buildClientList(); openM('clientModal'); }
+$('#clientBtn').addEventListener('click',openClientModal);
+$('#clAdd').addEventListener('click',()=>{
+  let name=prompt('新增客戶名稱：'); if(!name)return; name=name.trim(); if(!name)return;
+  if(!clients[name]) clients[name]=[];
+  switchClient(name); buildClientList(); render(); toast('已新增並切換到 '+name);
+});
+$('#clientList').addEventListener('click',e=>{
+  const g=(a)=>decodeURIComponent(a);
+  const sw=e.target.closest('[data-sw]'); if(sw){ switchClient(g(sw.dataset.sw)); closeM('clientModal'); render(); toast('已切換到 '+activeClient); return; }
+  const sh=e.target.closest('[data-share]'); if(sh){ const nm=g(sh.dataset.share); const fs=ALL.filter(f=>(clients[nm]||[]).includes(f.tf)); if(!fs.length){toast('該客戶尚無基金');return;} makeShareCard(fs, nm); return; }
+  const lk=e.target.closest('[data-link]'); if(lk){ clientLink(g(lk.dataset.link)); return; }
+  const rn=e.target.closest('[data-ren]'); if(rn){ const nm=g(rn.dataset.ren); let nn=prompt('改名：',nm); if(!nn)return; nn=nn.trim(); if(!nn||nn===nm)return; clients[nn]=clients[nm]; delete clients[nm]; if(activeClient===nm)activeClient=nn; saveClients(); updateClientBtn(); buildClientList(); return; }
+  const dl=e.target.closest('[data-del]'); if(dl){ const nm=g(dl.dataset.del); if(!confirm('刪除客戶「'+nm+'」？'))return; delete clients[nm]; if(Object.keys(clients).length===0)clients['我的清單']=[]; if(activeClient===nm)activeClient=Object.keys(clients)[0]; fav=new Set(clients[activeClient]||[]); saveClients(); updateClientBtn(); buildClientList(); render(); return; }
+});
+function clientLink(nm){
+  const url=location.origin+location.pathname+'#n='+encodeURIComponent(nm)+'&f='+(clients[nm]||[]).join(',');
+  if(navigator.share){ navigator.share({title:nm+' 的基金清單',text:`${nm} 的基金淨值清單｜熊誠毅・誠毅傳承`,url}).catch(()=>{}); }
+  else { navigator.clipboard.writeText(url).then(()=>toast('專屬連結已複製')).catch(()=>toast(url)); }
+}
+$('#clExportBtn').addEventListener('click',()=>{
+  const t=$('#clExpArea'); t.style.display='block'; t.value=JSON.stringify(clients); t.select();
+  try{ navigator.clipboard.writeText(t.value); toast('備份已複製，可貼到記事本存起來'); }catch(e){ toast('已顯示備份文字，長按複製'); }
+});
+$('#clImportBtn').addEventListener('click',()=>{
+  const t=$('#clExpArea');
+  if(t.style.display==='none'||!t.value.trim()){ t.style.display='block'; t.placeholder='把備份文字貼到這裡，再按一次匯入'; toast('請貼上備份文字後再按匯入'); return; }
+  try{ const obj=JSON.parse(t.value.trim()); if(obj&&typeof obj==='object'){ clients=obj; if(!clients[activeClient])activeClient=Object.keys(clients)[0]; fav=new Set(clients[activeClient]||[]); saveClients(); updateClientBtn(); buildClientList(); render(); toast('已匯入 '+Object.keys(clients).length+' 位客戶'); } }catch(e){ toast('備份文字格式錯誤'); }
+});
 
 // 記住上次的篩選/排序
 const UI_KEY='ui_xinxin';
@@ -448,6 +536,7 @@ function sparkSVG(perf){
 }
 
 function matches(f){
+  if(linkFunds && !linkFunds.has(f.tf)) return false;
   if(prodF && !(f.prods||[]).includes(prodF)) return false;
   if(companyF && company(f.name)!==companyF) return false;
   if(mode==='mine' && !fav.has(f.tf)) return false;
@@ -726,13 +815,13 @@ $('#quizBody').addEventListener('click',e=>{
 });
 
 // ===== 分享圖卡 =====
-async function makeShareCard(funds){
+async function makeShareCard(funds, name){
   if(typeof html2canvas==='undefined'){ toast('圖片元件載入中，請稍候再試'); return; }
   if(!funds || !funds.length){ toast('請先勾選要傳的基金'); return; }
   const favs=funds;
   const wrap=document.createElement('div'); wrap.className='sharecard';
   wrap.style.cssText='position:fixed;left:-10000px;top:0';
-  wrap.innerHTML=`<div class="sc-brand"><span style="color:#C9A84C">誠毅</span>傳承　熊誠毅</div><div class="sc-title">精選基金淨值・報酬</div>`+
+  wrap.innerHTML=`<div class="sc-brand"><span style="color:#C9A84C">誠毅</span>傳承　熊誠毅</div><div class="sc-title">${name?name+' 的基金清單':'精選基金淨值・報酬'}</div>`+
     favs.map(f=>{
       const nav = f.ok ? `淨值 ${fmtVal(f.value)}${f.date?'（'+f.date+'）':''}` : (f.src==='moneydj'?'淨值：App 內點查看':'—');
       return `<div class="sc-item"><div class="sc-nm">${f.name}</div><div class="sc-meta">${nav}</div>${f.perf?`<div class="sc-perf">${perfLine(f.perf)}</div>`:''}</div>`;
@@ -756,9 +845,16 @@ async function load(){
     const prods=data.products||[];
     $('#fProd').innerHTML='<span class="flabel">保單</span><span class="chip" data-p="">全部</span>'+prods.map(p=>`<span class="chip" data-p="${p}">${p}</span>`).join('');
     $('#updated').textContent=`${data.product||''}　更新 ${data.updated_at||'—'}　共 ${data.total||ALL.length} 檔`;
-    restoreUI();
-    buildCompanies();
-    render();
+    try{ const h=new URLSearchParams(location.hash.slice(1)); const ff=h.get('f');
+      if(ff){ linkFunds=new Set(ff.split(',').filter(Boolean)); linkName=h.get('n')||'客戶'; } }catch(e){}
+    if(linkFunds){
+      $('#clientBar').style.display='none';
+      $('#clBanner').style.display='block';
+      $('#clBanner').innerHTML=`<b>${linkName}</b> 的基金清單　·　共 ${linkFunds.size} 檔<br><span style="font-size:11px;color:#b9c2d6">熊誠毅・誠毅傳承 提供</span>`;
+      buildCompanies(); render();
+    } else {
+      loadClients(); restoreUI(); buildCompanies(); render();
+    }
   }catch(e){ $('#updated').textContent='資料載入失敗，請稍後重試'; $('#list').innerHTML='<div class="empty">尚未有資料</div>'; }
 }
 // ===== 基金比較（比較「我的基金」）=====
