@@ -199,6 +199,9 @@
   .sparkrow{display:none; padding:2px 12px 10px 40px}
   .row.open .sparkrow{display:block}
   .sparklab{font-size:10px; color:#8a8270; margin-top:2px}
+  .metricrow{display:none; padding:4px 12px 10px 40px; font-size:11.5px; color:#5f5843; line-height:1.75}
+  .row.open .metricrow{display:block}
+  .metricrow b{color:var(--navy-2)}
   /* 分享卡：淨值＋報酬 */
   .sc-meta{font-size:11px; color:#b9c2d6; margin-top:2px}
   .sc-perf{font-size:10.5px; margin-top:3px; color:#e8e0d0; line-height:1.5}
@@ -522,17 +525,24 @@ function perfLine(perf){
     const c=v>0?'#ff8a8a':(v<0?'#7ce0a9':'#cfc'); return `${lab} <span style="color:${c}">${(v>0?'+':'')+v.toFixed(1)}%</span>`;
   }).join('　');
 }
+// 用官方各期報酬反推「成立至今」淨值成長曲線（成立=1 基準）
 function sparkSVG(perf){
-  const ks=['m3','m6','m12','m36','since'];
-  const nums=ks.map(k=>perf[k]).filter(v=>v!=null);
-  if(nums.length<2) return '';
-  const w=250,h=40,pad=4, min=Math.min(...nums,0), max=Math.max(...nums,0), rng=(max-min)||1, step=(w-2*pad)/(ks.length-1);
-  const xy=i=>{ const v=perf[ks[i]]; return [pad+i*step, h-pad-((v-min)/rng)*(h-2*pad)]; };
-  let d='',pts='';
-  ks.forEach((k,i)=>{ if(perf[k]==null)return; const [x,y]=xy(i); d+=(d?' L':'M')+x.toFixed(1)+' '+y.toFixed(1);
-    pts+=`<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="2.5" fill="${perf[k]>=0?'#D42F2F':'#00934B'}"/>`; });
-  const zy=(h-pad-((0-min)/rng)*(h-2*pad)).toFixed(1);
-  return `<svg width="100%" height="${h}" viewBox="0 0 ${w} ${h}" preserveAspectRatio="none"><line x1="${pad}" y1="${zy}" x2="${w-pad}" y2="${zy}" stroke="#c9c0aa" stroke-width="1" stroke-dasharray="3 3"/><path d="${d}" fill="none" stroke="#1B2A4A" stroke-width="2"/>${pts}</svg>`;
+  if(!perf || perf.since==null) return '';
+  const now=1+perf.since/100;              // 今日相對成立的成長倍數
+  const seq=[1];                            // 成立=1
+  [['m36'],['m12'],['m6'],['m3']].forEach(([k])=>{ const r=perf[k]; if(r!=null) seq.push(now/(1+r/100)); });
+  seq.push(now);                            // 今
+  if(seq.length<2) return '';
+  const w=250,h=42,pad=4, min=Math.min(...seq), max=Math.max(...seq), rng=(max-min)||1, step=(w-2*pad)/(seq.length-1);
+  let d='';
+  seq.forEach((v,i)=>{ const x=pad+i*step, y=h-pad-((v-min)/rng)*(h-2*pad); d+=(d?' L':'M')+x.toFixed(1)+' '+y.toFixed(1); });
+  const up=now>=1, col=up?'#D42F2F':'#00934B';
+  const ex=pad+(seq.length-1)*step, ey=h-pad-((now-min)/rng)*(h-2*pad);
+  const y0=h-pad-((1-min)/rng)*(h-2*pad);
+  return `<svg width="100%" height="${h}" viewBox="0 0 ${w} ${h}" preserveAspectRatio="none">`
+    +`<line x1="${pad}" y1="${y0.toFixed(1)}" x2="${w-pad}" y2="${y0.toFixed(1)}" stroke="#c9c0aa" stroke-width="1" stroke-dasharray="3 3"/>`
+    +`<path d="${d}" fill="none" stroke="${col}" stroke-width="2"/>`
+    +`<circle cx="${ex.toFixed(1)}" cy="${ey.toFixed(1)}" r="3" fill="${col}"/></svg>`;
 }
 
 function matches(f){
@@ -587,7 +597,15 @@ function render(){
         return `<div class="pcell${hl}"><div class="pl">${PERF_LABEL[k]}</div><div class="pv ${cls}">${v==null?'—':(v>0?'+':'')+v.toFixed(2)+'%'}</div></div>`;
       }).join('')+'</div>';
       const spark=sparkSVG(f.perf);
-      if(spark) grid+=`<div class="sparkrow">${spark}<div class="sparklab">3月 → 成立來 報酬走勢（水平虛線＝0%）</div></div>`;
+      if(spark) grid+=`<div class="sparkrow">${spark}<div class="sparklab">成立至今 淨值成長走勢（虛線＝成立基準）</div></div>`;
+      const met=[];
+      if(f.typ2) met.push('類型 <b>'+f.typ2+'</b>');
+      if(f.size) met.push('規模 <b>'+f.size+'</b>');
+      if(f.std!=null) met.push('年化波動 <b>'+f.std+'%</b>');
+      if(f.sharpe!=null) met.push('Sharpe <b>'+f.sharpe+'</b>');
+      if(f.beta!=null) met.push('Beta <b>'+f.beta+'</b>');
+      if(f.rating!=null) met.push('評等 <b>★'+f.rating+'</b>');
+      if(met.length) grid+=`<div class="metricrow">${met.join('　·　')}</div>`;
       if(f.src==='moneydj') grid+='<div class="psrc">績效來源：MoneyDJ（此檔淨值請點右方「查看」）</div>';
     }
     const openc=(sortK && hasPerf)?' open':'';

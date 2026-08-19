@@ -245,6 +245,8 @@ def main():
         rec = {"tf": m["tf"], "name": m["name"], "cur": m.get("cur", "OTHER"),
                "rr": m.get("rr_csv"), "dist": dist_flag(m["name"]), "typ": None,
                "inception": m.get("inception"), "typ2": m.get("typ2"),
+               "std": m.get("std"), "sharpe": m.get("sharpe"), "beta": m.get("beta"),
+               "size": m.get("size"), "rating": m.get("rating"),
                "value": None, "pct": None, "date": None, "perf": {},
                "link": m["link"], "ok": False, "src": None, "prods": m.get("prods", [])}
         try:
@@ -264,6 +266,16 @@ def main():
             print(f"  err {m['tf']}: {ex}")
         funds.append(rec)
         time.sleep(0.02)
+
+    # 失敗保護：若抓到的有效淨值明顯偏少（來源異常），保留前一天資料、不覆蓋
+    old_priced = 0
+    try:
+        old_priced = json.load(open(OUTPUT, encoding="utf-8")).get("priced", 0)
+    except Exception:
+        pass
+    if old_priced and ok < max(200, int(old_priced * 0.6)):
+        print(f"⚠ 只抓到 {ok} 檔（前次 {old_priced}），疑似來源異常，保留前一天資料，不覆蓋。")
+        return
 
     perf_cnt = sum(1 for f in funds if f["perf"])
     products = sorted({p for f in funds for p in f.get("prods", [])})
