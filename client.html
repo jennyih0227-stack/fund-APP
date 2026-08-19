@@ -317,12 +317,6 @@
 
 <main><div class="card" id="list"></div></main>
 
-<div class="cta"><div class="ctacard">
-  <div class="t">熊誠毅｜誠毅傳承</div>
-  <div class="s">保險・投資・傳承，歡迎預約諮詢</div>
-  <div class="ctabtns" id="ctaBtns"></div>
-</div></div>
-
 <footer>
   <div class="motto">誠於心・毅於行・傳於世・承於志</div>
   <div>投資型基金淨值每日更新一次，績效為過去表現不代表未來，僅供參考不構成投資建議</div>
@@ -909,23 +903,6 @@ window.addEventListener('beforeinstallprompt',e=>{ e.preventDefault(); deferredP
 $('#installGo').addEventListener('click',async()=>{ if(deferredPrompt){ deferredPrompt.prompt(); await deferredPrompt.userChoice; deferredPrompt=null; } $('#installBar').classList.remove('show'); });
 $('#installX').addEventListener('click',()=>{ $('#installBar').classList.remove('show'); localStorage.setItem('install_dismiss','1'); });
 setTimeout(()=>{ if(/iphone|ipad|ipod/i.test(navigator.userAgent) && !deferredPrompt) showInstall('ios'); }, 2500);
-
-// ===== 底部品牌 CTA =====
-const CONTACT={ line:'', tel:'', book:'' };  // 待填入熊誠毅的 LINE 連結 / 電話 / 預約連結
-function buildCTA(){
-  const b=$('#ctaBtns'); let h='';
-  if(CONTACT.book) h+=`<a class="ctabtn tel" href="${CONTACT.book}" target="_blank" rel="noopener">📅 預約諮詢</a>`;
-  if(CONTACT.line) h+=`<a class="ctabtn line" href="${CONTACT.line}" target="_blank" rel="noopener">📱 加 LINE</a>`;
-  if(CONTACT.tel) h+=`<a class="ctabtn tel" href="tel:${CONTACT.tel}">📞 電話</a>`;
-  h+=`<button class="ctabtn share" id="ctaShare">📤 分享 App</button>`;
-  b.innerHTML=h;
-  $('#ctaShare').addEventListener('click',async()=>{
-    const url=location.href.split('?')[0].split('#')[0];
-    if(navigator.share){ try{ await navigator.share({title:'誠毅基金淨值查詢',text:'熊誠毅・誠毅傳承｜投資型基金淨值查詢',url}); }catch(e){} }
-    else { try{ await navigator.clipboard.writeText(url); toast('已複製 App 網址'); }catch(e){ toast(url); } }
-  });
-}
-buildCTA();
 
 load();
 </script>
