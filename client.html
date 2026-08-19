@@ -62,7 +62,25 @@
   .shv{font-family:var(--num); font-size:12px; color:var(--navy-2); white-space:nowrap}
   .shcount{font-size:12.5px; color:#8a8270; text-align:center; margin:8px 0 2px}
   .countbar{max-width:760px; margin:9px auto 0; padding:0 14px; color:#9aa4bd; font-size:12px;
-    display:flex; justify-content:space-between; align-items:center}
+    display:flex; justify-content:space-between; align-items:center; gap:8px}
+  .viewtoggle{background:var(--navy-2); color:#fff; border:none; border-radius:999px; padding:6px 13px; font-size:12px; font-weight:700; cursor:pointer; white-space:nowrap; flex:0 0 auto}
+  /* 一覽表 */
+  .tblwrap{overflow-x:auto; -webkit-overflow-scrolling:touch}
+  .ovt{border-collapse:collapse; font-size:12px; width:100%; min-width:600px; background:var(--cream)}
+  .ovt th,.ovt td{padding:7px 8px; border-bottom:1px solid var(--gray); white-space:nowrap; text-align:center}
+  .ovt thead th{background:var(--navy); color:var(--cream); position:sticky; top:0; z-index:2; font-weight:700}
+  .ovt th.sortable{cursor:pointer}
+  .ovt th.fn,.ovt td.fn{position:sticky; left:0; text-align:left; white-space:normal; min-width:150px; max-width:172px}
+  .ovt td.fn{background:var(--cream); z-index:1}
+  .ovt thead th.fn{background:var(--navy); z-index:3}
+  .ovt td.fn a{color:var(--navy-2); text-decoration:none; font-weight:600; font-size:12.5px; line-height:1.3}
+  .ovt .tstar{cursor:pointer; color:#c9c0aa; font-size:15px; margin-right:5px}
+  .ovt tr.fav .tstar{color:var(--gold)}
+  .ovt .tsub{font-size:10px; color:#8a8270; font-family:var(--num); margin-top:2px}
+  .ovt td.num{font-family:var(--num); font-weight:700}
+  .ovt td.up{color:var(--up)} .ovt td.down{color:var(--down)}
+  .ovt td.hl{background:#d9ece0}
+  .ovt .tnrank{font-family:var(--num); font-weight:900; color:var(--gold-d); font-size:11px; margin-right:3px}
 
   main{max-width:760px; margin:6px auto 0; padding:0 8px}
   .card{background:var(--cream); border-radius:14px; overflow:hidden; border:1px solid rgba(201,168,76,.25);
@@ -275,7 +293,7 @@
     <span class="chip sort" data-s="since">成立來</span>
   </div>
 </div>
-<div class="countbar"><span id="count"></span><span id="myhint"></span></div>
+<div class="countbar"><span id="count"></span><span id="myhint"></span><button class="viewtoggle" id="viewToggle">📋 一覽表</button></div>
 
 <main><div class="card" id="list"></div></main>
 
@@ -360,7 +378,7 @@ const CUR_LABEL = {USD:'美元',TWD:'台幣',EUR:'歐元',RMB:'人民幣',ZAR:'�
 const PERF_LABEL = {m3:'3月',m6:'6月',m12:'1年',m36:'3年',since:'成立來'};
 const LS_KEY = 'myfunds_xinxin';
 let ALL=[], fav=new Set(JSON.parse(localStorage.getItem(LS_KEY)||'[]'));
-let mode='all', curF=null, rrF=null, distF=null, sortK=null, bucketF=null, presetLong=false, prodF=null, companyF='';
+let mode='all', curF=null, rrF=null, distF=null, sortK=null, bucketF=null, presetLong=false, prodF=null, companyF='', viewMode='card';
 
 const COMPANIES=['富蘭克林華美','富蘭克林坦伯頓','富蘭克林','摩根士丹利','摩根','貝萊德','施羅德','安聯','瀚亞','凱基','統一投信','統一','霸菱','富達','景順','國泰','中國信託','柏瑞','野村','群益','元大','普徠仕','高盛','聯博','聯邦','保德信','百達','街口','第一金','復華','日盛','兆豐','台新','富邦','安本','天達','鋒裕匯理','駿利','宏利','貝萊德'];
 function company(name){ for(const c of COMPANIES){ if(name.includes(c)) return c==='富蘭克林坦伯頓'?'富蘭克林':c; } return '其他'; }
@@ -383,7 +401,7 @@ function saveFav(){ localStorage.setItem(LS_KEY, JSON.stringify([...fav])); }
 
 // 記住上次的篩選/排序
 const UI_KEY='ui_xinxin';
-function saveUI(){ try{ localStorage.setItem(UI_KEY, JSON.stringify({mode,curF,rrF,distF,bucketF,sortK,presetLong,prodF,companyF})); }catch(e){} }
+function saveUI(){ try{ localStorage.setItem(UI_KEY, JSON.stringify({mode,curF,rrF,distF,bucketF,sortK,presetLong,prodF,companyF,viewMode})); }catch(e){} }
 function applyChips(){
   $('#fProd').querySelectorAll('.chip').forEach(x=>x.classList.toggle('on',(x.dataset.p||null)===prodF));
   $('#fMain').querySelectorAll('.chip').forEach(x=>x.classList.toggle('on',x.dataset.f===mode));
@@ -397,8 +415,9 @@ function applyChips(){
 function restoreUI(){
   try{ const s=JSON.parse(localStorage.getItem(UI_KEY)||'{}');
     mode=s.mode||'all'; curF=s.curF||null; rrF=s.rrF||null; distF=s.distF||null;
-    bucketF=s.bucketF||null; sortK=s.sortK||null; presetLong=!!s.presetLong; prodF=s.prodF||null; companyF=s.companyF||'';
+    bucketF=s.bucketF||null; sortK=s.sortK||null; presetLong=!!s.presetLong; prodF=s.prodF||null; companyF=s.companyF||''; viewMode=s.viewMode||'card';
   }catch(e){}
+  $('#viewToggle').textContent = viewMode==='table' ? '📇 卡片' : '📋 一覽表';
   applyChips();
 }
 let tt; function toast(m){ const t=$('#toast'); t.textContent=m; t.classList.add('show'); clearTimeout(tt); tt=setTimeout(()=>t.classList.remove('show'),1600); }
@@ -452,6 +471,7 @@ function render(){
   $('#count').textContent=`顯示 ${rows.length} 檔`+(presetLong?'・長期優選':'')+(sortK?`・依${PERF_LABEL[sortK]}排名`:'');
   $('#myhint').textContent=fav.size?`我的基金 ${fav.size} 檔`:'點 ☆ 加入我的基金';
   if(!rows.length){ list.innerHTML=`<div class="empty">${mode==='mine'&&!fav.size?'還沒有加入任何基金<br>在清單點 ☆ 把你持有的基金加進來':'沒有符合條件的基金'}</div>`; return; }
+  if(viewMode==='table'){ renderTable(rows); return; }
   let html='';
   rows.forEach((f,idx)=>{
     const favc=fav.has(f.tf)?'fav':'', star=fav.has(f.tf)?'★':'☆';
@@ -496,7 +516,29 @@ function render(){
   list.innerHTML=html;
 }
 
+function renderTable(rows){
+  const cols=[['m3','3月'],['m6','6月'],['m12','1年'],['m36','3年'],['since','成立來']];
+  let html='<div class="tblwrap"><table class="ovt"><thead><tr><th class="fn">基金</th><th>幣別</th><th>RR</th><th>淨值</th>'
+    +cols.map(c=>`<th class="sortable" data-s="${c[0]}">${c[1]}${sortK===c[0]?' ▾':''}</th>`).join('')+'</tr></thead><tbody>';
+  rows.forEach((f,idx)=>{
+    const rank=sortK?`<span class="tnrank">#${idx+1}</span>`:'';
+    html+=`<tr class="${fav.has(f.tf)?'fav':''}"><th class="fn"><span class="tstar" data-star="${f.tf}">${fav.has(f.tf)?'★':'☆'}</span><a href="${f.link}" target="_blank" rel="noopener">${rank}${f.name}</a><div class="tsub">${f.inception?'成立 '+f.inception+' · ':''}${f.tf}</div></th>`;
+    html+=`<td>${CUR_LABEL[f.cur]||f.cur}</td><td>${f.rr||'—'}</td><td class="num">${f.ok?fmtVal(f.value):'—'}</td>`;
+    cols.forEach(([k])=>{ const v=f.perf&&f.perf[k]; const cls=v==null?'':(v>0?'up':(v<0?'down':'')); const hl=k===sortK?' hl':''; html+=`<td class="num ${cls}${hl}">${v==null?'—':(v>0?'+':'')+v.toFixed(1)+'%'}</td>`; });
+    html+='</tr>';
+  });
+  $('#list').innerHTML=html+'</tbody></table></div>';
+}
+
+$('#viewToggle').addEventListener('click',()=>{
+  viewMode = viewMode==='table' ? 'card' : 'table';
+  $('#viewToggle').textContent = viewMode==='table' ? '📇 卡片' : '📋 一覽表';
+  render();
+});
+
 $('#list').addEventListener('click',e=>{
+  const th=e.target.closest('th.sortable[data-s]');
+  if(th){ const k=th.dataset.s; sortK=(sortK===k?null:k); $('#fSort').querySelectorAll('.chip').forEach(x=>x.classList.toggle('on',x.dataset.s===sortK)); render(); return; }
   const pt=e.target.closest('[data-pt]');
   if(pt){ e.preventDefault(); pt.closest('.row').classList.toggle('open'); return; }
   const s=e.target.closest('[data-star]'); if(!s)return;
