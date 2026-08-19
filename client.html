@@ -37,6 +37,7 @@
   h1 .accent{color:var(--gold)}
   .meta{margin-top:5px; font-size:12px; color:#b9c2d6; display:flex; align-items:center; gap:6px; flex-wrap:wrap}
   .dot{width:7px;height:7px;border-radius:50%;background:var(--gold);box-shadow:0 0 0 3px rgba(201,168,76,.2)}
+  .refreshbtn{background:none; border:1px solid rgba(201,168,76,.4); color:var(--gold); border-radius:999px; padding:2px 9px; font-size:12px; cursor:pointer; margin-left:auto}
 
   .controls{max-width:760px; margin:8px auto 0; padding:0 10px}
   .search{width:100%; font-family:var(--sans); font-size:15px; color:var(--ink); background:var(--cream);
@@ -147,8 +148,8 @@
   .rrt td{border:1px solid var(--gray); padding:6px 4px; text-align:center; color:#3a3a3a}
   .rrt tr:nth-child(even) td{background:#f2ebda}
   /* 工具列 */
-  .tools{display:flex; gap:6px; margin-top:7px}
-  .toolbtn{flex:1; text-align:center; font-size:12.5px; font-weight:700; color:var(--cream); background:rgba(255,255,255,.07); border:1px solid rgba(201,168,76,.35); border-radius:10px; padding:9px 3px; cursor:pointer; user-select:none}
+  .tools{display:flex; gap:6px; margin-top:7px; flex-wrap:wrap}
+  .toolbtn{flex:1 1 28%; text-align:center; font-size:12.5px; font-weight:700; color:var(--cream); background:rgba(255,255,255,.07); border:1px solid rgba(201,168,76,.35); border-radius:10px; padding:9px 3px; cursor:pointer; user-select:none}
   .toolbtn:active{background:rgba(201,168,76,.18)}
   /* 試算 */
   .calcrow{display:flex; align-items:center; justify-content:space-between; gap:10px; margin:10px 0}
@@ -263,7 +264,7 @@
 <header>
   <div class="brand"><span><span class="cheng">誠毅</span>傳承</span><span class="rule"></span><span>熊誠毅</span></div>
   <h1>基金淨值<span class="accent">查詢</span></h1>
-  <div class="meta"><span class="dot"></span><span id="updated">載入中…</span></div>
+  <div class="meta"><span class="dot"></span><span id="updated">載入中…</span><button class="refreshbtn" id="refreshBtn" title="重新整理">🔄 刷新</button></div>
 </header>
 
 <div class="controls">
@@ -279,6 +280,7 @@
     <span class="toolbtn" id="quizBtn">🎯測驗</span>
     <span class="toolbtn" id="cmpBtn">⚖️比較</span>
     <span class="toolbtn" id="shareBtn">📤分享</span>
+    <span class="toolbtn" id="exportBtn">📄匯出</span>
   </div>
   <div class="frow" id="fProd"></div>
   <div class="frow"><span class="flabel">基金公司</span><select class="compsel" id="fComp"></select></div>
@@ -555,11 +557,20 @@ function matches(f){
   return true;
 }
 
-function render(){
-  const list=$('#list');
+function currentRows(){
   let rows=ALL.filter(matches);
   if(sortK) rows.sort((a,b)=> (b.perf[sortK]) - (a.perf[sortK]));
   else rows.sort((a,b)=> (fav.has(b.tf)?1:0)-(fav.has(a.tf)?1:0)); // 我的基金置頂
+  return rows;
+}
+function isStale(u){ if(!u)return false; const d=new Date(u.slice(0,10).replace(/\//g,'-')); if(isNaN(d))return false; return (Date.now()-d.getTime())/86400000 > 4; }
+function setUpdated(data){
+  const base=`${data.product||''}　更新 ${data.updated_at||'—'}　共 ${data.total||ALL.length} 檔`;
+  $('#updated').innerHTML = base + (isStale(data.updated_at)?' <span style="color:#ff9b9b;font-weight:700">· 資料較舊，可按刷新</span>':'');
+}
+function render(){
+  const list=$('#list');
+  let rows=currentRows();
   saveUI();
   $('#count').textContent=`顯示 ${rows.length} 檔`+(presetLong?'・長期優選':'')+(sortK?`・依${PERF_LABEL[sortK]}排名`:'');
   $('#myhint').textContent=fav.size?`我的基金 ${fav.size} 檔`:'點 ☆ 加入我的基金';
@@ -856,7 +867,7 @@ async function load(){
     ALL=data.funds||[];
     const prods=data.products||[];
     $('#fProd').innerHTML='<span class="flabel">保單</span><span class="chip" data-p="">全部</span>'+prods.map(p=>`<span class="chip" data-p="${p}">${p}</span>`).join('');
-    $('#updated').textContent=`${data.product||''}　更新 ${data.updated_at||'—'}　共 ${data.total||ALL.length} 檔`;
+    setUpdated(data);
     try{ const h=new URLSearchParams(location.hash.slice(1)); const ff=h.get('f');
       if(ff){ linkFunds=new Set(ff.split(',').filter(Boolean)); linkName=h.get('n')||'客戶'; } }catch(e){}
     if(linkFunds){
@@ -903,6 +914,30 @@ window.addEventListener('beforeinstallprompt',e=>{ e.preventDefault(); deferredP
 $('#installGo').addEventListener('click',async()=>{ if(deferredPrompt){ deferredPrompt.prompt(); await deferredPrompt.userChoice; deferredPrompt=null; } $('#installBar').classList.remove('show'); });
 $('#installX').addEventListener('click',()=>{ $('#installBar').classList.remove('show'); localStorage.setItem('install_dismiss','1'); });
 setTimeout(()=>{ if(/iphone|ipad|ipod/i.test(navigator.userAgent) && !deferredPrompt) showInstall('ios'); }, 2500);
+
+// 手動刷新
+$('#refreshBtn').addEventListener('click',async()=>{
+  const b=$('#refreshBtn'); b.textContent='⏳'; b.disabled=true;
+  try{ const data=await (await fetch('funds_client.json?t='+Date.now(),{cache:'no-store'})).json(); ALL=data.funds||[]; setUpdated(data); buildCompanies(); render(); toast('已重新整理'); }
+  catch(e){ toast('重新整理失敗'); }
+  b.textContent='🔄 刷新'; b.disabled=false;
+});
+// 匯出 CSV
+$('#exportBtn').addEventListener('click',exportCSV);
+function exportCSV(){
+  const rows=currentRows(); if(!rows.length){ toast('沒有可匯出的資料'); return; }
+  const hdr=['名稱','代碼','幣別','風險','淨值','淨值日','3月(%)','6月(%)','1年(%)','3年(%)','成立來(%)','成立日','類型','規模','年化波動(%)','Sharpe','Beta','評等'];
+  const esc=v=>{ v=(v==null?'':String(v)); return /[",\n\r]/.test(v)?'"'+v.replace(/"/g,'""')+'"':v; };
+  const lines=[hdr.join(',')];
+  rows.forEach(f=>{ const p=f.perf||{}; lines.push([f.name,f.tf,CUR_LABEL[f.cur]||f.cur,f.rr||'',f.ok?f.value:'',f.date||'',p.m3,p.m6,p.m12,p.m36,p.since,f.inception||'',f.typ2||'',f.size||'',f.std,f.sharpe,f.beta,f.rating].map(esc).join(',')); });
+  const csv=String.fromCharCode(0xFEFF)+lines.join('\r\n');
+  const fname='基金清單_'+(new Date()).toISOString().slice(0,10)+'.csv';
+  try{ const file=new File([csv],fname,{type:'text/csv'});
+    if(navigator.canShare && navigator.canShare({files:[file]})){ navigator.share({files:[file],title:fname}).catch(()=>{}); return; } }catch(e){}
+  const blob=new Blob([csv],{type:'text/csv;charset=utf-8'});
+  const url=URL.createObjectURL(blob); const a=document.createElement('a'); a.href=url; a.download=fname; document.body.appendChild(a); a.click(); a.remove(); setTimeout(()=>URL.revokeObjectURL(url),4000);
+  toast('已匯出 '+rows.length+' 檔');
+}
 
 load();
 </script>
