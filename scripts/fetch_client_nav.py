@@ -177,7 +177,11 @@ def nav_fv(fid):
             if datetime.strptime(dd, "%Y%m%d") <= tgt:
                 best = nn
         return round((latest / best - 1) * 100, 2) if best else None
-    perf = {k: pf(mm) for k, mm in [("m1", 1), ("m3", 3), ("m6", 6), ("m12", 12), ("m36", 36), ("m60", 60)]}
+    perf = {k: pf(mm) for k, mm in [("m3", 3), ("m6", 6), ("m12", 12), ("m36", 36)]}
+    try:
+        perf["since"] = round((latest / ns[0] - 1) * 100, 2)
+    except Exception:
+        pass
     return latest, pct, date, {k: v for k, v in perf.items() if v is not None}
 
 
@@ -204,48 +208,62 @@ def add_since(funds):
     print(f"成立以來報酬：補 {n} 檔")
 
 
+CURMAP = {"美元": "USD", "台幣": "TWD", "新臺幣": "TWD", "歐元": "EUR", "人民幣": "RMB",
+          "日圓": "JPY", "澳幣": "AUD", "南非幣": "ZAR", "英鎊": "GBP"}
+
+
+def fetch_sp():
+    """凱基基金快搜 SearchProductJSON：淨值(V18)＋3/6/12/36月(V11-V15)＋成立以來(V36)＋幣別(V26)＋配息(V42)。"""
+    url = "https://kgilife.moneydj.com/w/custom/djjson/SearchProductJSON.djjson?P1=chinalife&P2=False&P3=False&P4=False&"
+    res = json.loads(S.get(url, timeout=30).content.decode("big5", "replace"))["ResultSet"]["Result"]
+    def fn(v):
+        try: return round(float(v), 2)
+        except Exception: return None
+    out = {}
+    for x in res:
+        v40 = x.get("V40", ""); sep = "~" if "~" in v40 else "-"; p = v40.split(sep, 1)
+        if len(p) != 2:
+            continue
+        perf = {"m3": fn(x.get("V11")), "m6": fn(x.get("V12")), "m12": fn(x.get("V13")),
+                "m36": fn(x.get("V15")), "since": fn(x.get("V36"))}
+        out[p[1]] = {"nav": fn(x.get("V18")), "date": x.get("V1"),
+                     "cur": CURMAP.get((x.get("V26") or "").strip()),
+                     "dist": "配息" if (x.get("V42") or "").strip() not in ("", "無") else "未配息",
+                     "perf": {k: v for k, v in perf.items() if v is not None}}
+    return out
+
+
 def main():
     master = json.load(open(MASTER, encoding="utf-8"))
     if LIMIT:
-        master = [m for m in master if m.get("navsrc")][:LIMIT]
+        master = master[:LIMIT]
+    sp = fetch_sp()
+    print("快搜標的數:", len(sp))
 
     funds = []; ok = 0
     for i, m in enumerate(master, 1):
         rec = {"tf": m["tf"], "name": m["name"], "cur": m.get("cur", "OTHER"),
-               "rr": None, "dist": dist_flag(m["name"]), "typ": None,
+               "rr": m.get("rr_csv"), "dist": dist_flag(m["name"]), "typ": None,
                "inception": m.get("inception"), "typ2": m.get("typ2"),
                "value": None, "pct": None, "date": None, "perf": {},
                "link": m["link"], "ok": False, "src": None, "prods": m.get("prods", [])}
-        src = m.get("navsrc")
         try:
-            if src == "fv":
+            if m.get("navsrc") == "fv":   # 全委帳戶
                 nav, pct, date, perf = nav_fv(m["code"])
                 if nav is not None:
                     rec.update(value=nav, pct=pct, date=date, ok=True); ok += 1
                 rec["perf"] = perf
-            elif src in ("wb01", "tbcd"):
-                rr, typ, nav, pct, date = parse_meta(m["sec"], m["code"], m["tf"])
-                rec["rr"] = rr; rec["typ"] = typ
-                if src == "tbcd" and nav is None:
-                    nav, pct, date = nav_tbcd(m["code"])
-                if nav is not None:
-                    rec.update(value=nav, pct=pct, date=date, ok=True); ok += 1
-                rec["perf"] = parse_perf(m["sec"], m["code"], m["tf"])
+            else:                          # 其餘：凱基基金快搜官方數字
+                x = sp.get(m["tf"])
+                if x:
+                    if x["cur"]: rec["cur"] = x["cur"]
+                    rec["dist"] = x["dist"]; rec["perf"] = x["perf"]
+                    if x["nav"] is not None:
+                        rec.update(value=x["nav"], date=x["date"], ok=True); ok += 1
         except Exception as ex:
             print(f"  err {m['tf']}: {ex}")
         funds.append(rec)
-        if i % 30 == 0:
-            print(f"  {i}/{len(master)} 已抓 {ok}")
-        time.sleep(0.05)
-
-    try:
-        enrich_with_moneydj(funds)
-    except Exception as e:
-        print("MoneyDJ 補值失敗（略過）:", e)
-    try:
-        add_since(funds)
-    except Exception as e:
-        print("成立以來補值失敗（略過）:", e)
+        time.sleep(0.02)
 
     perf_cnt = sum(1 for f in funds if f["perf"])
     products = sorted({p for f in funds for p in f.get("prods", [])})

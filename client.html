@@ -270,9 +270,9 @@
   </div>
   <div class="frow" id="fSort">
     <span class="flabel">排名依績效</span>
-    <span class="chip sort" data-s="m1">1月</span><span class="chip sort" data-s="m3">3月</span>
-    <span class="chip sort" data-s="m6">6月</span><span class="chip sort" data-s="m12">1年</span>
-    <span class="chip sort" data-s="m36">3年</span><span class="chip sort" data-s="m60">5年</span><span class="chip sort" data-s="since">成立來</span>
+    <span class="chip sort" data-s="m3">3月</span><span class="chip sort" data-s="m6">6月</span>
+    <span class="chip sort" data-s="m12">1年</span><span class="chip sort" data-s="m36">3年</span>
+    <span class="chip sort" data-s="since">成立來</span>
   </div>
 </div>
 <div class="countbar"><span id="count"></span><span id="myhint"></span></div>
@@ -357,7 +357,7 @@
 <script>
 const $ = s => document.querySelector(s);
 const CUR_LABEL = {USD:'美元',TWD:'台幣',EUR:'歐元',RMB:'人民幣',ZAR:'南非幣',AUD:'澳幣',JPY:'日圓',GBP:'英鎊',OTHER:'其他'};
-const PERF_LABEL = {m1:'1月',m3:'3月',m6:'6月',m12:'1年',m36:'3年',m60:'5年',since:'成立來'};
+const PERF_LABEL = {m3:'3月',m6:'6月',m12:'1年',m36:'3年',since:'成立來'};
 const LS_KEY = 'myfunds_xinxin';
 let ALL=[], fav=new Set(JSON.parse(localStorage.getItem(LS_KEY)||'[]'));
 let mode='all', curF=null, rrF=null, distF=null, sortK=null, bucketF=null, presetLong=false, prodF=null, companyF='';
@@ -409,15 +409,14 @@ function pctHtml(p,cls0){ if(p==null)return'<span class="flat">—</span>';
   const cls=p>0.0001?'up':(p<-0.0001?'down':'flat'), ar=p>0.0001?'▲':(p<-0.0001?'▼':'—'), s=p>0?'+':'';
   return `<span class="${cls}"><span class="ar">${ar}</span>${s}${p.toFixed(2)}%</span>`; }
 function perfLine(perf){
-  const cols=[['m1','1月'],['m3','3月'],['m6','6月'],['m12','1年'],['m36','3年'],['m60','5年']];
-  if(perf && perf.since!=null) cols.push(['since','成立來']);
+  const cols=[['m3','3月'],['m6','6月'],['m12','1年'],['m36','3年'],['since','成立來']];
   return cols.map(([k,lab])=>{
     const v=perf[k]; if(v==null) return `${lab} —`;
     const c=v>0?'#ff8a8a':(v<0?'#7ce0a9':'#cfc'); return `${lab} <span style="color:${c}">${(v>0?'+':'')+v.toFixed(1)}%</span>`;
   }).join('　');
 }
 function sparkSVG(perf){
-  const ks=['m1','m3','m6','m12','m36','m60'];
+  const ks=['m3','m6','m12','m36','since'];
   const nums=ks.map(k=>perf[k]).filter(v=>v!=null);
   if(nums.length<2) return '';
   const w=250,h=40,pad=4, min=Math.min(...nums,0), max=Math.max(...nums,0), rng=(max-min)||1, step=(w-2*pad)/(ks.length-1);
@@ -437,7 +436,7 @@ function matches(f){
   if(rrF && f.rr!==rrF) return false;
   if(distF && f.dist!==distF) return false;
   if(bucketF && bucket(f.name)!==bucketF) return false;
-  if(presetLong){ if(isCash(f.name)) return false; if(!f.perf || !(f.perf.m36>0) || !(f.perf.m60>0)) return false; }
+  if(presetLong){ if(isCash(f.name)) return false; if(!f.perf || !(f.perf.m36>0) || !(f.perf.since>0)) return false; }
   const q=$('#q').value.trim().toLowerCase();
   if(q && !(f.name.toLowerCase().includes(q)||f.tf.toLowerCase().includes(q))) return false;
   if(sortK && (!f.perf || f.perf[sortK]==null)) return false; // 排名時只列有該期績效者
@@ -473,13 +472,13 @@ function render(){
     const ptoggle=hasPerf?`<span class="pt" data-pt="1">績效 ▾</span>`:'';
     let grid='';
     if(hasPerf){
-      const pkeys=['m1','m3','m6','m12','m36','m60'].concat(f.perf.since!=null?['since']:[]);
+      const pkeys=['m3','m6','m12','m36','since'];
       grid='<div class="perfgrid">'+pkeys.map(k=>{
         const v=f.perf[k]; const cls=v==null?'flat':(v>0?'up':(v<0?'down':'flat')); const hl=(k===sortK)?' hl':'';
         return `<div class="pcell${hl}"><div class="pl">${PERF_LABEL[k]}</div><div class="pv ${cls}">${v==null?'—':(v>0?'+':'')+v.toFixed(2)+'%'}</div></div>`;
       }).join('')+'</div>';
       const spark=sparkSVG(f.perf);
-      if(spark) grid+=`<div class="sparkrow">${spark}<div class="sparklab">1月 → 5年 報酬走勢（水平虛線＝0%）</div></div>`;
+      if(spark) grid+=`<div class="sparkrow">${spark}<div class="sparklab">3月 → 成立來 報酬走勢（水平虛線＝0%）</div></div>`;
       if(f.src==='moneydj') grid+='<div class="psrc">績效來源：MoneyDJ（此檔淨值請點右方「查看」）</div>';
     }
     const openc=(sortK && hasPerf)?' open':'';
@@ -542,9 +541,9 @@ $('#presetLong').addEventListener('click',()=>{
   presetLong=!presetLong;
   $('#presetLong').classList.toggle('on',presetLong);
   if(presetLong){
-    sortK='m60';
-    $('#fSort').querySelectorAll('.chip').forEach(x=>x.classList.toggle('on',x.dataset.s==='m60'));
-    toast('已套用長期優選：3年&5年報酬為正，依5年排名');
+    sortK='since';
+    $('#fSort').querySelectorAll('.chip').forEach(x=>x.classList.toggle('on',x.dataset.s==='since'));
+    toast('已套用長期優選：3年&成立來報酬為正，依成立來排名');
   }
   render();
 });
