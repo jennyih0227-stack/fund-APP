@@ -101,7 +101,7 @@
     "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACKG22",
-    "navsrc": null,
+    "navsrc": "tbcd",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF1Z&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -134,7 +134,7 @@
   {
     "tf": "TF2E",
     "name": "元大台灣高股息優質龍頭基金(A級別/不配息級別)(本基金之配息來源可能為收益平準金且並無保證收益及配息)",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACYT161",
     "navsrc": "tbcd",
@@ -146,10 +146,10 @@
   {
     "tf": "TF2H",
     "name": "摩根太平洋科技基金",
-    "cur": "OTHER",
+    "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "JF^57",
-    "navsrc": null,
+    "code": "JFZ57",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF2H&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -160,8 +160,8 @@
     "name": "摩根基金 - 全球成長基金 - JPM全球成長(美元) - A股(累計)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "JF^G7",
-    "navsrc": null,
+    "code": "JFZG7",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF2L&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -196,8 +196,8 @@
     "name": "安聯主題趨勢基金-AT累積類股(美元)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "TL^F7",
-    "navsrc": null,
+    "code": "TLZF7",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF2S&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -208,8 +208,8 @@
     "name": "安聯綠色債券基金-AT累積類股(美元避險)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "TL^E7",
-    "navsrc": null,
+    "code": "TLZE7",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF2V&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -218,7 +218,7 @@
   {
     "tf": "TF35",
     "name": "凱基開創基金",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACKG01",
     "navsrc": "tbcd",
@@ -232,8 +232,8 @@
     "name": "施羅德環球基金系列－環球永續增長(美元)A-累積",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "PY^Y8",
-    "navsrc": null,
+    "code": "PYZY8",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF36&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -244,8 +244,8 @@
     "name": "富蘭克林坦伯頓全球投資系列-美元短期票券基金美元A (acc)股",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "FL^B0",
-    "navsrc": null,
+    "code": "FLZB0",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF37&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -254,7 +254,7 @@
   {
     "tf": "TF39",
     "name": "凱基凱旋貨幣市場基金",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACKG03",
     "navsrc": "tbcd",
@@ -266,7 +266,7 @@
   {
     "tf": "TF3A",
     "name": "富邦貨幣市場基金(原名:日盛貨幣市場基金)",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACJS02",
     "navsrc": "tbcd",
@@ -278,7 +278,7 @@
   {
     "tf": "TF3E",
     "name": "安聯台灣科技基金",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACDD04",
     "navsrc": "tbcd",
@@ -290,10 +290,10 @@
   {
     "tf": "TF3F",
     "name": "柏瑞環球基金-柏瑞環球重點股票基金A",
-    "cur": "OTHER",
+    "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "AI^34",
-    "navsrc": null,
+    "code": "AIZ34",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF3F&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -304,8 +304,8 @@
     "name": "施羅德環球基金系列－環球創新股票(美元)A-累積",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "PY^A06",
-    "navsrc": null,
+    "code": "PYZA06",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF3G&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -316,8 +316,8 @@
     "name": "施羅德環球基金系列－環球氣候變化策略(美元)A-累積",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "PY^^9",
-    "navsrc": null,
+    "code": "PYZZ9",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF3H&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -362,7 +362,7 @@
   {
     "tf": "TF3L",
     "name": "統一黑馬基金",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACPS02",
     "navsrc": "tbcd",
@@ -374,7 +374,7 @@
   {
     "tf": "TF3M",
     "name": "統一奔騰基金",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACPS10",
     "navsrc": "tbcd",
@@ -400,8 +400,8 @@
     "name": "安聯全球礦金資源基金-AT累積類股(美元)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "TL^N1",
-    "navsrc": null,
+    "code": "TLZN1",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF3R&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -410,7 +410,7 @@
   {
     "tf": "TF3S",
     "name": "統一台灣動力基金-A類型",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACPS23",
     "navsrc": "tbcd",
@@ -422,7 +422,7 @@
   {
     "tf": "TF3T",
     "name": "野村台灣運籌基金",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACKH03",
     "navsrc": "tbcd",
@@ -434,7 +434,7 @@
   {
     "tf": "TF3W",
     "name": "野村高科技基金",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACKH19",
     "navsrc": "tbcd",
@@ -448,8 +448,8 @@
     "name": "富達基金－美元現金基金(A股累計美元)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "FT^I1",
-    "navsrc": null,
+    "code": "FTZI1",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF3X&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -470,7 +470,7 @@
   {
     "tf": "TF40",
     "name": "統一強棒貨幣市場基金",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACPS04",
     "navsrc": "tbcd",
@@ -482,7 +482,7 @@
   {
     "tf": "TF42",
     "name": "安聯台灣智慧基金",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACDD19",
     "navsrc": "tbcd",
@@ -496,8 +496,8 @@
     "name": "富蘭克林坦伯頓全球投資系列-全球基金美元A(acc)股",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "FL^A7",
-    "navsrc": null,
+    "code": "FLZA7",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF43&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -518,7 +518,7 @@
   {
     "tf": "TF45",
     "name": "瀚亞高科技基金",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACCP03",
     "navsrc": "tbcd",
@@ -592,8 +592,8 @@
     "name": "安聯多元信用債券基金-AMg穩定月收總收益類股(美元)(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "TL^D7",
-    "navsrc": null,
+    "code": "TLZD7",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF6B&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -652,8 +652,8 @@
     "name": "富達基金－全球優質債券基金(A股C月配息美元)(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "FT^X0",
-    "navsrc": null,
+    "code": "FTZX0",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF6G&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -664,8 +664,8 @@
     "name": "富達基金－永續發展全球存股優勢基金(A股C月配息美元)(本基金之配息來源可能為本金且並無保證收益及配息)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "FT^A40",
-    "navsrc": null,
+    "code": "FTZA40",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF6H&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -676,8 +676,8 @@
     "name": "富達基金－美元現金基金(A股【F1穩定月配息】美元)(本基金之配息來源可能為本金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "FT^A75",
-    "navsrc": null,
+    "code": "FTZA75",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF6J&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -700,8 +700,8 @@
     "name": "景順環球股票收益基金A-穩定月配息股 美元(基金之配息來源可能為本金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "CT^J3",
-    "navsrc": null,
+    "code": "CTZJ3",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF6M&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -712,8 +712,8 @@
     "name": "景順亞洲資產配置基金A-月配息股 美元",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "CT^G0",
-    "navsrc": null,
+    "code": "CTZG0",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF6N&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -724,8 +724,8 @@
     "name": "景順亞洲資產配置基金A-穩定月配息股 美元(基金之配息來源可能為本金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "CT^H1",
-    "navsrc": null,
+    "code": "CTZH1",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF6P&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -736,8 +736,8 @@
     "name": "景順亞洲動力基金 A-穩定月配息股 美元(基金之配息來源可能為本金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "CT^Q5",
-    "navsrc": null,
+    "code": "CTZQ5",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF6Q&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -758,10 +758,10 @@
   {
     "tf": "TF6W",
     "name": "富蘭克林成長基金A股(本基金之配息來源可能為本金)",
-    "cur": "OTHER",
+    "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "FL^06",
-    "navsrc": null,
+    "code": "FLZ06",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TF6W&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -772,8 +772,8 @@
     "name": "景順日本小型企業基金 A(美元對沖)股 美元",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "CT^H8",
-    "navsrc": null,
+    "code": "CTZH8",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFA1&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -784,8 +784,8 @@
     "name": "景順歐洲大陸小型企業基金A(美元對沖)股 美元",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "CT^J1",
-    "navsrc": null,
+    "code": "CTZJ1",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFA2&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -796,8 +796,8 @@
     "name": "景順環球消費趨勢基金A股 美元",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "IS^04",
-    "navsrc": null,
+    "code": "ISZ04",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFA3&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -808,8 +808,8 @@
     "name": "摩根基金 - 俄羅斯基金 - JPM 俄羅斯(美元) - A股(累計)(2022/3/1起暫停報價與交易)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "JF^H4",
-    "navsrc": null,
+    "code": "JFZH4",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFA4&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -820,8 +820,8 @@
     "name": "摩根基金 - 美國小型企業股票基金 - JPM美國小型企業股票(美元) - A股(累計)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "JF^G5",
-    "navsrc": null,
+    "code": "JFZG5",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFA5&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -832,8 +832,8 @@
     "name": "摩根基金 - 美國科技基金 - JPM美國科技(美元) - A股(累計)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "JF^G4",
-    "navsrc": null,
+    "code": "JFZG4",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFA6&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -844,8 +844,8 @@
     "name": "摩根基金 - 環球醫療科技基金 - JPM環球醫療科技(美元) - A股(累計)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "JF^D2",
-    "navsrc": null,
+    "code": "JFZD2",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFA7&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -879,9 +879,9 @@
     "tf": "TFAD",
     "name": "美元貨幣帳戶",
     "cur": "USD",
-    "sec": null,
-    "code": null,
-    "navsrc": null,
+    "sec": "w/wb/wb01.djhtm",
+    "code": "TFAD",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFAD&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -928,8 +928,8 @@
     "name": "貝萊德拉丁美洲基金 A2 美元",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^17",
-    "navsrc": null,
+    "code": "SHZ17",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFAP&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -940,8 +940,8 @@
     "name": "貝萊德世界黃金基金 A2 美元",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^18",
-    "navsrc": null,
+    "code": "SHZ18",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFAQ&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -950,7 +950,7 @@
   {
     "tf": "TFAR",
     "name": "摩根東方內需機會基金(暫停申購)",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACJF100",
     "navsrc": "tbcd",
@@ -962,7 +962,7 @@
   {
     "tf": "TFAS",
     "name": "摩根全球平衡基金",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACJF90",
     "navsrc": "tbcd",
@@ -976,8 +976,8 @@
     "name": "富蘭克林坦伯頓全球投資系列-全球債券基金美元A(acc)股(本基金之配息來源可能為本金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "FL^68",
-    "navsrc": null,
+    "code": "FLZ68",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFAT&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -987,9 +987,9 @@
     "tf": "TFAY",
     "name": "歐元貨幣帳戶",
     "cur": "EUR",
-    "sec": null,
-    "code": null,
-    "navsrc": null,
+    "sec": "w/wb/wb01.djhtm",
+    "code": "TFAY",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFAY&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -1012,8 +1012,8 @@
     "name": "安聯收益成長基金-AT累積類股(美元)(本基金有相當比重投資於非投資等級之高風險債券)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "TL^63",
-    "navsrc": null,
+    "code": "TLZ63",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFB2&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -1024,8 +1024,8 @@
     "name": "安聯歐陸成長基金-AT累積類股(美元避險)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "TL^A2",
-    "navsrc": null,
+    "code": "TLZA2",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFB3&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -1036,8 +1036,8 @@
     "name": "貝萊德新興市場基金 A2 美元",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^16",
-    "navsrc": null,
+    "code": "SHZ16",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFBB&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -1048,8 +1048,8 @@
     "name": "貝萊德環球資產配置基金 A2 美元",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^B2",
-    "navsrc": null,
+    "code": "SHZB2",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFBC&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -1060,8 +1060,8 @@
     "name": "貝萊德新興歐洲基金 A2 歐元(2022/3/1起暫停報價與交易)",
     "cur": "EUR",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^33",
-    "navsrc": null,
+    "code": "SHZ33",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFBD&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -1070,7 +1070,7 @@
   {
     "tf": "TFBE",
     "name": "瀚亞巴西基金",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACCP32",
     "navsrc": "tbcd",
@@ -1082,7 +1082,7 @@
   {
     "tf": "TFBF",
     "name": "瀚亞中小型股基金",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACCP10",
     "navsrc": "tbcd",
@@ -1108,8 +1108,8 @@
     "name": "富蘭克林坦伯頓全球投資系列-金磚國家基金美元A (acc)股",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "FL^A0",
-    "navsrc": null,
+    "code": "FLZA0",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFBH&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -1118,7 +1118,7 @@
   {
     "tf": "TFBI",
     "name": "凱基台商天下基金",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACKG11",
     "navsrc": "tbcd",
@@ -1154,7 +1154,7 @@
   {
     "tf": "TFBW",
     "name": "凱基新興趨勢ETF組合基金",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACKG16",
     "navsrc": "tbcd",
@@ -1168,8 +1168,8 @@
     "name": "貝萊德美國中型企業價值基金A2 美元(原名稱：貝萊德美國特別時機基金 A2 美元)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^12",
-    "navsrc": null,
+    "code": "SHZ12",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFCF&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -1180,8 +1180,8 @@
     "name": "貝萊德歐洲特別時機基金 A2 歐元",
     "cur": "EUR",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^F5",
-    "navsrc": null,
+    "code": "SHZF5",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFCG&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -1204,8 +1204,8 @@
     "name": "摩根基金－新興市場小型企業基金 - JPM新興市場小型企業(美元)- A股perf(累計)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "JF^95",
-    "navsrc": null,
+    "code": "JFZ95",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFCI&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -1216,8 +1216,8 @@
     "name": "高盛基金Ⅲ-高盛全球機會股票基金X股美元(原名稱：NN(L)全球機會股票基金X股美元)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "AN^88",
-    "navsrc": null,
+    "code": "ANZ88",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFCJ&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -1250,7 +1250,7 @@
   {
     "tf": "TFCN",
     "name": "景順潛力基金",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACCS02",
     "navsrc": "tbcd",
@@ -1262,7 +1262,7 @@
   {
     "tf": "TFCO",
     "name": "凱基台灣精五門基金",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACKG15",
     "navsrc": "tbcd",
@@ -1276,8 +1276,8 @@
     "name": "摩根基金－新興歐洲股票基金 - JPM新興歐洲股票(美元)- A股(累計)(2022/3/1起暫停報價與交易，更新之指示性參考淨值並非正式資產淨值)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "JF^98",
-    "navsrc": null,
+    "code": "JFZ98",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFCU&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -1288,8 +1288,8 @@
     "name": "高盛基金Ⅲ-高盛新興市場增強股票基金X股美元(本基金非屬環境、社會及治理相關主題之境外基金)(原名稱： NN(L)新興市場增強股票基金X股美元(本基金非屬環境、社會及治理相關主題之境外基金))",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "AN^66",
-    "navsrc": null,
+    "code": "ANZ66",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFCX&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -1322,7 +1322,7 @@
   {
     "tf": "TFD4",
     "name": "瀚亞歐洲基金",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACCP13",
     "navsrc": "tbcd",
@@ -1334,7 +1334,7 @@
   {
     "tf": "TFD7",
     "name": "瀚亞菁華基金",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACCP07",
     "navsrc": "tbcd",
@@ -1383,9 +1383,9 @@
     "tf": "TFDF",
     "name": "新台幣貨幣帳戶",
     "cur": "TWD",
-    "sec": null,
-    "code": null,
-    "navsrc": null,
+    "sec": "w/wb/wb01.djhtm",
+    "code": "TFDF",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFDF&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮",
@@ -1395,7 +1395,7 @@
   {
     "tf": "TFDI",
     "name": "摩根新興35基金-累積型(原名稱：摩根新興35基金)",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACJF96",
     "navsrc": "tbcd",
@@ -1407,7 +1407,7 @@
   {
     "tf": "TFDJ",
     "name": "瀚亞亞太不動產證券化基金A類型",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACCP27",
     "navsrc": "tbcd",
@@ -1433,8 +1433,8 @@
     "name": "貝萊德永續能源基金A2美元(本基金非屬環境、社會及治理相關主題基金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^A4",
-    "navsrc": null,
+    "code": "SHZA4",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFDO&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -1457,8 +1457,8 @@
     "name": "摩根東協基金(美元)(累計)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "JF^01",
-    "navsrc": null,
+    "code": "JFZ01",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFDS&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -1469,8 +1469,8 @@
     "name": "貝萊德世界礦業基金 A2 美元",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^19",
-    "navsrc": null,
+    "code": "SHZ19",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFDV&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -1491,7 +1491,7 @@
   {
     "tf": "TFDX",
     "name": "瀚亞亞太基礎建設基金",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACCP29",
     "navsrc": "tbcd",
@@ -1517,8 +1517,8 @@
     "name": "富蘭克林坦伯頓全球投資系列-亞洲成長基金美元A (acc)股",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "FL^C1",
-    "navsrc": null,
+    "code": "FLZC1",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFEG&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -1565,8 +1565,8 @@
     "name": "貝萊德新興歐洲基金 A2 美元(2022/3/1起暫停報價與交易)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^40",
-    "navsrc": null,
+    "code": "SHZ40",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFER&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -1577,8 +1577,8 @@
     "name": "貝萊德歐洲特別時機基金 A2 美元",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^F4",
-    "navsrc": null,
+    "code": "SHZF4",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFES&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -1589,8 +1589,8 @@
     "name": "貝萊德中國基金 A2 美元",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^L5",
-    "navsrc": null,
+    "code": "SHZL5",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFET&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -1601,8 +1601,8 @@
     "name": "富蘭克林坦伯頓全球投資系列-大中華基金美元A (acc)股",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "FL^A2",
-    "navsrc": null,
+    "code": "FLZA2",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFEW&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -1613,8 +1613,8 @@
     "name": "富蘭克林坦伯頓全球投資系列-亞洲小型企業基金美元A (acc)股",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "FL^D6",
-    "navsrc": null,
+    "code": "FLZD6",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFEY&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -1623,10 +1623,10 @@
   {
     "tf": "TFEZ",
     "name": "富蘭克林華美中華基金",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACFT06",
-    "navsrc": null,
+    "navsrc": "tbcd",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFEZ&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -1637,8 +1637,8 @@
     "name": "富蘭克林坦伯頓全球投資系列-新興國家基金美元A (acc)股",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "FL^E8",
-    "navsrc": null,
+    "code": "FLZE8",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFFA&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -1649,8 +1649,8 @@
     "name": "貝萊德亞洲老虎債券基金 A2 美元(基金有相當比重投資於非投資等級之高風險債券)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^G2",
-    "navsrc": null,
+    "code": "SHZG2",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFFV&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -1659,7 +1659,7 @@
   {
     "tf": "TFFX",
     "name": "富蘭克林華美全球債券組合基金-累計型(本基金之配息來源可能為本金)",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACFT03",
     "navsrc": "tbcd",
@@ -1673,8 +1673,8 @@
     "name": "摩根基金－美國複合收益債券基金 - JPM 美國複合收益債券(美元)－ A股(累計)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "JF^99",
-    "navsrc": null,
+    "code": "JFZ99",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFFY&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -1685,8 +1685,8 @@
     "name": "摩根基金－環球企業債券基金 -JPM環球企業債券(美元)- A股(累計)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "JF^96",
-    "navsrc": null,
+    "code": "JFZ96",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFGA&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -1709,8 +1709,8 @@
     "name": "聯博-美國收益基金 A2股美元(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "AL^10",
-    "navsrc": null,
+    "code": "ALZ10",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFGI&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -1721,8 +1721,8 @@
     "name": "高盛基金Ⅲ-高盛投資級公司債基金X股美元(本基金之配息來源可能為本金)(原名稱：NN(L)投資級公司債基金X股美元(本基金之配息來源可能為本金))(2024/10/07暫停申購)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "AN^84",
-    "navsrc": null,
+    "code": "ANZ84",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFGK&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -1731,7 +1731,7 @@
   {
     "tf": "TFGO",
     "name": "元大多福基金",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACYT02",
     "navsrc": "tbcd",
@@ -1743,7 +1743,7 @@
   {
     "tf": "TFGP",
     "name": "元大亞太成長基金",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACYT26",
     "navsrc": "tbcd",
@@ -1755,7 +1755,7 @@
   {
     "tf": "TFGQ",
     "name": "野村中小基金-累積類型",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACIC08",
     "navsrc": "tbcd",
@@ -1779,7 +1779,7 @@
   {
     "tf": "TFGT",
     "name": "宏利環球基金-美國股票基金AA股",
-    "cur": "OTHER",
+    "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
     "code": "MAM08",
     "navsrc": "wb01",
@@ -1793,8 +1793,8 @@
     "name": "貝萊德世界金融基金 A2 美元",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^A8",
-    "navsrc": null,
+    "code": "SHZA8",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFGV&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -1805,8 +1805,8 @@
     "name": "貝萊德世界健康科學基金 A2 美元",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^B0",
-    "navsrc": null,
+    "code": "SHZB0",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFGW&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -1817,8 +1817,8 @@
     "name": "貝萊德全球股票收益基金 A2 美元",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^N5",
-    "navsrc": null,
+    "code": "SHZN5",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFGX&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -1829,8 +1829,8 @@
     "name": "貝萊德美國價值型基金 A2 美元",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^64",
-    "navsrc": null,
+    "code": "SHZ64",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFGY&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -1841,8 +1841,8 @@
     "name": "貝萊德美國靈活股票基金 A2 美元",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^F2",
-    "navsrc": null,
+    "code": "SHZF2",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFGZ&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -1853,8 +1853,8 @@
     "name": "貝萊德歐洲基金 A2 歐元",
     "cur": "EUR",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^43",
-    "navsrc": null,
+    "code": "SHZ43",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFHB&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -1865,8 +1865,8 @@
     "name": "貝萊德歐洲價值型基金 A2 歐元",
     "cur": "EUR",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^69",
-    "navsrc": null,
+    "code": "SHZ69",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFHC&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -1877,8 +1877,8 @@
     "name": "貝萊德環球動力股票基金A2美元",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^J0",
-    "navsrc": null,
+    "code": "SHZJ0",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFHD&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -1889,8 +1889,8 @@
     "name": "施羅德環球基金系列 - 新興歐洲 (歐元)A1-累積",
     "cur": "EUR",
     "sec": "w/wb/wb01.djhtm",
-    "code": "PY^61",
-    "navsrc": null,
+    "code": "PYZ61",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFHF&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -1948,9 +1948,9 @@
     "tf": "TFHN",
     "name": "澳幣貨幣帳戶",
     "cur": "AUD",
-    "sec": null,
-    "code": null,
-    "navsrc": null,
+    "sec": "w/wb/wb01.djhtm",
+    "code": "TFHN",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFHN&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -1959,10 +1959,10 @@
   {
     "tf": "TFHO",
     "name": "摩根泰國基金",
-    "cur": "OTHER",
+    "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "JF^06",
-    "navsrc": null,
+    "code": "JFZ06",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFHO&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -1973,8 +1973,8 @@
     "name": "聯博-全球不動產證券基金 A股美元(基金之配息來源可能為本金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "AL^17",
-    "navsrc": null,
+    "code": "ALZ17",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFHR&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -1985,8 +1985,8 @@
     "name": "聯博-短期債券基金 A2股美元(基金之配息來源可能為本金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "AL^40",
-    "navsrc": null,
+    "code": "ALZ40",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFHU&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -1997,8 +1997,8 @@
     "name": "聯博-全球價值型基金A股美元 (基金之配息來源可能為本金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "AL^D3",
-    "navsrc": null,
+    "code": "ALZD3",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFHV&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2009,8 +2009,8 @@
     "name": "聯博-亞洲股票基金A股美元(基金之配息來源可能為本金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "AL^^9",
-    "navsrc": null,
+    "code": "ALZZ9",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFHY&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2021,8 +2021,8 @@
     "name": "聯博-美國成長基金 A股美元(基金之配息來源可能為本金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "AL^01",
-    "navsrc": null,
+    "code": "ALZ01",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFIA&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2033,8 +2033,8 @@
     "name": "聯博-國際科技基金 A股美元",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "AL^03",
-    "navsrc": null,
+    "code": "ALZ03",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFIC&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2045,8 +2045,8 @@
     "name": "聯博-國際醫療基金 A股美元(基金之配息來源可能為本金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "AL^02",
-    "navsrc": null,
+    "code": "ALZ02",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFID&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2057,8 +2057,8 @@
     "name": "聯博-新興市場價值基金A股美元",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "AL^^5",
-    "navsrc": null,
+    "code": "ALZZ5",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFIG&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2069,8 +2069,8 @@
     "name": "聯博-歐元區成長基金AXX級別歐元(2025/11/25暫停新申購)",
     "cur": "EUR",
     "sec": "w/wb/wb01.djhtm",
-    "code": "AL^X8",
-    "navsrc": null,
+    "code": "ALZX8",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFII&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2081,8 +2081,8 @@
     "name": "聯博-歐洲股票基金A級別歐元(基金之配息來源可能為本金)",
     "cur": "EUR",
     "sec": "w/wb/wb01.djhtm",
-    "code": "AL^C6",
-    "navsrc": null,
+    "code": "ALZC6",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFIK&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2093,8 +2093,8 @@
     "name": "貝萊德日本特別時機基金 A2 美元",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^11",
-    "navsrc": null,
+    "code": "SHZ11",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFIM&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2105,8 +2105,8 @@
     "name": "貝萊德世界科技基金 A2 美元",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^71",
-    "navsrc": null,
+    "code": "SHZ71",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFIR&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2117,8 +2117,8 @@
     "name": "貝萊德世界能源基金 A2 美元",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^A6",
-    "navsrc": null,
+    "code": "SHZA6",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFIS&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2129,8 +2129,8 @@
     "name": "貝萊德世界債券基金 A2 美元(本基金非屬環境、社會及治理相關主題基金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^M0",
-    "navsrc": null,
+    "code": "SHZM0",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFIT&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2141,8 +2141,8 @@
     "name": "貝萊德全球通膨連結債券基金 A2 美元",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^N8",
-    "navsrc": null,
+    "code": "SHZN8",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFIU&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2153,8 +2153,8 @@
     "name": "貝萊德印度基金 A2 美元",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^H8",
-    "navsrc": null,
+    "code": "SHZH8",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFIV&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2165,8 +2165,8 @@
     "name": "貝萊德ESG社會責任多元資產基金Hedged A2 美元",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^M4",
-    "navsrc": null,
+    "code": "SHZM4",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFIW&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2177,8 +2177,8 @@
     "name": "貝萊德亞洲巨龍基金 A2 美元",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^K7",
-    "navsrc": null,
+    "code": "SHZK7",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFIX&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2189,8 +2189,8 @@
     "name": "貝萊德美元優質債券基金 A2 美元",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^77",
-    "navsrc": null,
+    "code": "SHZ77",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFIY&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2201,8 +2201,8 @@
     "name": "貝萊德英國基金 A2 美元",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^48",
-    "navsrc": null,
+    "code": "SHZ48",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFJA&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2213,8 +2213,8 @@
     "name": "貝萊德歐洲基金 A2 美元",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^02",
-    "navsrc": null,
+    "code": "SHZ02",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFJD&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2225,8 +2225,8 @@
     "name": "貝萊德歐洲價值型基金 A2 美元",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^68",
-    "navsrc": null,
+    "code": "SHZ68",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFJE&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2237,8 +2237,8 @@
     "name": "貝萊德環球企業債券基金 A2 美元",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^L8",
-    "navsrc": null,
+    "code": "SHZL8",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFJF&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2249,8 +2249,8 @@
     "name": "貝萊德環球政府債券基金 A2 美元",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^24",
-    "navsrc": null,
+    "code": "SHZ24",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFJH&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2261,8 +2261,8 @@
     "name": "貝萊德環球前瞻股票基金 A2 美元",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^10",
-    "navsrc": null,
+    "code": "SHZ10",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFJI&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2272,9 +2272,9 @@
     "tf": "TFJK",
     "name": "日圓貨幣帳戶",
     "cur": "JPY",
-    "sec": null,
-    "code": null,
-    "navsrc": null,
+    "sec": "w/wb/wb01.djhtm",
+    "code": "TFJK",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFJK&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2283,10 +2283,10 @@
   {
     "tf": "TFJL",
     "name": "摩根南韓基金",
-    "cur": "OTHER",
+    "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "JF^11",
-    "navsrc": null,
+    "code": "JFZ11",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFJL&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2297,8 +2297,8 @@
     "name": "高盛基金Ⅲ-高盛大中華股票基金X股美元(原名稱：NN(L)大中華股票基金X股美元)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "AN^57",
-    "navsrc": null,
+    "code": "ANZ57",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFJN&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2309,8 +2309,8 @@
     "name": "高盛基金Ⅲ-高盛日本股票基金X股美元(原名稱：NN(L)日本股票基金X股美元)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "AN^81",
-    "navsrc": null,
+    "code": "ANZ81",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFJO&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2321,8 +2321,8 @@
     "name": "高盛基金Ⅲ-高盛環球社會影響力基金X股美元(原名稱：高盛永續智慧經濟基金X股美元)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "AN^92",
-    "navsrc": null,
+    "code": "ANZ92",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFJP&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2333,8 +2333,8 @@
     "name": "高盛基金Ⅲ-高盛美國高股息基金X股美元(本基金之配息來源可能為本金且並無保證收益及配息)(原名稱：NN(L)美國高股息基金X股美元(本基金之配息來源可能為本金且並無保證收益及配息))",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "AN^85",
-    "navsrc": null,
+    "code": "ANZ85",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFJQ&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2345,8 +2345,8 @@
     "name": "NN(L)歐洲新興市場股票基金X股美元(2022/3/1起暫停報價與交易，2022/6/24清算)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "AN^96",
-    "navsrc": null,
+    "code": "ANZ96",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFJV&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2357,8 +2357,8 @@
     "name": "高盛基金Ⅲ-高盛環球高股息基金X股美元(本基金之配息來源可能為本金且並無保證收益及配息)(原名稱：NN(L)環球高股息基金X股美元(本基金之配息來源可能為本金且並無保證收益及配息))",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "AN^75",
-    "navsrc": null,
+    "code": "ANZ75",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFJW&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2367,7 +2367,7 @@
   {
     "tf": "TFJY",
     "name": "野村中國機會基金",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACIC26",
     "navsrc": "tbcd",
@@ -2379,10 +2379,10 @@
   {
     "tf": "TFJZ",
     "name": "野村巴西基金",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACIC29",
-    "navsrc": null,
+    "navsrc": "tbcd",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFJZ&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2391,7 +2391,7 @@
   {
     "tf": "TFKA",
     "name": "野村台灣高股息基金(本基金之配息來源可能為本金且並無保證收益及配息)",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACKH29",
     "navsrc": "tbcd",
@@ -2403,7 +2403,7 @@
   {
     "tf": "TFKB",
     "name": "野村平衡基金",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACIC05",
     "navsrc": "tbcd",
@@ -2415,7 +2415,7 @@
   {
     "tf": "TFKC",
     "name": "野村全球生技醫療基金",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACIC19",
     "navsrc": "tbcd",
@@ -2427,7 +2427,7 @@
   {
     "tf": "TFKD",
     "name": "野村全球品牌基金",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACIC09",
     "navsrc": "tbcd",
@@ -2463,7 +2463,7 @@
   {
     "tf": "TFKH",
     "name": "野村泰國基金",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACKH12",
     "navsrc": "tbcd",
@@ -2477,8 +2477,8 @@
     "name": "貝萊德日本靈活股票基金 A2 美元",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^I1",
-    "navsrc": null,
+    "code": "SHZI1",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKK&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2489,8 +2489,8 @@
     "name": "貝萊德智慧數據環球小型企業基金A2美元(本基金非屬環境、社會及治理相關主題基金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^A2",
-    "navsrc": null,
+    "code": "SHZA2",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKM&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2501,8 +2501,8 @@
     "name": "施羅德環球基金系列 - 中國優勢 (美元)A1-累積",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "PY^J2",
-    "navsrc": null,
+    "code": "PYZJ2",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKO&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2513,8 +2513,8 @@
     "name": "施羅德環球基金系列 - 日本小型公司 (美元)A1-累積",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "PY^D9",
-    "navsrc": null,
+    "code": "PYZD9",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKP&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2525,8 +2525,8 @@
     "name": "施羅德環球基金系列 - 日本股票 (美元避險)A1-累積",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "PY^K8",
-    "navsrc": null,
+    "code": "PYZK8",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKQ&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2537,8 +2537,8 @@
     "name": "施羅德環球基金系列 - 日本優勢 (美元避險)A1-累積",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "PY^L2",
-    "navsrc": null,
+    "code": "PYZL2",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKR&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2549,8 +2549,8 @@
     "name": "施羅德環球基金系列-印度股票 (美元)A1-累積",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "PY^G0",
-    "navsrc": null,
+    "code": "PYZG0",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKS&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2561,8 +2561,8 @@
     "name": "施羅德環球基金系列 - 拉丁美洲 (美元)A1-累積",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "PY^51",
-    "navsrc": null,
+    "code": "PYZ51",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKV&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2573,8 +2573,8 @@
     "name": "施羅德環球基金系列 - 美國大型股 (美元)A1-累積",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "PY^30",
-    "navsrc": null,
+    "code": "PYZ30",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKW&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2585,8 +2585,8 @@
     "name": "施羅德環球基金系列 - 美國中小型股票 (美元)A1-累積",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "PY^E5",
-    "navsrc": null,
+    "code": "PYZE5",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKX&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2597,8 +2597,8 @@
     "name": "施羅德環球基金系列 - 香港股票 (美元)A1-累積",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "PY^I7",
-    "navsrc": null,
+    "code": "PYZI7",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKY&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2609,8 +2609,8 @@
     "name": "施羅德環球基金系列 - 策略債券 (美元)A1-累積(本基金有相當比重投資於非投資等級之高風險債券且基金之配息來源可能為本金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "PY^K0",
-    "navsrc": null,
+    "code": "PYZK0",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFKZ&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2621,8 +2621,8 @@
     "name": "施羅德環球基金系列 - 新興市場 (美元)A1-累積(基金之配息來源可能為本金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "PY^41",
-    "navsrc": null,
+    "code": "PYZ41",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFLB&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2633,8 +2633,8 @@
     "name": "施羅德環球基金系列 - 新興亞洲 (美元)A1-累積",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "PY^02",
-    "navsrc": null,
+    "code": "PYZ02",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFLD&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2645,8 +2645,8 @@
     "name": "施羅德環球基金系列 - 新興歐洲 (美元)A1-累積",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "PY^D6",
-    "navsrc": null,
+    "code": "PYZD6",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFLE&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2657,8 +2657,8 @@
     "name": "施羅德環球基金系列 - 歐洲小型公司 (美元)A1-累積",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "PY^D7",
-    "navsrc": null,
+    "code": "PYZD7",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFLF&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2669,8 +2669,8 @@
     "name": "施羅德環球基金系列 - 環球收益股票 (美元)A1-累積(基金之配息來源可能為本金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "PY^F3",
-    "navsrc": null,
+    "code": "PYZF3",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFLI&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2681,8 +2681,8 @@
     "name": "施羅德環球基金系列 - 環球能源 (美元)A1-累積",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "PY^E3",
-    "navsrc": null,
+    "code": "PYZE3",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFLJ&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2691,7 +2691,7 @@
   {
     "tf": "TFLN",
     "name": "摩根大歐洲基金-累積型(原名稱：摩根大歐洲基金)",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACJF81",
     "navsrc": "tbcd",
@@ -2703,10 +2703,10 @@
   {
     "tf": "TFLO",
     "name": "摩根太平洋證券基金",
-    "cur": "OTHER",
+    "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "JF^04",
-    "navsrc": null,
+    "code": "JFZ04",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFLO&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2715,7 +2715,7 @@
   {
     "tf": "TFLP",
     "name": "摩根平衡基金",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACJF87",
     "navsrc": "tbcd",
@@ -2727,7 +2727,7 @@
   {
     "tf": "TFLQ",
     "name": "摩根亞洲增長基金",
-    "cur": "OTHER",
+    "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
     "code": "JFH17",
     "navsrc": "wb01",
@@ -2739,7 +2739,7 @@
   {
     "tf": "TFLS",
     "name": "摩根亞洲基金-一般型(原名稱：摩根亞洲基金)",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACJF77",
     "navsrc": "tbcd",
@@ -2751,10 +2751,10 @@
   {
     "tf": "TFLT",
     "name": "摩根亞洲小型企業基金",
-    "cur": "OTHER",
+    "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "JF^10",
-    "navsrc": null,
+    "code": "JFZ10",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFLT&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2763,7 +2763,7 @@
   {
     "tf": "TFLU",
     "name": "摩根東方科技基金-累積型(原名稱：摩根東方科技基金)",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACJF80",
     "navsrc": "tbcd",
@@ -2775,7 +2775,7 @@
   {
     "tf": "TFLW",
     "name": "摩根絕對日本基金-累積型",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACJF95",
     "navsrc": "tbcd",
@@ -2787,7 +2787,7 @@
   {
     "tf": "TFLY",
     "name": "摩根新興日本基金",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "AC0022",
     "navsrc": "tbcd",
@@ -2799,7 +2799,7 @@
   {
     "tf": "TFMC",
     "name": "摩根龍揚基金-累積型",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACJF79",
     "navsrc": "tbcd",
@@ -2813,8 +2813,8 @@
     "name": "摩根基金－環球短債基金 - JPM環球短債(美元)- A股(累計)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "JF^A0",
-    "navsrc": null,
+    "code": "JFZA0",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFMD&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2823,7 +2823,7 @@
   {
     "tf": "TFME",
     "name": "摩根總收益組合基金-累積型",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACJF107",
     "navsrc": "tbcd",
@@ -2835,7 +2835,7 @@
   {
     "tf": "TFMF",
     "name": "摩根金龍收成基金",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACJF101",
     "navsrc": "tbcd",
@@ -2849,8 +2849,8 @@
     "name": "聯博-歐洲收益基金 A2股美元(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "AL^86",
-    "navsrc": null,
+    "code": "ALZ86",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFMH&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2861,8 +2861,8 @@
     "name": "貝萊德日本靈活股票基金 A2 日圓",
     "cur": "JPY",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^I0",
-    "navsrc": null,
+    "code": "SHZI0",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFMI&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2871,7 +2871,7 @@
   {
     "tf": "TFML",
     "name": "德銀遠東DWS台灣旗艦基金",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACFE01",
     "navsrc": "tbcd",
@@ -2883,7 +2883,7 @@
   {
     "tf": "TFMM",
     "name": "元大店頭基金",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACYT07",
     "navsrc": "tbcd",
@@ -2919,7 +2919,7 @@
   {
     "tf": "TFMQ",
     "name": "元大全球不動產證券化基金(A)-不配息型",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACKY1901",
     "navsrc": "tbcd",
@@ -2931,7 +2931,7 @@
   {
     "tf": "TFMR",
     "name": "元大全球ETF穩健組合基金",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACKY18",
     "navsrc": "tbcd",
@@ -2943,7 +2943,7 @@
   {
     "tf": "TFMS",
     "name": "施羅德台灣樂活中小基金-A類型",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACES10",
     "navsrc": "tbcd",
@@ -2969,8 +2969,8 @@
     "name": "摩根投資基金－策略總報酬基金 - JPM策略總報酬(歐元)- A股(累計)(本基金有相當比重投資於非投資等級之高風險債券)",
     "cur": "EUR",
     "sec": "w/wb/wb01.djhtm",
-    "code": "JF^E7",
-    "navsrc": null,
+    "code": "JFZE7",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFMV&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -2981,8 +2981,8 @@
     "name": "摩根投資基金－多重收益基金 - JPM多重收益(美元對沖) - A股(累計)(本基金有相當比重投資於非投資等級之高風險債券)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "JF^A6",
-    "navsrc": null,
+    "code": "JFZA6",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFMW&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -3017,8 +3017,8 @@
     "name": "霸菱歐洲精選信託基金-A類美元累積型",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "PL^79",
-    "navsrc": null,
+    "code": "PLZ79",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFNA&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -3029,8 +3029,8 @@
     "name": "霸菱德國增長基金-A類歐元累積型",
     "cur": "EUR",
     "sec": "w/wb/wb01.djhtm",
-    "code": "PL^87",
-    "navsrc": null,
+    "code": "PLZ87",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFNB&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -3039,10 +3039,10 @@
   {
     "tf": "TFNC",
     "name": "柏瑞環球基金-柏瑞印度股票基金A",
-    "cur": "OTHER",
+    "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "AI^49",
-    "navsrc": null,
+    "code": "AIZ49",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFNC&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -3051,10 +3051,10 @@
   {
     "tf": "TFNE",
     "name": "柏瑞環球基金-柏瑞日本小型公司股票基金 A3(2024/12/18暫停申購)",
-    "cur": "OTHER",
+    "cur": "JPY",
     "sec": "w/wb/wb01.djhtm",
-    "code": "AI^19",
-    "navsrc": null,
+    "code": "AIZ19",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFNE&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -3063,7 +3063,7 @@
   {
     "tf": "TFNL",
     "name": "元大全球新興市場精選組合基金",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACKY22",
     "navsrc": "tbcd",
@@ -3125,8 +3125,8 @@
     "name": "貝萊德美國增長基金A2 美元",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^67",
-    "navsrc": null,
+    "code": "SHZ67",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFNW&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -3150,7 +3150,7 @@
     "cur": "USD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACKH78",
-    "navsrc": null,
+    "navsrc": "tbcd",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFNZ&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -3197,8 +3197,8 @@
     "name": "貝萊德亞洲老虎債券基金 A6 美元 (穩定配息)(基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^N1",
-    "navsrc": null,
+    "code": "SHZN1",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFOB&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -3207,7 +3207,7 @@
   {
     "tf": "TFOG",
     "name": "富蘭克林華美全球債券組合基金-分配型(本基金之配息來源可能為本金)",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACFT0301",
     "navsrc": "tbcd",
@@ -3221,8 +3221,8 @@
     "name": "摩根基金－美國複合收益債券基金 - JPM 美國複合收益債券(美元)－ A股(每月派息)(本基金之配息來源可能為本金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "JF^93",
-    "navsrc": null,
+    "code": "JFZ93",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFOH&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -3233,8 +3233,8 @@
     "name": "摩根基金－環球企業債券基金 - JPM環球企業債券(美元)- A股(每月派息)(本基金之配息來源可能為本金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "JF^97",
-    "navsrc": null,
+    "code": "JFZ97",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFOJ&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -3281,8 +3281,8 @@
     "name": "摩根基金－亞太入息基金 - JPM亞太入息(美元)－ A股(每月派息)(本基金之配息來源可能為本金且並無保證收益及配息)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "JF^A4",
-    "navsrc": null,
+    "code": "JFZA4",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFOV&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -3293,8 +3293,8 @@
     "name": "聯博-美國收益基金 AT股美元(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "AL^59",
-    "navsrc": null,
+    "code": "ALZ59",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFPB&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -3305,8 +3305,8 @@
     "name": "聯博-美國收益基金AT股澳幣避險(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)",
     "cur": "AUD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "AL^W5",
-    "navsrc": null,
+    "code": "ALZW5",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFPC&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -3317,8 +3317,8 @@
     "name": "高盛基金Ⅲ-高盛投資級公司債基金X股美元(月配息)(本基金之配息來源可能為本金)(原名稱：NN(L)投資級公司債基金X股美元(月配息)(本基金之配息來源可能為本金))(2024/10/07暫停申購)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "AN^91",
-    "navsrc": null,
+    "code": "ANZ91",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFPE&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -3329,8 +3329,8 @@
     "name": "高盛基金Ⅲ-高盛投資級公司債基金X股對沖級別澳幣(月配息)(本基金之配息來源可能為本金)(原名稱：NN(L)投資級公司債基金X股對沖級別澳幣(月配息)(本基金之配息來源可能為本金))(2024/10/07暫停申購)",
     "cur": "AUD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "AN^C8",
-    "navsrc": null,
+    "code": "ANZC8",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFPL&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -3339,7 +3339,7 @@
   {
     "tf": "TFPQ",
     "name": "元大全球不動產證券化基金(B)-配息型(基金之配息來源可能為本金)",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACKY19",
     "navsrc": "tbcd",
@@ -3353,8 +3353,8 @@
     "name": "貝萊德全球股票收益基金 A6 美元 (穩定配息)(基金之配息來源可能為本金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^N6",
-    "navsrc": null,
+    "code": "SHZN6",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFPT&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -3365,8 +3365,8 @@
     "name": "貝萊德亞洲老虎債券基金A8多幣別穩定月配息股份-澳幣避險(基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)",
     "cur": "AUD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^O1",
-    "navsrc": null,
+    "code": "SHZO1",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFPU&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -3377,8 +3377,8 @@
     "name": "富蘭克林坦伯頓全球投資系列-穩定月收益基金美元A(Mdis)股(本基金有相當比重投資於非投資等級之高風險債券且基金之配息來源可能為本金)_(月配/現金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "FL^92",
-    "navsrc": null,
+    "code": "FLZ92",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFQ9&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -3389,8 +3389,8 @@
     "name": "施羅德環球基金系列 - 環球收益股票 (美元)A1-月配固定(基金之配息來源可能為本金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "PY^F4",
-    "navsrc": null,
+    "code": "PYZF4",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFQA&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -3437,8 +3437,8 @@
     "name": "景順健康護理創新基金A-年配息股 美元",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "CT^19",
-    "navsrc": null,
+    "code": "CTZ19",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFQJ&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -3449,8 +3449,8 @@
     "name": "聯博-短期債券基金 AT股美元(基金之配息來源可能為本金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "AL^58",
-    "navsrc": null,
+    "code": "ALZ58",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFQK&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -3461,8 +3461,8 @@
     "name": "聯博-歐洲收益基金 AT股歐元(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)",
     "cur": "EUR",
     "sec": "w/wb/wb01.djhtm",
-    "code": "AL^87",
-    "navsrc": null,
+    "code": "ALZ87",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFQO&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -3473,8 +3473,8 @@
     "name": "貝萊德亞洲老虎債券基金 A3 美元(基金有相當比重投資於非投資等級之高風險債券)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^G3",
-    "navsrc": null,
+    "code": "SHZG3",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFQQ&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -3485,8 +3485,8 @@
     "name": "貝萊德美元優質債券基金 A3 美元",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^97",
-    "navsrc": null,
+    "code": "SHZ97",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFQS&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -3497,8 +3497,8 @@
     "name": "貝萊德環球政府債券基金 A3 美元",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^94",
-    "navsrc": null,
+    "code": "SHZ94",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFQU&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -3533,8 +3533,8 @@
     "name": "安聯收益成長基金-AMg7月收總收益類股(美元)(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)_(月配/現金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "TL^F9",
-    "navsrc": null,
+    "code": "TLZF9",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFR1&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -3545,8 +3545,8 @@
     "name": "景順多元收益成長基金 A-穩定月配息(美元對沖)股美元(基金之配息來源可能為本金)_(月配/現金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "CT^R0",
-    "navsrc": null,
+    "code": "CTZR0",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFR2&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -3593,8 +3593,8 @@
     "name": "景順環球高評級企業債券基金E-穩定月配息股美元(基金之配息來源可能為本金)_(月配/現金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "CT^P0",
-    "navsrc": null,
+    "code": "CTZP0",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFR6&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -3617,8 +3617,8 @@
     "name": "安聯美國收益基金-AMg穩定月收總收益類股(美元)(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)_(月配/現金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "TL^G9",
-    "navsrc": null,
+    "code": "TLZG9",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFR8&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -3629,8 +3629,8 @@
     "name": "施羅德環球基金系列－環球多元收益(美元)A-月配固定(本基金之配息來源可能為本金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "PY^W5",
-    "navsrc": null,
+    "code": "PYZW5",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFR9&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -3641,8 +3641,8 @@
     "name": "貝萊德世界債券基金 A3 美元(本基金非屬環境、社會及治理相關主題基金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^M1",
-    "navsrc": null,
+    "code": "SHZM1",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFRB&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -3653,8 +3653,8 @@
     "name": "摩根基金－美國企業成長基金 - JPM 美國企業成長(美元)－ A股(分派)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "JF^72",
-    "navsrc": null,
+    "code": "JFZ72",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFRI&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -3665,8 +3665,8 @@
     "name": "摩根基金－歐洲基金 - JPM 歐洲(美元)－ A股(分派)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "JF^24",
-    "navsrc": null,
+    "code": "JFZ24",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFRQ&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -3675,7 +3675,7 @@
   {
     "tf": "TFRT",
     "name": "摩根總收益組合基金-月配息型(本基金之配息來源可能為本金)",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACJF115",
     "navsrc": "tbcd",
@@ -3687,7 +3687,7 @@
   {
     "tf": "TFRW",
     "name": "摩根台灣增長基金",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACJF51",
     "navsrc": "tbcd",
@@ -3699,7 +3699,7 @@
   {
     "tf": "TFRX",
     "name": "摩根新興科技基金-一般型(原名稱：摩根新興科技基金)",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACJF76",
     "navsrc": "tbcd",
@@ -3725,8 +3725,8 @@
     "name": "富蘭克林坦伯頓全球投資系列-新興國家固定收益基金美元A (Qdis)股(本基金有相當比重投資於非投資等級之高風險債券且基金之配息來源可能為本金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "FL^30",
-    "navsrc": null,
+    "code": "FLZ30",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFRZ&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -3737,8 +3737,8 @@
     "name": "施羅德環球基金系列－環球收息債券(美元)A-月配固定(本基金有相當比重投資於非投資等級之高風險債券且基金之配息來源可能為本金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "PY^R2",
-    "navsrc": null,
+    "code": "PYZR2",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFS1&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -3749,8 +3749,8 @@
     "name": "富蘭克林坦伯頓全球投資系列-美元短期票券基金美元A (Mdis)股",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "FL^38",
-    "navsrc": null,
+    "code": "FLZ38",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFS2&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -3761,8 +3761,8 @@
     "name": "紐約梅隆美國市政基礎建設債券投資基金-美元A配息(基金之配息來源可能為本金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "ML^25",
-    "navsrc": null,
+    "code": "MLZ25",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFS4&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -3833,8 +3833,8 @@
     "name": "摩根基金 - 美國複合收益債券基金 - JPM 美國複合收益債券（美元） - A股（分派）(本基金之配息來源可能為本金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "JF^75",
-    "navsrc": null,
+    "code": "JFZ75",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFSA&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -3867,7 +3867,7 @@
   {
     "tf": "TFSD",
     "name": "景順全球科技基金",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACCS04",
     "navsrc": "tbcd",
@@ -3893,8 +3893,8 @@
     "name": "景順環球非投資等級債券基金A-半年配息股 美元(本基金主要投資於符合美國Rule 144A 規定之私募性質債券，且基金之配息來源可能為本金，本基金非屬環境、社會、治理相關主題基金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "CT^20",
-    "navsrc": null,
+    "code": "CTZ20",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFSF&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -3905,8 +3905,8 @@
     "name": "摩根投資基金－多重收益基金 - JPM多重收益(美元對沖) - A股(每月派息)(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)_(月配/現金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "JF^A5",
-    "navsrc": null,
+    "code": "JFZA5",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFSH&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -3929,8 +3929,8 @@
     "name": "霸菱大東協基金-A類美元配息型",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "PL^11",
-    "navsrc": null,
+    "code": "PLZ11",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFSM&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -3941,8 +3941,8 @@
     "name": "霸菱歐洲精選信託基金-A類歐元配息型",
     "cur": "EUR",
     "sec": "w/wb/wb01.djhtm",
-    "code": "PL^49",
-    "navsrc": null,
+    "code": "PLZ49",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFSN&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -3953,8 +3953,8 @@
     "name": "霸菱亞洲增長基金-A類 美元配息型",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "PL^01",
-    "navsrc": null,
+    "code": "PLZ01",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFSR&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -3965,8 +3965,8 @@
     "name": "霸菱全球新興市場基金-A類美元配息型",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "PL^07",
-    "navsrc": null,
+    "code": "PLZ07",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFSS&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -3975,7 +3975,7 @@
   {
     "tf": "TFSV",
     "name": "宏利環球基金-印度股票基金AA股",
-    "cur": "OTHER",
+    "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
     "code": "MAM14",
     "navsrc": "wb01",
@@ -4049,8 +4049,8 @@
     "name": "貝萊德世界金融基金 A10美元(總報酬穩定配息)(基金之配息來源可能為本金)_(月配/現金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^V5",
-    "navsrc": null,
+    "code": "SHZV5",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFT6&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -4061,8 +4061,8 @@
     "name": "貝萊德美國價值型基金A10美元(總報酬穩定配息)(基金之配息來源可能為本金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^W2",
-    "navsrc": null,
+    "code": "SHZW2",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFT7&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -4073,8 +4073,8 @@
     "name": "貝萊德環球資產配置基金A10美元(總報酬穩定配息)(基金之配息來源可能為本金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^W8",
-    "navsrc": null,
+    "code": "SHZW8",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFT8&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -4097,8 +4097,8 @@
     "name": "貝萊德全球智慧數據股票入息基金A6 美元(基金之配息來源可能為本金且並無保證收益及配息)_(月配/現金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^T9",
-    "navsrc": null,
+    "code": "SHZT9",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFTA&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -4109,8 +4109,8 @@
     "name": "景順印度股票基金A-年配息股美元",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "CT^62",
-    "navsrc": null,
+    "code": "CTZ62",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFTB&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -4121,8 +4121,8 @@
     "name": "摩根投資基金 - 多重收益基金 - JPM多重收益(美元對沖) - A股(每季派息)(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "JF^A3",
-    "navsrc": null,
+    "code": "JFZA3",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFTC&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -4133,8 +4133,8 @@
     "name": "摩根投資基金 - 多重收益基金 - JPM多重收益(澳幣對沖) - A股(利率入息)(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)_(月配/現金)",
     "cur": "AUD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "JF^B0",
-    "navsrc": null,
+    "code": "JFZB0",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFTD&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -4193,8 +4193,8 @@
     "name": "安聯收益成長基金-AM穩定月收類股(美元)(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)_(月配/現金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "TL^64",
-    "navsrc": null,
+    "code": "TLZ64",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFTO&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -4205,8 +4205,8 @@
     "name": "安聯收益成長基金-AM穩定月收類股(歐元避險)(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)_(月配/現金)",
     "cur": "EUR",
     "sec": "w/wb/wb01.djhtm",
-    "code": "TL^73",
-    "navsrc": null,
+    "code": "TLZ73",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFTP&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -4217,8 +4217,8 @@
     "name": "安聯收益成長基金-AM穩定月收類股(澳幣避險)(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)_(月配/現金)",
     "cur": "AUD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "TL^72",
-    "navsrc": null,
+    "code": "TLZ72",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFTQ&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -4229,8 +4229,8 @@
     "name": "安聯歐洲高息股票基金-AM穩定月收類股(美元避險)(本基金之配息來源可能為本金且無保證收益及配息)_(月配/現金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "TL^76",
-    "navsrc": null,
+    "code": "TLZ76",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFTS&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -4241,8 +4241,8 @@
     "name": "施羅德環球基金系列-環球收息債券(美元)A-穩定月配(本基金有相當比重投資於非投資等級之高風險債券且基金之配息來源可能為本金)_(月配/單位數_僅供一生傳富、招財進保、世紀贏家商品連結)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "PY^A63",
-    "navsrc": null,
+    "code": "PYZA63",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFU2&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -4253,8 +4253,8 @@
     "name": "摩根投資基金-多重收益基金-JPM多重收益(美元對沖)-A股(利率入息)(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "JF^K2",
-    "navsrc": null,
+    "code": "JFZK2",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFU4&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -4265,8 +4265,8 @@
     "name": "摩根投資基金-多重收益基金-JPM多重收益(美元對沖)-A股(穩定月配)(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)_(月配/現金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "JF^N3",
-    "navsrc": null,
+    "code": "JFZN3",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFU5&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -4313,8 +4313,8 @@
     "name": "貝萊德ESG社會責任多元資產基金A8多幣別穩定月配息股份-美元幣避險(基金之配息來源可能為本金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "SH^U7",
-    "navsrc": null,
+    "code": "SHZU7",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFVU&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -4350,7 +4350,7 @@
     "cur": "TWD",
     "sec": "w/wr/wr01.djhtm",
     "code": "ACCB35",
-    "navsrc": null,
+    "navsrc": "tbcd",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFVZ&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -4361,8 +4361,8 @@
     "name": "摩根基金－環球債券收益基金 - JPM環球債券收益(美元) - A股(每月派息)(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)_(月配/現金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "JF^L4",
-    "navsrc": null,
+    "code": "JFZL4",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFW1&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -4373,8 +4373,8 @@
     "name": "安聯智慧城市收益基金-AMf2固定月配類股(美元)(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)_(月配/現金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "TL^M7",
-    "navsrc": null,
+    "code": "TLZM7",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFW2&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -4385,8 +4385,8 @@
     "name": "安聯全球收益成長基金-AMf2固定月配類股(美元)(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)_(月配/現金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "TL^M4",
-    "navsrc": null,
+    "code": "TLZM4",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFW3&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -4397,8 +4397,8 @@
     "name": "駿利亨德森資產管理基金 - 駿利亨德森平衡基金 A6 穩月配美元 (本基金某些股份類別之配息來源可能為本金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "JA^C8",
-    "navsrc": null,
+    "code": "JAZC8",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFW4&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -4433,8 +4433,8 @@
     "name": "施羅德環球基金系列－環球收益成長(美元)A-月配固定2 (本基金有相當比重投資於非投資等級之高風險債券且基金之配息來源可能為本金)_(月配/現金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "PY^W3",
-    "navsrc": null,
+    "code": "PYZW3",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFW7&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -4518,8 +4518,8 @@
     "name": "安聯美國收益基金-AM穩定月收類股(美元)(本基金有相當比重投資於非投資等級之高風險債券且配息來源可能為本金)_(月配/現金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "TL^G8",
-    "navsrc": null,
+    "code": "TLZG8",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFWN&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -4530,8 +4530,8 @@
     "name": "安聯全球永續發展基金-A配息類股(美元)(基金之配息來源可能為本金)",
     "cur": "USD",
     "sec": "w/wb/wb01.djhtm",
-    "code": "TL^57",
-    "navsrc": null,
+    "code": "TLZ57",
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFWO&b=01&shell=Y",
     "prods": [
       "鑫鑫向榮"
@@ -4579,9 +4579,9 @@
   {
     "tf": "TFX3",
     "name": "元大台灣高股息基金(本基金之配息來源可能為收益平準金且並無保證收益及配息)",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": null,
-    "code": null,
+    "code": "0056.TW",
     "navsrc": null,
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFX3&b=01&shell=Y",
     "prods": [
@@ -4591,9 +4591,9 @@
   {
     "tf": "TFX4",
     "name": "元大美國政府1至3年期債券ETF基金(本基金之配息來源可能為收益平準金)",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": null,
-    "code": null,
+    "code": "00719B.TW",
     "navsrc": null,
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFX4&b=01&shell=Y",
     "prods": [
@@ -4603,9 +4603,9 @@
   {
     "tf": "TFX5",
     "name": "凱基台灣優選高股息30ETF基金(基金之配息來源可能為收益平準金且無保證收益及配息)",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": null,
-    "code": null,
+    "code": "00915.TW",
     "navsrc": null,
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFX5&b=01&shell=Y",
     "prods": [
@@ -4615,9 +4615,9 @@
   {
     "tf": "TFX6",
     "name": "凱基全球菁英55_ETF基金",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": null,
-    "code": null,
+    "code": "00926.TW",
     "navsrc": null,
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFX6&b=01&shell=Y",
     "prods": [
@@ -4627,9 +4627,9 @@
   {
     "tf": "TFX7",
     "name": "凱基全球10年期以上美元A級公司債券ETF基金(基金之配息來源可能為收益平準金)",
-    "cur": "USD",
+    "cur": "TWD",
     "sec": null,
-    "code": null,
+    "code": "00950B.TW",
     "navsrc": null,
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFX7&b=01&shell=Y",
     "prods": [
@@ -4639,9 +4639,9 @@
   {
     "tf": "TFX8",
     "name": "凱基優選台灣AI_50_ETF基金(基金之配息來源可能為收益平準金)",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": null,
-    "code": null,
+    "code": "00952.TW",
     "navsrc": null,
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFX8&b=01&shell=Y",
     "prods": [
@@ -4651,9 +4651,9 @@
   {
     "tf": "TFX9",
     "name": "凱基台灣優選30_ETF基金(基金之配息來源可能為收益平準金)",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": null,
-    "code": null,
+    "code": "00938.TW",
     "navsrc": null,
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFX9&b=01&shell=Y",
     "prods": [
@@ -4663,9 +4663,9 @@
   {
     "tf": "TFXT",
     "name": "Invesco納斯達克100指數ETF",
-    "cur": "OTHER",
+    "cur": "USD",
     "sec": null,
-    "code": null,
+    "code": "QQQ",
     "navsrc": null,
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFXT&b=01&shell=Y",
     "prods": [
@@ -4675,9 +4675,9 @@
   {
     "tf": "TFXU",
     "name": "ISHARES歐洲ETF",
-    "cur": "OTHER",
+    "cur": "USD",
     "sec": null,
-    "code": null,
+    "code": "IEV",
     "navsrc": null,
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFXU&b=01&shell=Y",
     "prods": [
@@ -4687,9 +4687,9 @@
   {
     "tf": "TFXV",
     "name": "Vanguard全世界股票ETF",
-    "cur": "OTHER",
+    "cur": "USD",
     "sec": null,
-    "code": null,
+    "code": "VT",
     "navsrc": null,
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFXV&b=01&shell=Y",
     "prods": [
@@ -4699,9 +4699,9 @@
   {
     "tf": "TFXW",
     "name": "VanguardS＆P500_ETF",
-    "cur": "OTHER",
+    "cur": "USD",
     "sec": null,
-    "code": null,
+    "code": "VOO",
     "navsrc": null,
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFXW&b=01&shell=Y",
     "prods": [
@@ -4711,9 +4711,9 @@
   {
     "tf": "TFXX",
     "name": "SPDR標普500指數ETF",
-    "cur": "OTHER",
+    "cur": "USD",
     "sec": null,
-    "code": null,
+    "code": "SPY",
     "navsrc": null,
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFXX&b=01&shell=Y",
     "prods": [
@@ -4723,9 +4723,9 @@
   {
     "tf": "TFXY",
     "name": "元大台灣卓越50指數基金",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": null,
-    "code": null,
+    "code": "0050.TW",
     "navsrc": null,
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFXY&b=01&shell=Y",
     "prods": [
@@ -4735,9 +4735,9 @@
   {
     "tf": "TFY3",
     "name": "富邦台灣科技指數證券投資信託基金(本基金之配息來源可能為收益平準金)",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": null,
-    "code": null,
+    "code": "0052.TW",
     "navsrc": null,
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFY3&b=01&shell=Y",
     "prods": [
@@ -4747,9 +4747,9 @@
   {
     "tf": "TFY4",
     "name": "凱基台灣TOP50_ETF證券投資信託基金",
-    "cur": "OTHER",
+    "cur": "TWD",
     "sec": null,
-    "code": null,
+    "code": "009816.TW",
     "navsrc": null,
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFY4&b=01&shell=Y",
     "prods": [
@@ -5012,9 +5012,9 @@
     "tf": "TFOR",
     "name": "新台幣貨幣帳戶(停泊標的)",
     "cur": "TWD",
-    "sec": null,
+    "sec": "w/wb/wb01.djhtm",
     "code": "TFOR",
-    "navsrc": null,
+    "navsrc": "wb01",
     "link": "https://kgilife.moneydj.com/w/html/custfundIDMap.djhtm?a=TFOR&b=01&shell=Y",
     "prods": [
       "全委"
