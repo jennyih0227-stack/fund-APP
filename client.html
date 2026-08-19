@@ -203,6 +203,16 @@
   .metricrow{display:none; padding:4px 12px 10px 40px; font-size:11.5px; color:#5f5843; line-height:1.75}
   .row.open .metricrow{display:block}
   .metricrow b{color:var(--navy-2)}
+  /* 客戶持有明細 */
+  .holdrow{display:none; padding:6px 12px 10px 40px}
+  .row.open .holdrow{display:block}
+  .holdform{display:flex; gap:6px; align-items:center; flex-wrap:wrap; font-size:12px; color:#5f5843}
+  .holdform input{width:80px; font-family:var(--num); font-size:13px; text-align:right; padding:5px 7px; border:1px solid var(--gray); border-radius:7px; background:#fff; color:var(--ink)}
+  .holdpl{margin-top:6px; font-size:12.5px; font-family:var(--num); color:#5f5843}
+  .holdpl b{font-weight:900}
+  .hsum{max-width:760px; margin:8px auto 0; padding:11px 14px; background:linear-gradient(135deg,#22345c,#1B2A4A); border:1px solid var(--gold); border-radius:14px; color:var(--cream); display:flex; justify-content:space-around; text-align:center}
+  .hsum .hi{font-size:11px; color:#b9c2d6}
+  .hsum .hv{font-family:var(--num); font-size:16px; font-weight:900; margin-top:2px}
   /* 分享卡：淨值＋報酬 */
   .sc-meta{font-size:11px; color:#b9c2d6; margin-top:2px}
   .sc-perf{font-size:10.5px; margin-top:3px; color:#e8e0d0; line-height:1.5}
@@ -317,6 +327,7 @@
 </div>
 <div class="countbar"><span id="count"></span><span id="myhint"></span><button class="viewtoggle" id="viewToggle">📋 一覽表</button></div>
 
+<div id="hsum"></div>
 <main><div class="card" id="list"></div></main>
 
 <footer>
@@ -428,28 +439,31 @@ const CORE_KW=/全球|環球|世界|多重資產|平衡|組合|資產配置|投�
 function isCash(n){ return /貨幣帳戶/.test(n); }
 function bucket(n){ if(isCash(n)) return ''; if(SAT_KW.test(n)) return '衛星'; if(CORE_KW.test(n)) return '核心'; return ''; }
 
-function saveFav(){ if(activeClient){ clients[activeClient]=[...fav]; saveClients(); updateClientBtn(); } else { localStorage.setItem(LS_KEY, JSON.stringify([...fav])); } }
+function saveFav(){ if(activeClient){ const cur=(clients[activeClient]&&clients[activeClient].f)||{}; const nf={}; fav.forEach(tf=>{ nf[tf]=cur[tf]||{}; }); clients[activeClient]={f:nf}; saveClients(); updateClientBtn(); } else { localStorage.setItem(LS_KEY, JSON.stringify([...fav])); } }
 
 // ===== 客戶檔案 =====
 function saveClients(){ try{ localStorage.setItem(CLIENTS_KEY, JSON.stringify(clients)); localStorage.setItem(ACTIVE_KEY, activeClient); }catch(e){} }
+function normClient(v){ if(Array.isArray(v)){ const f={}; v.forEach(tf=>f[tf]={}); return {f}; } if(v&&v.f&&typeof v.f==='object') return v; return {f:{}}; }
+function clFunds(nm){ return Object.keys((clients[nm]&&clients[nm].f)||{}); }
 function loadClients(){
   try{ clients=JSON.parse(localStorage.getItem(CLIENTS_KEY)||'null'); }catch(e){ clients=null; }
   if(!clients || typeof clients!=='object') clients={};
+  Object.keys(clients).forEach(k=>{ clients[k]=normClient(clients[k]); });
   activeClient=localStorage.getItem(ACTIVE_KEY)||'';
   if(Object.keys(clients).length===0){
     let legacy=[]; try{ legacy=JSON.parse(localStorage.getItem(LS_KEY)||'[]'); }catch(e){}
-    clients['我的清單']=legacy; activeClient='我的清單';
+    clients['我的清單']=normClient(legacy); activeClient='我的清單';
   }
   if(!clients[activeClient]) activeClient=Object.keys(clients)[0];
-  fav=new Set(clients[activeClient]||[]);
+  fav=new Set(clFunds(activeClient));
   saveClients(); updateClientBtn();
 }
-function updateClientBtn(){ const n=(clients[activeClient]||[]).length; $('#clientBtn').innerHTML=`👤 客戶：<b>${activeClient||'—'}</b>（${n} 檔）　▾`; }
-function switchClient(name){ if(!clients[name])return; activeClient=name; fav=new Set(clients[name]); saveClients(); updateClientBtn(); }
+function updateClientBtn(){ const n=clFunds(activeClient).length; $('#clientBtn').innerHTML=`👤 客戶：<b>${activeClient||'—'}</b>（${n} 檔）　▾`; }
+function switchClient(name){ if(!clients[name])return; activeClient=name; fav=new Set(clFunds(name)); saveClients(); updateClientBtn(); }
 function buildClientList(){
   const names=Object.keys(clients);
   $('#clientList').innerHTML = names.map(nm=>`<div class="clrow ${nm===activeClient?'on':''}">
-    <div class="clname" data-sw="${encodeURIComponent(nm)}">${nm}<span class="cnt">${(clients[nm]||[]).length} 檔</span></div>
+    <div class="clname" data-sw="${encodeURIComponent(nm)}">${nm}<span class="cnt">${clFunds(nm).length} 檔</span></div>
     <button class="clact" data-share="${encodeURIComponent(nm)}" title="分享圖卡">📤</button>
     <button class="clact" data-link="${encodeURIComponent(nm)}" title="專屬連結">🔗</button>
     <button class="clact" data-ren="${encodeURIComponent(nm)}" title="改名">✏️</button>
@@ -466,13 +480,13 @@ $('#clAdd').addEventListener('click',()=>{
 $('#clientList').addEventListener('click',e=>{
   const g=(a)=>decodeURIComponent(a);
   const sw=e.target.closest('[data-sw]'); if(sw){ switchClient(g(sw.dataset.sw)); closeM('clientModal'); render(); toast('已切換到 '+activeClient); return; }
-  const sh=e.target.closest('[data-share]'); if(sh){ const nm=g(sh.dataset.share); const fs=ALL.filter(f=>(clients[nm]||[]).includes(f.tf)); if(!fs.length){toast('該客戶尚無基金');return;} makeShareCard(fs, nm); return; }
+  const sh=e.target.closest('[data-share]'); if(sh){ const nm=g(sh.dataset.share); const fs=ALL.filter(f=>clFunds(nm).includes(f.tf)); if(!fs.length){toast('該客戶尚無基金');return;} makeShareCard(fs, nm); return; }
   const lk=e.target.closest('[data-link]'); if(lk){ clientLink(g(lk.dataset.link)); return; }
   const rn=e.target.closest('[data-ren]'); if(rn){ const nm=g(rn.dataset.ren); let nn=prompt('改名：',nm); if(!nn)return; nn=nn.trim(); if(!nn||nn===nm)return; clients[nn]=clients[nm]; delete clients[nm]; if(activeClient===nm)activeClient=nn; saveClients(); updateClientBtn(); buildClientList(); return; }
-  const dl=e.target.closest('[data-del]'); if(dl){ const nm=g(dl.dataset.del); if(!confirm('刪除客戶「'+nm+'」？'))return; delete clients[nm]; if(Object.keys(clients).length===0)clients['我的清單']=[]; if(activeClient===nm)activeClient=Object.keys(clients)[0]; fav=new Set(clients[activeClient]||[]); saveClients(); updateClientBtn(); buildClientList(); render(); return; }
+  const dl=e.target.closest('[data-del]'); if(dl){ const nm=g(dl.dataset.del); if(!confirm('刪除客戶「'+nm+'」？'))return; delete clients[nm]; if(Object.keys(clients).length===0)clients['我的清單']=normClient([]); if(activeClient===nm)activeClient=Object.keys(clients)[0]; fav=new Set(clFunds(activeClient)); saveClients(); updateClientBtn(); buildClientList(); render(); return; }
 });
 function clientLink(nm){
-  const url=location.origin+location.pathname+'#n='+encodeURIComponent(nm)+'&f='+(clients[nm]||[]).join(',');
+  const url=location.origin+location.pathname+'#n='+encodeURIComponent(nm)+'&f='+clFunds(nm).join(',');
   if(navigator.share){ navigator.share({title:nm+' 的基金清單',text:`${nm} 的基金淨值清單｜熊誠毅・誠毅傳承`,url}).catch(()=>{}); }
   else { navigator.clipboard.writeText(url).then(()=>toast('專屬連結已複製')).catch(()=>toast(url)); }
 }
@@ -483,7 +497,45 @@ $('#clExportBtn').addEventListener('click',()=>{
 $('#clImportBtn').addEventListener('click',()=>{
   const t=$('#clExpArea');
   if(t.style.display==='none'||!t.value.trim()){ t.style.display='block'; t.placeholder='把備份文字貼到這裡，再按一次匯入'; toast('請貼上備份文字後再按匯入'); return; }
-  try{ const obj=JSON.parse(t.value.trim()); if(obj&&typeof obj==='object'){ clients=obj; if(!clients[activeClient])activeClient=Object.keys(clients)[0]; fav=new Set(clients[activeClient]||[]); saveClients(); updateClientBtn(); buildClientList(); render(); toast('已匯入 '+Object.keys(clients).length+' 位客戶'); } }catch(e){ toast('備份文字格式錯誤'); }
+  try{ const obj=JSON.parse(t.value.trim()); if(obj&&typeof obj==='object'){ clients=obj; Object.keys(clients).forEach(k=>clients[k]=normClient(clients[k])); if(!clients[activeClient])activeClient=Object.keys(clients)[0]; fav=new Set(clFunds(activeClient)); saveClients(); updateClientBtn(); buildClientList(); render(); toast('已匯入 '+Object.keys(clients).length+' 位客戶'); } }catch(e){ toast('備份文字格式錯誤'); }
+});
+
+// 持有明細（單位×成本→現值/損益）
+function holdPL(f){
+  const hd=((clients[activeClient]&&clients[activeClient].f)||{})[f.tf]||{};
+  if(!f.ok || hd.u==null || hd.c==null || isNaN(hd.u) || isNaN(hd.c)) return '';
+  const val=hd.u*f.value, cost=hd.u*hd.c, pl=val-cost, plp=cost?pl/cost*100:0, cls=pl>0?'up':(pl<0?'down':'');
+  return `現值 <b>${fmtVal(val)}</b>　損益 <b class="${cls}">${pl>0?'+':''}${fmtVal(pl)}</b>　<b class="${cls}">${plp>0?'+':''}${plp.toFixed(1)}%</b>`;
+}
+function holdHTML(f){
+  const hd=((clients[activeClient]&&clients[activeClient].f)||{})[f.tf]||{};
+  return `<div class="holdrow"><div class="holdform">👤 持有　單位 <input type="number" inputmode="decimal" data-hu="${f.tf}" value="${hd.u!=null?hd.u:''}" placeholder="0">　成本淨值 <input type="number" inputmode="decimal" data-hc="${f.tf}" value="${hd.c!=null?hd.c:''}" placeholder="0"></div><div class="holdpl">${holdPL(f)}</div></div>`;
+}
+function updateHold(tf){
+  const el=document.querySelector(`.row[data-tf="${tf}"] .holdpl`);
+  const f=ALL.find(x=>x.tf===tf);
+  if(el && f) el.innerHTML=holdPL(f);
+  renderHoldSummary();
+}
+function renderHoldSummary(){
+  const el=$('#hsum');
+  if(mode!=='mine' || !activeClient){ el.innerHTML=''; return; }
+  const fmap=(clients[activeClient]&&clients[activeClient].f)||{};
+  let val=0, cost=0, any=false;
+  ALL.forEach(f=>{ const hd=fmap[f.tf]; if(hd && f.ok && hd.u!=null && hd.c!=null && !isNaN(hd.u) && !isNaN(hd.c)){ val+=hd.u*f.value; cost+=hd.u*hd.c; any=true; } });
+  if(!any){ el.innerHTML=''; return; }
+  const pl=val-cost, plp=cost?pl/cost*100:0, cls=pl>0?'up':(pl<0?'down':'');
+  el.innerHTML=`<div><div class="hi">${activeClient} 總現值</div><div class="hv">${fmtVal(val)}</div></div><div><div class="hi">總損益</div><div class="hv ${cls}">${pl>0?'+':''}${fmtVal(pl)}</div></div><div><div class="hi">報酬率</div><div class="hv ${cls}">${plp>0?'+':''}${plp.toFixed(1)}%</div></div>`;
+}
+$('#list').addEventListener('input',e=>{
+  const el=e.target.closest('[data-hu],[data-hc]'); if(!el || !activeClient) return;
+  const tf=el.dataset.hu||el.dataset.hc;
+  clients[activeClient].f=clients[activeClient].f||{};
+  const rec=clients[activeClient].f[tf]||{};
+  const v=parseFloat(el.value); const val=(el.value.trim()===''||isNaN(v))?null:v;
+  if(el.dataset.hu!==undefined) rec.u=val; else rec.c=val;
+  clients[activeClient].f[tf]=rec; saveClients();
+  updateHold(tf);
 });
 
 // 記住上次的篩選/排序
@@ -574,6 +626,7 @@ function render(){
   saveUI();
   $('#count').textContent=`顯示 ${rows.length} 檔`+(presetLong?'・長期優選':'')+(sortK?`・依${PERF_LABEL[sortK]}排名`:'');
   $('#myhint').textContent=fav.size?`我的基金 ${fav.size} 檔`:'點 ☆ 加入我的基金';
+  renderHoldSummary();
   if(!rows.length){ list.innerHTML=`<div class="empty">${mode==='mine'&&!fav.size?'還沒有加入任何基金<br>在清單點 ☆ 把你持有的基金加進來':'沒有符合條件的基金'}</div>`; return; }
   if(viewMode==='table'){ renderTable(rows); return; }
   let html='';
@@ -612,6 +665,7 @@ function render(){
       if(f.rating!=null) met.push('評等 <b>★'+f.rating+'</b>');
       if(met.length) grid+=`<div class="metricrow">${met.join('　·　')}</div>`;
       if(f.src==='moneydj') grid+='<div class="psrc">績效來源：MoneyDJ（此檔淨值請點右方「查看」）</div>';
+      if(activeClient && fav.has(f.tf)) grid+=holdHTML(f);
     }
     const openc=(sortK && hasPerf)?' open':'';
     html+=`<div class="row ${favc}${openc}" data-tf="${f.tf}">${rankBadge}
