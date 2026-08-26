@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026/08/26 22:50",
+  "updated_at": "2026/08/27 00:20",
   "sections": [
     {
       "title": "台股 ETF / 指數",
@@ -16,8 +16,8 @@
         },
         {
           "name": "元大台灣50 (0050)",
-          "value": 105.9000015258789,
-          "pct": 2.023119857784562,
+          "value": 103.80000305175781,
+          "pct": -0.8122297770926431,
           "url": "https://tw.stock.yahoo.com/quote/0050",
           "date": null,
           "unit": "元",
@@ -25,8 +25,8 @@
         },
         {
           "name": "凱基台灣TOP50 (009816)",
-          "value": 15.430000305175781,
-          "pct": 2.0502673410254233,
+          "value": 15.119999885559082,
+          "pct": -0.8524597668256915,
           "url": "https://tw.stock.yahoo.com/quote/009816",
           "date": null,
           "unit": "元",
@@ -40,8 +40,8 @@
       "items": [
         {
           "name": "道瓊 (DJI)",
-          "value": 53462.6015625,
-          "pct": -0.21426362299751223,
+          "value": 53441.0703125,
+          "pct": -0.25445081130438196,
           "url": "https://tw.stock.yahoo.com/quote/%5EDJI",
           "date": null,
           "unit": "點",
@@ -49,8 +49,8 @@
         },
         {
           "name": "S&P500 (SPX)",
-          "value": 7673.6298828125,
-          "pct": -0.047541609084078944,
+          "value": 7668.02001953125,
+          "pct": -0.12061258524019705,
           "url": "https://tw.stock.yahoo.com/quote/%5EGSPC",
           "date": null,
           "unit": "點",
@@ -58,8 +58,8 @@
         },
         {
           "name": "那斯達克 (IXIC)",
-          "value": 26088.408203125,
-          "pct": -0.2404950279570522,
+          "value": 26054.224609375,
+          "pct": -0.3712097256156444,
           "url": "https://tw.stock.yahoo.com/quote/%5EIXIC",
           "date": null,
           "unit": "點",
@@ -67,8 +67,8 @@
         },
         {
           "name": "費城半導體 (SOX)",
-          "value": 11557.193359375,
-          "pct": -0.266194106885357,
+          "value": 11536.5166015625,
+          "pct": -0.4446259878833519,
           "url": "https://tw.stock.yahoo.com/quote/%5ESOX",
           "date": null,
           "unit": "點",
