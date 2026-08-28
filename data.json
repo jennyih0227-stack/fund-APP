@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026/08/29 03:33",
+  "updated_at": "2026/08/29 06:56",
   "sections": [
     {
       "title": "台股 ETF / 指數",
@@ -40,8 +40,8 @@
       "items": [
         {
           "name": "道瓊 (DJI)",
-          "value": 53557.62109375,
-          "pct": -0.022065401821832163,
+          "value": 53559.98828125,
+          "pct": -0.01764648790774416,
           "url": "https://tw.stock.yahoo.com/quote/%5EDJI",
           "date": null,
           "unit": "點",
@@ -49,8 +49,8 @@
         },
         {
           "name": "S&P500 (SPX)",
-          "value": 7711.740234375,
-          "pct": -0.2489978568904018,
+          "value": 7711.759765625,
+          "pct": -0.24874522107781005,
           "url": "https://tw.stock.yahoo.com/quote/%5EGSPC",
           "date": null,
           "unit": "點",
@@ -58,8 +58,8 @@
         },
         {
           "name": "那斯達克 (IXIC)",
-          "value": 26409.3125,
-          "pct": -0.4974769984129275,
+          "value": 26402.423828125,
+          "pct": -0.523431488204836,
           "url": "https://tw.stock.yahoo.com/quote/%5EIXIC",
           "date": null,
           "unit": "點",
@@ -67,8 +67,8 @@
         },
         {
           "name": "費城半導體 (SOX)",
-          "value": 11501.0986328125,
-          "pct": -3.2070849985148766,
+          "value": 11469.662109375,
+          "pct": -3.4716538747739647,
           "url": "https://tw.stock.yahoo.com/quote/%5ESOX",
           "date": null,
           "unit": "點",
@@ -82,28 +82,28 @@
       "items": [
         {
           "name": "凱基HITO",
-          "value": 11.51,
-          "pct": 0.7880910683012247,
+          "value": 11.53,
+          "pct": 0.173761946133793,
           "url": "https://kgilife.moneydj.com/w/CustFundIDMap.djhtm?A=TFQ8&B=01",
-          "date": "2026/08/26",
+          "date": "2026/08/27",
           "unit": "",
           "ok": true
         },
         {
           "name": "瀚亞新收益",
-          "value": 11.5,
-          "pct": 0.0,
+          "value": 11.54,
+          "pct": 0.34782608695651435,
           "url": "https://kgilife.moneydj.com/w/CustFundIDMap.djhtm?A=TFWV&B=01",
-          "date": "2026/08/26",
+          "date": "2026/08/27",
           "unit": "",
           "ok": true
         },
         {
           "name": "瀚亞新收益N1",
-          "value": 10.22,
-          "pct": 0.0,
+          "value": 10.25,
+          "pct": 0.29354207436398594,
           "url": "https://kgilife.moneydj.com/w/CustFundIDMap.djhtm?A=TFSO&B=01",
-          "date": "2026/08/26",
+          "date": "2026/08/27",
           "unit": "",
           "ok": true
         }
@@ -139,8 +139,8 @@
       "items": [
         {
           "name": "美元/台幣 (USD)",
-          "value": 31.643999099731445,
-          "pct": -0.5090296802749336,
+          "value": 31.628000259399414,
+          "pct": -0.5593311653561175,
           "url": "https://tw.stock.yahoo.com/quote/USDTWD=X",
           "date": null,
           "unit": "",
