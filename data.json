@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026/09/03 20:12",
+  "updated_at": "2026/09/04 00:58",
   "sections": [
     {
       "title": "台股 ETF / 指數",
@@ -16,8 +16,8 @@
         },
         {
           "name": "元大台灣50 (0050)",
-          "value": 106.19999694824219,
-          "pct": -2.0746888550617606,
+          "value": 108.44999694824219,
+          "pct": 2.0705853630514706,
           "url": "https://tw.stock.yahoo.com/quote/0050",
           "date": null,
           "unit": "元",
@@ -25,8 +25,8 @@
         },
         {
           "name": "凱基台灣TOP50 (009816)",
-          "value": 15.619999885559082,
-          "pct": -1.699184719509025,
+          "value": 15.890000343322754,
+          "pct": 2.120822074593388,
           "url": "https://tw.stock.yahoo.com/quote/009816",
           "date": null,
           "unit": "元",
@@ -40,8 +40,8 @@
       "items": [
         {
           "name": "道瓊 (DJI)",
-          "value": 53061.94921875,
-          "pct": 0.5591960688526724,
+          "value": 53669.87109375,
+          "pct": 1.1456832701222825,
           "url": "https://tw.stock.yahoo.com/quote/%5EDJI",
           "date": null,
           "unit": "點",
@@ -49,8 +49,8 @@
         },
         {
           "name": "S&P500 (SPX)",
-          "value": 7666.60009765625,
-          "pct": 0.4603291610071398,
+          "value": 7746.39990234375,
+          "pct": 1.0408760555007366,
           "url": "https://tw.stock.yahoo.com/quote/%5EGSPC",
           "date": null,
           "unit": "點",
@@ -58,8 +58,8 @@
         },
         {
           "name": "那斯達克 (IXIC)",
-          "value": 26217.830078125,
-          "pct": 0.4523432543480613,
+          "value": 26582.357421875,
+          "pct": 1.3903795343236491,
           "url": "https://tw.stock.yahoo.com/quote/%5EIXIC",
           "date": null,
           "unit": "點",
@@ -67,8 +67,8 @@
         },
         {
           "name": "費城半導體 (SOX)",
-          "value": 11339.25,
-          "pct": 0.4485906312683631,
+          "value": 11333.5400390625,
+          "pct": -0.05035571962431378,
           "url": "https://tw.stock.yahoo.com/quote/%5ESOX",
           "date": null,
           "unit": "點",
@@ -139,8 +139,8 @@
       "items": [
         {
           "name": "美元/台幣 (USD)",
-          "value": 31.69300079345703,
-          "pct": 0.0568320657618899,
+          "value": 31.68199920654297,
+          "pct": 0.02209935170016274,
           "url": "https://tw.stock.yahoo.com/quote/USDTWD=X",
           "date": null,
           "unit": "",
