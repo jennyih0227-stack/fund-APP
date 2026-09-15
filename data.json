@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026/09/15 19:20",
+  "updated_at": "2026/09/15 20:50",
   "sections": [
     {
       "title": "台股 ETF / 指數",
@@ -17,7 +17,7 @@
         {
           "name": "元大台灣50 (0050)",
           "value": 106.25,
-          "pct": -1.3463296094047414,
+          "pct": -0.6080463204872364,
           "url": "https://tw.stock.yahoo.com/quote/0050",
           "date": null,
           "unit": "元",
@@ -139,8 +139,8 @@
       "items": [
         {
           "name": "美元/台幣 (USD)",
-          "value": 31.799999237060547,
-          "pct": 0.39082455273692795,
+          "value": 31.80900001525879,
+          "pct": 0.41923950766198215,
           "url": "https://tw.stock.yahoo.com/quote/USDTWD=X",
           "date": null,
           "unit": "",
