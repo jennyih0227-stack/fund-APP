@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026/09/23 05:01",
+  "updated_at": "2026/09/23 07:44",
   "sections": [
     {
       "title": "台股 ETF / 指數",
@@ -25,8 +25,8 @@
         },
         {
           "name": "凱基台灣TOP50 (009816)",
-          "value": 16.25,
-          "pct": 1.3092211501644553,
+          "value": 16.469999313354492,
+          "pct": 1.3538419283353365,
           "url": "https://tw.stock.yahoo.com/quote/009816",
           "date": null,
           "unit": "元",
@@ -139,8 +139,8 @@
       "items": [
         {
           "name": "美元/台幣 (USD)",
-          "value": 31.65999984741211,
-          "pct": -0.4687317583260285,
+          "value": 31.67799949645996,
+          "pct": -0.19030578131259368,
           "url": "https://tw.stock.yahoo.com/quote/USDTWD=X",
           "date": null,
           "unit": "",
