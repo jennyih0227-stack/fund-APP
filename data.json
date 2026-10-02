@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026/10/02 14:36",
+  "updated_at": "2026/10/02 20:05",
   "sections": [
     {
       "title": "台股 ETF / 指數",
@@ -115,19 +115,19 @@
       "items": [
         {
           "name": "瀚亞美國高科技基金",
-          "value": 166.56,
-          "pct": 0.403882090541935,
+          "value": 170.32,
+          "pct": 2.25744476464937,
           "url": "https://kgilife.moneydj.com/w/wr/wr01.djhtm?a=ACCP16-TFD8",
-          "date": "2026/09/30",
+          "date": "2026/10/01",
           "unit": "",
           "ok": true
         },
         {
           "name": "瀚亞外銷",
-          "value": 306.22,
-          "pct": 1.0226972816046525,
+          "value": 313.56,
+          "pct": 2.3969694990529598,
           "url": "https://kgilife.moneydj.com/w/wr/wr01.djhtm?a=ACCP04-TFD1",
-          "date": "2026/10/01",
+          "date": "2026/10/02",
           "unit": "",
           "ok": true
         }
@@ -139,8 +139,8 @@
       "items": [
         {
           "name": "美元/台幣 (USD)",
-          "value": 31.860000610351562,
-          "pct": -0.02479058182932947,
+          "value": 31.8700008392334,
+          "pct": 0.006589674213928477,
           "url": "https://tw.stock.yahoo.com/quote/USDTWD=X",
           "date": null,
           "unit": "",
