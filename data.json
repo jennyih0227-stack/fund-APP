@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026/10/23 08:05",
+  "updated_at": "2026/10/23 13:41",
   "sections": [
     {
       "title": "台股 ETF / 指數",
@@ -67,8 +67,8 @@
         },
         {
           "name": "費城半導體 (SOX)",
-          "value": 10731.9775390625,
-          "pct": -6.723549832778701,
+          "value": 10731.98046875,
+          "pct": -6.723524369545192,
           "url": "https://tw.stock.yahoo.com/quote/%5ESOX",
           "date": null,
           "unit": "點",
@@ -139,8 +139,8 @@
       "items": [
         {
           "name": "美元/台幣 (USD)",
-          "value": 32.59600067138672,
-          "pct": 0.7109413065620873,
+          "value": 32.608001708984375,
+          "pct": 0.7480205729819203,
           "url": "https://tw.stock.yahoo.com/quote/USDTWD=X",
           "date": null,
           "unit": "",
