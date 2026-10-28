@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026/10/28 06:52",
+  "updated_at": "2026/10/28 14:34",
   "sections": [
     {
       "title": "台股 ETF / 指數",
@@ -7,8 +7,8 @@
       "items": [
         {
           "name": "台灣加權指數",
-          "value": 46096.23,
-          "pct": 0.12,
+          "value": 47035.58,
+          "pct": 2.04,
           "url": "https://tw.stock.yahoo.com/quote/%5ETWII",
           "date": null,
           "unit": "點",
@@ -16,8 +16,8 @@
         },
         {
           "name": "元大台灣50 (0050)",
-          "value": 106.5999984741211,
-          "pct": -0.2806389592849409,
+          "value": 108.6500015258789,
+          "pct": 1.637043942956681,
           "url": "https://tw.stock.yahoo.com/quote/0050",
           "date": null,
           "unit": "元",
@@ -25,8 +25,8 @@
         },
         {
           "name": "凱基台灣TOP50 (009816)",
-          "value": 15.899999618530273,
-          "pct": -0.1883282239220068,
+          "value": 16.170000076293945,
+          "pct": 1.5065898714401549,
           "url": "https://tw.stock.yahoo.com/quote/009816",
           "date": null,
           "unit": "元",
@@ -67,8 +67,8 @@
         },
         {
           "name": "費城半導體 (SOX)",
-          "value": 11482.5048828125,
-          "pct": 3.600272893728193,
+          "value": 11482.5,
+          "pct": 3.6002288388192123,
           "url": "https://tw.stock.yahoo.com/quote/%5ESOX",
           "date": null,
           "unit": "點",
@@ -139,8 +139,8 @@
       "items": [
         {
           "name": "美元/台幣 (USD)",
-          "value": 32.44300079345703,
-          "pct": -0.39237594633085976,
+          "value": 32.402000427246094,
+          "pct": -0.4081815466953569,
           "url": "https://tw.stock.yahoo.com/quote/USDTWD=X",
           "date": null,
           "unit": "",
