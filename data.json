@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026/10/30 14:43",
+  "updated_at": "2026/10/30 20:21",
   "sections": [
     {
       "title": "台股 ETF / 指數",
@@ -17,7 +17,7 @@
         {
           "name": "元大台灣50 (0050)",
           "value": 104.94999694824219,
-          "pct": -3.405434446087357,
+          "pct": -2.1445249899839745,
           "url": "https://tw.stock.yahoo.com/quote/0050",
           "date": null,
           "unit": "元",
@@ -26,7 +26,7 @@
         {
           "name": "凱基台灣TOP50 (009816)",
           "value": 15.670000076293945,
-          "pct": -3.0921459346993188,
+          "pct": -2.123673627277873,
           "url": "https://tw.stock.yahoo.com/quote/009816",
           "date": null,
           "unit": "元",
@@ -124,10 +124,10 @@
         },
         {
           "name": "瀚亞外銷",
-          "value": 279.13,
-          "pct": -2.9045498817309108,
+          "value": 265.77,
+          "pct": -4.7863002901873735,
           "url": "https://kgilife.moneydj.com/w/wr/wr01.djhtm?a=ACCP04-TFD1",
-          "date": "2026/10/29",
+          "date": "2026/10/30",
           "unit": "",
           "ok": true
         }
@@ -139,8 +139,8 @@
       "items": [
         {
           "name": "美元/台幣 (USD)",
-          "value": 32.619998931884766,
-          "pct": 0.7324810338890867,
+          "value": 32.577999114990234,
+          "pct": 0.6027831216485134,
           "url": "https://tw.stock.yahoo.com/quote/USDTWD=X",
           "date": null,
           "unit": "",
