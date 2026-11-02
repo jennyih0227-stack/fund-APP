@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026/11/02 15:07",
+  "updated_at": "2026/11/02 23:02",
   "sections": [
     {
       "title": "台股 ETF / 指數",
@@ -40,8 +40,8 @@
       "items": [
         {
           "name": "道瓊 (DJI)",
-          "value": 51770.30859375,
-          "pct": -1.0932786156699836,
+          "value": 52299.26953125,
+          "pct": 1.0217457687008247,
           "url": "https://tw.stock.yahoo.com/quote/%5EDJI",
           "date": null,
           "unit": "點",
@@ -49,8 +49,8 @@
         },
         {
           "name": "S&P500 (SPX)",
-          "value": 7580.06982421875,
-          "pct": -1.8175287778868343,
+          "value": 7625.68994140625,
+          "pct": 0.6018429677486763,
           "url": "https://tw.stock.yahoo.com/quote/%5EGSPC",
           "date": null,
           "unit": "點",
@@ -58,8 +58,8 @@
         },
         {
           "name": "那斯達克 (IXIC)",
-          "value": 25437.0,
-          "pct": -2.855561117502253,
+          "value": 25641.291015625,
+          "pct": 0.8031254299838817,
           "url": "https://tw.stock.yahoo.com/quote/%5EIXIC",
           "date": null,
           "unit": "點",
@@ -67,8 +67,8 @@
         },
         {
           "name": "費城半導體 (SOX)",
-          "value": 10688.7998046875,
-          "pct": -7.200781168593828,
+          "value": 10702.30078125,
+          "pct": 0.12630956523836512,
           "url": "https://tw.stock.yahoo.com/quote/%5ESOX",
           "date": null,
           "unit": "點",
@@ -115,19 +115,19 @@
       "items": [
         {
           "name": "瀚亞美國高科技基金",
-          "value": 151.93,
-          "pct": -0.9324465310380846,
+          "value": 141.01,
+          "pct": -7.187520568682956,
           "url": "https://kgilife.moneydj.com/w/wr/wr01.djhtm?a=ACCP16-TFD8",
-          "date": "2026/10/29",
+          "date": "2026/10/30",
           "unit": "",
           "ok": true
         },
         {
           "name": "瀚亞外銷",
-          "value": 265.77,
-          "pct": -4.7863002901873735,
+          "value": 264.43,
+          "pct": -0.504195356887525,
           "url": "https://kgilife.moneydj.com/w/wr/wr01.djhtm?a=ACCP04-TFD1",
-          "date": "2026/10/30",
+          "date": "2026/11/02",
           "unit": "",
           "ok": true
         }
@@ -139,8 +139,8 @@
       "items": [
         {
           "name": "美元/台幣 (USD)",
-          "value": 32.57500076293945,
-          "pct": 0.02487930200204587,
+          "value": 32.553001403808594,
+          "pct": -0.042671985495976034,
           "url": "https://tw.stock.yahoo.com/quote/USDTWD=X",
           "date": null,
           "unit": "",
