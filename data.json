@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026/11/07 07:59",
+  "updated_at": "2026/11/09 15:34",
   "sections": [
     {
       "title": "台股 ETF / 指數",
@@ -7,8 +7,8 @@
       "items": [
         {
           "name": "台灣加權指數",
-          "value": 39701.64,
-          "pct": -4.51,
+          "value": 41661.7,
+          "pct": 4.94,
           "url": "https://tw.stock.yahoo.com/quote/%5ETWII",
           "date": null,
           "unit": "點",
@@ -16,8 +16,8 @@
         },
         {
           "name": "元大台灣50 (0050)",
-          "value": 92.30000305175781,
-          "pct": -4.9922783303602385,
+          "value": 97.44999694824219,
+          "pct": 5.351348052153717,
           "url": "https://tw.stock.yahoo.com/quote/0050",
           "date": null,
           "unit": "元",
@@ -25,8 +25,8 @@
         },
         {
           "name": "凱基台灣TOP50 (009816)",
-          "value": 14.529999732971191,
-          "pct": -2.5486258774635306,
+          "value": 14.539999961853027,
+          "pct": 4.755042089123887,
           "url": "https://tw.stock.yahoo.com/quote/009816",
           "date": null,
           "unit": "元",
@@ -58,8 +58,8 @@
         },
         {
           "name": "那斯達克 (IXIC)",
-          "value": 24579.423828125,
-          "pct": 1.0874926100143945,
+          "value": 24579.4296875,
+          "pct": 1.087516707793543,
           "url": "https://tw.stock.yahoo.com/quote/%5EIXIC",
           "date": null,
           "unit": "點",
@@ -139,8 +139,8 @@
       "items": [
         {
           "name": "美元/台幣 (USD)",
-          "value": 32.76499938964844,
-          "pct": -0.1712366779596324,
+          "value": 32.80099868774414,
+          "pct": -0.9311584067293099,
           "url": "https://tw.stock.yahoo.com/quote/USDTWD=X",
           "date": null,
           "unit": "",
