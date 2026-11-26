@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026/11/27 00:34",
+  "updated_at": "2026/11/27 01:51",
   "sections": [
     {
       "title": "台股 ETF / 指數",
@@ -82,12 +82,12 @@
       "items": [
         {
           "name": "凱基HITO",
-          "value": 10.26,
-          "pct": 3.846153846153836,
+          "value": null,
+          "pct": null,
           "url": "https://kgilife.moneydj.com/w/CustFundIDMap.djhtm?A=TFQ8&B=01",
-          "date": "2026/11/24",
+          "date": null,
           "unit": "",
-          "ok": true
+          "ok": false
         },
         {
           "name": "瀚亞新收益",
@@ -139,8 +139,8 @@
       "items": [
         {
           "name": "美元/台幣 (USD)",
-          "value": 32.94499969482422,
-          "pct": 0.0728965081634008,
+          "value": 32.939998626708984,
+          "pct": 0.05770539034394151,
           "url": "https://tw.stock.yahoo.com/quote/USDTWD=X",
           "date": null,
           "unit": "",
